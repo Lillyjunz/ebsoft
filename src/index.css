@@ -1,13 +1,206 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* body {
+  overflow: hidden;
+} */
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.banner {
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  color: #fff;
+  background: #000;
+  background-size: cover;
+  background-blend-mode: screen;
+}
+
+.wave {
+  position: absolute;
+  left: 0;
+  margin: 0px;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.intro {
+  margin-top: 300px;
+  padding: 30px;
+}
+
+.intro-img {
+  border: 3px solid green;
+  border-radius: 10px;
+}
+
+.intro-text {
+  max-width: 100%;
+}
+
+.or-divider {
+  border-top: 2px solid rgba(128, 128, 128, 0.227);
+  text-align: center;
+  position: relative;
+  height: 15px;
+}
+
+.or-divider span {
+  top: -0.8em;
+  position: relative;
+  padding: 0 0.5em;
+  background: #fff;
+  color: black;
+  font-size: 35px;
+}
+
+.accordion {
+  max-width: 100%;
+}
+
+.accordion .contentBx {
+  position: relative;
+  margin: 10px 20px;
+}
+
+.accordion .contentBx .label {
+  position: relative;
+  padding: 10px;
+  background: #2694af;
+  color: #fff;
+}
+
+.accordion .contentBx .label::before {
+  content: "+";
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 1.5em;
+}
+
+.accordion .contentBx.active .label::before {
+  content: "-";
+}
+
+.accordion .contentBx .content {
+  position: relative;
+  background: #fff;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  overflow-y: auto;
+}
+
+.accordion .contentBx.active .content {
+  height: 150px;
+  padding: 10px;
+}
+
+.hover-container {
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* Define a class for the default content */
+.default-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  color: #007bff;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Define a class for the hover content */
+.hover-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #007bff;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.hover-container:hover .default-content {
+  opacity: 0;
+}
+
+.hover-container:hover .hover-content {
+  opacity: 1;
+}
+
+.over-container {
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.over-container:hover .default-content {
+  opacity: 0;
+}
+
+.over-container:hover .hover-content {
+  opacity: 1;
+}
+
+.ver-container {
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  width: 240px;
+  height: 250px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.ver-container:hover .default-content {
+  opacity: 0;
+}
+
+.ver-container:hover .hover-content {
+  opacity: 1;
+}
+
+.er-container {
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  width: 350px;
+  height: 300px;
+  border: 1px solid #ccc;
+
+  border-radius: 10px;
+}
+
+.er-container:hover .default-content {
+  opacity: 0;
+}
+
+.er-container:hover .hover-content {
+  opacity: 1;
 }
