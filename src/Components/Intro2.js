@@ -14,7 +14,10 @@ const Intro2 = () => {
             boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
           }}
         >
-          <div className=" default-content">
+          <div
+            className=" default-content"
+            style={{ border: "2px solid white", borderRadius: "20px" }}
+          >
             <h4 className="text-end pt-4 pe-3 fw-bold text-black-50">1</h4>
             <div className="align-items-center pt-4 pb-2 ps-3">
               <h5>

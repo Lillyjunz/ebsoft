@@ -1,10 +1,16 @@
+import { NavLink } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <>
       <nav className="navbar">
         <div className="container-fluid">
-          <a className="navbar-brand fw-bold text-light ps-2">Ebsoft</a>
-          <button className="btn btn-success me-2 fw-bold">Contact</button>
+          <NavLink to="/">
+            <img src="../images/ebslogo.png" width={150} height={75}></img>
+          </NavLink>
+          <NavLink to="/contact">
+            <button className="btn btn-success me-2 fw-bold">Contact</button>
+          </NavLink>
         </div>
       </nav>
     </>

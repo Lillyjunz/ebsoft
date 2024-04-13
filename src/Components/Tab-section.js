@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 const Tab = () => {
   return (
     <>
@@ -70,7 +72,9 @@ const Tab = () => {
                   reiciendis nemo odio cumque dolorem, voluptatem quisquam
                   necessitatibus eos culpa repellat at dicta!
                 </p>
-                <button className="btn btn-outline-primary">Read More</button>
+                <NavLink to="/detail">
+                  <button className="btn btn-outline-primary">Read More</button>
+                </NavLink>
               </div>
 
               <div className="col-lg-4">
@@ -83,7 +87,9 @@ const Tab = () => {
                   reiciendis nemo odio cumque dolorem, voluptatem quisquam
                   necessitatibus eos culpa repellat at dicta!
                 </p>
-                <button className="btn btn-outline-primary">Read More</button>
+                <NavLink to="/detail">
+                  <button className="btn btn-outline-primary">Read More</button>
+                </NavLink>
               </div>
               <div className="col-lg-4">
                 <h3 className="fw-bold pb-2">
@@ -95,7 +101,9 @@ const Tab = () => {
                   reiciendis nemo odio cumque dolorem, voluptatem quisquam
                   necessitatibus eos culpa repellat at dicta!
                 </p>
-                <button className="btn btn-outline-primary">Read More</button>
+                <NavLink to="/detail">
+                  <button className="btn btn-outline-primary">Read More</button>
+                </NavLink>
               </div>
               <div className="col-lg-4 pt-5">
                 <h3 className="fw-bold pb-2">
@@ -107,7 +115,9 @@ const Tab = () => {
                   reiciendis nemo odio cumque dolorem, voluptatem quisquam
                   necessitatibus eos culpa repellat at dicta!
                 </p>
-                <button className="btn btn-outline-primary">Read More</button>
+                <NavLink to="/detail">
+                  <button className="btn btn-outline-primary">Read More</button>
+                </NavLink>
               </div>
               <div className="col-lg-4 pt-5">
                 <h3 className="fw-bold pb-2">
@@ -119,7 +129,9 @@ const Tab = () => {
                   reiciendis nemo odio cumque dolorem, voluptatem quisquam
                   necessitatibus eos culpa repellat at dicta!
                 </p>
-                <button className="btn btn-outline-primary">Read More</button>
+                <NavLink to="/detail">
+                  <button className="btn btn-outline-primary">Read More</button>
+                </NavLink>
               </div>
             </div>
           </div>

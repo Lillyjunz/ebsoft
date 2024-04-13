@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 const Footer = () => {
   return (
     <>
@@ -15,16 +17,24 @@ const Footer = () => {
         </svg>
       </div>
       <div className="row pt-5 pb-4 text-light bg-black">
-        <di className="col-lg-4">
-          <h5 className="fw-bold text-center mt-5">Ebsoft Tech</h5>
-        </di>
+        <div className="col-lg-4 ps-5">
+          <NavLink to="/">
+            <img src="../images/ebslogo.png" width={210} height={120}></img>
+          </NavLink>
+        </div>
         <div className="col-lg-2">
           <h4 className="fw-bold">Company</h4>
           <li style={{ listStyleType: "none" }}>Success stories</li>
-          <li style={{ listStyleType: "none" }}>About us</li>
+          <NavLink to="/about">
+            <li style={{ listStyleType: "none" }}>About us</li>
+          </NavLink>
           <li style={{ listStyleType: "none" }}>Our Team</li>
-          <li style={{ listStyleType: "none" }}>Join us</li>
-          <li style={{ listStyleType: "none" }}>Privacy policy</li>
+          <NavLink to="/join">
+            <li style={{ listStyleType: "none" }}>Join us</li>
+          </NavLink>
+          <NavLink to="/privacy">
+            <li style={{ listStyleType: "none" }}>Privacy policy</li>
+          </NavLink>
         </div>
         <div className="col-lg-3">
           <h4 className="fw-bold">Services</h4>

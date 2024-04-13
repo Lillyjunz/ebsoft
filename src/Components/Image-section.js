@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 const Imagesection = () => {
   return (
     <>
@@ -6,7 +8,9 @@ const Imagesection = () => {
           <div className="align-items-center" style={{ margin: "14% 20%" }}>
             <h1 className="fw-bold">We are Hiring</h1>
             <p>Find out about open vacancies in our team</p>
-            <button className="btn btn-success">Join our Team</button>
+            <NavLink to="/join">
+              <button className="btn btn-success">Join our Team</button>
+            </NavLink>
           </div>
         </div>
 
