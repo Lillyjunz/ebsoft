@@ -1,4 +1,6 @@
+import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
+import SwiperCarousel from "../Components/Swipercarous";
 import Team from "../Components/Team";
 
 const About = () => {
@@ -113,6 +115,8 @@ const About = () => {
         </div>
       </div>
       <Team></Team>
+      <SwiperCarousel></SwiperCarousel>
+      <Footer></Footer>
     </>
   );
 };

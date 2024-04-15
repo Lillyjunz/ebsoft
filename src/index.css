@@ -150,7 +150,7 @@ code {
   background-position: center;
   background-size: cover;
   position: relative;
-  width: 350px;
+  width: 430px;
   height: 300px;
   border: 1px solid #ccc;
 
@@ -253,5 +253,48 @@ a {
 
 .label {
   background-color: #fff;
-  border: 1px solid green;
+  border: 1px solid gray;
+}
+
+.swiper-pagination-bullet {
+  background: rgb(3, 164, 3) !important;
+}
+
+/* .swiper-button-next {
+  top: 98% !important;
+  border-radius: 50%;
+  color: green;
+  border: 1px solid black;
+  height: 30px !important;
+  width: 30px !important;
+  right: 43%;
+}
+
+.swiper-button-next:after {
+  line-height: 0.5 !important;
+  font-family: swiper-icons;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.swiper-button-prev {
+  top: 98% !important;
+  border-radius: 50%;
+  color: green;
+  border: 1px solid black;
+  height: 30px !important;
+  width: 30px !important;
+  left: 43%;
+} */
+
+/* .swiper-button-prev:after {
+  line-height: 0.5 !important;
+  font-family: swiper-icons;
+  font-size: 15px;
+  font-weight: bolder;
+} */
+
+.swiper-button-next,
+.swiper-button-prev {
+  display: none;
 }

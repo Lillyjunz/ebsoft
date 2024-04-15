@@ -61,7 +61,7 @@ const Tab = () => {
           tabindex="0"
         >
           <div className="p-3">
-            <div className="row">
+            <div className="row " style={{ marginBottom: "100px" }}>
               <div className="col-lg-4">
                 <h3 className="fw-bold pb-2">
                   Software and Mobile<br></br> Development
@@ -143,7 +143,7 @@ const Tab = () => {
           aria-labelledby="profile-tab"
           tabindex="0"
         >
-          <div className="row ps-4 pe-2">
+          <div className="row ps-4 pe-2 " style={{ marginBottom: "160px" }}>
             <div className="col-lg-6">
               <h4 className="fw-bold pb-3">Partial end to end Development</h4>
               <p style={{ maxWidth: "90%" }}>
@@ -182,7 +182,7 @@ const Tab = () => {
           aria-labelledby="contact-tab"
           tabindex="0"
         >
-          <div className="row ps-3">
+          <div className="row ps-3" style={{ marginBottom: "100px" }}>
             <div className="col-lg-4">
               <h3 className="fw-bold pb-2">Public Governance</h3>
               <p className="pt-3 pb-3" style={{ maxWidth: "90%" }}>

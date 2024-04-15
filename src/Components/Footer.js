@@ -17,12 +17,12 @@ const Footer = () => {
         </svg>
       </div>
       <div className="row pt-5 pb-4 text-light bg-black">
-        <div className="col-lg-4 ps-5">
+        <div className="col-lg-4 col-md-6 ps-5">
           <NavLink to="/">
             <img src="../images/ebslogo.png" width={210} height={120}></img>
           </NavLink>
         </div>
-        <div className="col-lg-2">
+        <div className="col-lg-2 col-md-6">
           <h4 className="fw-bold">Company</h4>
           <li style={{ listStyleType: "none" }}>Success stories</li>
           <NavLink to="/about">
@@ -36,7 +36,7 @@ const Footer = () => {
             <li style={{ listStyleType: "none" }}>Privacy policy</li>
           </NavLink>
         </div>
-        <div className="col-lg-3">
+        <div className="col-lg-3 col-md-6 ">
           <h4 className="fw-bold">Services</h4>
           <li style={{ listStyleType: "none" }}>UI/UX design development</li>
           <li style={{ listStyleType: "none" }}>
@@ -50,7 +50,7 @@ const Footer = () => {
           </li>
           <li style={{ listStyleType: "none" }}>Tech hiring services</li>
         </div>
-        <div className="col-lg-3">
+        <div className="col-lg-3 col-md-6">
           <h4 className="fw-bold"> Contact</h4>
           <li style={{ listStyleType: "none" }}>Phone: +3456 67 889</li>
           <li style={{ listStyleType: "none" }}>Email: okey@gmail.com</li>

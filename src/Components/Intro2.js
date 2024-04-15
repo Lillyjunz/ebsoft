@@ -5,9 +5,9 @@ const Intro2 = () => {
         <span className="fw-bold">Our Process Life Cycle</span>
       </div>
       <h6 className="text-center p-4">Visualize.Design.Build.Deliver</h6>
-      <div className="row ps-4 ">
+      <div className="row ps-4 text-center justify-content-center">
         <div
-          className="er-container col-lg-4"
+          className="er-container col-lg-4 col-sm-12-w-100 col-md-12-w-100"
           style={{
             border: "2px ",
             borderRadius: "10px",

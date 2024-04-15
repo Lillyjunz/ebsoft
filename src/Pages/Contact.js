@@ -1,5 +1,6 @@
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
+import SwiperContact from "../Components/slide";
 
 const Contact = () => {
   return (
@@ -22,23 +23,29 @@ const Contact = () => {
           <div className="row">
             <div className="col-6">
               <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label ">
-                  First name
-                </label>
                 <input
-                  type="email"
+                  type="name"
                   class="form-control"
                   id="exampleFormControlInput1"
-                  placeholder="name@example.com"
+                  placeholder="Firstname"
                   style={{ background: "#f1f1f1" }}
                 />
               </div>
             </div>
             <div className="col-6">
               <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">
-                  Last name
-                </label>
+                <input
+                  type="name"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="Lastname"
+                  style={{ background: "#f1f1f1" }}
+                />
+              </div>
+            </div>
+
+            <div className="col-6">
+              <div class="mb-3">
                 <input
                   type="email"
                   class="form-control"
@@ -51,29 +58,11 @@ const Contact = () => {
 
             <div className="col-6">
               <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">
-                  Email address
-                </label>
                 <input
-                  type="email"
+                  type="number"
                   class="form-control"
                   id="exampleFormControlInput1"
-                  placeholder="name@example.com"
-                  style={{ background: "#f1f1f1" }}
-                />
-              </div>
-            </div>
-
-            <div className="col-6">
-              <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">
-                  Email address
-                </label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="exampleFormControlInput1"
-                  placeholder="name@example.com"
+                  placeholder="Phone number"
                   style={{ background: "#f1f1f1" }}
                 />
               </div>
@@ -81,26 +70,21 @@ const Contact = () => {
 
             <div className="col-12">
               <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">
-                  Email address
-                </label>
                 <input
                   type="email"
                   class="form-control"
                   id="exampleFormControlInput1"
-                  placeholder="name@example.com"
+                  placeholder="Subject"
                   style={{ background: "#f1f1f1" }}
                 />
               </div>
             </div>
           </div>
           <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">
-              Example textarea
-            </label>
             <textarea
               class="form-control"
               id="exampleFormControlTextarea1"
+              placeholder="Your message"
               rows="3"
               style={{ background: "#f1f1f1" }}
             ></textarea>
@@ -109,7 +93,7 @@ const Contact = () => {
             <select
               class="form-select py-3"
               aria-label="Default select example"
-              style={{ background: "#f1f1f1" }}
+              style={{ background: "#f1f1f1", color: "black" }}
             >
               <option selected>Engagement model</option>
               <option value="1">Complete End-to-End Development</option>
@@ -117,8 +101,8 @@ const Contact = () => {
               <option value="3">Unsure</option>
             </select>
           </div>
-          <div className="d-flex justify-content-between">
-            <div className="bg-danger">hyu</div>
+          <div className="d-flex justify-content-between align-items-center">
+            <div className="text-primary">I'm not a robot</div>
             <button className="btn btn-success p-2 ps-3 pe-3">Submit</button>
           </div>
         </div>
@@ -146,86 +130,16 @@ const Contact = () => {
         style={{
           backgroundColor: "#89E0AE",
           padding: "50px",
-          marginTop: "90px",
           width: "900px",
           textAlign: "center",
           marginLeft: "20%",
+          marginTop: "120px",
           borderRadius: "10px",
+          marginBottom: "140px",
           boxShadow: "0 0 10px rgba(0, 0, 0, 0.6)",
-          marginBottom: "100px",
         }}
       >
-        <i class="bi bi-star-fill text-warning "></i>
-        <i class="bi bi-star-fill text-warning"></i>
-        <i class="bi bi-star-fill text-warning"></i>
-        <i class="bi bi-star-fill text-warning"></i>
-        <i class="bi bi-star-fill text-warning"></i>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque,
-          sint.
-        </p>
-      </div>
-
-      <button
-        type="button"
-        class="btn btn-primary"
-        data-bs-toggle="modal"
-        data-bs-target="#staticBackdrop"
-      >
-        Launch static backdrop modal
-      </button>
-
-      <div
-        class="modal fade modal-dialog modal-dialog-centered"
-        id="staticBackdrop"
-        data-bs-backdrop="static"
-        data-bs-keyboard="false"
-        tabindex="-1"
-        aria-labelledby="staticBackdropLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div
-              class="modal-body"
-              style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
-            >
-              <div
-                style={{
-                  borderRadius: "50%",
-                  width: "100px",
-                  height: "100px",
-                  backgroundColor: "#89E0AE",
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-              >
-                <h2>
-                  {" "}
-                  <i class="bi bi-check2 text-success"></i>
-                </h2>
-              </div>
-            </div>
-            <h4 className="text-center">Successful</h4>
-            <small className="text-center pb-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae minima provident accusantium fuga iste beatae suscipit?
-            </small>
-          </div>
-        </div>
+        <SwiperContact></SwiperContact>
       </div>
 
       <Footer></Footer>

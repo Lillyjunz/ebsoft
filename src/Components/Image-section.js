@@ -14,7 +14,7 @@ const Imagesection = () => {
           </div>
         </div>
 
-        <div className="col-lg-6">
+        <div className="col-lg-6 text-center">
           <div className="d-flex">
             <img
               style={{
