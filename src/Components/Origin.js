@@ -16,7 +16,7 @@ const Origin = () => {
           />
         </div>
         <div className="col-lg-6 align-items-center justify-content-center ">
-          <div className="mb-5 intro-text">
+          <div className="mb-5 intro-text mt-3">
             <h4 className="fw-bold">Individuals and start ups</h4>
             <p style={{ width: "550px" }}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
@@ -39,7 +39,7 @@ const Origin = () => {
         </div>
         <div className="col-lg-6">
           <img
-            className=" intro-img mb-5"
+            className=" intro-img mb-5 mt-3"
             src="./images/intro.jpg"
             alt="ann"
             width={550}

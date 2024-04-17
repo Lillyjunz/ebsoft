@@ -46,54 +46,60 @@ const About = () => {
         </svg>
       </section>
 
-      <div className="d-flex justify-content-between ms-5">
-        <div className=" align-items-center justify-content-center ">
-          <div className="mb-5 intro-text">
-            <h4 className="fw-bold text-primary">Our Mission</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-              deserunt, adipisci sed expedita eius autem dolorum impedit nihil,
-              dicta, recusandae harum maxime blanditiis fugit tenetur possimus
-              commodi aliquam nobis in.
-            </p>
-          </div>
+      <div className="row">
+        <div className="col-lg-6 text-center mb-4">
           <img
             className=" intro-img"
             src="./images/intro.jpg"
             alt="ann"
-            width={400}
+            width={550}
             height={300}
           />
         </div>
-
-        <div className=" align-items-center justify-content-center">
-          <img
-            className=" intro-img mb-5"
-            src="./images/intro.jpg"
-            alt="ann"
-            width={400}
-            height={300}
-          />
-          <div className="intro-text">
-            <h4 className="fw-bold text-primary">Our Vision</h4>
-            <p>
+        <div className="col-lg-6 d-flex align-items-center justify-content-center ">
+          <div className="mb-5 intro-text ms-3">
+            <h4 className="fw-bold text-primary">Our Mission</h4>
+            <p style={{ width: "550px" }}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
               deserunt, adipisci sed expedita eius autem dolorum impedit nihil,
               dicta, recusandae harum maxime blanditiis fugit tenetur possimus
-              commodi aliquam nobis in.
+              commodi aliquam nobis in dicta, recusandae harum maxime blanditiis
+              fugit tenetur possimus commodi aliquam nobis in.
             </p>
           </div>
         </div>
+
+        <div className="col-lg-6 d-flex align-items-center justify-content-center ">
+          <div className="mb-3 intro-text ms-4">
+            <h4 className="fw-bold text-primary">Our Vision</h4>
+            <p style={{ width: "550px" }}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+              deserunt, adipisci sed expedita eius autem dolorum impedit nihil,
+              dicta, recusandae harum maxime blanditiis fugit tenetur possimus
+              commodi aliquam nobis in dicta, recusandae harum maxime blanditiis
+              fugit tenetur possimus commodi aliquam nobis in.
+            </p>
+          </div>
+        </div>
+        <div className="col-lg-6 text-center mb-5">
+          <img
+            className=" intro-img"
+            src="./images/intro.jpg"
+            alt="ann"
+            width={550}
+            height={300}
+          />
+        </div>
       </div>
 
-      <div className="reg mt-5">
+      <div className="reg mt-4">
         <div
           className="row py-5 px-4 "
           style={{ backgroundColor: "rgba(0, 0, 0, .6)" }}
         >
           <h3 className="text-light text-center fw-bold">Our Values</h3>
           <div className="d-flex text-light">
-            <div className=" w-100 me-5">
+            <div className=" w-100 me-5 mt-5">
               <h4 className=" fw-bold text-center">Happiness</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -102,7 +108,7 @@ const About = () => {
                 accusamus laudantium dolores mollitia tempora incidunt!
               </p>
             </div>
-            <div className=" w-100">
+            <div className=" w-100 mt-5">
               <h4 className="fw-bold text-light text-center">Honesty</h4>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.

@@ -62,11 +62,11 @@ const Tab = () => {
         >
           <div className="p-3">
             <div className="row " style={{ marginBottom: "100px" }}>
-              <div className="col-lg-4">
+              <div className="col-lg-4 pt-5">
                 <h3 className="fw-bold pb-2">
                   Software and Mobile<br></br> Development
                 </h3>
-                <p className="pt-3 pb-3" style={{ maxWidth: "90%" }}>
+                <p className="pt-3 pb-2" style={{ maxWidth: "90%" }}>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
                   magni magnam illo quia quae perspiciatis ab exercitationem
                   reiciendis nemo odio cumque dolorem, voluptatem quisquam
@@ -77,11 +77,11 @@ const Tab = () => {
                 </NavLink>
               </div>
 
-              <div className="col-lg-4">
+              <div className="col-lg-4 pt-5">
                 <h3 className="fw-bold pb-2">
                   UI/UX and Web<br></br> Development
                 </h3>
-                <p className="pt-3 pb-3" style={{ maxWidth: "90%" }}>
+                <p className="pt-3 pb-2" style={{ maxWidth: "90%" }}>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
                   magni magnam illo quia quae perspiciatis ab exercitationem
                   reiciendis nemo odio cumque dolorem, voluptatem quisquam
@@ -91,11 +91,11 @@ const Tab = () => {
                   <button className="btn btn-outline-primary">Read More</button>
                 </NavLink>
               </div>
-              <div className="col-lg-4">
+              <div className="col-lg-4 pt-5">
                 <h3 className="fw-bold pb-2">
                   Cloud Infrastructure <br></br> Services
                 </h3>
-                <p className="pt-3 pb-3" style={{ maxWidth: "90%" }}>
+                <p className="pt-3 pb-2" style={{ maxWidth: "90%" }}>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
                   magni magnam illo quia quae perspiciatis ab exercitationem
                   reiciendis nemo odio cumque dolorem, voluptatem quisquam
@@ -109,7 +109,7 @@ const Tab = () => {
                 <h3 className="fw-bold pb-2">
                   Digital Cloud <br></br>Transformation
                 </h3>
-                <p className="pt-3 pb-3" style={{ maxWidth: "90%" }}>
+                <p className="pt-3 pb-2" style={{ maxWidth: "90%" }}>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
                   magni magnam illo quia quae perspiciatis ab exercitationem
                   reiciendis nemo odio cumque dolorem, voluptatem quisquam
@@ -123,7 +123,7 @@ const Tab = () => {
                 <h3 className="fw-bold pb-2">
                   Tech Hiring <br></br> Services
                 </h3>
-                <p className="pt-3 pb-3" style={{ maxWidth: "90%" }}>
+                <p className="pt-3 pb-2" style={{ maxWidth: "90%" }}>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
                   magni magnam illo quia quae perspiciatis ab exercitationem
                   reiciendis nemo odio cumque dolorem, voluptatem quisquam
@@ -144,7 +144,7 @@ const Tab = () => {
           tabIndex="0"
         >
           <div className="row ps-4 pe-2 " style={{ marginBottom: "160px" }}>
-            <div className="col-lg-6">
+            <div className="col-lg-6 pb-3 pt-3">
               <h4 className="fw-bold pb-3">Partial end to end Development</h4>
               <p style={{ maxWidth: "90%" }}>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
@@ -158,7 +158,7 @@ const Tab = () => {
               </p>
             </div>
 
-            <div className="col-lg-6">
+            <div className="col-lg-6 pt-3">
               <h4 className="fw-bold pb-3">
                 Complete end to end Model Development
               </h4>
@@ -183,7 +183,7 @@ const Tab = () => {
           tabIndex="0"
         >
           <div className="row ps-3" style={{ marginBottom: "100px" }}>
-            <div className="col-lg-4">
+            <div className="col-lg-4 pt-3">
               <h3 className="fw-bold pb-2">Public Governance</h3>
               <p className="pt-3 pb-3" style={{ maxWidth: "90%" }}>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
@@ -191,28 +191,28 @@ const Tab = () => {
               </p>
             </div>
 
-            <div className="col-lg-4">
+            <div className="col-lg-4 pt-3">
               <h3 className="fw-bold pb-2">Health Care</h3>
               <p className="pt-3 pb-3" style={{ maxWidth: "90%" }}>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
                 magni magnam illo quia quae perspiciatis ab exercitationem
               </p>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 pt-3">
               <h3 className="fw-bold pb-2">Retail and Commerce</h3>
               <p className="pt-3 pb-3" style={{ maxWidth: "90%" }}>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
                 magni magnam illo quia quae perspiciatis ab exercitationem
               </p>
             </div>
-            <div className="col-lg-4 pt-5">
+            <div className="col-lg-4 pt-3">
               <h3 className="fw-bold pb-2">Logistics</h3>
               <p className="pt-3 pb-3" style={{ maxWidth: "90%" }}>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
                 magni magnam illo quia quae perspiciatis ab exercitationem
               </p>
             </div>
-            <div className="col-lg-4 pt-5">
+            <div className="col-lg-4 pt-3">
               <h3 className="fw-bold pb-2">Media</h3>
               <p className="pt-3 pb-3" style={{ maxWidth: "90%" }}>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
