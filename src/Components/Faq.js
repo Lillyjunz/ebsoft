@@ -27,13 +27,13 @@ function Faq() {
 
   return (
     <div style={{ marginTop: "140px", marginBottom: "140px" }}>
-      <div class="accordion">
-        <div class="contentBx">
-          <div class="label fw-bold">
+      <div className="accordion">
+        <div className="contentBx">
+          <div className="label fw-bold">
             {" "}
             1. How do I know if ene to end development is right for me
           </div>
-          <div class="content" style={{ border: "2px solid #f1f1f1" }}>
+          <div className="content" style={{ border: "2px solid #f1f1f1" }}>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
               sunt mollitia obcaecati voluptas quaerat provident, ipsam nulla
@@ -43,13 +43,13 @@ function Faq() {
         </div>
       </div>
 
-      <div class="accordion">
-        <div class="contentBx">
-          <div class="label fw-bold">
+      <div className="accordion">
+        <div className="contentBx">
+          <div className="label fw-bold">
             {" "}
             2. How do I know if ene to end development is right for me
           </div>
-          <div class="content" style={{ border: "2px solid #f1f1f1" }}>
+          <div className="content" style={{ border: "2px solid #f1f1f1" }}>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
               sunt mollitia obcaecati voluptas quaerat provident, ipsam nulla
@@ -60,13 +60,13 @@ function Faq() {
         </div>
       </div>
 
-      <div class="accordion">
-        <div class="contentBx">
-          <div class="label fw-bold">
+      <div className="accordion">
+        <div className="contentBx">
+          <div className="label fw-bold">
             {" "}
             3. How do I know if ene to end development is right for me
           </div>
-          <div class="content" style={{ border: "2px solid #f1f1f1" }}>
+          <div className="content" style={{ border: "2px solid #f1f1f1" }}>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
               sunt mollitia obcaecati voluptas quaerat provident, ipsam nulla
@@ -77,13 +77,13 @@ function Faq() {
         </div>
       </div>
 
-      <div class="accordion">
-        <div class="contentBx">
-          <div class="label fw-bold">
+      <div className="accordion">
+        <div className="contentBx">
+          <div className="label fw-bold">
             {" "}
             4. How do I know if ene to end development is right for me
           </div>
-          <div class="content" style={{ border: "2px solid #f1f1f1" }}>
+          <div className="content" style={{ border: "2px solid #f1f1f1" }}>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
               sunt mollitia obcaecati voluptas quaerat provident, ipsam nulla
@@ -94,13 +94,13 @@ function Faq() {
         </div>
       </div>
 
-      <div class="accordion">
-        <div class="contentBx">
-          <div class="label fw-bold">
+      <div className="accordion">
+        <div className="contentBx">
+          <div className="label fw-bold">
             {" "}
             5. How do I know if ene to end development is right for me
           </div>
-          <div class="content" style={{ border: "2px solid #f1f1f1" }}>
+          <div className="content" style={{ border: "2px solid #f1f1f1" }}>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
               sunt mollitia obcaecati voluptas quaerat provident, ipsam nulla
@@ -111,13 +111,13 @@ function Faq() {
         </div>
       </div>
 
-      <div class="accordion">
-        <div class="contentBx">
-          <div class="label fw-bold">
+      <div className="accordion">
+        <div className="contentBx">
+          <div className="label fw-bold">
             {" "}
             6. How do I know if ene to end development is right for me
           </div>
-          <div class="content" style={{ border: "2px solid #f1f1f1" }}>
+          <div className="content" style={{ border: "2px solid #f1f1f1" }}>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
               sunt mollitia obcaecati voluptas quaerat provident, ipsam nulla
@@ -128,13 +128,13 @@ function Faq() {
         </div>
       </div>
 
-      <div class="accordion">
-        <div class="contentBx">
-          <div class="label fw-bold">
+      <div className="accordion">
+        <div className="contentBx">
+          <div className="label fw-bold">
             {" "}
             7. How do I know if ene to end development is right for me
           </div>
-          <div class="content" style={{ border: "2px solid #f1f1f1" }}>
+          <div className="content" style={{ border: "2px solid #f1f1f1" }}>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
               sunt mollitia obcaecati voluptas quaerat provident, ipsam nulla

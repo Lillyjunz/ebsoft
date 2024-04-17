@@ -51,7 +51,7 @@ export default function SwiperCarousel() {
         }}
       >
         <SwiperSlide style={{ paddingBottom: "60px" }}>
-          <div class="cad">
+          <div className="cad">
             <img
               src="../images/intro.jpg"
               alt="..."
@@ -61,7 +61,7 @@ export default function SwiperCarousel() {
           </div>
         </SwiperSlide>
         <SwiperSlide style={{ paddingBottom: "60px" }}>
-          <div class="cad">
+          <div className="cad">
             <img
               src="../images/intro.jpg"
               alt="..."
@@ -71,7 +71,7 @@ export default function SwiperCarousel() {
           </div>
         </SwiperSlide>
         <SwiperSlide style={{ paddingBottom: "60px" }}>
-          <div class="cad">
+          <div className="cad">
             <img
               src="../images/intro.jpg"
               alt="..."
@@ -81,7 +81,7 @@ export default function SwiperCarousel() {
           </div>
         </SwiperSlide>
         <SwiperSlide style={{ paddingBottom: "60px" }}>
-          <div class="cad">
+          <div className="cad">
             <img
               src="../images/intro.jpg"
               alt="..."
@@ -91,7 +91,7 @@ export default function SwiperCarousel() {
           </div>
         </SwiperSlide>
         <SwiperSlide style={{ paddingBottom: "60px" }}>
-          <div class="cad">
+          <div className="cad">
             <img
               src="../images/intro.jpg"
               alt="..."

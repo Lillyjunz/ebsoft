@@ -21,7 +21,7 @@ const Intro2 = () => {
             <h4 className="text-end pt-4 pe-3 fw-bold text-black-50">1</h4>
             <div className="align-items-center pt-4 pb-2 ps-3">
               <h5>
-                <i class="bi bi-shield-check text-primary"></i>
+                <i className="bi bi-shield-check text-primary"></i>
               </h5>
               <h5 className="text-primary">"Let's hear it. -"</h5>
               <p className="fw-bold text-dark">Non-disclosure Agreements</p>
@@ -53,7 +53,7 @@ const Intro2 = () => {
             <h4 className="text-end pt-4 pe-3 fw-bold text-black-50">2</h4>
             <div className="align-items-center pt-4 pb-2 ps-3">
               <h5>
-                <i class="bi bi-emoji-sunglasses text-primary"></i>
+                <i className="bi bi-emoji-sunglasses text-primary"></i>
               </h5>
               <h5 className="text-primary">"Let's see it. -"</h5>
               <p className="fw-bold text-dark">
@@ -87,7 +87,7 @@ const Intro2 = () => {
             <h4 className="text-end pt-4 pe-3 fw-bold text-black-50">3</h4>
             <div className="align-items-center pt-4 pb-2 ps-3">
               <h5>
-                <i class="bi bi-box text-primary"></i>
+                <i className="bi bi-box text-primary"></i>
               </h5>
               <h5 className="text-primary">"Let's build it. -"</h5>
               <p className="fw-bold text-dark">Build and Development</p>
@@ -120,7 +120,7 @@ const Intro2 = () => {
               <h4 className="text-end pt-4 pe-3 fw-bold text-black-50">4</h4>
               <div className="align-items-center pt-4 pb-2 ps-3">
                 <h5>
-                  <i class="bi bi-rocket text-primary"></i>
+                  <i className="bi bi-rocket text-primary"></i>
                 </h5>
                 <h5 className="text-primary">"Let's deliver it. -"</h5>
                 <p className="fw-bold text-dark">
@@ -154,7 +154,7 @@ const Intro2 = () => {
               <h4 className="text-end pt-4 pe-3 fw-bold text-black-50">5</h4>
               <div className="align-items-center pt-4 pb-2 ps-3">
                 <h5>
-                  <i class="bi bi-people text-primary"></i>
+                  <i className="bi bi-people text-primary"></i>
                 </h5>
                 <h5 className="text-primary">"Let's have it. -"</h5>
                 <p className="fw-bold text-dark">

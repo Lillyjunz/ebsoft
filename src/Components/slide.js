@@ -49,11 +49,11 @@ export default function SwiperContact() {
       >
         <SwiperSlide>
           <div style={{ paddingBottom: "60px" }}>
-            <i class="bi bi-star-fill text-warning "></i>
-            <i class="bi bi-star-fill text-warning"></i>
-            <i class="bi bi-star-fill text-warning"></i>
-            <i class="bi bi-star-fill text-warning"></i>
-            <i class="bi bi-star-fill text-warning"></i>
+            <i className="bi bi-star-fill text-warning "></i>
+            <i className="bi bi-star-fill text-warning"></i>
+            <i className="bi bi-star-fill text-warning"></i>
+            <i className="bi bi-star-fill text-warning"></i>
+            <i className="bi bi-star-fill text-warning"></i>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Doloremque, sint.
@@ -63,11 +63,11 @@ export default function SwiperContact() {
         </SwiperSlide>
 
         <SwiperSlide>
-          <i class="bi bi-star-fill text-warning "></i>
-          <i class="bi bi-star-fill text-warning"></i>
-          <i class="bi bi-star-fill text-warning"></i>
-          <i class="bi bi-star-half text-warning"></i>
-          <i class="bi bi-star-half text-warning"></i>
+          <i className="bi bi-star-fill text-warning "></i>
+          <i className="bi bi-star-fill text-warning"></i>
+          <i className="bi bi-star-fill text-warning"></i>
+          <i className="bi bi-star-half text-warning"></i>
+          <i className="bi bi-star-half text-warning"></i>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Doloremque, sint.
@@ -75,11 +75,11 @@ export default function SwiperContact() {
           <p>Jogn Jackson</p>
         </SwiperSlide>
         <SwiperSlide>
-          <i class="bi bi-star-fill text-warning "></i>
-          <i class="bi bi-star-fill text-warning"></i>
-          <i class="bi bi-star-fill text-warning"></i>
-          <i class="bi bi-star-fill text-warning"></i>
-          <i class="bi bi-star-half text-warning"></i>
+          <i className="bi bi-star-fill text-warning "></i>
+          <i className="bi bi-star-fill text-warning"></i>
+          <i className="bi bi-star-fill text-warning"></i>
+          <i className="bi bi-star-fill text-warning"></i>
+          <i className="bi bi-star-half text-warning"></i>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Doloremque, sint.
@@ -87,11 +87,11 @@ export default function SwiperContact() {
           <p>Jogn Jackson</p>
         </SwiperSlide>
         <SwiperSlide>
-          <i class="bi bi-star-fill text-warning "></i>
-          <i class="bi bi-star-fill text-warning"></i>
-          <i class="bi bi-star-fill text-warning"></i>
-          <i class="bi bi-star-fill text-warning"></i>
-          <i class="bi bi-star-half text-warning"></i>
+          <i className="bi bi-star-fill text-warning "></i>
+          <i className="bi bi-star-fill text-warning"></i>
+          <i className="bi bi-star-fill text-warning"></i>
+          <i className="bi bi-star-fill text-warning"></i>
+          <i className="bi bi-star-half text-warning"></i>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Doloremque, sint.

@@ -4,14 +4,14 @@ const Tab = () => {
   return (
     <>
       <ul
-        class="nav nav-pills mt-5 p-3 ps-5 pe-5 ms-3 me-3 mb-3 "
+        className="nav nav-pills mt-5 p-3 ps-5 pe-5 ms-3 me-3 mb-3 "
         id="myTab"
         role="tablist"
         style={{ borderBottom: "2px solid gray" }}
       >
-        <li class="nav-item pe-5" role="presentation">
+        <li className="nav-item pe-5" role="presentation">
           <button
-            class="nav-link active text-black fw-bold "
+            className="nav-link active text-black fw-bold "
             id="home-tab"
             data-bs-toggle="tab"
             data-bs-target="#home-tab-pane"
@@ -23,9 +23,9 @@ const Tab = () => {
             Services
           </button>
         </li>
-        <li class="nav-item pe-5" role="presentation">
+        <li className="nav-item pe-5" role="presentation">
           <button
-            class="nav-link text-black fw-bold"
+            className="nav-link text-black fw-bold"
             id="profile-tab"
             data-bs-toggle="tab"
             data-bs-target="#profile-tab-pane"
@@ -37,9 +37,9 @@ const Tab = () => {
             Engagement Models
           </button>
         </li>
-        <li class="nav-item" role="presentation">
+        <li className="nav-item" role="presentation">
           <button
-            class="nav-link text-black fw-bold"
+            className="nav-link text-black fw-bold"
             id="contact-tab"
             data-bs-toggle="tab"
             data-bs-target="#contact-tab-pane"
@@ -52,13 +52,13 @@ const Tab = () => {
           </button>
         </li>
       </ul>
-      <div class="tab-content ps-4" id="myTabContent">
+      <div className="tab-content ps-4" id="myTabContent">
         <div
-          class="tab-pane fade show active"
+          className="tab-pane fade show active"
           id="home-tab-pane"
           role="tabpanel"
           aria-labelledby="home-tab"
-          tabindex="0"
+          tabIndex="0"
         >
           <div className="p-3">
             <div className="row " style={{ marginBottom: "100px" }}>
@@ -137,11 +137,11 @@ const Tab = () => {
           </div>
         </div>
         <div
-          class="tab-pane fade"
+          className="tab-pane fade"
           id="profile-tab-pane"
           role="tabpanel"
           aria-labelledby="profile-tab"
-          tabindex="0"
+          tabIndex="0"
         >
           <div className="row ps-4 pe-2 " style={{ marginBottom: "160px" }}>
             <div className="col-lg-6">
@@ -176,11 +176,11 @@ const Tab = () => {
           </div>
         </div>
         <div
-          class="tab-pane fade"
+          className="tab-pane fade"
           id="contact-tab-pane"
           role="tabpanel"
           aria-labelledby="contact-tab"
-          tabindex="0"
+          tabIndex="0"
         >
           <div className="row ps-3" style={{ marginBottom: "100px" }}>
             <div className="col-lg-4">

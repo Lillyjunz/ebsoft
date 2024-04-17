@@ -3,7 +3,7 @@ const Modal = () => {
     <>
       <button
         type="button"
-        class="btn btn-primary"
+        className="btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#staticBackdrop"
       >
@@ -11,7 +11,7 @@ const Modal = () => {
       </button>
 
       <div
-        class="modal fade modal-dialog modal-dialog-centered"
+        className="modal fade modal-dialog modal-dialog-centered"
         id="staticBackdrop"
         data-bs-backdrop="static"
         data-bs-keyboard="false"
@@ -19,18 +19,18 @@ const Modal = () => {
         aria-labelledby="staticBackdropLabel"
         aria-hidden="true"
       >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="modal-header">
               <button
                 type="button"
-                class="btn-close"
+                className="btn-close"
                 data-bs-dismiss="modal"
                 aria-label="Close"
               ></button>
             </div>
             <div
-              class="modal-body"
+              className="modal-body"
               style={{
                 display: "flex",
                 alignItems: "center",
@@ -50,12 +50,12 @@ const Modal = () => {
               >
                 <h2>
                   {" "}
-                  <i class="bi bi-check2 text-success"></i>
+                  <i className="bi bi-check2 text-success"></i>
                 </h2>
               </div>
             </div>
-            <h4 className="text-center">Successful</h4>
-            <small className="text-center pb-5">
+            <h4 classNameName="text-center">Successful</h4>
+            <small classNameName="text-center pb-5">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Recusandae minima provident accusantium fuga iste beatae suscipit?
             </small>
