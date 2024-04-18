@@ -53,7 +53,7 @@ export default function SwiperCarousel() {
         <SwiperSlide style={{ paddingBottom: "60px" }}>
           <div className="cad">
             <img
-              src="../images/intro.jpg"
+              src="../images/image9.jpg"
               alt="..."
               style={{ width: "20rem", height: "350px", borderRadius: "10px" }}
             />
@@ -63,7 +63,7 @@ export default function SwiperCarousel() {
         <SwiperSlide style={{ paddingBottom: "60px" }}>
           <div className="cad">
             <img
-              src="../images/intro.jpg"
+              src="../images/image6.jpg"
               alt="..."
               style={{ width: "20rem", height: "350px", borderRadius: "10px" }}
             />
@@ -73,7 +73,7 @@ export default function SwiperCarousel() {
         <SwiperSlide style={{ paddingBottom: "60px" }}>
           <div className="cad">
             <img
-              src="../images/intro.jpg"
+              src="../images/image02.jpg"
               alt="..."
               style={{ width: "20rem", height: "350px", borderRadius: "10px" }}
             />
@@ -83,7 +83,7 @@ export default function SwiperCarousel() {
         <SwiperSlide style={{ paddingBottom: "60px" }}>
           <div className="cad">
             <img
-              src="../images/intro.jpg"
+              src="../images/image3.jpg"
               alt="..."
               style={{ width: "20rem", height: "350px", borderRadius: "10px" }}
             />
@@ -93,7 +93,7 @@ export default function SwiperCarousel() {
         <SwiperSlide style={{ paddingBottom: "60px" }}>
           <div className="cad">
             <img
-              src="../images/intro.jpg"
+              src="../images/image4.jpg"
               alt="..."
               style={{ width: "20rem", height: "350px", borderRadius: "10px" }}
             />

@@ -55,7 +55,7 @@ const Detail = () => {
           <div className="d-flex mt-5 justify-content-between">
             <img
               className=" intro-img mb-5"
-              src="./images/intro.jpg"
+              src="./images/image1.jpg"
               alt="ann"
               width={400}
               height={300}
@@ -185,7 +185,7 @@ const Detail = () => {
             </p>
             <img
               className=" intro-img mb-5"
-              src="./images/intro.jpg"
+              src="./images/image2.jpg"
               alt="ann"
               width={400}
               height={300}
@@ -201,7 +201,7 @@ const Detail = () => {
           <div className="d-flex mt-5 justify-content-between">
             <img
               className=" intro-img mb-5"
-              src="./images/intro.jpg"
+              src="./images/image3.jpg"
               alt="ann"
               width={400}
               height={300}

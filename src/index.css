@@ -166,7 +166,7 @@ code {
 }
 
 .reg {
-  background-image: url(../public/images/admin.jpg);
+  background-image: url(../public/images/image0.jpg);
   background-size: cover;
 }
 
@@ -297,4 +297,25 @@ a {
 .swiper-button-next,
 .swiper-button-prev {
   display: none;
+}
+
+/* contact page responsive */
+@media screen and (max-width: 812px) {
+  .slide-div {
+    max-width: 500px;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 812px) {
+  .afterform {
+    display: none;
+  }
+}
+
+/* homepage responsive */
+@media screen and (max-width: 812px) {
+  .co {
+    flex-basis: 100%;
+  }
 }

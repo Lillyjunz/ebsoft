@@ -10,20 +10,21 @@ const About = () => {
       <section classNameName="banner">
         <div>
           <div className="bg-black d-flex text-light justify-content-between">
-            <div className="ps-5 " style={{ marginTop: "180px" }}>
+            <div className="ps-5 " style={{ marginTop: "300px" }}>
               <h2>About Ebsoft</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 <br></br>
                 Temporibus cupiditate molestias asperiores assumenda hic impedit
+                asperiores assumenda hic
               </p>
             </div>
             <img
               className="rounded-image"
-              src="/images/admin.jpg"
+              src="/images/image04.jpg"
               style={{
-                width: "200px",
-                height: "200px",
+                width: "300px",
+                height: "300px",
                 border: "5px solid green",
                 borderRadius: "50%",
                 marginTop: "120px",
@@ -46,20 +47,11 @@ const About = () => {
         </svg>
       </section>
 
-      <div className="row">
-        <div className="col-lg-6 text-center mb-4">
-          <img
-            className=" intro-img"
-            src="./images/intro.jpg"
-            alt="ann"
-            width={550}
-            height={300}
-          />
-        </div>
+      <div className="row d-flex align-items-center justify-content-center">
         <div className="col-lg-6 d-flex align-items-center justify-content-center ">
           <div className="mb-5 intro-text ms-3">
             <h4 className="fw-bold text-primary">Our Mission</h4>
-            <p style={{ width: "550px" }}>
+            <p style={{ width: "600px" }}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
               deserunt, adipisci sed expedita eius autem dolorum impedit nihil,
               dicta, recusandae harum maxime blanditiis fugit tenetur possimus
@@ -67,20 +59,18 @@ const About = () => {
               fugit tenetur possimus commodi aliquam nobis in.
             </p>
           </div>
+        </div>
+        <div className="col-lg-6 mb-4">
+          <img
+            className=" image-fluid"
+            src="./images/image7.jpg"
+            alt="ann"
+            width={550}
+            height={300}
+            style={{ border: "4px solid green", borderRadius: "10px" }}
+          />
         </div>
 
-        <div className="col-lg-6 d-flex align-items-center justify-content-center ">
-          <div className="mb-3 intro-text ms-4">
-            <h4 className="fw-bold text-primary">Our Vision</h4>
-            <p style={{ width: "550px" }}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-              deserunt, adipisci sed expedita eius autem dolorum impedit nihil,
-              dicta, recusandae harum maxime blanditiis fugit tenetur possimus
-              commodi aliquam nobis in dicta, recusandae harum maxime blanditiis
-              fugit tenetur possimus commodi aliquam nobis in.
-            </p>
-          </div>
-        </div>
         <div className="col-lg-6 text-center mb-5">
           <img
             className=" intro-img"
@@ -89,6 +79,18 @@ const About = () => {
             width={550}
             height={300}
           />
+        </div>
+        <div className="col-lg-6  ">
+          <div className="mb-3 intro-text ">
+            <h4 className="fw-bold text-primary">Our Vision</h4>
+            <p style={{ width: "600px" }}>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+              deserunt, adipisci sed expedita eius autem dolorum impedit nihil,
+              dicta, recusandae harum maxime blanditiis fugit tenetur possimus
+              commodi aliquam nobis in dicta, recusandae harum maxime blanditiis
+              fugit tenetur possimus commodi aliquam nobis in.
+            </p>
+          </div>
         </div>
       </div>
 

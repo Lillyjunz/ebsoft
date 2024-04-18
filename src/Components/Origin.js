@@ -9,7 +9,7 @@ const Origin = () => {
         <div className="col-lg-6">
           <img
             className=" intro-img"
-            src="./images/intro.jpg"
+            src="./images/image03.jpg"
             alt="ann"
             width={550}
             height={300}
@@ -40,7 +40,7 @@ const Origin = () => {
         <div className="col-lg-6">
           <img
             className=" intro-img mb-5 mt-3"
-            src="./images/intro.jpg"
+            src="./images/image01.jpg"
             alt="ann"
             width={550}
             height={300}

@@ -27,15 +27,15 @@ export default function SwiperContact() {
         navigation={true}
         breakpoints={{
           640: {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 20,
           },
           768: {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 30,
           },
           946: {
-            slidesPerView: 3,
+            slidesPerView: 1,
             spaceBetween: 30,
           },
           1024: {
@@ -49,11 +49,11 @@ export default function SwiperContact() {
       >
         <SwiperSlide>
           <div style={{ paddingBottom: "60px" }}>
-            <i className="bi bi-star-fill text-warning "></i>
-            <i className="bi bi-star-fill text-warning"></i>
-            <i className="bi bi-star-fill text-warning"></i>
-            <i className="bi bi-star-fill text-warning"></i>
-            <i className="bi bi-star-fill text-warning"></i>
+            <img style={{ width: "15px" }} src="../images/star.svg" alt="..." />
+            <img style={{ width: "15px" }} src="../images/star.svg" alt="..." />
+            <img style={{ width: "15px" }} src="../images/star.svg" alt="..." />
+            <img style={{ width: "15px" }} src="../images/star.svg" alt="..." />
+            <img style={{ width: "15px" }} src="../images/star.svg" alt="..." />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Doloremque, sint.
@@ -63,11 +63,11 @@ export default function SwiperContact() {
         </SwiperSlide>
 
         <SwiperSlide>
-          <i className="bi bi-star-fill text-warning "></i>
-          <i className="bi bi-star-fill text-warning"></i>
-          <i className="bi bi-star-fill text-warning"></i>
-          <i className="bi bi-star-half text-warning"></i>
-          <i className="bi bi-star-half text-warning"></i>
+          <img style={{ width: "15px" }} src="../images/star.svg" alt="..." />
+          <img style={{ width: "15px" }} src="../images/star.svg" alt="..." />
+          <img style={{ width: "15px" }} src="../images/star.svg" alt="..." />
+          <img style={{ width: "15px" }} src="../images/star.svg" alt="..." />
+          <img style={{ width: "16px" }} src="../images/star2.gif" alt="..." />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Doloremque, sint.
@@ -75,11 +75,11 @@ export default function SwiperContact() {
           <p>Jogn Jackson</p>
         </SwiperSlide>
         <SwiperSlide>
-          <i className="bi bi-star-fill text-warning "></i>
-          <i className="bi bi-star-fill text-warning"></i>
-          <i className="bi bi-star-fill text-warning"></i>
-          <i className="bi bi-star-fill text-warning"></i>
-          <i className="bi bi-star-half text-warning"></i>
+          <img style={{ width: "15px" }} src="../images/star.svg" alt="..." />
+          <img style={{ width: "15px" }} src="../images/star.svg" alt="..." />
+          <img style={{ width: "15px" }} src="../images/star.svg" alt="..." />
+          <img style={{ width: "16px" }} src="../images/star2.gif" alt="..." />
+          <img style={{ width: "16px" }} src="../images/star2.gif" alt="..." />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Doloremque, sint.
@@ -87,11 +87,11 @@ export default function SwiperContact() {
           <p>Jogn Jackson</p>
         </SwiperSlide>
         <SwiperSlide>
-          <i className="bi bi-star-fill text-warning "></i>
-          <i className="bi bi-star-fill text-warning"></i>
-          <i className="bi bi-star-fill text-warning"></i>
-          <i className="bi bi-star-fill text-warning"></i>
-          <i className="bi bi-star-half text-warning"></i>
+          <img style={{ width: "15px" }} src="../images/star.svg" alt="..." />
+          <img style={{ width: "15px" }} src="../images/star.svg" alt="..." />
+          <img style={{ width: "15px" }} src="../images/star.svg" alt="..." />
+          <img style={{ width: "15px" }} src="../images/star.svg" alt="..." />
+          <img style={{ width: "15px" }} src="../images/star.svg" alt="..." />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Doloremque, sint.
