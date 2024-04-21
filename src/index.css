@@ -25,7 +25,7 @@ code {
 
 .intro-img {
   border: 3px solid green;
-  border-radius: 10px;
+  border-radius: 25px;
 }
 
 .or-divider {
@@ -292,38 +292,14 @@ a {
   display: none;
 }
 
-/* contact page responsive */
-@media screen and (max-width: 812px) {
-  .slide-div {
-    max-width: 500px;
-    align-items: center;
-  }
-}
-
-@media screen and (max-width: 812px) {
-  .afterform {
-    display: none;
-  }
-}
-
-/* homepage responsive */
-@media screen and (max-width: 812px) {
-  .co {
-    flex-basis: 100%;
-  }
-}
-
 .crid {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-auto-rows: minmax(400px auto);
-  grid-auto-columns: minmax(200px auto);
-  gap: 40px;
-  max-width: 1000px;
+  gap: 30px;
+  width: 80%;
   align-items: center;
   justify-content: center;
-  padding: 40px;
-  margin: 0 auto;
+  margin: 25px auto;
 }
 
 /* .footer {
@@ -379,7 +355,7 @@ a {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 61px;
+  height: 60px;
 }
 
 .custom-shape-divider-top-1713650972 .shape-fill {
@@ -483,13 +459,29 @@ footer li {
   top: 75%;
 }
 
+/* banner responsive */
+@media screen and (max-width: 1000px) {
+  .div1 {
+    left: 25%;
+  }
+  .div2 {
+    left: 25%;
+  }
+  .div4 {
+    right: 25%;
+  }
+  .div5 {
+    right: 25%;
+  }
+}
+
 .banner li {
   list-style-type: none;
 }
 
 /* Responsive */
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 782px) {
   .containerr {
     display: block;
   }
@@ -517,5 +509,84 @@ footer li {
     width: 90%;
     margin: 10px auto;
     text-wrap: wrap;
+  }
+
+  .er-container {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+/* Responsive first row homepage */
+
+@media screen and (min-width: 1340px) {
+  .front {
+    margin-top: 380px;
+  }
+  .img-txt {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1339px) {
+  .front {
+    margin-top: 250px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .front {
+    margin-top: 150px;
+  }
+}
+
+/* contact page responsive */
+@media screen and (max-width: 812px) {
+  .slide-div {
+    max-width: 500px;
+    align-items: center;
+  }
+  .afterform {
+    display: none;
+  }
+  .co {
+    flex-basis: 100%;
+  }
+}
+
+@media screen and (max-width: 812px) {
+  .crid {
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .first-crid {
+    order: 2;
+  }
+
+  .second-crid {
+    order: 1;
+  }
+
+  .third-crid {
+    order: 3;
+  }
+
+  .fourth-crid {
+    order: 4;
+  }
+
+  .img-txt {
+    display: block;
+    padding-bottom: 14px;
+  }
+
+  .first-crid h4 {
+    display: none;
+  }
+
+  .fourth-crid h4 {
+    display: none;
   }
 }

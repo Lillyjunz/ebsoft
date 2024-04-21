@@ -9,11 +9,13 @@ const Banner = () => {
             <span className="text-white">Build.</span>
             <span style={{ color: "orangeRed" }}>Deliver</span>
           </h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-            cupiditate molestias asperiores assumenda hic impedit natus voluptas
-            ratione deserunt amet architecto, eum earum quam at illum nemo?
-            Quidem, eaque provident?
+          <p className="text-center justify-self-center p-4">
+            <span>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus cupiditate molestias asperiores assumenda hic impedit
+              natus voluptas ratione deserunt amet architecto, eum earum quam at
+              illum nemo? Quidem, eaque provident? eum earum quam at illum nemo?
+            </span>
           </p>
         </div>
 

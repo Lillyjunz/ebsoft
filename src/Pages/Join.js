@@ -30,6 +30,7 @@ const Join = () => {
           </svg>
         </div>
       </section>
+
       <div className="text-center" style={{ margin: "10% 15%" }}>
         <h2 className="fw-bold">No Vacancies at this moment</h2>
         <img src="../images/lottie.gif" width={350} height={150}></img>

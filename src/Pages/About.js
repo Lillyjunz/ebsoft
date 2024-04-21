@@ -21,7 +21,7 @@ const About = () => {
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1200 119"
+            viewBox="0 0 1200 120"
             preserveAspectRatio="none"
           >
             <path
@@ -33,10 +33,13 @@ const About = () => {
       </section>
 
       <div className="row d-flex align-items-center justify-content-center">
-        <div className="col-lg-6 d-flex align-items-center justify-content-center ">
+        <div
+          className="col-lg-6 d-flex align-items-center justify-content-center "
+          style={{ width: "650px" }}
+        >
           <div className="mb-5 intro-text ms-3">
             <h4 className="fw-bold text-primary">Our Mission</h4>
-            <p style={{ width: "550px" }}>
+            <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
               deserunt, adipisci sed expedita eius autem dolorum impedit nihil,
               dicta, recusandae harum maxime blanditiis fugit tenetur possimus
@@ -45,14 +48,11 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="col-lg-6 mb-4">
+        <div className="col-lg-6 mb-4" style={{ width: "500px" }}>
           <img
-            className=" image-fluid "
-            src="./images/image7.jpg"
+            className=" img-fluid intro-img"
+            src="./images/image10.jpg"
             alt="ann"
-            width={500}
-            height={300}
-            style={{ border: "4px solid green", borderRadius: "10px" }}
           />
         </div>
 

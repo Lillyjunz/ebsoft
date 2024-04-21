@@ -7,30 +7,30 @@ const Intro2 = () => {
       <h6 className="text-center p-4">Visualize.Design.Build.Deliver</h6>
       <div className="row ps-4 text-center justify-content-center">
         <div
-          className="er-container col-lg-4 col-sm-12-w-100 col-md-12-w-100"
+          className="er-container col-lg-4  me-2"
           style={{
             border: "2px ",
             borderRadius: "10px",
-            boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
+            boxShadow: "0 0 10px rgba(0, 0, 0, 0.2)",
           }}
         >
           <div
             className=" default-content"
-            style={{ border: "2px solid white", borderRadius: "20px" }}
+            style={{ border: "2px solid white" }}
           >
-            <h4 className="text-end pt-4 pe-3 fw-bold text-black-50">1</h4>
-            <div className="align-items-center pt-4 pb-2 ps-3">
-              <h5>
+            <h3 className="text-end pt-4 pe-3 fw-bold text-black-50">1</h3>
+            <div className="align-items-center text-start pt-5 pb-2 ps-4">
+              <h2>
                 <i className="bi bi-shield-check text-primary"></i>
-              </h5>
-              <h5 className="text-primary">"Let's hear it. -"</h5>
+              </h2>
+              <h2 className="text-primary fw-bold">"Let's hear it. -"</h2>
               <p className="fw-bold text-dark">Non-disclosure Agreements</p>
             </div>
           </div>
 
           <div className="hover-content">
-            <h4 className="text-end pt-4 pe-3 fw-bold text-light">1</h4>
-            <div className="align-items-center pt-4 pb-2 ps-3">
+            <h3 className="text-end pt-4 pe-3 fw-bold text-light">1</h3>
+            <div className="align-items-center pt-5 pb-2 ">
               <h5 className="fw-bold">Non disclosure Agreements</h5>
 
               <p className="fw-bold text-light px-1">
@@ -42,20 +42,20 @@ const Intro2 = () => {
         </div>
 
         <div
-          className="col-lg-4 er-container"
+          className="col-lg-4 er-container me-2"
           style={{
             border: "2px ",
             borderRadius: "10px",
-            boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
+            boxShadow: "0 0 10px rgba(0, 0, 0, 0.2)",
           }}
         >
           <div className="default-content">
-            <h4 className="text-end pt-4 pe-3 fw-bold text-black-50">2</h4>
-            <div className="align-items-center pt-4 pb-2 ps-3">
-              <h5>
+            <h3 className="text-end pt-4 pe-3 fw-bold text-black-50">2</h3>
+            <div className="align-items-center text-start pt-5 pb-2 ps-4">
+              <h2>
                 <i className="bi bi-emoji-sunglasses text-primary"></i>
-              </h5>
-              <h5 className="text-primary">"Let's see it. -"</h5>
+              </h2>
+              <h2 className="text-primary fw-bold">"Let's see it. -"</h2>
               <p className="fw-bold text-dark">
                 Visualization and Consultation
               </p>
@@ -63,8 +63,8 @@ const Intro2 = () => {
           </div>
 
           <div className="hover-content">
-            <h4 className="text-end pt-4 pe-3 fw-bold text-light">2</h4>
-            <div className="align-items-center pt-4 pb-2 ps-3">
+            <h3 className="text-end pt-4 pe-3 fw-bold text-light">2</h3>
+            <div className="align-items-center pt-5 pb-2">
               <h5 className="fw-bold">Non disclosure Agreements</h5>
 
               <p className="fw-bold text-light px-1">
@@ -76,27 +76,27 @@ const Intro2 = () => {
         </div>
 
         <div
-          className="col-lg-4 er-container"
+          className="col-lg-4 er-container "
           style={{
             border: "2px ",
             borderRadius: "10px",
-            boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
+            boxShadow: "0 0 10px rgba(0, 0, 0, 0.2)",
           }}
         >
           <div className="default-content">
-            <h4 className="text-end pt-4 pe-3 fw-bold text-black-50">3</h4>
-            <div className="align-items-center pt-4 pb-2 ps-3">
-              <h5>
+            <h3 className="text-end pt-4 pe-3 fw-bold text-black-50">3</h3>
+            <div className="align-items-center text-start pt-5 pb-2 ps-4">
+              <h2>
                 <i className="bi bi-box text-primary"></i>
-              </h5>
-              <h5 className="text-primary">"Let's build it. -"</h5>
+              </h2>
+              <h2 className="text-primary fw-bold">"Let's build it. -"</h2>
               <p className="fw-bold text-dark">Build and Development</p>
             </div>
           </div>
 
           <div className="hover-content">
-            <h4 className="text-end pt-4 pe-3 fw-bold text-light">3</h4>
-            <div className="align-items-center pt-4 pb-2 ps-3">
+            <h3 className="text-end pt-4 pe-3 fw-bold text-light">3</h3>
+            <div className="align-items-center pt-5 pb-2">
               <h5 className="fw-bold">Non disclosure Agreements</h5>
 
               <p className="fw-bold text-light px-1">
@@ -109,20 +109,20 @@ const Intro2 = () => {
 
         <div className=" row justify-content-center pt-2">
           <div
-            className="col-lg-4 er-container"
+            className="col-lg-4 er-container me-2"
             style={{
               border: "2px ",
               borderRadius: "10px",
-              boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
+              boxShadow: "0 0 10px rgba(0, 0, 0, 0.2)",
             }}
           >
             <div className="default-content">
-              <h4 className="text-end pt-4 pe-3 fw-bold text-black-50">4</h4>
-              <div className="align-items-center pt-4 pb-2 ps-3">
-                <h5>
+              <h3 className="text-end pt-4 pe-3 fw-bold text-black-50">4</h3>
+              <div className="align-items-center text-start pt-5 pb-2 ps-4">
+                <h2>
                   <i className="bi bi-rocket text-primary"></i>
-                </h5>
-                <h5 className="text-primary">"Let's deliver it. -"</h5>
+                </h2>
+                <h2 className="text-primary fw-bold">"Let's deliver it. -"</h2>
                 <p className="fw-bold text-dark">
                   Delivery, Support and Maintenance
                 </p>
@@ -130,8 +130,8 @@ const Intro2 = () => {
             </div>
 
             <div className="hover-content">
-              <h4 className="text-end pt-4 pe-3 fw-bold text-light">4</h4>
-              <div className="align-items-center pt-4 pb-2 ps-3">
+              <h3 className="text-end pt-4 pe-3 fw-bold text-light">4</h3>
+              <div className="align-items-center pt-5 pb-2">
                 <h5 className="fw-bold">Non disclosure Agreements</h5>
 
                 <p className="fw-bold text-light px-1">
@@ -147,16 +147,16 @@ const Intro2 = () => {
             style={{
               border: "2px ",
               borderRadius: "10px",
-              boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
+              boxShadow: "0 0 10px rgba(0, 0, 0, 0.2)",
             }}
           >
             <div className="default-content">
-              <h4 className="text-end pt-4 pe-3 fw-bold text-black-50">5</h4>
-              <div className="align-items-center pt-4 pb-2 ps-3">
-                <h5>
+              <h3 className="text-end pt-4 pe-3 fw-bold text-black-50">5</h3>
+              <div className="align-items-center text-start pt-5 pb-2 ps-4">
+                <h2>
                   <i className="bi bi-people text-primary"></i>
-                </h5>
-                <h5 className="text-primary">"Let's have it. -"</h5>
+                </h2>
+                <h2 className="text-primary fw-bold">"Let's have it. -"</h2>
                 <p className="fw-bold text-dark">
                   Feedback and Partnership Relations
                 </p>
@@ -164,8 +164,8 @@ const Intro2 = () => {
             </div>
 
             <div className="hover-content">
-              <h4 className="text-end pt-4 pe-3 fw-bold text-light">5</h4>
-              <div className="align-items-center pt-4 pb-2 ps-3">
+              <h3 className="text-end pt-4 pe-3 fw-bold text-light">5</h3>
+              <div className="align-items-center pt-5 pb-2">
                 <h5 className="fw-bold">Non disclosure Agreements</h5>
 
                 <p className="fw-bold text-light px-1">
