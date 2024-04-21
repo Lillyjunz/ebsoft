@@ -19,6 +19,10 @@ code {
   position: relative;
 }
 
+.abb {
+  overflow: hidden;
+}
+
 .navbar {
   background-color: black;
 }
@@ -314,6 +318,7 @@ a {
   color: white;
   padding: 40px 0;
   position: relative;
+  width: 100%;
 }
 
 .containerr {
@@ -378,12 +383,11 @@ footer li {
 }
 
 .ba .content {
-  max-width: 550px;
+  max-width: 50%;
   margin-bottom: 130px;
 }
 
-.ba .content h2 {
-  font-size: 2.5em;
+.ba .content h3 {
   color: #fff;
   margin-bottom: 20px;
 }
@@ -399,6 +403,24 @@ footer li {
   right: 60px;
   bottom: 50px;
   border: 4px solid green;
+}
+@media screen and (max-width: 420px) {
+  .ba .content h3 {
+    width: 100%;
+  }
+  .ba {
+    padding-top: 140px;
+    padding-left: 10px;
+  }
+  .ba img {
+    width: 150px;
+    height: 150px;
+    right: 10px;
+    bottom: 50px;
+  }
+  .ba .content {
+    max-width: 70%;
+  }
 }
 
 .custom-shape-divider-bottom-1713680653 {
@@ -540,21 +562,7 @@ footer li {
   }
 }
 
-/* contact page responsive */
-@media screen and (max-width: 812px) {
-  .slide-div {
-    max-width: 500px;
-    align-items: center;
-  }
-  .afterform {
-    display: none;
-  }
-  .co {
-    flex-basis: 100%;
-  }
-}
-
-@media screen and (max-width: 812px) {
+@media screen and (max-width: 480px) {
   .crid {
     grid-template-columns: 1fr;
     align-items: center;
@@ -588,5 +596,16 @@ footer li {
 
   .fourth-crid h4 {
     display: none;
+  }
+
+  .slide-div {
+    max-width: 500px;
+    align-items: center;
+  }
+  .afterform {
+    display: none;
+  }
+  .co {
+    flex-basis: 100%;
   }
 }

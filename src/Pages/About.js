@@ -4,16 +4,14 @@ import SwiperCarousel from "../Components/Swipercarous";
 import Team from "../Components/Team";
 const About = () => {
   return (
-    <>
+    <div className="abb">
       <Navbar></Navbar>
       <section className="ba bg-black">
         <div className="content">
-          <h2>About Ebsoft</h2>
+          <h3>About Ebsoft</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            <br></br>
-            Temporibus cupiditate molestias asperiores assumenda hic impedit
-            asperiores assumenda hic
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            cupiditate molestias asperiores assumenda hic impedit asperiores
           </p>
         </div>
         <img className="img-fluid rounded-circle" src="/images/image04.jpg" />
@@ -21,7 +19,7 @@ const About = () => {
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1200 120"
+            viewBox="0 0 1200 118"
             preserveAspectRatio="none"
           >
             <path
@@ -32,48 +30,47 @@ const About = () => {
         </div>
       </section>
 
-      <div className="row d-flex align-items-center justify-content-center">
-        <div
-          className="col-lg-6 d-flex align-items-center justify-content-center "
-          style={{ width: "650px" }}
-        >
-          <div className="mb-5 intro-text ms-3">
+      <div style={{ paddingBottom: "100px" }}>
+        <div className="crid">
+          <div className="first-crid" style={{ width: "90%" }}>
             <h4 className="fw-bold text-primary">Our Mission</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
               deserunt, adipisci sed expedita eius autem dolorum impedit nihil,
               dicta, recusandae harum maxime blanditiis fugit tenetur possimus
-              commodi aliquam nobis in dicta, recusandae harum maxime blanditiis
-              fugit tenetur possimus commodi aliquam nobis in.
+              commodi aliquam nobis in commodi aliquam nobis in.
             </p>
           </div>
-        </div>
-        <div className="col-lg-6 mb-4" style={{ width: "500px" }}>
-          <img
-            className=" img-fluid intro-img"
-            src="./images/image10.jpg"
-            alt="ann"
-          />
-        </div>
 
-        <div className="col-lg-6 text-center mb-5">
-          <img
-            className=" intro-img"
-            src="./images/intro.jpg"
-            alt="ann"
-            width={500}
-            height={300}
-          />
-        </div>
-        <div className="col-lg-6  ">
-          <div className="mb-3 intro-text ">
+          <div className="second-crid" style={{ width: "85%" }}>
+            <h3 className="text-center text-primary img-txt fw-bold">
+              Our Mission
+            </h3>
+            <img
+              className=" img-fluid intro-img"
+              src="./images/image03.jpg"
+              alt="ann"
+            />
+          </div>
+
+          <div className="third-crid" style={{ width: "85%" }}>
+            <h3 className="text-center text-primary img-txt  fw-bold">
+              Our Vision
+            </h3>
+            <img
+              className=" img-fluid intro-img"
+              src="./images/image10.jpg"
+              alt="ann"
+            />
+          </div>
+
+          <div className="fourth-crid" style={{ width: "90%" }}>
             <h4 className="fw-bold text-primary">Our Vision</h4>
-            <p style={{ width: "550px" }}>
+            <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
               deserunt, adipisci sed expedita eius autem dolorum impedit nihil,
               dicta, recusandae harum maxime blanditiis fugit tenetur possimus
-              commodi aliquam nobis in dicta, recusandae harum maxime blanditiis
-              fugit tenetur possimus commodi aliquam nobis in.
+              commodi aliquam nobis in commodi aliquam nobis in.
             </p>
           </div>
         </div>
@@ -110,7 +107,7 @@ const About = () => {
       <Team></Team>
       <SwiperCarousel></SwiperCarousel>
       <Footernew></Footernew>
-    </>
+    </div>
   );
 };
 
