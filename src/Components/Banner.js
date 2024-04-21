@@ -17,8 +17,24 @@ const Banner = () => {
           </p>
         </div>
 
-        <div className="text-center">
-          <img className="img-fluid" src="./images/ann.gif" />
+        <div className="text-center mt-5">
+          <img className="img-fluid ban-img" src="./images/ann.gif" />
+          <div className="div1 text-center">
+            <li className="fw-bold">WHO</li>
+            <li className="ms-5">we are</li>
+          </div>
+          <div className="div2">
+            <li className="fw-bold">WHAT</li>
+            <li className="ms-5"> we do</li>
+          </div>
+          <div className="div3">We are Hiring</div>
+          <div className="div4">
+            <li className="ms-4 fw-bold">TELL US</li>
+            <li>about the project</li>
+          </div>
+          <div className="div5">
+            <li className="ms-4 fw-bold">HOW</li> <li>we think</li>
+          </div>
         </div>
 
         <svg

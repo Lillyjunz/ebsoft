@@ -3,11 +3,11 @@ import { NavLink } from "react-router-dom";
 const Imagesection = () => {
   return (
     <>
-      <div className="d-flex justify-content-between container mt-5 align-items-center">
-        <div className="co" style={{ width: "500px" }}>
-          <div className="align-items-center" style={{ margin: "14% 20%" }}>
+      <div className="d-flex im-sect justify-content-between container mt-5 align-items-center">
+        <div className="co">
+          <div className="align-items-center">
             <h1 className="fw-bold">We are Hiring</h1>
-            <p>
+            <p className="p-1">
               Find out about open vacancies in our company and join our team
             </p>
             <NavLink to="/join">
@@ -16,7 +16,7 @@ const Imagesection = () => {
           </div>
         </div>
 
-        <div className="coo text-end" style={{ width: "420px" }}>
+        <div className="coo " style={{ width: "420px" }}>
           <div className="d-flex">
             <img
               style={{
@@ -25,7 +25,7 @@ const Imagesection = () => {
                 marginTop: "40px",
               }}
               className="me-2 "
-              src="./images/image6.jpg"
+              src="./images/image08.jpg"
               width={140}
               height={180}
             ></img>
@@ -34,7 +34,7 @@ const Imagesection = () => {
                 borderRadius: "10px",
                 boxShadow: "0 0 10px rgba(0, 0, 0, 0.6)",
               }}
-              src="./images/image4.jpg"
+              src="./images/image05.jpg"
               width={140}
               height={220}
             ></img>
@@ -47,7 +47,7 @@ const Imagesection = () => {
                 boxShadow: "0 0 10px rgba(0, 0, 0, 0.6)",
               }}
               className="me-2"
-              src="./images/image5.jpg"
+              src="./images/image06.jpg"
               width={140}
               height={180}
             ></img>
@@ -56,7 +56,7 @@ const Imagesection = () => {
                 borderRadius: "10px",
                 boxShadow: "0 0 10px rgba(0, 0, 0, 0.6)",
               }}
-              src="./images/image0.jpg"
+              src="./images/image07.jpg"
               width={140}
               height={220}
             ></img>

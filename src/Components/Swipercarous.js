@@ -27,20 +27,20 @@ export default function SwiperCarousel() {
         navigation={true}
         breakpoints={{
           640: {
-            slidesPerView: 2,
-            spaceBetween: 20,
+            slidesPerView: 1,
+            spaceBetween: 40,
           },
           768: {
             slidesPerView: 2,
-            spaceBetween: 30,
+            spaceBetween: 20,
           },
           946: {
             slidesPerView: 3,
-            spaceBetween: 30,
+            spaceBetween: 10,
           },
           1024: {
             slidesPerView: 4,
-            spaceBetween: 40,
+            spaceBetween: 30,
           },
         }}
         modules={[Navigation, Pagination, Autoplay]}
@@ -48,6 +48,7 @@ export default function SwiperCarousel() {
         style={{
           marginBottom: "100px",
           marginTop: "100px",
+          width: "100%",
         }}
       >
         <SwiperSlide style={{ paddingBottom: "60px" }}>
@@ -55,7 +56,7 @@ export default function SwiperCarousel() {
             <img
               src="../images/image9.jpg"
               alt="..."
-              style={{ width: "20rem", height: "350px", borderRadius: "10px" }}
+              style={{ width: "19rem", height: "350px", borderRadius: "10px" }}
             />
             <h5 className="fw-bold mt-3"> UI/UX Developer</h5>
           </div>
@@ -65,7 +66,7 @@ export default function SwiperCarousel() {
             <img
               src="../images/image6.jpg"
               alt="..."
-              style={{ width: "20rem", height: "350px", borderRadius: "10px" }}
+              style={{ width: "19rem", height: "350px", borderRadius: "10px" }}
             />
             <h5 className="fw-bold mt-3"> Snr. Tech Developer</h5>
           </div>
@@ -75,7 +76,7 @@ export default function SwiperCarousel() {
             <img
               src="../images/image02.jpg"
               alt="..."
-              style={{ width: "20rem", height: "350px", borderRadius: "10px" }}
+              style={{ width: "19rem", height: "350px", borderRadius: "10px" }}
             />
             <h5 className="fw-bold mt-3"> Cloud Assistant</h5>
           </div>
@@ -85,7 +86,7 @@ export default function SwiperCarousel() {
             <img
               src="../images/image3.jpg"
               alt="..."
-              style={{ width: "20rem", height: "350px", borderRadius: "10px" }}
+              style={{ width: "19rem", height: "350px", borderRadius: "10px" }}
             />
             <h5 className="fw-bold mt-3"> Software Developer </h5>
           </div>
@@ -95,7 +96,7 @@ export default function SwiperCarousel() {
             <img
               src="../images/image4.jpg"
               alt="..."
-              style={{ width: "20rem", height: "350px", borderRadius: "10px" }}
+              style={{ width: "19rem", height: "350px", borderRadius: "10px" }}
             />
             <h5 className="fw-bold mt-3"> Cloud Service Developer</h5>
           </div>

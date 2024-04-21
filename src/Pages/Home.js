@@ -1,6 +1,6 @@
 import Banner from "../Components/Banner";
 import Faq from "../Components/Faq";
-import Footer from "../Components/Footer";
+import Footernew from "../Components/FooterNew";
 import Imagesection from "../Components/Image-section";
 import Intro2 from "../Components/Intro2";
 import Navbar from "../Components/Navbar";
@@ -17,7 +17,7 @@ const Home = () => {
       <Tab></Tab>
       <Imagesection></Imagesection>
       <Faq></Faq>
-      <Footer></Footer>
+      <Footernew></Footernew>
     </>
   );
 };

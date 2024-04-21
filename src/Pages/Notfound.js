@@ -1,4 +1,4 @@
-import Footer from "../Components/Footer";
+import Footernew from "../Components/FooterNew";
 import Navbar from "../Components/Navbar";
 
 const Notfound = () => {
@@ -13,7 +13,7 @@ const Notfound = () => {
         <img src="../images/anni.gif" width={350} height={150}></img>
       </div>
 
-      <Footer></Footer>
+      <Footernew></Footernew>
     </>
   );
 };

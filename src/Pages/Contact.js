@@ -1,4 +1,4 @@
-import Footer from "../Components/Footer";
+import Footernew from "../Components/FooterNew";
 import Navbar from "../Components/Navbar";
 import SwiperContact from "../Components/slide";
 
@@ -146,7 +146,7 @@ const Contact = () => {
         <SwiperContact></SwiperContact>
       </div>
 
-      <Footer></Footer>
+      <Footernew></Footernew>
     </>
   );
 };

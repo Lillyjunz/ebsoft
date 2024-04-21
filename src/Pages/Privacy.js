@@ -1,11 +1,12 @@
-import Footer from "../Components/Footer";
+import Footernew from "../Components/FooterNew";
 import Navbar from "../Components/Navbar";
 
 const Privacy = () => {
   return (
     <>
       <Navbar></Navbar>
-      <div className="container" style={{ marginTop: "50px" }}>
+
+      <div className="container" style={{ marginTop: "40px" }}>
         <div className="for-divider">
           <span className="fw-bold text-primary">Privacy Policy</span>
         </div>
@@ -65,7 +66,7 @@ const Privacy = () => {
           optio.
         </p>
       </div>
-      <Footer></Footer>
+      <Footernew></Footernew>
     </>
   );
 };

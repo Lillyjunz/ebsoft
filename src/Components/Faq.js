@@ -26,7 +26,7 @@ function Faq() {
   }, []); // Empty dependency array means this effect runs only once, similar to componentDidMount
 
   return (
-    <div style={{ marginTop: "140px", marginBottom: "140px" }}>
+    <div style={{ marginTop: "140px", marginBottom: "170px" }}>
       <div className="accordion">
         <div className="contentBx">
           <div className="label fw-bold">
