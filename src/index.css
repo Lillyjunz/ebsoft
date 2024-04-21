@@ -306,6 +306,9 @@ a {
   margin: 25px auto;
 }
 
+.home {
+  overflow: hidden;
+}
 /* .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -482,18 +485,23 @@ footer li {
 }
 
 /* banner responsive */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 480px) {
   .div1 {
-    left: 25%;
+    left: 12%;
+    top: 56%;
   }
   .div2 {
-    left: 25%;
+    left: 10%;
+  }
+  .div3 {
+    margin-top: 5px;
   }
   .div4 {
-    right: 25%;
+    right: 10%;
+    top: 56%;
   }
   .div5 {
-    right: 25%;
+    right: 15%;
   }
 }
 

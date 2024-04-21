@@ -9,7 +9,7 @@ import Tab from "../Components/Tab-section";
 
 const Home = () => {
   return (
-    <>
+    <div className="home">
       <Navbar />
       <Banner></Banner>
       <Origin></Origin>
@@ -18,7 +18,7 @@ const Home = () => {
       <Imagesection></Imagesection>
       <Faq></Faq>
       <Footernew></Footernew>
-    </>
+    </div>
   );
 };
 
