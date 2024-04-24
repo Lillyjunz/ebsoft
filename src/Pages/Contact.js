@@ -4,7 +4,7 @@ import SwiperContact from "../Components/slide";
 
 const Contact = () => {
   return (
-    <>
+    <div className="contact-wrap">
       <Navbar />
 
       <div className="d-flex justify-content-between ">
@@ -147,7 +147,7 @@ const Contact = () => {
       </div>
 
       <Footernew></Footernew>
-    </>
+    </div>
   );
 };
 

@@ -1,12 +1,14 @@
 import Footernew from "../Components/FooterNew";
 import Navbar from "../Components/Navbar";
-
 const Privacy = () => {
   return (
     <>
       <Navbar></Navbar>
 
-      <div className="container" style={{ marginTop: "40px" }}>
+      <div
+        className="container wow animate__animated animate__fadeIn"
+        style={{ marginTop: "120px" }}
+      >
         <div className="for-divider">
           <span className="fw-bold text-primary">Privacy Policy</span>
         </div>

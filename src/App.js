@@ -19,6 +19,20 @@ function App() {
     }, 1000);
   }, []);
 
+  const [splashPageShown, setSplashPageShown] = useState(false);
+
+  // Effect to check if the splash page has been shown before
+  useEffect(() => {
+    // Check if the splash page has been shown before
+    const isSplashPageShown = localStorage.getItem("splashPageShown");
+
+    if (!isSplashPageShown) {
+      // If splash page hasn't been shown before, set the state and update local storage
+      setSplashPageShown(true);
+      localStorage.setItem("splashPageShown", "true");
+    }
+  }, []);
+
   return (
     <BrowserRouter>
       <main>

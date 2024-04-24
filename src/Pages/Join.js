@@ -7,7 +7,7 @@ const Join = () => {
       <Navbar></Navbar>
       <section className="ba bg-black">
         <div className="content">
-          <h2>Join Our Team</h2>
+          <h2 className="text-light">Join Our Team</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             <br></br>

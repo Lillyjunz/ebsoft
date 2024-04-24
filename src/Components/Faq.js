@@ -26,7 +26,19 @@ function Faq() {
   }, []); // Empty dependency array means this effect runs only once, similar to componentDidMount
 
   return (
-    <div style={{ marginTop: "140px", marginBottom: "170px" }}>
+    <div
+      className="wow animate__animated animate__fadeInUp container"
+      data-wow-duration="1s"
+      data-wow-delay="1s"
+      style={{ marginTop: "140px", marginBottom: "170px" }}
+    >
+      <h1
+        className="fw-bold ps-3 pb-2 faq wow animate__animated animate__fadeInUp"
+        data-wow-duration="1s"
+        data-wow-delay="1s"
+      >
+        FAQ
+      </h1>
       <div className="accordion">
         <div className="contentBx">
           <div className="label fw-bold">
@@ -38,6 +50,7 @@ function Faq() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
               sunt mollitia obcaecati voluptas quaerat provident, ipsam nulla
               aliquid modi asperiores alias aspernatur beatae, tenetur dicta
+              maxime impedit ipsa? Porro, perspiciatis!
             </p>
           </div>
         </div>

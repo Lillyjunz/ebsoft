@@ -3,14 +3,19 @@ import { NavLink } from "react-router-dom";
 const Tab = () => {
   return (
     <>
-      <div style={{ padding: "40px" }}>
+      <div
+        className="wow animate__animated animate__fadeInUp tabb container"
+        data-wow-duration="1s"
+        data-wow-delay="1s"
+        style={{ marginTop: "100px", padding: "15px" }}
+      >
         <ul
-          className="nav nav-pills mt-5 p-3 ps-5 pe-5 ms-3 me-3 mb-3 "
+          className="nav nav-pills pb-3 ul-tab"
           id="myTab"
           role="tablist"
           style={{ borderBottom: "2px solid gray" }}
         >
-          <li className="nav-item pe-5" role="presentation">
+          <li className="nav-item pe-4" role="presentation">
             <button
               className="nav-link active text-black fw-bold "
               id="home-tab"
@@ -21,10 +26,10 @@ const Tab = () => {
               aria-controls="home-tab-pane"
               aria-selected="true"
             >
-              Services
+              <h5 className="ser fw-bold">Services</h5>
             </button>
           </li>
-          <li className="nav-item pe-5" role="presentation">
+          <li className="nav-item li-ind " role="presentation">
             <button
               className="nav-link text-black fw-bold"
               id="profile-tab"
@@ -35,12 +40,12 @@ const Tab = () => {
               aria-controls="profile-tab-pane"
               aria-selected="false"
             >
-              Engagement Models
+              <h5 className="eng fw-bold">Industries</h5>
             </button>
           </li>
-          <li className="nav-item" role="presentation">
+          <li className="nav-item ps-2" role="presentation">
             <button
-              className="nav-link text-black fw-bold"
+              className="nav-link text-black fw-bold "
               id="contact-tab"
               data-bs-toggle="tab"
               data-bs-target="#contact-tab-pane"
@@ -49,7 +54,7 @@ const Tab = () => {
               aria-controls="contact-tab-pane"
               aria-selected="false"
             >
-              Industries
+              <h5 className="ind fw-bold"> Engagement Models</h5>
             </button>
           </li>
         </ul>
@@ -69,9 +74,13 @@ const Tab = () => {
             aria-labelledby="home-tab"
             tabIndex="0"
           >
-            <div className="p-3">
+            <div className="p-1">
               <div className="row " style={{ marginBottom: "100px" }}>
-                <div className="col-lg-4 pt-5">
+                <div
+                  className="col-lg-4 pt-5 wow animate__animated animate__fadeInLeft"
+                  data-wow-duration="1s"
+                  data-wow-delay="0.5s"
+                >
                   <h3 className="fw-bold pb-2">
                     Software and Mobile<br></br> Development
                   </h3>
@@ -82,13 +91,17 @@ const Tab = () => {
                     necessitatibus eos culpa repellat at dicta!
                   </p>
                   <NavLink to="/detail">
-                    <button className="btn btn-outline-primary">
+                    <button className="btn btn-outline-success fw-bold">
                       Read More
                     </button>
                   </NavLink>
                 </div>
 
-                <div className="col-lg-4 pt-5">
+                <div
+                  className="col-lg-4 pt-5 wow animate__animated animate__fadeInRight"
+                  data-wow-duration="1s"
+                  data-wow-delay="0.5s"
+                >
                   <h3 className="fw-bold pb-2">
                     UI/UX and Web<br></br> Development
                   </h3>
@@ -99,12 +112,16 @@ const Tab = () => {
                     necessitatibus eos culpa repellat at dicta!
                   </p>
                   <NavLink to="/detail">
-                    <button className="btn btn-outline-primary">
+                    <button className="btn btn-outline-success fw-bold fw-bold">
                       Read More
                     </button>
                   </NavLink>
                 </div>
-                <div className="col-lg-4 pt-5">
+                <div
+                  className="col-lg-4 pt-5 wow animate__animated animate__fadeInLeft"
+                  data-wow-duration="1s"
+                  data-wow-delay="0.5s"
+                >
                   <h3 className="fw-bold pb-2">
                     Cloud Infrastructure <br></br> Services
                   </h3>
@@ -115,12 +132,16 @@ const Tab = () => {
                     necessitatibus eos culpa repellat at dicta!
                   </p>
                   <NavLink to="/detail">
-                    <button className="btn btn-outline-primary">
+                    <button className="btn btn-outline-success fw-bold">
                       Read More
                     </button>
                   </NavLink>
                 </div>
-                <div className="col-lg-4 pt-5">
+                <div
+                  className="col-lg-4 pt-5 wow animate__animated animate__fadeInUp"
+                  data-wow-duration="1s"
+                  data-wow-delay="0.5s"
+                >
                   <h3 className="fw-bold pb-2">
                     Digital Cloud <br></br>Transformation
                   </h3>
@@ -131,12 +152,16 @@ const Tab = () => {
                     necessitatibus eos culpa repellat at dicta!
                   </p>
                   <NavLink to="/detail">
-                    <button className="btn btn-outline-primary">
+                    <button className="btn btn-outline-success fw-bold">
                       Read More
                     </button>
                   </NavLink>
                 </div>
-                <div className="col-lg-4 pt-5">
+                <div
+                  className="col-lg-4 pt-5 wow animate__animated animate__fadeInUp"
+                  data-wow-duration="1s"
+                  data-wow-delay="0.5s"
+                >
                   <h3 className="fw-bold pb-2">
                     Tech Hiring <br></br> Services
                   </h3>
@@ -147,7 +172,7 @@ const Tab = () => {
                     necessitatibus eos culpa repellat at dicta!
                   </p>
                   <NavLink to="/detail">
-                    <button className="btn btn-outline-primary">
+                    <button className="btn btn-outline-success fw-bold">
                       Read More
                     </button>
                   </NavLink>
@@ -163,10 +188,10 @@ const Tab = () => {
             tabIndex="0"
           >
             <div
-              className="row ps-4 pe-2 "
+              className="row p-1 "
               style={{ marginBottom: "160px", paddingBottom: "200px" }}
             >
-              <div className="col-lg-6 pb-3 pt-3">
+              <div className="col-lg-6 pb-3 pt-3 wow animate__animated animate__fadeInLeft">
                 <h4 className="fw-bold pb-3">Partial end to end Development</h4>
                 <p style={{ maxWidth: "90%" }}>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
@@ -180,7 +205,7 @@ const Tab = () => {
                 </p>
               </div>
 
-              <div className="col-lg-6 pt-3">
+              <div className="col-lg-6 pt-3 wow animate__animated animate__fadeInRight">
                 <h4 className="fw-bold pb-3">
                   Complete end to end Model Development
                 </h4>
@@ -205,10 +230,10 @@ const Tab = () => {
             tabIndex="0"
           >
             <div
-              className="row ps-3"
+              className="row p-1"
               style={{ marginBottom: "100px", paddingBottom: "170px" }}
             >
-              <div className="col-lg-4 pt-3">
+              <div className="col-lg-4 pt-3 wow animate__animated animate__fadeInUp">
                 <h3 className="fw-bold pb-2">Public Governance</h3>
                 <p className="pt-3 pb-3" style={{ maxWidth: "90%" }}>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
@@ -216,28 +241,28 @@ const Tab = () => {
                 </p>
               </div>
 
-              <div className="col-lg-4 pt-3">
+              <div className="col-lg-4 pt-3 wow animate__animated animate__fadeInUp">
                 <h3 className="fw-bold pb-2">Health Care</h3>
                 <p className="pt-3 pb-3" style={{ maxWidth: "90%" }}>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
                   magni magnam illo quia quae perspiciatis ab exercitationem
                 </p>
               </div>
-              <div className="col-lg-4 pt-3">
+              <div className="col-lg-4 pt-3 wow animate__animated animate__fadeInUp">
                 <h3 className="fw-bold pb-2">Retail and Commerce</h3>
                 <p className="pt-3 pb-3" style={{ maxWidth: "90%" }}>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
                   magni magnam illo quia quae perspiciatis ab exercitationem
                 </p>
               </div>
-              <div className="col-lg-4 pt-3">
+              <div className="col-lg-4 pt-3 wow animate__animated animate__fadeInUp">
                 <h3 className="fw-bold pb-2">Logistics</h3>
                 <p className="pt-3 pb-3" style={{ maxWidth: "90%" }}>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
                   magni magnam illo quia quae perspiciatis ab exercitationem
                 </p>
               </div>
-              <div className="col-lg-4 pt-3">
+              <div className="col-lg-4 pt-3 wow animate__animated animate__fadeInUp">
                 <h3 className="fw-bold pb-2">Media</h3>
                 <p className="pt-3 pb-3" style={{ maxWidth: "90%" }}>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et

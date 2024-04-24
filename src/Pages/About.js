@@ -6,8 +6,11 @@ const About = () => {
   return (
     <div className="abb">
       <Navbar></Navbar>
-      <section className="ba bg-black">
-        <div className="content">
+
+      <div className="header aboout">
+        {/*Content before waves*/}
+
+        <div className="contenti text-start">
           <h3>About Ebsoft</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
@@ -15,25 +18,43 @@ const About = () => {
           </p>
         </div>
         <img className="img-fluid rounded-circle" src="/images/image04.jpg" />
-        <div class="custom-shape-divider-bottom-1713680653">
+        {/*Waves Container*/}
+        <div>
           <svg
-            data-name="Layer 1"
+            className="wavs"
             xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1200 118"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28"
             preserveAspectRatio="none"
+            shapeRendering="auto"
           >
-            <path
-              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-              class="shape-fill"
-            ></path>
+            <defs>
+              <path
+                id="gentle-wave"
+                d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+              />
+            </defs>
+            <g className="paralax">
+              {/* <use xlink:href="#gentle-wave" x="48" y="0" fill="#006400" /> */}
+              <use xlinkHref="#gentle-wave" x={48} y={3} fill="#006400" />
+              <use
+                xlinkHref="#gentle-wave"
+                x={48}
+                y={5}
+                fill="rgba(255,255,255,0.3)"
+              />
+              <use xlinkHref="#gentle-wave" x={48} y={7} fill="#fff" />
+            </g>
           </svg>
         </div>
-      </section>
+        {/*Waves end*/}
+      </div>
 
       <div style={{ paddingBottom: "100px" }}>
         <div className="crid">
           <div className="first-crid" style={{ width: "90%" }}>
-            <h4 className="fw-bold text-primary">Our Mission</h4>
+            <h4 className="fw-bold text-primary ourm">Our Mission</h4>
+
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
               deserunt, adipisci sed expedita eius autem dolorum impedit nihil,
@@ -43,20 +64,21 @@ const About = () => {
           </div>
 
           <div className="second-crid" style={{ width: "85%" }}>
-            <h3 className="text-center text-primary img-txt fw-bold">
-              Our Mission
-            </h3>
+            <div className="for-divider our">
+              <span className="fw-bold text-primary">Our Mission</span>
+            </div>
+
             <img
               className=" img-fluid intro-img"
-              src="./images/image03.jpg"
+              src="./images/image09.jpg"
               alt="ann"
             />
           </div>
 
           <div className="third-crid" style={{ width: "85%" }}>
-            <h3 className="text-center text-primary img-txt  fw-bold">
-              Our Vision
-            </h3>
+            <div className="for-divider our">
+              <span className="fw-bold text-primary">Our Vision</span>
+            </div>
             <img
               className=" img-fluid intro-img"
               src="./images/image10.jpg"

@@ -1,6 +1,6 @@
 const Banner = () => {
   return (
-    <>
+    <div className="header">
       <section className="banner">
         <div className="banner pt-3">
           <h2 className="text-center">
@@ -12,14 +12,12 @@ const Banner = () => {
           <p className="text-center justify-self-center p-4">
             <span>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Temporibus cupiditate molestias asperiores assumenda hic impedit
-              natus voluptas ratione deserunt amet architecto, eum earum quam at
-              illum nemo? Quidem, eaque provident? eum earum quam at illum nemo?
+              Temporibus
             </span>
           </p>
         </div>
 
-        <div className="text-center mt-5">
+        <div className="text-center mt-5 im-div">
           <img className="img-fluid ban-img" src="./images/ann.gif" />
           <div className="div1 text-center">
             <li className="fw-bold">WHO</li>
@@ -29,7 +27,9 @@ const Banner = () => {
             <li className="fw-bold">WHAT</li>
             <li className="ms-5"> we do</li>
           </div>
-          <div className="div3">We are Hiring</div>
+          <div className="div3">
+            <span className="fw-bold">We</span> are Hiring
+          </div>
           <div className="div4">
             <li className="ms-4 fw-bold">TELL US</li>
             <li>about the project</li>
@@ -51,7 +51,7 @@ const Banner = () => {
           ></path>
         </svg>
       </section>
-    </>
+    </div>
   );
 };
 
