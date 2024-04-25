@@ -1,21 +1,7 @@
-import $ from "jquery";
-import { useEffect } from "react";
-import { WOW } from "wowjs";
 import Footernew from "../Components/FooterNew";
 import Navbar from "../Components/Navbar";
 
 const Join = () => {
-  useEffect(() => {
-    new WOW().init();
-
-    $(window).scroll(function () {
-      if ($(this).scrollTop() > 300) {
-        $(".back-to-top").fadeIn("slow");
-      } else {
-        $(".back-to-top").fadeOut("slow");
-      }
-    });
-  }, []);
   return (
     <div className="join-wrap">
       <Navbar></Navbar>

@@ -1,6 +1,6 @@
-import $ from "jquery";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { useEffect } from "react";
-import { WOW } from "wowjs";
 import Footernew from "../Components/FooterNew";
 import Navbar from "../Components/Navbar";
 import SwiperCarousel from "../Components/Swipercarous";
@@ -8,15 +8,7 @@ import Team from "../Components/Team";
 
 const About = () => {
   useEffect(() => {
-    new WOW().init();
-
-    $(window).scroll(function () {
-      if ($(this).scrollTop() > 300) {
-        $(".back-to-top").fadeIn("slow");
-      } else {
-        $(".back-to-top").fadeOut("slow");
-      }
-    });
+    AOS.init();
   }, []);
 
   return (
@@ -83,9 +75,15 @@ const About = () => {
 
       <div className="front" style={{ paddingBottom: "80px" }}>
         <div className="crid">
-          <div className="first-crid" style={{ width: "100%" }}>
+          <div
+            className="first-crid"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="500"
+            style={{ width: "100%" }}
+          >
             <h1
-              className="fw-bold text-success ourm wow animate__animated animate__fadeInUp"
+              className="fw-bold text-success ourm "
               data-wow-duration="1s"
               data-wow-delay="1s"
             >
@@ -106,17 +104,19 @@ const About = () => {
 
           <div className="second-crid" style={{ width: "90%" }}>
             <div
-              className="for-divider our wow animate__animated animate__fadeInUp"
-              data-wow-duration="1s"
-              data-wow-delay="1s"
+              className="for-divider our "
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="500"
             >
               <span className="fw-bold text-success">Our Mission</span>
             </div>
 
             <img
-              className=" img-fluid intro-img wow animate__animated animate__fadeInUp"
-              data-wow-duration="1s"
-              data-wow-delay="1s"
+              className=" img-fluid intro-img "
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="500"
               src="./images/image13.jpg"
               alt="ann"
             />
@@ -124,16 +124,18 @@ const About = () => {
 
           <div className="third-crid" style={{ width: "90%" }}>
             <div
-              className="for-divider our wow animate__animated animate__fadeInUp"
-              data-wow-duration="1s"
-              data-wow-delay="1s"
+              className="for-divider our "
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="500"
             >
               <span className="fw-bold text-success">Our Vision</span>
             </div>
             <img
-              className=" img-fluid intro-img wow animate__animated animate__fadeInUp"
-              data-wow-duration="1s"
-              data-wow-delay="1s"
+              className=" img-fluid intro-img "
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="500"
               src="./images/image10.jpg"
               alt="ann"
             />
@@ -141,17 +143,14 @@ const About = () => {
 
           <div className="fourth-crid" style={{ width: "100%" }}>
             <h1
-              className="fw-bold text-success ourm wow animate__animated animate__fadeInUp"
-              data-wow-duration="1s"
-              data-wow-delay="1s"
+              className="fw-bold text-success ourm "
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="500"
             >
               Our Vision
             </h1>
-            <p
-              className="wow animate__animated animate__fadeInUp"
-              data-wow-duration="1s"
-              data-wow-delay="1s"
-            >
+            <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
               deserunt, adipisci sed expedita eius autem dolorum impedit nihil,
               dicta, recusandae harum maxime blanditiis fugit tenetur possimus

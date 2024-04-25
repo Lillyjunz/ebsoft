@@ -7,13 +7,20 @@ const Origin = () => {
         data-wow-duration="2s"
         style={{ paddingBottom: "100px" }}
       >
-        <h1 className=" text-center front  fw-bold pb-5">
+        <h1
+          className=" text-center front  fw-bold pb-5"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+        >
           We deal with client of any <br></br>size and industry
         </h1>
         <div className="crid">
           <div
-            className="first-crid wow animate__animated animate__fadeInUp"
-            data-wow-duration="1.5s"
+            className="first-crid "
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="500"
             style={{ width: "100%" }}
           >
             <h4 className="fw-bold ">Individuals and start ups</h4>
@@ -26,9 +33,10 @@ const Origin = () => {
           </div>
 
           <div
-            className="second-crid wow animate__animated animate__fadeInUp"
-            data-wow-delay="0.5s"
-            data-wow-duration="1.5s"
+            className="second-crid"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="500"
             style={{ width: "90%" }}
           >
             <h3 className="text-center img-txt fw-bold">
@@ -42,9 +50,10 @@ const Origin = () => {
           </div>
 
           <div
-            className="third-crid wow animate__animated animate__fadeInLeft"
-            data-wow-delay="0.5s"
-            data-wow-duration="1s"
+            className="third-crid "
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            data-aos-delay="1000"
             style={{ width: "90%" }}
           >
             <h3 className="text-center img-txt  fw-bold">
@@ -58,9 +67,10 @@ const Origin = () => {
           </div>
 
           <div
-            className="fourth-crid wow animate__animated animate__fadeInUp"
-            data-wow-duration="1s"
-            data-wow-delay="0.5s"
+            className="fourth-crid "
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="500"
             style={{ width: "100%" }}
           >
             <h4 className="fw-bold">Individuals and start ups</h4>

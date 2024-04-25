@@ -1,23 +1,9 @@
-import $ from "jquery";
-import { useEffect } from "react";
-import { WOW } from "wowjs";
 import Caroo from "../Components/Caroo";
 import Faq from "../Components/Faq";
 import Footernew from "../Components/FooterNew";
 import Navbar from "../Components/Navbar";
 
 const Detail = () => {
-  useEffect(() => {
-    new WOW().init();
-
-    $(window).scroll(function () {
-      if ($(this).scrollTop() > 300) {
-        $(".back-to-top").fadeIn("slow");
-      } else {
-        $(".back-to-top").fadeOut("slow");
-      }
-    });
-  }, []);
   return (
     <div className="detail-wrap">
       <Navbar></Navbar>
@@ -120,18 +106,19 @@ const Detail = () => {
               deserunt, adipisci sed expedita eius autem dolorum impedit nihil,
               dicta, recusandae harum maxime blanditiis fugit tenetur possimus
               commodi aliquam nobis in. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Consequuntur pariatur sed, illum excepturi
-              dolorem iusto at praesentium repudiandae hic adipisci? Voluptatum,
-              aspernatur quaerat ipsa adipisci officia molestias. Expedita, eius
-              amet! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              nihil, dicta, recusandae harum maxime blanditiis fugit tenetur
-              possimus commodi aliquam nobis in adipisicing elit. Consequuntur
-              pariatur sed, illum excepturi dolorem iusto at praesentium
-              repudiandae hic adipisci? Voluptatum, aspernatur quaerat ipsa
-              adipisci officia molestias. Expedita, eius amet! Lorem ipsum dolor
-              sit amet consectetur adipisicing elit. Veniam Lorem ipsum dolor
-              sit amet consectetur adipisicing elit. Veniam deserunt adipisicing
-              elit. Consequuntur pariatur sed, illum excepturi dolorem iusto at
+              adipisicing elit. Consequuntur tuprende pariatur sed, illum
+              excepturi dolorem iusto at praesentium repudiandae hic adipisci?
+              Voluptatum, aspernatur quaerat ipsa adipisci officia molestias.
+              Expedita, eius amet! Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. nihil, dicta, recusandae harum maxime blanditiis
+              fugit tenetur possimus commodi aliquam nobis in adipisicing elit.
+              Consequuntur pariatur sed, illum excepturi dolorem iusto at
+              praesentium repudiandae hic adipisci? Voluptatum, aspernatur
+              quaerat ipsa adipisci officia molestias. Expedita, eius amet!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+              deserunt adipisicing elit. Consequuntur pariatur sed, illum
+              excepturi dolorem iusto at
             </div>
           </div>
         </div>

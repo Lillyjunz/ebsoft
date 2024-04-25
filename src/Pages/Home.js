@@ -1,7 +1,6 @@
+import AOS from "aos";
 import "aos/dist/aos.css";
-import $ from "jquery";
 import { useEffect } from "react";
-import { WOW } from "wowjs";
 import Bann from "../Components/Bann";
 import Card from "../Components/Card";
 import SwiperHome from "../Components/Caroo";
@@ -15,15 +14,7 @@ import Tab from "../Components/Tab-section";
 
 const Home = () => {
   useEffect(() => {
-    new WOW().init();
-
-    $(window).scroll(function () {
-      if ($(this).scrollTop() > 300) {
-        $(".back-to-top").fadeIn("slow");
-      } else {
-        $(".back-to-top").fadeOut("slow");
-      }
-    });
+    AOS.init();
   }, []);
 
   return (
