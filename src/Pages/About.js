@@ -1,15 +1,12 @@
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
 import Footernew from "../Components/FooterNew";
 import Navbar from "../Components/Navbar";
 import SwiperCarousel from "../Components/Swipercarous";
 import Team from "../Components/Team";
 
 const About = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
+  // useEffect(() => {
+  //   AOS.init();
+  // }, []);
 
   return (
     <div className="abb">

@@ -1,6 +1,3 @@
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
 import Bann from "../Components/Bann";
 import Card from "../Components/Card";
 import SwiperHome from "../Components/Caroo";
@@ -13,11 +10,11 @@ import Origin from "../Components/Origin";
 import Tab from "../Components/Tab-section";
 
 const Home = () => {
-  useEffect(() => {
-    AOS.init();
+  // useEffect(() => {
+  //   AOS.init();
 
-    AOS.refresh();
-  }, []);
+  //   AOS.refresh();
+  // }, []);
 
   return (
     <div className="home">
