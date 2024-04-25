@@ -21,8 +21,9 @@ const Join = () => {
             data-wow-duration="1s"
             data-wow-delay="1s"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-            cupiditate molestias asperiores assumenda hic impedit asperiores
+            Lorem ipsum dolor sit amet i consectetur adipisicing elit.
+            Temporibus cupiditate molestias asperiores assumenda hic impedit
+            asperiores
           </p>
         </div>
         <img
