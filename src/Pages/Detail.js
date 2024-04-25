@@ -1,94 +1,176 @@
+import $ from "jquery";
+import { useEffect } from "react";
+import { WOW } from "wowjs";
+import Caroo from "../Components/Caroo";
+import Faq from "../Components/Faq";
 import Footernew from "../Components/FooterNew";
 import Navbar from "../Components/Navbar";
 
 const Detail = () => {
+  useEffect(() => {
+    new WOW().init();
+
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 300) {
+        $(".back-to-top").fadeIn("slow");
+      } else {
+        $(".back-to-top").fadeOut("slow");
+      }
+    });
+  }, []);
   return (
     <div className="detail-wrap">
       <Navbar></Navbar>
-      <section className="ba bg-black">
-        <div className="content">
-          <h2 className="text-light">Our Services</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            <br></br>
-            Temporibus cupiditate molestias asperiores assumenda hic impedit
-            asperiores assumenda hic
+      <div className="header aboout">
+        {/*Content before waves*/}
+
+        <div className="contenti text-start">
+          <h3
+            className="wow animate__animated animate__fadeInDown"
+            data-wow-duration="1s"
+            data-wow-delay="1s"
+          >
+            Our Services
+          </h3>
+          <p
+            className="wow animate__animated animate__fadeInLeft"
+            data-wow-duration="1s"
+            data-wow-delay="1s"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            cupiditate molestias asperiores assumenda hic impedit asperiores
           </p>
         </div>
-        <img className="img-fluid rounded-circle" src="/images/image8.jpg" />
-        <div class="custom-shape-divider-bottom-1713680653">
+        <img
+          className="img-fluid rounded-circle wow animate__animated animate__fadeInRight"
+          data-wow-duration="1s"
+          data-wow-delay="1s"
+          src="/images/image8.jpg"
+        />
+        {/*Waves Container*/}
+        <div>
           <svg
-            data-name="Layer 1"
+            className="wavs"
             xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1200 119"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28"
             preserveAspectRatio="none"
+            shapeRendering="auto"
           >
-            <path
-              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-              class="shape-fill"
-            ></path>
+            <defs>
+              <path
+                id="gentle-wave"
+                d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+              />
+            </defs>
+            <g className="paralax">
+              {/* <use xlink:href="#gentle-wave" x="48" y="0" fill="#006400" /> */}
+              <use xlinkHref="#gentle-wave" x={48} y={3} fill="#006400" />
+              <use
+                xlinkHref="#gentle-wave"
+                x={48}
+                y={5}
+                fill="rgba(255,255,255,0.3)"
+              />
+              <use xlinkHref="#gentle-wave" x={48} y={7} fill="#fff" />
+            </g>
           </svg>
         </div>
-      </section>
+        {/*Waves end*/}
+      </div>
 
-      <div className="container mt-5">
-        <div style={{ paddingBottom: "70px" }}>
-          <div className="for-divider our">
-            <span className="fw-bold text-primary">UI/UX Development</span>
+      <div className="container " style={{ marginTop: "40px" }}>
+        <div
+          className="detail-div"
+          style={{ paddingBottom: "70px", paddingTop: "80px" }}
+        >
+          <div
+            className="for-divider wow animate__animated animate__fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="1s"
+            style={{ paddingBottom: "40px" }}
+          >
+            <span className="fw-bold text-success">UI/UX Development</span>
           </div>
 
-          <div className=" cour">
-            <span className="fw-bold text-primary">UI/UX Development</span>
-          </div>
-
-          <div className="cod mt-5 align-items-center">
-            <div style={{ width: "90%" }}>
+          <div className="cod ">
+            <div className="codi" style={{ width: "100%" }}>
+              <div
+                className=" cour wow animate__animated animate__fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="1s"
+              >
+                <span className="fw-bold text-success">UI/UX Development</span>
+              </div>
               <img
-                className=" intro-img img-fluid mb-5"
+                className=" intro-img img-fluid mb-5 wow animate__animated animate__fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="1s"
                 src="./images/image02.jpg"
                 alt="ann"
               />
             </div>
-            <div style={{ width: "90%" }}>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-                deserunt, adipisci sed expedita eius autem dolorum impedit
-                nihil, dicta, recusandae harum maxime blanditiis fugit tenetur
-                possimus commodi aliquam nobis in. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Consequuntur pariatur sed, illum
-                excepturi dolorem iusto at praesentium repudiandae hic adipisci?
-                Voluptatum, aspernatur quaerat ipsa adipisci officia molestias.
-                Expedita, eius amet! Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Veniam Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Veniam deserunt, adipisci sed expedita eius
-                autem dolorum impedit nihil, dicta, recusandae harum maxime
-                blanditiis fugit tenetur possimus commodi aliquam nobis in.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consequuntur pariatur sed, illum excepturi dolorem iusto at
-                praesentium repudiandae hic adipisci? Voluptatum, aspernatur
-                quaerat ipsa adipisci officia molestias. Expedita, eius amet!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-              </p>
+            <div
+              className="codi wow animate__animated animate__fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay="1s"
+              style={{ width: "100%" }}
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+              deserunt, adipisci sed expedita eius autem dolorum impedit nihil,
+              dicta, recusandae harum maxime blanditiis fugit tenetur possimus
+              commodi aliquam nobis in. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Consequuntur pariatur sed, illum excepturi
+              dolorem iusto at praesentium repudiandae hic adipisci? Voluptatum,
+              aspernatur quaerat ipsa adipisci officia molestias. Expedita, eius
+              amet! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              nihil, dicta, recusandae harum maxime blanditiis fugit tenetur
+              possimus commodi aliquam nobis in adipisicing elit. Consequuntur
+              pariatur sed, illum excepturi dolorem iusto at praesentium
+              repudiandae hic adipisci? Voluptatum, aspernatur quaerat ipsa
+              adipisci officia molestias. Expedita, eius amet! Lorem ipsum dolor
+              sit amet consectetur adipisicing elit. Veniam Lorem ipsum dolor
+              sit amet consectetur adipisicing elit. Veniam deserunt adipisicing
+              elit. Consequuntur pariatur sed, illum excepturi dolorem iusto at
             </div>
           </div>
         </div>
 
-        <div style={{ paddingBottom: "70px" }}>
-          <div className="for-divider ">
-            <span className="fw-bold text-primary">
+        <div className="detail-div" style={{ paddingBottom: "70px" }}>
+          <div
+            className="for-divider wow animate__animated animate__fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="1s"
+            style={{ paddingBottom: "40px" }}
+          >
+            <span className="fw-bold text-success">
               Software and Mobile Development
             </span>
           </div>
 
-          <div className="cod mt-5 align-items-center">
-            <div style={{ width: "90%" }}>
+          <div className="cod align-items-center">
+            <div className="codi" style={{ width: "90%" }}>
+              <div
+                className=" cour wow animate__animated animate__fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="1s"
+              >
+                <span className="fw-bold text-success">UI/UX Development</span>
+              </div>
               <img
-                className=" intro-img img-fluid mb-5"
+                className=" intro-img img-fluid mb-5 wow animate__animated animate__fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="1s"
                 src="./images/image3.jpg"
                 alt="ann"
               />
             </div>
-            <div style={{ width: "90%" }}>
+            <div
+              className="codi wow animate__animated animate__fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay="1s"
+              style={{ width: "90%" }}
+            >
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
                 deserunt, adipisci sed expedita eius autem dolorum impedit
@@ -112,62 +194,81 @@ const Detail = () => {
           </div>
         </div>
 
-        <div style={{ paddingBottom: "70px" }}>
-          <div className="fore-divider">
-            <span className="fw-bold text-primary">
+        <div className="detail-div" style={{ paddingBottom: "70px" }}>
+          <div
+            className="fore-divider wow animate__animated animate__fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="1s"
+            style={{ paddingBottom: "40px" }}
+          >
+            <span className="fw-bold text-success">
               Cloud Infrastructure Services
             </span>
           </div>
 
-          <div className="cod mt-5 align-items-center">
-            <div style={{ width: "90%" }}>
+          <div className="cod mt-2 align-items-center">
+            <div className="codi first-crid" style={{ width: "90%" }}>
+              <p
+                className="wow animate__animated animate__fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="1s"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                deserunt, adipisci sed expedita eius autem dolorum impedit
+                nihil, dicta, recusandae harum maxime blanditiis fugit tenetur
+                possimus commodi aliquam nobis in. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Consequuntur pariatur sed, illum
+                excepturi dolorem iusto at praesentium repudiandae hic adipisci?
+                Voluptatum, aspernatur quaerat ipsa adipisci officia molestias.
+                Expedita, eius amet! Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Veniam Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Veniam deserunt, adipisci sed expedita eius
+                autem dolorum impedit nihil, dicta, recusandae harum maxime
+                blanditiis fugit tenetur possimus commodi aliquam nobis in.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur pariatur sed, illum excepturi dolorem iusto at
+                praesentium repudiandae hic adipisci? Voluptatum, aspernatur
+                quaerat ipsa adipisci officia molestias. Expedita, eius amet!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+              </p>
+            </div>
+
+            <div className="codi" style={{ width: "90%" }}>
+              <div
+                className=" cour wow animate__animated animate__fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="1s"
+              >
+                <span className="fw-bold text-success">UI/UX Development</span>
+              </div>
               <img
-                className=" intro-img img-fluid mb-5"
+                className=" intro-img img-fluid mb-5 wow animate__animated animate__fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="1s"
                 src="./images/image04.jpg"
                 alt="ann"
               />
             </div>
-            <div style={{ width: "90%" }}>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-                deserunt, adipisci sed expedita eius autem dolorum impedit
-                nihil, dicta, recusandae harum maxime blanditiis fugit tenetur
-                possimus commodi aliquam nobis in. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Consequuntur pariatur sed, illum
-                excepturi dolorem iusto at praesentium repudiandae hic adipisci?
-                Voluptatum, aspernatur quaerat ipsa adipisci officia molestias.
-                Expedita, eius amet! Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Veniam Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Veniam deserunt, adipisci sed expedita eius
-                autem dolorum impedit nihil, dicta, recusandae harum maxime
-                blanditiis fugit tenetur possimus commodi aliquam nobis in.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consequuntur pariatur sed, illum excepturi dolorem iusto at
-                praesentium repudiandae hic adipisci? Voluptatum, aspernatur
-                quaerat ipsa adipisci officia molestias. Expedita, eius amet!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-              </p>
-            </div>
           </div>
         </div>
 
-        <div style={{ paddingBottom: "70px" }}>
-          <div className="fore-divider ">
-            <span className="fw-bold text-primary">
+        <div className="detail-div" style={{ paddingBottom: "70px" }}>
+          <div
+            className="fore-divider wow animate__animated animate__fadeInUp "
+            style={{ paddingBottom: "40px" }}
+          >
+            <span className="fw-bold text-success">
               Digital Cloud Transformation
             </span>
           </div>
 
-          <div className="cod mt-5 align-items-center">
-            <div style={{ width: "90%" }}>
-              <img
-                className=" intro-img img-fluid mb-5"
-                src="./images/image09.jpg"
-                alt="ann"
-              />
-            </div>
-            <div style={{ width: "90%" }}>
-              <p>
+          <div className="cod mt-2 align-items-center">
+            <div className="codi first-crid" style={{ width: "90%" }}>
+              <p
+                className="wow animate__animated animate__fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="1s"
+              >
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
                 deserunt, adipisci sed expedita eius autem dolorum impedit
                 nihil, dicta, recusandae harum maxime blanditiis fugit tenetur
@@ -187,24 +288,58 @@ const Detail = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
               </p>
             </div>
+            <div className="codi " style={{ width: "90%" }}>
+              <div
+                className=" cour wow animate__animated animate__fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="1s"
+              >
+                <span className="fw-bold text-success">UI/UX Development</span>
+              </div>
+              <img
+                className=" intro-img img-fluid mb-5 wow animate__animated animate__fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="1s"
+                src="./images/image09.jpg"
+                alt="ann"
+              />
+            </div>
           </div>
         </div>
 
-        <div style={{ paddingBottom: "50px" }}>
-          <div className="for-divider ">
-            <span className="fw-bold text-primary">Tech Hiring Services</span>
+        <div className="detail-div" style={{ paddingBottom: "50px" }}>
+          <div
+            className="for-divider wow animate__animated animate__fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="1s"
+            style={{ paddingBottom: "40px" }}
+          >
+            <span className="fw-bold text-success">Tech Hiring Services</span>
           </div>
 
-          <div className="cod mt-5 align-items-center">
-            <div style={{ width: "90%" }}>
+          <div className="cod  align-items-center">
+            <div className="codi" style={{ width: "90%" }}>
+              <div
+                className=" cour wow animate__animated animate__fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="1s"
+              >
+                <span className="fw-bold text-success">UI/UX Development</span>
+              </div>
               <img
-                className=" intro-img img-fluid mb-5"
+                className=" intro-img img-fluid mb-5 wow animate__animated animate__fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="1s"
                 src="./images/image1.jpg"
                 alt="ann"
               />
             </div>
-            <div style={{ width: "90%" }}>
-              <p>
+            <div className="codi" style={{ width: "100%" }}>
+              <p
+                className="wow animate__animated animate__fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="1s"
+              >
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
                 deserunt, adipisci sed expedita eius autem dolorum impedit
                 nihil, dicta, recusandae harum maxime blanditiis fugit tenetur
@@ -227,6 +362,8 @@ const Detail = () => {
           </div>
         </div>
       </div>
+      <Caroo></Caroo>
+      <Faq></Faq>
       <Footernew></Footernew>
     </div>
   );

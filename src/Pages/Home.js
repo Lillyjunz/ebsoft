@@ -1,4 +1,3 @@
-import AOS from "aos";
 import "aos/dist/aos.css";
 import $ from "jquery";
 import { useEffect } from "react";
@@ -25,9 +24,6 @@ const Home = () => {
         $(".back-to-top").fadeOut("slow");
       }
     });
-
-    AOS.init();
-    AOS.refresh();
   }, []);
 
   return (

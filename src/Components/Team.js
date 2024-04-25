@@ -1,22 +1,26 @@
 const Team = () => {
   return (
     <>
-      <h3 className="text-center mt-5">Our Team</h3>
-      <div className="container row" style={{ margin: "30px auto" }}>
-        <div className="col-lg-6 d-flex mb-5">
+      <div className="container row g-5" style={{ margin: "100px auto" }}>
+        <h1 className="text-center mt-5 fw-bold wow animate__animated animate__fadeInUp">
+          Our Team
+        </h1>
+        <div className="col-lg-6 team mb-5" style={{ width: "50" }}>
           <img
-            className="rounded-image"
+            className="rounded-image wow animate__animated animate__fadeInUp"
             src="/images/admin.jpg"
             style={{
-              width: "120px",
-              height: "120px",
+              width: "180px",
+              height: "180px",
               borderRadius: "50%",
               marginRight: "10px",
             }}
           />
-          <div>
-            <h5>The Team</h5>
-            <p>
+          <div className="team-text" style={{ width: "50" }}>
+            <h3 className="text-success wow animate__animated animate__fadeInUp">
+              The Team
+            </h3>
+            <p className="wow animate__animated animate__fadeInUp">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
               animi, accusamus corporis magnam cupiditate ratione dolor
               voluptatibus nihil aperiam quod expedita. Sit rem quibusdam
@@ -24,20 +28,22 @@ const Team = () => {
           </div>
         </div>
 
-        <div className="col-lg-6 d-flex mb-5">
+        <div className="col-lg-6 team mb-5" style={{ width: "50" }}>
           <img
-            className="rounded-image"
+            className="rounded-image wow animate__animated animate__fadeInUp"
             src="/images/admin.jpg"
             style={{
-              width: "120px",
-              height: "120px",
+              width: "180px",
+              height: "180px",
               borderRadius: "50%",
               marginRight: "10px",
             }}
           />
-          <div>
-            <h5>The Team</h5>
-            <p>
+          <div className="team-text" style={{ width: "50" }}>
+            <h3 className="text-success wow animate__animated animate__fadeInUp">
+              The Team
+            </h3>
+            <p className="wow animate__animated animate__fadeInUp">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
               animi, accusamus corporis magnam cupiditate ratione dolor
               voluptatibus nihil aperiam quod expedita. Sit rem quibusdam
@@ -45,80 +51,92 @@ const Team = () => {
           </div>
         </div>
 
-        <div className="col-lg-6 d-flex mb-5">
+        <div className="col-lg-6 team mb-3" style={{ width: "50" }}>
           <img
-            className="rounded-image"
+            className="rounded-image wow animate__animated animate__fadeInUp"
             src="/images/admin.jpg"
             style={{
-              width: "120px",
-              height: "120px",
+              width: "180px",
+              height: "180px",
               borderRadius: "50%",
               marginRight: "10px",
             }}
           />
-          <div>
-            <h5>The Team</h5>
-            <p>
+          <div className="team-text">
+            <h3 className="text-success wow animate__animated animate__fadeInUp">
+              The Team
+            </h3>
+            <p className="wow animate__animated animate__fadeInUp">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
               animi, accusamus corporis magnam cupiditate ratione dolor
               voluptatibus nihil aperiam quod expedita. Sit rem quibusdam
             </p>
           </div>
         </div>
-        <div className="col-lg-6 d-flex mb-5">
+
+        <div className="col-lg-6 team  mb-5">
           <img
-            className="rounded-image"
+            className="rounded-image wow animate__animated animate__fadeInUp"
             src="/images/admin.jpg"
             style={{
-              width: "120px",
-              height: "120px",
+              width: "180px",
+              height: "180px",
               borderRadius: "50%",
               marginRight: "10px",
             }}
           />
-          <div>
-            <h5>The Team</h5>
-            <p>
+          <div
+            className="team-text wow animate__animated animate__fadeInUp"
+            style={{ width: "50" }}
+          >
+            <h3 className="text-success wow animate__animated animate__fadeInUp">
+              The Team
+            </h3>
+            <p className="wow animate__animated animate__fadeInUp">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
               animi, accusamus corporis magnam cupiditate ratione dolor
               voluptatibus nihil aperiam quod expedita. Sit rem quibusdam
             </p>
           </div>
         </div>
-        <div className="col-lg-6 d-flex mb-5">
+        <div className="col-lg-6 team  mb-5">
           <img
-            className="rounded-image"
+            className="rounded-image wow animate__animated animate__fadeInUp"
             src="/images/admin.jpg"
             style={{
-              width: "120px",
-              height: "120px",
+              width: "180px",
+              height: "180px",
               borderRadius: "50%",
               marginRight: "10px",
             }}
           />
-          <div>
-            <h5>The Team</h5>
-            <p>
+          <div className="team-text" style={{ width: "50" }}>
+            <h3 className="text-success wow animate__animated animate__fadeInUp">
+              The Team
+            </h3>
+            <p className="wow animate__animated animate__fadeInUp">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
               animi, accusamus corporis magnam cupiditate ratione dolor
               voluptatibus nihil aperiam quod expedita. Sit rem quibusdam
             </p>
           </div>
         </div>
-        <div className="col-lg-6 d-flex ">
+        <div className="col-lg-6 team " style={{ marginBottom: "100px" }}>
           <img
-            className="rounded-image"
+            className="rounded-image wow animate__animated animate__fadeInUp"
             src="/images/admin.jpg"
             style={{
-              width: "120px",
-              height: "120px",
+              width: "180px",
+              height: "180px",
               borderRadius: "50%",
               marginRight: "10px",
             }}
           />
-          <div>
-            <h5>The Team</h5>
-            <p>
+          <div className="team-text" style={{ width: "50" }}>
+            <h3 className="text-success wow animate__animated animate__fadeInUp">
+              The Team
+            </h3>
+            <p className="wow animate__animated animate__fadeInUp">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
               animi, accusamus corporis magnam cupiditate ratione dolor
               voluptatibus nihil aperiam quod expedita. Sit rem quibusdam

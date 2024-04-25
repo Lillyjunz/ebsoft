@@ -30,32 +30,34 @@ const Footernew = () => {
           </g>
         </svg>
       </div>
-      <footer className="footer">
+      <footer>
         <div className="containerr">
-          <div className="column first text-start align-items-center justify-content-center">
-            <NavLink to="/">
-              <img src="../images/ebslogo.png" width={140} height={100}></img>
-            </NavLink>
-            <h6
-              className="te"
-              style={{
-                color: "gray",
-                paddingBottom: "3px",
-              }}
-            >
-              Excellence Brilliance Software Technologies.
-            </h6>
-            <div
-              style={{
-                height: "1px",
-                background: "gray",
-                marginBottom: "3px",
-                width: "84%",
-              }}
-            ></div>
-            <small style={{ color: "gray" }}>
-              Visualize.Design.Build.Deliver
-            </small>
+          <div className="column first ">
+            <div className="footr text-center">
+              <NavLink to="/">
+                <img src="../images/ebslogo.png" width={140} height={100}></img>
+              </NavLink>
+              <h6
+                className="te"
+                style={{
+                  color: "gray",
+                  paddingBottom: "3px",
+                }}
+              >
+                Excellence Brilliance Software<br></br> Technologies.
+              </h6>
+              <div
+                style={{
+                  height: "2px",
+                  background: "gray",
+                  marginBottom: "3px",
+                  width: "100%",
+                }}
+              ></div>
+              <small style={{ color: "gray" }}>
+                Visualize.Design.Build.Deliver
+              </small>
+            </div>
           </div>
           <div className="column">
             <h4 className="fw-bold">Company</h4>
@@ -71,18 +73,14 @@ const Footernew = () => {
               <li style={{ listStyleType: "none" }}>Privacy policy</li>
             </NavLink>
           </div>
-          <div className="column">
+          <div className="column co-serve">
             <h4 className="fw-bold">Services</h4>
-            <li style={{ listStyleType: "none" }}>UI/UX design development</li>
+            <li style={{ listStyleType: "none" }}>UI/UX development</li>
             <li style={{ listStyleType: "none" }}>
               Software and web development
             </li>
-            <li style={{ listStyleType: "none" }}>
-              Difital cloud transformation
-            </li>
-            <li style={{ listStyleType: "none" }}>
-              Cloud infrastructure services
-            </li>
+            <li style={{ listStyleType: "none" }}>Digital transformation</li>
+            <li style={{ listStyleType: "none" }}>Cloud infrastructure</li>
             <li style={{ listStyleType: "none" }}>Tech hiring services</li>
           </div>
           <div className="column">

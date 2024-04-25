@@ -1,18 +1,18 @@
+import SwiperHome from "../Components/Caroo";
 import Footernew from "../Components/FooterNew";
 import Navbar from "../Components/Navbar";
-import SwiperContact from "../Components/slide";
 
 const Contact = () => {
   return (
     <div className="contact-wrap">
       <Navbar />
 
-      <div className="d-flex justify-content-between ">
+      <div className="d-flex contact-div justify-content-between ">
         <div
           style={{
             width: "800px",
             marginRight: "20px",
-            marginLeft: "40px",
+            marginLeft: "20px",
             marginTop: "20px",
           }}
         >
@@ -129,22 +129,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div
-        className="slide-div"
-        style={{
-          backgroundColor: "#89E0AE",
-          padding: "50px",
-          width: "900px",
-          textAlign: "center",
-          marginLeft: "20%",
-          marginTop: "120px",
-          borderRadius: "10px",
-          marginBottom: "140px",
-          boxShadow: "0 0 10px rgba(0, 0, 0, 0.6)",
-        }}
-      >
-        <SwiperContact></SwiperContact>
-      </div>
+      <SwiperHome></SwiperHome>
 
       <Footernew></Footernew>
     </div>

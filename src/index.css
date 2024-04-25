@@ -18,6 +18,10 @@ body {
 } */
 
 /* Example with multiple colors */
+
+.mb-5 {
+  margin-bottom: 0 !important;
+}
 .orig {
   background: url(../public/images/gron.png) no-repeat center;
   background-position: left 20px top 10px; /*Positioning*/
@@ -185,7 +189,7 @@ li {
 
 .reg {
   background-image: url(../public/images/image13.jpg);
-  background-size: calc(100%);
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
@@ -218,6 +222,7 @@ li {
   height: 15px;
   width: 100%;
   display: none;
+  padding-bottom: 10px;
 }
 
 .cour span {
@@ -366,6 +371,11 @@ a {
   font-family: "roboto slab", serif;
   font-size: 2.5rem;
 }
+
+.contenti h3 {
+  font-family: "roboto slab", serif;
+  font-size: 3.3rem;
+}
 /* text size end */
 
 .crid {
@@ -378,13 +388,34 @@ a {
   margin: 25px auto;
 }
 
-.cod {
+/* .cod {
   display: grid;
   grid-template-columns: 50% 50%;
   gap: 30px;
   width: 100%;
   align-items: center;
   justify-content: center;
+} */
+
+.team {
+  display: flex;
+}
+
+.join-wrap {
+  overflow: hidden;
+}
+
+.cod {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.codi {
+  flex: 1;
+  min-width: 0; /* Ensure flex items can shrink on small screens */
+  width: 50%;
+  margin: auto 30px;
 }
 
 .home {
@@ -397,7 +428,7 @@ a {
   color: #fff;
 } */
 
-.footer {
+footer {
   background-color: black;
   color: white;
   padding: 40px 0;
@@ -408,8 +439,9 @@ a {
 .containerr {
   padding-top: 90px;
   padding-bottom: 60px;
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: 0 40px;
+  padding: auto 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -417,8 +449,9 @@ a {
 }
 
 .column {
-  width: calc(25% - 20px); /* Adjust width as needed */
-  padding: 0 10px;
+  width: 25% 20% 18% 20%; /* Adjust width as needed */
+  padding: 0 0;
+  min-width: 0;
 }
 
 .footer-paragraph {
@@ -438,26 +471,6 @@ a {
   margin: 0;
 }
 
-.custom-shape-divider-top-1713650972 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.custom-shape-divider-top-1713650972 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 60px;
-}
-
-.custom-shape-divider-top-1713650972 .shape-fill {
-  fill: #ffffff;
-}
-
 footer li {
   color: gray;
 }
@@ -469,7 +482,7 @@ footer li {
 .contenti {
   width: 60%;
   align-items: center;
-  padding-top: 280px;
+  padding-top: 250px;
   padding-left: 70px;
   box-sizing: border-box;
   padding-bottom: 50px;
@@ -491,6 +504,33 @@ footer li {
   border: 4px solid green;
 }
 @media screen and (max-width: 420px) {
+  .co-serve {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .contenti {
+    width: 80%;
+    padding-top: 100px;
+    padding-left: 10px;
+    margin-bottom: 100px;
+  }
+  .detail-div {
+    margin: auto 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .for-divider {
+    display: none;
+  }
+  .fore-divider {
+    display: none;
+  }
+  .aboout img {
+    width: 200px;
+    height: 200px;
+    right: 10px;
+    bottom: 0px;
+  }
   .navbar img {
     width: 200px;
     height: 100px;
@@ -528,11 +568,11 @@ footer li {
 
   .cour {
     display: block;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
   }
   .cour span {
     top: -0.9em;
-    right: 2em;
+    right: 1em;
     padding: 0 0.5em;
     font-size: 20px;
   }
@@ -573,20 +613,22 @@ footer li {
 @media screen and (max-width: 480px) {
   .div1 {
     left: 12%;
-    top: 56%;
+    top: 50%;
   }
   .div2 {
     left: 10%;
+    top: 70%;
   }
   .div3 {
     margin-top: 15px;
   }
   .div4 {
-    right: 10%;
-    top: 56%;
+    right: 15%;
+    top: 50%;
   }
   .div5 {
-    right: 15%;
+    right: 11%;
+    top: 70%;
   }
 }
 
@@ -598,19 +640,29 @@ footer li {
 
 @media screen and (max-width: 782px) {
   .containerr {
-    display: block;
+    padding-top: 90px;
+    padding-bottom: 60px;
+    padding: 0 20px;
+    max-width: 100%;
+    margin: 0 20px;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .column {
-    width: 100%;
+    width: 50%;
     margin-bottom: 30px;
   }
 
   .first {
+    width: 100%;
     align-items: center;
     justify-content: center;
   }
-
+  .footr {
+    padding: 0 40px;
+    align-items: center;
+  }
   .im-sect {
     flex-direction: column;
   }
@@ -656,6 +708,16 @@ footer li {
 }
 
 @media screen and (max-width: 480px) {
+  .team {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: auto 30px;
+  }
+
+  .team-text {
+    padding-top: 20px;
+  }
   .crid {
     grid-template-columns: 1fr;
     align-items: center;
@@ -683,6 +745,39 @@ footer li {
   }
   /* tab end */
 
+  /* font size */
+
+  .orig h1 {
+    font-family: "roboto slab", serif;
+    font-size: 1.7rem;
+  }
+  .banner h1 {
+    font-family: "roboto slab", serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 40px;
+    padding: auto 20px;
+  }
+  .navbar h1 {
+    font-family: "roboto slab", serif;
+    font-size: 200%;
+  }
+  .cardi-text,
+  .faq,
+  .introspan {
+    font-family: "roboto slab", serif;
+    font-size: 2rem;
+  }
+  .hire {
+    font-family: "roboto slab", serif;
+    font-size: 2rem;
+  }
+
+  .contenti h3 {
+    font-family: "roboto slab", serif;
+    font-size: 3.3rem;
+  }
+  /* font size end */
   .cod {
     grid-template-columns: 1fr;
     align-items: center;
@@ -753,6 +848,14 @@ footer li {
     margin: 10px 15px;
   }
   .card-sect .card {
+    flex-basis: 100%; /* Each flex item takes full width */
+    display: block; /* Change display to block */
+    justify-content: center;
+    align-items: center;
+    margin: 10px 15px;
+  }
+
+  .cod .codi {
     flex-basis: 100%; /* Each flex item takes full width */
     display: block; /* Change display to block */
     justify-content: center;
@@ -853,6 +956,28 @@ footer li {
 /* /* Shrinking for mobile */
 @media (max-width: 768px) {
   .waves {
+    height: 40px;
+    min-height: 40px;
+  }
+}
+
+.paralax > use {
+  animation: move-foreve 15s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+
+@keyframes move-foreve {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(85px, 0, 0);
+  }
+}
+
+/* /* Shrinking for mobile */
+@media (max-width: 768px) {
+  .wavs {
     height: 40px;
     min-height: 40px;
   }

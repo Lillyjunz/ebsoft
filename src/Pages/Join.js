@@ -1,42 +1,93 @@
+import $ from "jquery";
+import { useEffect } from "react";
+import { WOW } from "wowjs";
 import Footernew from "../Components/FooterNew";
 import Navbar from "../Components/Navbar";
 
 const Join = () => {
+  useEffect(() => {
+    new WOW().init();
+
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 300) {
+        $(".back-to-top").fadeIn("slow");
+      } else {
+        $(".back-to-top").fadeOut("slow");
+      }
+    });
+  }, []);
   return (
-    <>
+    <div className="join-wrap">
       <Navbar></Navbar>
-      <section className="ba bg-black">
-        <div className="content">
-          <h2 className="text-light">Join Our Team</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            <br></br>
-            Temporibus cupiditate molestias asperiores assumenda hic impedit
-            asperiores assumenda hic
+      <div className="header aboout">
+        {/*Content before waves*/}
+
+        <div className="contenti text-start">
+          <h3
+            className="wow animate__animated animate__fadeInDown"
+            data-wow-duration="1s"
+            data-wow-delay="1s"
+          >
+            Join Us
+          </h3>
+          <p
+            className="wow animate__animated animate__fadeInLeft"
+            data-wow-duration="1s"
+            data-wow-delay="1s"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            cupiditate molestias asperiores assumenda hic impedit asperiores
           </p>
         </div>
-        <img className="img-fluid rounded-circle" src="/images/image6.jpg" />
-        <div class="custom-shape-divider-bottom-1713680653">
+        <img
+          className="img-fluid rounded-circle wow animate__animated animate__fadeInRight"
+          data-wow-duration="1s"
+          data-wow-delay="1s"
+          src="/images/image2.jpg"
+        />
+        {/*Waves Container*/}
+        <div>
           <svg
-            data-name="Layer 1"
+            className="wavs"
             xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1200 119"
+            xmlnsXlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28"
             preserveAspectRatio="none"
+            shapeRendering="auto"
           >
-            <path
-              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-              class="shape-fill"
-            ></path>
+            <defs>
+              <path
+                id="gentle-wave"
+                d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+              />
+            </defs>
+            <g className="paralax">
+              {/* <use xlink:href="#gentle-wave" x="48" y="0" fill="#006400" /> */}
+              <use xlinkHref="#gentle-wave" x={48} y={3} fill="#006400" />
+              <use
+                xlinkHref="#gentle-wave"
+                x={48}
+                y={5}
+                fill="rgba(255,255,255,0.3)"
+              />
+              <use xlinkHref="#gentle-wave" x={48} y={7} fill="#fff" />
+            </g>
           </svg>
         </div>
-      </section>
+        {/*Waves end*/}
+      </div>
 
-      <div className="text-center" style={{ margin: "10% 15%" }}>
+      <div
+        className="text-center align-items-center justify-content-center wow animate__animated animate__bounceInUp"
+        data-wow-duration="1s"
+        data-wow-delay="1s"
+        style={{ margin: "150px auto" }}
+      >
         <h2 className="fw-bold">No Vacancies at this moment</h2>
         <img src="../images/lottie.gif" width={350} height={150}></img>
       </div>
       <Footernew></Footernew>
-    </>
+    </div>
   );
 };
 

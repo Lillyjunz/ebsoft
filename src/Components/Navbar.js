@@ -7,7 +7,7 @@ const Navbar = () => {
           <NavLink to="/">
             <h1 className="fw-bold text-white ps-1">
               ebs
-              <i class="bi bi-globe2 text-success "></i>ft
+              <i className="bi bi-globe2 text-success "></i>ft
             </h1>
           </NavLink>
           <NavLink to="/contact">

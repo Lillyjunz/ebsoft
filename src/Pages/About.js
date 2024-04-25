@@ -1,8 +1,24 @@
+import $ from "jquery";
+import { useEffect } from "react";
+import { WOW } from "wowjs";
 import Footernew from "../Components/FooterNew";
 import Navbar from "../Components/Navbar";
 import SwiperCarousel from "../Components/Swipercarous";
 import Team from "../Components/Team";
+
 const About = () => {
+  useEffect(() => {
+    new WOW().init();
+
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 300) {
+        $(".back-to-top").fadeIn("slow");
+      } else {
+        $(".back-to-top").fadeOut("slow");
+      }
+    });
+  }, []);
+
   return (
     <div className="abb">
       <Navbar></Navbar>
@@ -11,13 +27,28 @@ const About = () => {
         {/*Content before waves*/}
 
         <div className="contenti text-start">
-          <h3>About Ebsoft</h3>
-          <p>
+          <h3
+            className="wow animate__animated animate__fadeInDown"
+            data-wow-duration="1s"
+            data-wow-delay="1s"
+          >
+            About Ebsoft
+          </h3>
+          <p
+            className="wow animate__animated animate__fadeInLeft"
+            data-wow-duration="1s"
+            data-wow-delay="1s"
+          >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
             cupiditate molestias asperiores assumenda hic impedit asperiores
           </p>
         </div>
-        <img className="img-fluid rounded-circle" src="/images/image04.jpg" />
+        <img
+          className="img-fluid rounded-circle wow animate__animated animate__fadeInRight"
+          data-wow-duration="1s"
+          data-wow-delay="1s"
+          src="/images/image04.jpg"
+        />
         {/*Waves Container*/}
         <div>
           <svg
@@ -50,12 +81,22 @@ const About = () => {
         {/*Waves end*/}
       </div>
 
-      <div style={{ paddingBottom: "100px" }}>
+      <div className="front" style={{ paddingBottom: "80px" }}>
         <div className="crid">
-          <div className="first-crid" style={{ width: "90%" }}>
-            <h4 className="fw-bold text-primary ourm">Our Mission</h4>
+          <div className="first-crid" style={{ width: "100%" }}>
+            <h1
+              className="fw-bold text-success ourm wow animate__animated animate__fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay="1s"
+            >
+              Our Mission
+            </h1>
 
-            <p>
+            <p
+              className="wow animate__animated animate__fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay="1s"
+            >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
               deserunt, adipisci sed expedita eius autem dolorum impedit nihil,
               dicta, recusandae harum maxime blanditiis fugit tenetur possimus
@@ -63,32 +104,54 @@ const About = () => {
             </p>
           </div>
 
-          <div className="second-crid" style={{ width: "85%" }}>
-            <div className="for-divider our">
-              <span className="fw-bold text-primary">Our Mission</span>
+          <div className="second-crid" style={{ width: "90%" }}>
+            <div
+              className="for-divider our wow animate__animated animate__fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay="1s"
+            >
+              <span className="fw-bold text-success">Our Mission</span>
             </div>
 
             <img
-              className=" img-fluid intro-img"
-              src="./images/image09.jpg"
+              className=" img-fluid intro-img wow animate__animated animate__fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay="1s"
+              src="./images/image13.jpg"
               alt="ann"
             />
           </div>
 
-          <div className="third-crid" style={{ width: "85%" }}>
-            <div className="for-divider our">
-              <span className="fw-bold text-primary">Our Vision</span>
+          <div className="third-crid" style={{ width: "90%" }}>
+            <div
+              className="for-divider our wow animate__animated animate__fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay="1s"
+            >
+              <span className="fw-bold text-success">Our Vision</span>
             </div>
             <img
-              className=" img-fluid intro-img"
+              className=" img-fluid intro-img wow animate__animated animate__fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay="1s"
               src="./images/image10.jpg"
               alt="ann"
             />
           </div>
 
-          <div className="fourth-crid" style={{ width: "90%" }}>
-            <h4 className="fw-bold text-primary">Our Vision</h4>
-            <p>
+          <div className="fourth-crid" style={{ width: "100%" }}>
+            <h1
+              className="fw-bold text-success ourm wow animate__animated animate__fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay="1s"
+            >
+              Our Vision
+            </h1>
+            <p
+              className="wow animate__animated animate__fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay="1s"
+            >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
               deserunt, adipisci sed expedita eius autem dolorum impedit nihil,
               dicta, recusandae harum maxime blanditiis fugit tenetur possimus
@@ -103,11 +166,23 @@ const About = () => {
           className="row py-5 px-4 "
           style={{ backgroundColor: "rgba(0, 0, 0, .3)" }}
         >
-          <h3 className="text-light text-center fw-bold">Our Values</h3>
-          <div className="d-flex text-light">
+          <h1
+            className="text-light text-center fw-bold wow animate__animated animate__fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="1s"
+          >
+            Our Values
+          </h1>
+          <div className="crid text-light">
             <div className=" w-100 me-5 mt-5">
-              <h4 className=" fw-bold text-center">Happiness</h4>
-              <p>
+              <h3
+                className=" fw-bold text-center wow animate__animated animate__fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="1s"
+              >
+                Happiness
+              </h3>
+              <p className="wow animate__animated animate__fadeInUp">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Tenetur ab recusandae sint eius obcaecati atque, necessitatibus
                 nam voluptates aliquid, natus quas quia illo? Provident
@@ -115,8 +190,18 @@ const About = () => {
               </p>
             </div>
             <div className=" w-100 mt-5">
-              <h4 className="fw-bold text-light text-center">Honesty</h4>
-              <p>
+              <h3
+                className="fw-bold text-light text-center wow animate__animated animate__fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="1s"
+              >
+                Honesty
+              </h3>
+              <p
+                className="wow animate__animated animate__fadeInUp"
+                data-wow-duration="1s"
+                data-wow-delay="1s"
+              >
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Numquam, impedit atque id architecto ab in? Veniam sunt illum
                 consectetur ut et consequatur, a tempore veritatis, iusto fugit
@@ -127,7 +212,9 @@ const About = () => {
         </div>
       </div>
       <Team></Team>
+
       <SwiperCarousel></SwiperCarousel>
+
       <Footernew></Footernew>
     </div>
   );

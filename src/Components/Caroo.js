@@ -47,13 +47,13 @@ export default function SwiperHome() {
         className="mySwiper wow animate__animated animate__fadeInUp"
         data-wow-duration="1s"
         data-wow-delay="1s"
-        style={{ width: "100%", marginTop: "120px" }}
+        style={{ width: "100%" }}
       >
         <SwiperSlide className="align-items-center justify-content-center d-flex">
           <div
             className="slide-div"
             style={{
-              backgroundColor: "#ddf3e4",
+              backgroundColor: "#89E0AE",
               padding: "50px",
               width: "70%",
               textAlign: "center",
@@ -112,7 +112,7 @@ export default function SwiperHome() {
           <div
             className="slide-div"
             style={{
-              backgroundColor: "#ddf3e4",
+              backgroundColor: "#89E0AE",
               padding: "50px",
               width: "70%",
               textAlign: "center",
@@ -168,7 +168,7 @@ export default function SwiperHome() {
           <div
             className="slide-div"
             style={{
-              backgroundColor: "#ddf3e4",
+              backgroundColor: "#89E0AE",
               padding: "50px",
               width: "70%",
               textAlign: "center",
@@ -224,7 +224,7 @@ export default function SwiperHome() {
           <div
             className="slide-div"
             style={{
-              backgroundColor: "#ddf3e4",
+              backgroundColor: "#89E0AE",
               padding: "50px",
               width: "70%",
               textAlign: "center",

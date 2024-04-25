@@ -33,14 +33,18 @@ function Faq() {
       style={{ marginTop: "140px", marginBottom: "170px" }}
     >
       <h1
-        className="fw-bold ps-3 pb-2 faq wow animate__animated animate__fadeInUp"
-        data-wow-duration="1s"
+        className="fw-bold ps-3 pb-2 faq wow animate__animated animate__fadeInUp text-success"
+        data-wow-duration="2s"
         data-wow-delay="1s"
       >
         FAQ
       </h1>
       <div className="accordion">
-        <div className="contentBx">
+        <div
+          className="contentBx wow animate__animated animate__fadeInUp"
+          data-wow-duration="2s"
+          data-wow-delay="2s"
+        >
           <div className="label fw-bold">
             {" "}
             1. How do I know if ene to end development is right for me
@@ -57,7 +61,11 @@ function Faq() {
       </div>
 
       <div className="accordion">
-        <div className="contentBx">
+        <div
+          className="contentBx wow animate__animated animate__fadeInUp"
+          data-wow-duration="2s"
+          data-wow-delay="2s"
+        >
           <div className="label fw-bold">
             {" "}
             2. How do I know if ene to end development is right for me
@@ -74,7 +82,11 @@ function Faq() {
       </div>
 
       <div className="accordion">
-        <div className="contentBx">
+        <div
+          className="contentBx wow animate__animated animate__fadeInUp"
+          data-wow-duration="2s"
+          data-wow-delay="2s"
+        >
           <div className="label fw-bold">
             {" "}
             3. How do I know if ene to end development is right for me
@@ -91,7 +103,11 @@ function Faq() {
       </div>
 
       <div className="accordion">
-        <div className="contentBx">
+        <div
+          className="contentBx wow animate__animated animate__fadeInUp"
+          data-wow-duration="2s"
+          data-wow-delay="2s"
+        >
           <div className="label fw-bold">
             {" "}
             4. How do I know if ene to end development is right for me
@@ -108,7 +124,11 @@ function Faq() {
       </div>
 
       <div className="accordion">
-        <div className="contentBx">
+        <div
+          className="contentBx wow animate__animated animate__fadeInUp"
+          data-wow-duration="2s"
+          data-wow-delay="2s"
+        >
           <div className="label fw-bold">
             {" "}
             5. How do I know if ene to end development is right for me
@@ -125,7 +145,11 @@ function Faq() {
       </div>
 
       <div className="accordion">
-        <div className="contentBx">
+        <div
+          className="contentBx wow animate__animated animate__fadeInUp"
+          data-wow-duration="2s"
+          data-wow-delay="2s"
+        >
           <div className="label fw-bold">
             {" "}
             6. How do I know if ene to end development is right for me
@@ -142,7 +166,11 @@ function Faq() {
       </div>
 
       <div className="accordion">
-        <div className="contentBx">
+        <div
+          className="contentBx wow animate__animated animate__fadeInUp"
+          data-wow-duration="2s"
+          data-wow-delay="2s"
+        >
           <div className="label fw-bold">
             {" "}
             7. How do I know if ene to end development is right for me

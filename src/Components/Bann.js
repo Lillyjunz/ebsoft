@@ -3,7 +3,6 @@ const Bann = () => {
     <div className="header">
       <div className="banner pt-3" style={{ marginBottom: "80px" }}>
         <h1
-          style={{ fontSize: "4rem" }}
           className="text-center wow animate__animated animate__fadeInDown"
           data-wow-duration="2s"
         >
@@ -116,7 +115,6 @@ const Bann = () => {
             />
           </defs>
           <g className="paralax">
-            {/* <use xlink:href="#gentle-wave" x="48" y="0" fill="#006400" /> */}
             <use xlinkHref="#gentle-wave" x={48} y={3} fill="#006400" />
             <use
               xlinkHref="#gentle-wave"
