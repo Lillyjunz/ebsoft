@@ -1,5 +1,4 @@
 import "animate.css";
-import "aos/dist/aos.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
