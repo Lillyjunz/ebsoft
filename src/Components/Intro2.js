@@ -189,7 +189,7 @@ const Intro2 = () => {
           </div>
 
           <div className="hover-content">
-            <h3 className="text-end pt-4 pe-3 fw-bold text-light">5</h3>
+            <h3 className="text-end pt-4 pe-3 fw-bold text-light">3</h3>
             <div className="align-items-center pt-5 pb-2 ps-3 pe-3">
               <h5 className="fw-bold">Non disclosure Agreements</h5>
 
