@@ -17,7 +17,7 @@ const Contact = () => {
           }}
         >
           <h3>Contact Us</h3>
-          <li className="mb-5" style={{ listStyleType: "none" }}>
+          <li className="pb-3" style={{ listStyleType: "none" }}>
             Ebsoft would like to know how we may help
           </li>
           <div className="row">

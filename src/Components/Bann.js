@@ -1,7 +1,7 @@
 const Bann = () => {
   return (
     <div className="header">
-      <div className="banner pt-3" style={{ marginBottom: "80px" }}>
+      <div className="banner">
         <h1
           className="text-center wow animate__animated animate__fadeInDown"
           data-wow-duration="2s"
@@ -21,10 +21,7 @@ const Bann = () => {
         </p>
       </div>
 
-      <div
-        className="text-center mt-5 im-div"
-        style={{ paddingBottom: "40px", paddingTop: "40px" }}
-      >
+      <div className="text-center  im-div">
         <img
           className="img-fluid ban-img wow animate__animated animate__fadeIn "
           data-wow-delay="2s"

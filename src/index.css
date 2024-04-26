@@ -38,13 +38,13 @@ body {
 
 .banner {
   width: 100%;
-  margin: 0;
-  padding: 10px;
   color: #fff;
   background: #000;
   background-size: cover;
   background-blend-mode: screen;
   position: relative;
+  padding-top: 50px;
+  padding-bottom: 70px;
 }
 
 .abb {
@@ -187,6 +187,10 @@ li {
   opacity: 1;
 }
 
+.form-control {
+  border: 1px solid green !important;
+  border-radius: 10px !important;
+}
 .reg {
   background-image: url(../public/images/image13.jpg);
   background-size: cover;
@@ -388,6 +392,9 @@ a {
   margin: 25px auto;
 }
 
+.im-div {
+  margin: 100px auto;
+}
 /* .cod {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -427,6 +434,9 @@ a {
   background: #000;
   color: #fff;
 } */
+.img-txt {
+  display: none;
+}
 
 footer {
   background-color: black;
@@ -440,7 +450,7 @@ footer {
   padding-top: 90px;
   padding-bottom: 60px;
   max-width: 100%;
-  margin: 0 40px;
+  margin: 10px 40px;
   padding: auto 40px;
   display: flex;
   flex-wrap: wrap;
@@ -576,8 +586,23 @@ footer li {
     padding: 0 0.5em;
     font-size: 20px;
   }
+  .nav-img {
+    display: none;
+  }
+  .nav-im {
+    display: block !important;
+  }
+  .p-4 {
+    padding: 0 !important;
+  }
+  .banner p {
+    margin: 0 50px;
+  }
 }
 
+.nav-im {
+  display: none;
+}
 .ban-img {
   position: relative;
 }
@@ -585,13 +610,13 @@ footer li {
 .div1 {
   position: absolute;
   left: 37%;
-  top: 35%;
+  top: 40%;
 }
 
 .div2 {
   position: absolute;
   left: 35%;
-  top: 53%;
+  top: 58%;
 }
 
 .div3 {
@@ -600,35 +625,35 @@ footer li {
 .div4 {
   position: absolute;
   right: 40%;
-  top: 35%;
+  top: 40%;
 }
 
 .div5 {
   position: absolute;
   right: 34%;
-  top: 53%;
+  top: 58%;
 }
 
 /* banner responsive */
 @media screen and (max-width: 480px) {
   .div1 {
     left: 12%;
-    top: 50%;
+    top: 41%;
   }
   .div2 {
-    left: 10%;
-    top: 70%;
+    left: 8%;
+    top: 65%;
   }
   .div3 {
     margin-top: 15px;
   }
   .div4 {
-    right: 15%;
-    top: 50%;
+    right: 17%;
+    top: 41%;
   }
   .div5 {
-    right: 11%;
-    top: 70%;
+    right: 8%;
+    top: 65%;
   }
 }
 
@@ -690,9 +715,6 @@ footer li {
   .front {
     margin-top: 100px;
   }
-  .img-txt {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 1339px) {
@@ -708,6 +730,11 @@ footer li {
 }
 
 @media screen and (max-width: 480px) {
+  .im-div {
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+
   .team {
     display: block;
     align-items: center;
@@ -751,11 +778,14 @@ footer li {
     font-family: "roboto slab", serif;
     font-size: 1.7rem;
   }
+  .banner {
+    padding-top: 20px;
+  }
+
   .banner h1 {
     font-family: "roboto slab", serif;
     font-size: 1.5rem;
     font-weight: bold;
-    margin-top: 40px;
     padding: auto 20px;
   }
   .navbar h1 {

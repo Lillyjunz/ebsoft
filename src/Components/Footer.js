@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="row pt-5 pb-4 text-light bg-black">
         <div className="col-lg-4 col-md-6 text-sm-start text-center pb-sm-3 ps-sm-1">
           <NavLink to="/">
-            <img src="../images/ebslogo.png" width={110} height={100}></img>
+            <img src="../images/ebslogo.png" width={230} height={100}></img>
           </NavLink>
         </div>
         <div className="col-lg-2 col-md-6 pb-md-3 ps-sm-3 pb-sm-3">

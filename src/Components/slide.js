@@ -48,7 +48,7 @@ export default function SwiperContact() {
         style={{ marginTop: "40px" }}
       >
         <SwiperSlide>
-          <div style={{ paddingBottom: "60px" }}>
+          <div style={{ paddingBottom: "30px" }}>
             <img style={{ width: "15px" }} src="../images/star.svg" alt="..." />
             <img style={{ width: "15px" }} src="../images/star.svg" alt="..." />
             <img style={{ width: "15px" }} src="../images/star.svg" alt="..." />
