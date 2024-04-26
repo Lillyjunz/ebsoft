@@ -83,14 +83,19 @@ const Footernew = () => {
             <li style={{ listStyleType: "none" }}>Cloud infrastructure</li>
             <li style={{ listStyleType: "none" }}>Tech hiring services</li>
           </div>
-          <div className="column">
+          <div className="column co-cont">
             <h4 className="fw-bold"> Contact</h4>
             <li style={{ listStyleType: "none" }}>Phone: +3456 67 889</li>
             <li style={{ listStyleType: "none" }}>Email: okey@gmail.com</li>
           </div>
         </div>
         <div
-          style={{ height: "1px", background: "gray", marginBottom: "40px" }}
+          style={{
+            height: "1px",
+            background: "gray",
+            marginBottom: "40px",
+            marginTop: "40px",
+          }}
         ></div>
         <p className="text-center opp">Copyright All right reserved</p>
       </footer>

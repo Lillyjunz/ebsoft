@@ -379,6 +379,7 @@ a {
 .contenti h3 {
   font-family: "roboto slab", serif;
   font-size: 3.3rem;
+  margin-bottom: 20px;
 }
 /* text size end */
 
@@ -446,6 +447,9 @@ footer {
   width: 100%;
 }
 
+.co-cont {
+  margin-right: 35px;
+}
 .containerr {
   padding-top: 90px;
   padding-bottom: 60px;
@@ -459,7 +463,7 @@ footer {
 }
 
 .column {
-  width: 25% 20% 18% 20%; /* Adjust width as needed */
+  width: 25% 20% 20% 20%; /* Adjust width as needed */
   padding: 0 0;
   min-width: 0;
 }
@@ -498,10 +502,6 @@ footer li {
   padding-bottom: 50px;
   justify-self: start;
   color: #fff;
-}
-
-.contenti h3 {
-  margin-bottom: 20px;
 }
 
 .aboout img {
@@ -805,7 +805,7 @@ footer li {
 
   .contenti h3 {
     font-family: "roboto slab", serif;
-    font-size: 3.3rem;
+    font-size: 2.3rem;
   }
   /* font size end */
   .cod {
