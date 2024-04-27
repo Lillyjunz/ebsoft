@@ -3,8 +3,11 @@ const Bann = () => {
     <div className="header">
       <div className="banner">
         <h1
-          className="text-center wow animate__animated animate__fadeInDown"
-          data-wow-duration="2s"
+          className="text-center"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+          data-aos-once="true"
         >
           <span className="text-success">Visualize.</span>
           <span className="text-primary">Design.</span>
@@ -12,8 +15,11 @@ const Bann = () => {
           <span style={{ color: "orangeRed" }}>Deliver</span>
         </h1>
         <p
-          className="text-center justify-self-center p-4 wow animate__animated animate__fadeInRight"
-          data-wow-duration="2s"
+          className="text-center justify-self-center p-4 "
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+          data-aos-once="true"
         >
           <span>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
@@ -23,35 +29,49 @@ const Bann = () => {
 
       <div className="text-center  im-div">
         <img
-          className="img-fluid ban-img wow animate__animated animate__fadeIn "
-          data-wow-delay="2s"
-          data-wow-duration="2s"
+          className="img-fluid ban-img "
+          data-aos="fade"
+          data-aos-duration="2000"
+          data-aos-delay="1000"
+          data-aos-once="true"
           src="./images/ann.gif"
         />
         <div className="div1 text-center">
           <li
-            className="fw-bold wow animate__animated animate__fadeIn"
-            data-wow-delay="1s"
+            className="fw-bold "
+            data-aos="fade"
+            data-aos-duration="1000"
+            data-aos-delay="1500"
+            data-aos-once="true"
           >
             WHO
           </li>
           <li
-            className="ms-5 wow animate__animated animate__fadeIn"
-            data-wow-delay="1.5s"
+            className="ms-5 "
+            data-aos="fade"
+            data-aos-duration="1000"
+            data-aos-delay="1500"
+            data-aos-once="true"
           >
             we are
           </li>
         </div>
         <div className="div2">
           <li
-            className="fw-bold wow animate__animated animate__fadeIn"
-            data-wow-delay="1s"
+            className="fw-bold "
+            data-aos="fade"
+            data-aos-duration="1000"
+            data-aos-delay="2000"
+            data-aos-once="true"
           >
             WHAT
           </li>
           <li
-            className="ms-5 wow animate__animated animate__fadeIn"
-            data-wow-delay="1.5s"
+            className="ms-5 "
+            data-aos="fade"
+            data-aos-duration="1000"
+            data-aos-delay="2000"
+            data-aos-once="true"
           >
             {" "}
             we do
@@ -59,22 +79,30 @@ const Bann = () => {
         </div>
         <div className="div3">
           <span
-            className="fw-bold wow animate__animated animate__fadeIn"
-            data-wow-delay="1s"
+            className="fw-bold "
+            data-aos="fade"
+            data-aos-duration="1000"
+            data-aos-delay="2500"
+            data-aos-once="true"
           >
             WE are Hiring
           </span>{" "}
         </div>
         <div className="div4">
           <li
-            className="ms-4 fw-bold wow animate__animated animate__fadeIn"
-            data-wow-delay="1s"
+            className="ms-4 fw-bold "
+            data-aos="fade"
+            data-aos-duration="1000"
+            data-aos-delay="2500"
+            data-aos-once="true"
           >
             HOW
           </li>{" "}
           <li
-            className="wow animate__animated animate__fadeIn"
-            data-wow-delay="1.5s"
+            data-aos="fade"
+            data-aos-duration="1000"
+            data-aos-delay="2500"
+            data-aos-once="true"
           >
             we think
           </li>
@@ -82,14 +110,19 @@ const Bann = () => {
         <div className="div5">
           {" "}
           <li
-            className="ms-4 fw-bold wow animate__animated animate__fadeIn"
-            data-wow-delay="1s"
+            className="ms-4 fw-bold "
+            data-aos="fade"
+            data-aos-duration="1000"
+            data-aos-once="true"
+            data-aos-delay="2800"
           >
             TELL US
           </li>
           <li
-            className="wow animate__animated animate__fadeIn"
-            data-wow-delay="1.5s"
+            data-aos="fade"
+            data-aos-duration="1000"
+            data-aos-delay="2800"
+            data-aos-once="true"
           >
             about the project
           </li>

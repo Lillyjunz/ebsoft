@@ -3,28 +3,34 @@ import { NavLink } from "react-router-dom";
 const Imagesection = () => {
   return (
     <>
-      <div className="d-flex im-sect justify-content-between container align-items-center wow animate__animated animate__fadeInUp">
+      <div className="d-flex im-sect justify-content-between container align-items-center ">
         <div className="co">
           <div className="align-items-center">
             <h1
-              className="fw-bold hire wow animate__animated animate__fadeInLeft"
-              data-wow-duration="1s"
-              data-wow-delay="0.5s"
+              className="fw-bold hire "
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="1000"
+              data-aos-once="true"
             >
               We are Hiring
             </h1>
             <p
-              className="p-1 wow animate__animated animate__fadeInRight"
-              data-wow-duration="1s"
-              data-wow-delay="0.5s"
+              className="p-1 "
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="1300"
+              data-aos-once="true"
             >
               Find out about open vacancies in our company and join our team
             </p>
             <NavLink to="/join">
               <button
-                className="btn btn-success wow animate__animated animate__bounceInUp fw-bold"
-                data-wow-duration="1s"
-                data-wow-delay="0.5s"
+                className="btn btn-success  fw-bold"
+                data-aos="bounce-up"
+                data-aos-duration="1000"
+                data-aos-delay="1600"
+                data-aos-once="true"
               >
                 Join our Team
               </button>
@@ -40,17 +46,20 @@ const Imagesection = () => {
                 boxShadow: "0 0 10px rgba(0, 0, 0, 0.6)",
                 marginTop: "40px",
               }}
-              className="me-2 wow animate__animated animate__fadeInLeft"
-              data-wow-duration="1s"
-              data-wow-delay="0.5s"
+              className="me-2 "
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-delay="1600"
+              data-aos-once="true"
               src="./images/image08.jpg"
               width={140}
               height={180}
             ></img>
             <img
-              className="wow animate__animated animate__fadeInRight"
-              data-wow-duration="1s"
-              data-wow-delay="0.5s"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-delay="1600"
+              data-aos-once="true"
               style={{
                 borderRadius: "10px",
                 boxShadow: "0 0 10px rgba(0, 0, 0, 0.6)",
@@ -67,17 +76,20 @@ const Imagesection = () => {
                 borderRadius: "10px",
                 boxShadow: "0 0 10px rgba(0, 0, 0, 0.6)",
               }}
-              className="me-2 wow animate__animated animate__fadeInDown"
-              data-wow-duration="1s"
-              data-wow-delay="0.5s"
+              className="me-2 "
+              data-aos="fade-down"
+              data-aos-duration="1000"
+              data-aos-delay="1600"
+              data-aos-once="true"
               src="./images/image06.jpg"
               width={140}
               height={180}
             ></img>
             <img
-              className="wow animate__animated animate__fadeInUp"
-              data-wow-duration="1s"
-              data-wow-delay="0.5s"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="1600"
+              data-aos-once="true"
               style={{
                 borderRadius: "10px",
                 boxShadow: "0 0 10px rgba(0, 0, 0, 0.6)",

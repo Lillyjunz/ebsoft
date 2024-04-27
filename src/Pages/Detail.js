@@ -1,9 +1,18 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 import Caroo from "../Components/Caroo";
 import Faq from "../Components/Faq";
 import Footernew from "../Components/FooterNew";
 import Navbar from "../Components/Navbar";
 
 const Detail = () => {
+  useEffect(() => {
+    AOS.init();
+
+    AOS.refresh();
+  }, []);
+
   return (
     <div className="detail-wrap">
       <Navbar></Navbar>

@@ -3,16 +3,20 @@ const Intro2 = () => {
     <div className="" style={{ padding: "40px", marginTop: "30px" }}>
       <div className="process-lg">
         <div
-          className="or-divider wow animate__animated animate__fadeInRight"
-          data-wow-duration="2s"
-          data-wow-delay="0.5s"
+          className="or-divider "
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-delay="1000"
+          data-aos-once="true"
         >
           <span className="fw-bold introspan">Our Process Life Cycle</span>
         </div>
         <h6
-          className="text-center p-4 wow animate__animated animate__fadeInLeft"
-          data-wow-duration="2s"
-          data-wow-delay="0.5s"
+          className="text-center p-4 "
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-delay="1000"
+          data-aos-once="true"
         >
           Visualize.Design.Build.Deliver
         </h6>
@@ -20,16 +24,20 @@ const Intro2 = () => {
 
       <div className="process pb-3">
         <h1
-          className="text-center fw-bold wow animate__animated animate__fadeInRight"
-          data-wow-duration="2s"
-          data-wow-delay="0.5s"
+          className="text-center fw-bold "
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-delay="1000"
+          data-aos-once="true"
         >
           Our Process Life Cycle
         </h1>
         <h6
-          className="text-center wow animate__animated animate__fadeInLeft"
-          data-wow-duration="2s"
-          data-wow-delay="0.5s"
+          className="text-center "
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-delay="1000"
+          data-aos-once="true"
         >
           Visualize.Design.Build.Deliver
         </h6>
@@ -37,9 +45,11 @@ const Intro2 = () => {
 
       <div className=" row justify-content-center align-items-center pt-2">
         <div
-          className="col-lg-4 er-container me-2 wow animate__animated animate__fadeInUp"
-          data-wow-duration="1s"
-          data-wow-delay="1s"
+          className="col-lg-4 er-container me-2 "
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-delay="1500"
+          data-aos-once="true"
           style={{
             border: "2px ",
             borderRadius: "10px",
@@ -56,22 +66,28 @@ const Intro2 = () => {
             <div className="align-items-center text-start pt-5 pb-2 ps-4">
               <h2>
                 <i
-                  className="bi bi-shield-check text-success wow animate__animated animate__fadeInUp"
-                  data-wow-duration="1s"
-                  data-wow-delay="1.3s"
+                  className="bi bi-shield-check text-success "
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="1800"
+                  data-aos-once="true"
                 ></i>
               </h2>
               <h3
-                className="text-success fw-bold wow animate__animated animate__fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="1s"
+                className="text-success fw-bold "
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="2000"
+                data-aos-once="true"
               >
                 "Let's hear it. -"
               </h3>
               <p
-                className="fw-bold text-dark wow animate__animated animate__fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="1s"
+                className="fw-bold text-dark "
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="2300"
+                data-aos-once="true"
               >
                 Delivery, Support and Maintenance
               </p>
@@ -92,9 +108,11 @@ const Intro2 = () => {
         </div>
 
         <div
-          className="col-lg-4 er-container me-2 wow animate__animated animate__fadeInUp"
-          data-wow-duration="1.5s"
-          data-wow-delay="1s"
+          className="col-lg-4 er-container me-2 "
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="1600"
+          data-aos-once="true"
           style={{
             border: "2px ",
             borderRadius: "10px",
@@ -111,22 +129,28 @@ const Intro2 = () => {
             <div className="align-items-center text-start pt-5 pb-2 ps-4">
               <h2>
                 <i
-                  className="bi bi-emoji-sunglasses text-success wow animate__animated animate__fadeInUp"
-                  data-wow-duration="1s"
-                  data-wow-delay="1.3s"
+                  className="bi bi-emoji-sunglasses text-success "
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="1800"
+                  data-aos-once="true"
                 ></i>
               </h2>
               <h3
                 className="text-success fw-bold wow animate__animated animate__fadeIn"
-                data-wow-duration="1s"
-                data-wow-delay="1s"
+                data-aos="fade"
+                data-aos-duration="1000"
+                data-aos-delay="2000"
+                data-aos-once="true"
               >
                 "Let's see it. -"
               </h3>
               <p
-                className="fw-bold text-dark wow animate__animated animate__fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="1.2s"
+                className="fw-bold text-dark "
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="2200"
+                data-aos-once="true"
               >
                 Delivery, Support and Maintenance
               </p>
@@ -147,9 +171,11 @@ const Intro2 = () => {
         </div>
 
         <div
-          className="col-lg-4 er-container wow animate__animated animate__fadeInUp"
-          data-wow-duration="1s"
-          data-wow-delay="1s"
+          className="col-lg-4 er-container "
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-delay="1600"
+          data-aos-once="true"
           style={{
             border: "2px ",
             borderRadius: "10px",
@@ -166,22 +192,28 @@ const Intro2 = () => {
             <div className="align-items-center text-start pt-5 pb-2 ps-4">
               <h2>
                 <i
-                  className="bi bi-box text-success wow animate__animated animate__fadeInUp"
-                  data-wow-duration="1s"
-                  data-wow-delay="1s"
+                  className="bi bi-box text-success "
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="1800"
+                  data-aos-once="true"
                 ></i>
               </h2>
               <h3
                 className="text-success fw-bold wow animate__animated animate__fadeIn"
-                data-wow-duration="1s"
-                data-wow-delay="1s"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="2000"
+                data-aos-once="true"
               >
                 "Let's build it. -"
               </h3>
               <p
-                className="fw-bold text-dark wow animate__animated animate__fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="1s"
+                className="fw-bold text-dark "
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="2200"
+                data-aos-once="true"
               >
                 Feedback and Partnership Relations
               </p>
@@ -203,9 +235,11 @@ const Intro2 = () => {
       </div>
       <div className=" row justify-content-center pt-2">
         <div
-          className="col-lg-4 er-container me-2 wow animate__animated animate__fadeInUp"
-          data-wow-duration="1s"
-          data-wow-delay="1s"
+          className="col-lg-4 er-container me-2 "
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="1800"
+          data-aos-once="true"
           style={{
             border: "2px ",
             borderRadius: "10px",
@@ -222,22 +256,28 @@ const Intro2 = () => {
             <div className="align-items-center text-start pt-5 pb-2 ps-4">
               <h2>
                 <i
-                  className="bi bi-rocket text-success wow animate__animated animate__fadeInUp"
-                  data-wow-duration="1s"
-                  data-wow-delay="1s"
+                  className="bi bi-rocket text-success "
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="1800"
+                  data-aos-once="true"
                 ></i>
               </h2>
               <h3
                 className="text-success fw-bold wow animate__animated animate__fadeIn"
-                data-wow-duration="1s"
-                data-wow-delay="0.5s"
+                data-aos="fade"
+                data-aos-duration="1000"
+                data-aos-delay="2000"
+                data-aos-once="true"
               >
                 "Let's deliver it. -"
               </h3>
               <p
-                className="fw-bold text-dark wow animate__animated animate__fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="1s"
+                className="fw-bold text-dark "
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="2200"
+                data-aos-once="true"
               >
                 Delivery, Support and Maintenance
               </p>
@@ -258,9 +298,11 @@ const Intro2 = () => {
         </div>
 
         <div
-          className="col-lg-4 er-container wow animate__animated animate__fadeInUp"
-          data-wow-duration="1s"
-          data-wow-delay="1s"
+          className="col-lg-4 er-container "
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="1500"
+          data-aos-once="true"
           style={{
             border: "2px ",
             borderRadius: "10px",
@@ -277,22 +319,28 @@ const Intro2 = () => {
             <div className="align-items-center text-start pt-5 pb-2 ps-4">
               <h2>
                 <i
-                  className="bi bi-people text-success wow animate__animated animate__fadeInUp"
-                  data-wow-duration="1s"
-                  data-wow-delay="1s"
+                  className="bi bi-people text-success "
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="1800"
+                  data-aos-once="true"
                 ></i>
               </h2>
               <h3
                 className="text-success fw-bold wow animate__animated animate__fadeIn"
-                data-wow-duration="1s"
-                data-wow-delay="0.5s"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="2000"
+                data-aos-once="true"
               >
                 "Let's have it. -"
               </h3>
               <p
-                className="fw-bold text-dark wow animate__animated animate__fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="1s"
+                className="fw-bold text-dark "
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="2200"
+                data-aos-once="true"
               >
                 Feedback and Partnership Relations
               </p>

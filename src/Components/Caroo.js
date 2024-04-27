@@ -44,9 +44,11 @@ export default function SwiperHome() {
           },
         }}
         modules={[Navigation, Pagination, Autoplay]}
-        className="mySwiper wow animate__animated animate__fadeInUp"
-        data-wow-duration="1s"
-        data-wow-delay="1s"
+        className="mySwiper "
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay="2000"
+        data-aos-once="true"
         style={{ width: "100%", marginTop: "120px", marginBottom: "100px" }}
       >
         <SwiperSlide className="align-items-center justify-content-center d-flex">

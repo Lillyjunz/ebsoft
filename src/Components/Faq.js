@@ -27,23 +27,25 @@ function Faq() {
 
   return (
     <div
-      className="wow animate__animated animate__fadeInUp container"
-      data-wow-duration="1s"
-      data-wow-delay="1s"
+      className=" container"
       style={{ marginTop: "140px", marginBottom: "170px" }}
     >
       <h1
-        className="fw-bold ps-3 pb-2 faq wow animate__animated animate__fadeInUp text-success"
-        data-wow-duration="2s"
-        data-wow-delay="1s"
+        className="fw-bold ps-3 pb-2 faq  text-success"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay="1300"
+        data-aos-once="true"
       >
         FAQ
       </h1>
       <div className="accordion">
         <div
-          className="contentBx wow animate__animated animate__fadeInUp"
-          data-wow-duration="2s"
-          data-wow-delay="2s"
+          className="contentBx "
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="1500"
+          data-aos-once="true"
         >
           <div className="label fw-bold">
             {" "}
@@ -62,9 +64,11 @@ function Faq() {
 
       <div className="accordion">
         <div
-          className="contentBx wow animate__animated animate__fadeInUp"
-          data-wow-duration="2s"
-          data-wow-delay="2s"
+          className="contentBx "
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="1700"
+          data-aos-once="true"
         >
           <div className="label fw-bold">
             {" "}
@@ -83,9 +87,11 @@ function Faq() {
 
       <div className="accordion">
         <div
-          className="contentBx wow animate__animated animate__fadeInUp"
-          data-wow-duration="2s"
-          data-wow-delay="2s"
+          className="contentBx "
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="1900"
+          data-aos-once="true"
         >
           <div className="label fw-bold">
             {" "}
@@ -104,9 +110,11 @@ function Faq() {
 
       <div className="accordion">
         <div
-          className="contentBx wow animate__animated animate__fadeInUp"
-          data-wow-duration="2s"
-          data-wow-delay="2s"
+          className="contentBx "
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="2100"
+          data-aos-once="true"
         >
           <div className="label fw-bold">
             {" "}
@@ -125,9 +133,11 @@ function Faq() {
 
       <div className="accordion">
         <div
-          className="contentBx wow animate__animated animate__fadeInUp"
-          data-wow-duration="2s"
-          data-wow-delay="2s"
+          className="contentBx "
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="2300"
+          data-aos-once="true"
         >
           <div className="label fw-bold">
             {" "}
@@ -146,9 +156,11 @@ function Faq() {
 
       <div className="accordion">
         <div
-          className="contentBx wow animate__animated animate__fadeInUp"
-          data-wow-duration="2s"
-          data-wow-delay="2s"
+          className="contentBx "
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="2500"
+          data-aos-once="true"
         >
           <div className="label fw-bold">
             {" "}
@@ -167,9 +179,11 @@ function Faq() {
 
       <div className="accordion">
         <div
-          className="contentBx wow animate__animated animate__fadeInUp"
-          data-wow-duration="2s"
-          data-wow-delay="2s"
+          className="contentBx "
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="2700"
+          data-aos-once="true"
         >
           <div className="label fw-bold">
             {" "}

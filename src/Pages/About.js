@@ -1,12 +1,17 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 import Footernew from "../Components/FooterNew";
 import Navbar from "../Components/Navbar";
 import SwiperCarousel from "../Components/Swipercarous";
 import Team from "../Components/Team";
 
 const About = () => {
-  // useEffect(() => {
-  //   AOS.init();
-  // }, []);
+  useEffect(() => {
+    AOS.init();
+
+    AOS.refresh();
+  }, []);
 
   return (
     <div className="abb">
@@ -17,25 +22,24 @@ const About = () => {
 
         <div className="contenti text-start">
           <h3
-            className="wow animate__animated animate__fadeInDown"
-            data-wow-duration="1s"
-            data-wow-delay="1s"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-delay="500"
+            data-aos-once="true"
           >
             About Ebsoft
           </h3>
-          <p
-            className="wow animate__animated animate__fadeInLeft"
-            data-wow-duration="1s"
-            data-wow-delay="1s"
-          >
+          <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
             cupiditate molestias asperiores assumenda hic impedit asperiores
           </p>
         </div>
         <img
-          className="img-fluid rounded-circle wow animate__animated animate__fadeInRight"
-          data-wow-duration="1s"
-          data-wow-delay="1s"
+          className="img-fluid rounded-circle "
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+          data-aos-once="true"
           src="/images/image04.jpg"
         />
         {/*Waves Container*/}
@@ -75,22 +79,26 @@ const About = () => {
           <div
             className="first-crid"
             data-aos="fade-up"
+            data-aos-once="true"
             data-aos-duration="1000"
             data-aos-delay="500"
             style={{ width: "100%" }}
           >
             <h1
               className="fw-bold text-success ourm "
-              data-wow-duration="1s"
-              data-wow-delay="1s"
+              data-aos="fade-up"
+              data-aos-once="true"
+              data-aos-duration="1000"
+              data-aos-delay="500"
             >
               Our Mission
             </h1>
 
             <p
-              className="wow animate__animated animate__fadeInUp"
-              data-wow-duration="1s"
-              data-wow-delay="1s"
+              data-aos="fade-up"
+              data-aos-once="true"
+              data-aos-duration="1000"
+              data-aos-delay="500"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
               deserunt, adipisci sed expedita eius autem dolorum impedit nihil,
@@ -103,6 +111,7 @@ const About = () => {
             <div
               className="for-divider our "
               data-aos="fade-up"
+              data-aos-once="true"
               data-aos-duration="1000"
               data-aos-delay="500"
             >
@@ -112,6 +121,7 @@ const About = () => {
             <img
               className=" img-fluid intro-img "
               data-aos="fade-up"
+              data-aos-once="true"
               data-aos-duration="1000"
               data-aos-delay="500"
               src="./images/image13.jpg"
@@ -123,6 +133,7 @@ const About = () => {
             <div
               className="for-divider our "
               data-aos="fade-up"
+              data-aos-once="true"
               data-aos-duration="1000"
               data-aos-delay="500"
             >
@@ -131,6 +142,7 @@ const About = () => {
             <img
               className=" img-fluid intro-img "
               data-aos="fade-up"
+              data-aos-once="true"
               data-aos-duration="1000"
               data-aos-delay="500"
               src="./images/image10.jpg"
@@ -142,12 +154,18 @@ const About = () => {
             <h1
               className="fw-bold text-success ourm "
               data-aos="fade-up"
+              data-aos-once="true"
               data-aos-duration="1000"
               data-aos-delay="500"
             >
               Our Vision
             </h1>
-            <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+            <p
+              data-aos="fade-up"
+              data-aos-once="true"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+            >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
               deserunt, adipisci sed expedita eius autem dolorum impedit nihil,
               dicta, recusandae harum maxime blanditiis fugit tenetur possimus
@@ -163,22 +181,31 @@ const About = () => {
           style={{ backgroundColor: "rgba(0, 0, 0, .3)" }}
         >
           <h1
-            className="text-light text-center fw-bold wow animate__animated animate__fadeInUp"
-            data-wow-duration="1s"
-            data-wow-delay="1s"
+            className="text-light text-center fw-bold "
+            data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-duration="1000"
+            data-aos-delay="500"
           >
             Our Values
           </h1>
           <div className="crid text-light">
             <div className=" w-100 me-5 mt-5">
               <h3
-                className=" fw-bold text-center wow animate__animated animate__fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="1s"
+                className=" fw-bold text-center"
+                data-aos="fade-up"
+                data-aos-once="true"
+                data-aos-duration="1000"
+                data-aos-delay="500"
               >
                 Happiness
               </h3>
-              <p className="wow animate__animated animate__fadeInUp">
+              <p
+                data-aos="fade-up"
+                data-aos-once="true"
+                data-aos-duration="1000"
+                data-aos-delay="500"
+              >
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Tenetur ab recusandae sint eius obcaecati atque, necessitatibus
                 nam voluptates aliquid, natus quas quia illo? Provident
@@ -187,16 +214,19 @@ const About = () => {
             </div>
             <div className=" w-100 mt-5">
               <h3
-                className="fw-bold text-light text-center wow animate__animated animate__fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="1s"
+                className="fw-bold text-light text-center "
+                data-aos="fade-up"
+                data-aos-once="true"
+                data-aos-duration="1000"
+                data-aos-delay="500"
               >
                 Honesty
               </h3>
               <p
-                className="wow animate__animated animate__fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="1s"
+                data-aos="fade-up"
+                data-aos-once="true"
+                data-aos-duration="1000"
+                data-aos-delay="500"
               >
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Numquam, impedit atque id architecto ab in? Veniam sunt illum

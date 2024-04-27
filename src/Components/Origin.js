@@ -2,9 +2,11 @@ const Origin = () => {
   return (
     <>
       <div
-        className="wow animate__animated animate__fadeIn justify-content-center align-items-center orig"
-        data-wow-delay="0.5s"
-        data-wow-duration="2s"
+        className=" justify-content-center align-items-center orig"
+        data-aos="fade"
+        data-aos-duration="1000"
+        data-aos-once="true"
+        data-aos-delay="500"
         style={{ paddingBottom: "100px" }}
       >
         <h1
@@ -12,6 +14,7 @@ const Origin = () => {
           data-aos="fade-up"
           data-aos-duration="1000"
           data-aos-delay="500"
+          data-aos-once="true"
         >
           We deal with client of any <br></br>size and industry
         </h1>
@@ -21,6 +24,7 @@ const Origin = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="500"
+            data-aos-once="true"
             style={{ width: "100%" }}
           >
             <h4 className="fw-bold ">Individuals and start ups</h4>
@@ -37,6 +41,7 @@ const Origin = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="500"
+            data-aos-once="true"
             style={{ width: "90%" }}
           >
             <h3 className="text-center img-txt fw-bold">
@@ -52,8 +57,9 @@ const Origin = () => {
           <div
             className="third-crid "
             data-aos="fade-right"
-            data-aos-duration="2000"
-            data-aos-delay="1000"
+            data-aos-duration="1000"
+            data-aos-delay="500"
+            data-aos-once="true"
             style={{ width: "90%" }}
           >
             <h3 className="text-center img-txt  fw-bold">
@@ -71,6 +77,7 @@ const Origin = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="500"
+            data-aos-once="true"
             style={{ width: "100%" }}
           >
             <h4 className="fw-bold">Individuals and start ups</h4>

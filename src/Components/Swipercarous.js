@@ -48,9 +48,11 @@ export default function SwiperCarousel() {
           },
         }}
         modules={[Navigation, Pagination, Autoplay]}
-        className="mySwiper wow animate__animated animate__fadeInUp container-fluid"
-        data-wow-duration="1s"
-        data-wow-delay="1s"
+        className="mySwiper container-fluid"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay="500"
+        data-aos-once="true"
         style={{
           margin: "100px auto",
           justifyContent: "center",

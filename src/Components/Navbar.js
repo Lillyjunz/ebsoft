@@ -7,7 +7,13 @@ const Navbar = () => {
           className="container-fluid align-items-center"
           style={{ padding: "13px" }}
         >
-          <div className="nav-img">
+          <div
+            className="nav-img"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-delay="500"
+            data-aos-once="true"
+          >
             <NavLink to="/">
               <img
                 className=" img-fluid"
@@ -18,7 +24,13 @@ const Navbar = () => {
           </div>
 
           <NavLink to="/contact">
-            <button className="btn btn-success me-2 fw-bold ">
+            <button
+              className="btn btn-success me-2 fw-bold "
+              data-aos="fade-down"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+              data-aos-once="true"
+            >
               <h5>Contact</h5>
             </button>
           </NavLink>

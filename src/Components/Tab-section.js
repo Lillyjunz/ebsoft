@@ -4,9 +4,11 @@ const Tab = () => {
   return (
     <>
       <div
-        className="wow animate__animated animate__fadeInUp tabb container"
-        data-wow-duration="1s"
-        data-wow-delay="1s"
+        className=" tabb container"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay="1000"
+        data-aos-once="true"
         style={{ marginTop: "100px", padding: "15px" }}
       >
         <ul
@@ -77,9 +79,11 @@ const Tab = () => {
             <div className="p-1">
               <div className="row " style={{ marginBottom: "100px" }}>
                 <div
-                  className="col-lg-4 pt-5 wow animate__animated animate__fadeInLeft"
-                  data-wow-duration="1s"
-                  data-wow-delay="0.5s"
+                  className="col-lg-4 pt-5 "
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                  data-aos-delay="1500"
+                  data-aos-once="true"
                 >
                   <h3 className="fw-bold pb-2">
                     Software and Mobile<br></br> Development
@@ -98,9 +102,11 @@ const Tab = () => {
                 </div>
 
                 <div
-                  className="col-lg-4 pt-5 wow animate__animated animate__fadeInRight"
-                  data-wow-duration="1s"
-                  data-wow-delay="0.5s"
+                  className="col-lg-4 pt-5 "
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                  data-aos-delay="1000"
+                  data-aos-once="true"
                 >
                   <h3 className="fw-bold pb-2">
                     UI/UX and Web<br></br> Development
@@ -118,9 +124,11 @@ const Tab = () => {
                   </NavLink>
                 </div>
                 <div
-                  className="col-lg-4 pt-5 wow animate__animated animate__fadeInLeft"
-                  data-wow-duration="1s"
-                  data-wow-delay="0.5s"
+                  className="col-lg-4 pt-5 "
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                  data-aos-delay="1300"
+                  data-aos-once="true"
                 >
                   <h3 className="fw-bold pb-2">
                     Cloud Infrastructure <br></br> Services
@@ -138,9 +146,11 @@ const Tab = () => {
                   </NavLink>
                 </div>
                 <div
-                  className="col-lg-4 pt-5 wow animate__animated animate__fadeInUp"
-                  data-wow-duration="1s"
-                  data-wow-delay="0.5s"
+                  className="col-lg-4 pt-5 "
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="1500"
+                  data-aos-once="true"
                 >
                   <h3 className="fw-bold pb-2">
                     Digital Cloud <br></br>Transformation
@@ -158,9 +168,11 @@ const Tab = () => {
                   </NavLink>
                 </div>
                 <div
-                  className="col-lg-4 pt-5 wow animate__animated animate__fadeInUp"
-                  data-wow-duration="1s"
-                  data-wow-delay="0.5s"
+                  className="col-lg-4 pt-5 "
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="1600"
+                  data-aos-once="true"
                 >
                   <h3 className="fw-bold pb-2">
                     Tech Hiring <br></br> Services
@@ -191,7 +203,13 @@ const Tab = () => {
               className="row p-1 "
               style={{ marginBottom: "160px", paddingBottom: "200px" }}
             >
-              <div className="col-lg-6 pb-3 pt-3 wow animate__animated animate__fadeInLeft">
+              <div
+                className="col-lg-6 pb-3 pt-3 "
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                data-aos-delay="1500"
+                data-aos-once="true"
+              >
                 <h4 className="fw-bold pb-3">Partial end to end Development</h4>
                 <p style={{ maxWidth: "90%" }}>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
@@ -205,7 +223,13 @@ const Tab = () => {
                 </p>
               </div>
 
-              <div className="col-lg-6 pt-3 wow animate__animated animate__fadeInRight">
+              <div
+                className="col-lg-6 pt-3 "
+                data-aos="fade-left"
+                data-aos-duration="1000"
+                data-aos-delay="1500"
+                data-aos-once="true"
+              >
                 <h4 className="fw-bold pb-3">
                   Complete end to end Model Development
                 </h4>
@@ -233,7 +257,13 @@ const Tab = () => {
               className="row p-1"
               style={{ marginBottom: "100px", paddingBottom: "170px" }}
             >
-              <div className="col-lg-4 pt-3 wow animate__animated animate__fadeInUp">
+              <div
+                className="col-lg-4 pt-3 "
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="1500"
+                data-aos-once="true"
+              >
                 <h3 className="fw-bold pb-2">Public Governance</h3>
                 <p className="pt-3 pb-3" style={{ maxWidth: "90%" }}>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
@@ -241,28 +271,52 @@ const Tab = () => {
                 </p>
               </div>
 
-              <div className="col-lg-4 pt-3 wow animate__animated animate__fadeInUp">
+              <div
+                className="col-lg-4 pt-3 "
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="1600"
+                data-aos-once="true"
+              >
                 <h3 className="fw-bold pb-2">Health Care</h3>
                 <p className="pt-3 pb-3" style={{ maxWidth: "90%" }}>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
                   magni magnam illo quia quae perspiciatis ab exercitationem
                 </p>
               </div>
-              <div className="col-lg-4 pt-3 wow animate__animated animate__fadeInUp">
+              <div
+                className="col-lg-4 pt-3 "
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="1600"
+                data-aos-once="true"
+              >
                 <h3 className="fw-bold pb-2">Retail and Commerce</h3>
                 <p className="pt-3 pb-3" style={{ maxWidth: "90%" }}>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
                   magni magnam illo quia quae perspiciatis ab exercitationem
                 </p>
               </div>
-              <div className="col-lg-4 pt-3 wow animate__animated animate__fadeInUp">
+              <div
+                className="col-lg-4 pt-3 "
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="1500"
+                data-aos-once="true"
+              >
                 <h3 className="fw-bold pb-2">Logistics</h3>
                 <p className="pt-3 pb-3" style={{ maxWidth: "90%" }}>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
                   magni magnam illo quia quae perspiciatis ab exercitationem
                 </p>
               </div>
-              <div className="col-lg-4 pt-3 wow animate__animated animate__fadeInUp">
+              <div
+                className="col-lg-4 pt-3 "
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="1500"
+                data-aos-once="true"
+              >
                 <h3 className="fw-bold pb-2">Media</h3>
                 <p className="pt-3 pb-3" style={{ maxWidth: "90%" }}>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
