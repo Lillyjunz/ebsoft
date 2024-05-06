@@ -47,7 +47,7 @@ export default function SwiperHome() {
         className="mySwiper "
         data-aos="fade-up"
         data-aos-duration="1000"
-        data-aos-delay="2000"
+        data-aos-delay="1500"
         data-aos-once="true"
         style={{ width: "100%", marginTop: "120px", marginBottom: "100px" }}
       >

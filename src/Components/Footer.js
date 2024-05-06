@@ -10,7 +10,13 @@ const Footer = () => {
           d="M0,128L48,138.7C96,149,192,171,288,160C384,149,480,107,576,80C672,53,768,43,864,74.7C960,107,1056,181,1152,181.3C1248,181,1344,107,1392,69.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
       </svg>
-      <div className="row pt-5 pb-4 text-light bg-black">
+      <div
+        className="row pt-5 pb-4 text-light bg-black"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay="1500"
+        data-aos-once="true"
+      >
         <div className="col-lg-4 col-md-6 text-sm-start text-center pb-sm-3 ps-sm-1">
           <NavLink to="/">
             <img src="../images/ebslogo.png" width={230} height={100}></img>

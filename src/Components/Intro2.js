@@ -1,6 +1,9 @@
 const Intro2 = () => {
   return (
-    <div className="" style={{ padding: "40px", marginTop: "30px" }}>
+    <div
+      className="intro-bg container"
+      style={{ padding: "40px", paddingTop: "150px" }}
+    >
       <div className="process-lg">
         <div
           className="or-divider "
@@ -83,7 +86,7 @@ const Intro2 = () => {
                 "Let's hear it. -"
               </h3>
               <p
-                className="fw-bold text-dark "
+                className="fw-bold text-dark pe-2"
                 data-aos="fade-up"
                 data-aos-duration="1000"
                 data-aos-delay="2300"
@@ -137,7 +140,7 @@ const Intro2 = () => {
                 ></i>
               </h2>
               <h3
-                className="text-success fw-bold wow animate__animated animate__fadeIn"
+                className="text-success fw-bold "
                 data-aos="fade"
                 data-aos-duration="1000"
                 data-aos-delay="2000"
@@ -146,7 +149,7 @@ const Intro2 = () => {
                 "Let's see it. -"
               </h3>
               <p
-                className="fw-bold text-dark "
+                className="fw-bold text-dark pe-3"
                 data-aos="fade-up"
                 data-aos-duration="1000"
                 data-aos-delay="2200"
@@ -200,7 +203,7 @@ const Intro2 = () => {
                 ></i>
               </h2>
               <h3
-                className="text-success fw-bold wow animate__animated animate__fadeIn"
+                className="text-success fw-bold "
                 data-aos="fade-up"
                 data-aos-duration="1000"
                 data-aos-delay="2000"
@@ -264,7 +267,7 @@ const Intro2 = () => {
                 ></i>
               </h2>
               <h3
-                className="text-success fw-bold wow animate__animated animate__fadeIn"
+                className="text-success fw-bold "
                 data-aos="fade"
                 data-aos-duration="1000"
                 data-aos-delay="2000"
@@ -273,7 +276,7 @@ const Intro2 = () => {
                 "Let's deliver it. -"
               </h3>
               <p
-                className="fw-bold text-dark "
+                className="fw-bold text-dark pe-2"
                 data-aos="fade-up"
                 data-aos-duration="1000"
                 data-aos-delay="2200"
@@ -327,7 +330,7 @@ const Intro2 = () => {
                 ></i>
               </h2>
               <h3
-                className="text-success fw-bold wow animate__animated animate__fadeIn"
+                className="text-success fw-bold "
                 data-aos="fade-up"
                 data-aos-duration="1000"
                 data-aos-delay="2000"

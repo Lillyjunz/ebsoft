@@ -1,5 +1,14 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 import { NavLink } from "react-router-dom";
+
 const Footernew = () => {
+  useEffect(() => {
+    AOS.init();
+
+    AOS.refresh();
+  }, []);
   return (
     <>
       <div className="fooot">
@@ -31,7 +40,7 @@ const Footernew = () => {
         </svg>
       </div>
       <footer>
-        <div className="containerr">
+        <div className="containerr ">
           <div className="column first ">
             <div className="footr text-center">
               <NavLink to="/">
@@ -61,11 +70,15 @@ const Footernew = () => {
           </div>
           <div className="column">
             <h4 className="fw-bold">Company</h4>
-            <li style={{ listStyleType: "none" }}>Success stories</li>
+            <NavLink to="/about">
+              <li style={{ listStyleType: "none" }}>Success stories</li>
+            </NavLink>
             <NavLink to="/about">
               <li style={{ listStyleType: "none" }}>About us</li>
             </NavLink>
-            <li style={{ listStyleType: "none" }}>Our Team</li>
+            <NavLink to="/about">
+              <li style={{ listStyleType: "none" }}>Our Team</li>
+            </NavLink>
             <NavLink to="/join">
               <li style={{ listStyleType: "none" }}>Join us</li>
             </NavLink>
@@ -75,13 +88,23 @@ const Footernew = () => {
           </div>
           <div className="column co-serve">
             <h4 className="fw-bold">Services</h4>
-            <li style={{ listStyleType: "none" }}>UI/UX development</li>
-            <li style={{ listStyleType: "none" }}>
-              Software and web development
-            </li>
-            <li style={{ listStyleType: "none" }}>Digital transformation</li>
-            <li style={{ listStyleType: "none" }}>Cloud infrastructure</li>
-            <li style={{ listStyleType: "none" }}>Tech hiring services</li>
+            <NavLink to="/detail">
+              <li style={{ listStyleType: "none" }}>UI/UX development</li>
+            </NavLink>
+            <NavLink to="/detail">
+              <li style={{ listStyleType: "none" }}>Software development</li>
+            </NavLink>
+            <NavLink to="/detail">
+              {" "}
+              <li style={{ listStyleType: "none" }}>Digital transformation</li>
+            </NavLink>
+            <NavLink to="/detail">
+              <li style={{ listStyleType: "none" }}>Cloud infrastructure</li>
+            </NavLink>
+            <NavLink to="/detail">
+              {" "}
+              <li style={{ listStyleType: "none" }}>Tech hiring services</li>
+            </NavLink>
           </div>
           <div className="column co-cont">
             <h4 className="fw-bold"> Contact</h4>

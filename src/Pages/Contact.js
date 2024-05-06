@@ -1,11 +1,19 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 import SwiperHome from "../Components/Caroo";
 import Footernew from "../Components/FooterNew";
 import Navbar from "../Components/Navbar";
 
 const Contact = () => {
+  useEffect(() => {
+    AOS.init();
+
+    AOS.refresh();
+  }, []);
   return (
     <div className="contact-wrap">
-      <Navbar />
+      <Navbar></Navbar>
 
       <div className="d-flex contact-div justify-content-between ">
         <div
@@ -101,7 +109,7 @@ const Contact = () => {
               <option value="3">Unsure</option>
             </select>
           </div>
-          <div className="d-flex justify-content-between align-items-center">
+          <div className="d-flex justify-content-between align-items-center mt-5">
             <div className="text-primary">I'm not a robot</div>
             <button className="btn btn-success p-2 ps-3 pe-3">Submit</button>
           </div>
@@ -128,9 +136,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-
       <SwiperHome></SwiperHome>
-
       <Footernew></Footernew>
     </div>
   );

@@ -44,7 +44,7 @@ function Faq() {
           className="contentBx "
           data-aos="fade-up"
           data-aos-duration="1000"
-          data-aos-delay="1500"
+          data-aos-delay="1600"
           data-aos-once="true"
         >
           <div className="label fw-bold">

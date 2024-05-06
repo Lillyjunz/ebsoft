@@ -21,25 +21,29 @@ const Detail = () => {
 
         <div className="contenti text-start">
           <h3
-            className="wow animate__animated animate__fadeInDown"
-            data-wow-duration="1s"
-            data-wow-delay="1s"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-delay="1500"
+            data-aos-once="true"
           >
             Our Services
           </h3>
           <p
-            className="wow animate__animated animate__fadeInLeft"
-            data-wow-duration="1s"
-            data-wow-delay="1s"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="1500"
+            data-aos-once="true"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
             cupiditate molestias asperiores assumenda hic impedit asperiores
           </p>
         </div>
         <img
-          className="img-fluid rounded-circle wow animate__animated animate__fadeInRight"
-          data-wow-duration="1s"
-          data-wow-delay="1s"
+          className="img-fluid rounded-circle "
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-delay="1500"
+          data-aos-once="true"
           src="/images/image8.jpg"
         />
         {/*Waves Container*/}
@@ -80,9 +84,11 @@ const Detail = () => {
           style={{ paddingBottom: "70px", paddingTop: "80px" }}
         >
           <div
-            className="for-divider wow animate__animated animate__fadeInUp"
-            data-wow-duration="1s"
-            data-wow-delay="1s"
+            className="for-divider "
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="800"
+            data-aos-once="true"
             style={{ paddingBottom: "40px" }}
           >
             <span className="fw-bold text-success">UI/UX Development</span>
@@ -91,24 +97,30 @@ const Detail = () => {
           <div className="cod ">
             <div className="codi" style={{ width: "100%" }}>
               <div
-                className=" cour wow animate__animated animate__fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="1s"
+                className=" cour "
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="900"
+                data-aos-once="true"
               >
                 <span className="fw-bold text-success">UI/UX Development</span>
               </div>
               <img
-                className=" intro-img img-fluid mb-5 wow animate__animated animate__fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="1s"
+                className=" intro-img img-fluid mb-5 "
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="800"
+                data-aos-once="true"
                 src="./images/image02.jpg"
                 alt="ann"
               />
             </div>
             <div
-              className="codi wow animate__animated animate__fadeInUp"
-              data-wow-duration="1s"
-              data-wow-delay="1s"
+              className="codi "
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="1200"
+              data-aos-once="true"
               style={{ width: "100%" }}
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
@@ -123,48 +135,49 @@ const Detail = () => {
               fugit tenetur possimus commodi aliquam nobis in adipisicing elit.
               Consequuntur pariatur sed, illum excepturi dolorem iusto at
               praesentium repudiandae hic adipisci? Voluptatum, aspernatur
-              quaerat ipsa adipisci officia molestias. Expedita, eius amet!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-              deserunt adipisicing elit. Consequuntur pariatur sed, illum
-              excepturi dolorem iusto at
             </div>
           </div>
         </div>
 
         <div className="detail-div" style={{ paddingBottom: "70px" }}>
           <div
-            className="for-divider wow animate__animated animate__fadeInUp"
-            data-wow-duration="1s"
-            data-wow-delay="1s"
+            className="for-divider "
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="1000"
+            data-aos-once="true"
             style={{ paddingBottom: "40px" }}
           >
-            <span className="fw-bold text-success">
-              Software and Mobile Development
-            </span>
+            <span className="fw-bold text-success">Software Development</span>
           </div>
 
           <div className="cod align-items-center">
             <div className="codi" style={{ width: "90%" }}>
               <div
-                className=" cour wow animate__animated animate__fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="1s"
+                className=" cour "
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="1000"
+                data-aos-once="true"
               >
                 <span className="fw-bold text-success">UI/UX Development</span>
               </div>
               <img
-                className=" intro-img img-fluid mb-5 wow animate__animated animate__fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="1s"
+                className=" intro-img img-fluid mb-5 "
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="1000"
+                data-aos-once="true"
                 src="./images/image3.jpg"
                 alt="ann"
               />
             </div>
             <div
-              className="codi wow animate__animated animate__fadeInUp"
-              data-wow-duration="1s"
-              data-wow-delay="1s"
+              className="codi "
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="1200"
+              data-aos-once="true"
               style={{ width: "90%" }}
             >
               <p>
@@ -181,10 +194,6 @@ const Detail = () => {
                 autem dolorum impedit nihil, dicta, recusandae harum maxime
                 blanditiis fugit tenetur possimus commodi aliquam nobis in.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consequuntur pariatur sed, illum excepturi dolorem iusto at
-                praesentium repudiandae hic adipisci? Voluptatum, aspernatur
-                quaerat ipsa adipisci officia molestias. Expedita, eius amet!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
               </p>
             </div>
           </div>
@@ -192,9 +201,11 @@ const Detail = () => {
 
         <div className="detail-div" style={{ paddingBottom: "70px" }}>
           <div
-            className="fore-divider wow animate__animated animate__fadeInUp"
-            data-wow-duration="1s"
-            data-wow-delay="1s"
+            className="fore-divider "
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="1000"
+            data-aos-once="true"
             style={{ paddingBottom: "40px" }}
           >
             <span className="fw-bold text-success">
@@ -203,11 +214,15 @@ const Detail = () => {
           </div>
 
           <div className="cod mt-2 align-items-center">
-            <div className="codi first-crid" style={{ width: "90%" }}>
+            <div
+              className="codi first-crid first-cridi"
+              style={{ width: "90%" }}
+            >
               <p
-                className="wow animate__animated animate__fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="1s"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="1200"
+                data-aos-once="true"
               >
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
                 deserunt, adipisci sed expedita eius autem dolorum impedit
@@ -222,25 +237,25 @@ const Detail = () => {
                 autem dolorum impedit nihil, dicta, recusandae harum maxime
                 blanditiis fugit tenetur possimus commodi aliquam nobis in.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consequuntur pariatur sed, illum excepturi dolorem iusto at
-                praesentium repudiandae hic adipisci? Voluptatum, aspernatur
-                quaerat ipsa adipisci officia molestias. Expedita, eius amet!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
               </p>
             </div>
 
             <div className="codi" style={{ width: "90%" }}>
               <div
-                className=" cour wow animate__animated animate__fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="1s"
+                className=" cour "
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="1000"
+                data-aos-once="true"
               >
                 <span className="fw-bold text-success">UI/UX Development</span>
               </div>
               <img
-                className=" intro-img img-fluid mb-5 wow animate__animated animate__fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="1s"
+                className=" intro-img img-fluid mb-5 "
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="1000"
+                data-aos-once="true"
                 src="./images/image04.jpg"
                 alt="ann"
               />
@@ -250,7 +265,11 @@ const Detail = () => {
 
         <div className="detail-div" style={{ paddingBottom: "70px" }}>
           <div
-            className="fore-divider wow animate__animated animate__fadeInUp "
+            className="fore-divider  "
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="900"
+            data-aos-once="true"
             style={{ paddingBottom: "40px" }}
           >
             <span className="fw-bold text-success">
@@ -259,11 +278,15 @@ const Detail = () => {
           </div>
 
           <div className="cod mt-2 align-items-center">
-            <div className="codi first-crid" style={{ width: "90%" }}>
+            <div
+              className="codi first-crid first-cridi"
+              style={{ width: "90%" }}
+            >
               <p
-                className="wow animate__animated animate__fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="1s"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="1200"
+                data-aos-once="true"
               >
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
                 deserunt, adipisci sed expedita eius autem dolorum impedit
@@ -278,24 +301,26 @@ const Detail = () => {
                 autem dolorum impedit nihil, dicta, recusandae harum maxime
                 blanditiis fugit tenetur possimus commodi aliquam nobis in.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consequuntur pariatur sed, illum excepturi dolorem iusto at
-                praesentium repudiandae hic adipisci? Voluptatum, aspernatur
-                quaerat ipsa adipisci officia molestias. Expedita, eius amet!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
               </p>
             </div>
             <div className="codi " style={{ width: "90%" }}>
               <div
-                className=" cour wow animate__animated animate__fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="1s"
+                className=" cour "
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="1200"
+                data-aos-once="true"
               >
-                <span className="fw-bold text-success">UI/UX Development</span>
+                <span className="fw-bold text-success">
+                  Digital Cloud Transformation
+                </span>
               </div>
               <img
-                className=" intro-img img-fluid mb-5 wow animate__animated animate__fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="1s"
+                className=" intro-img img-fluid mb-5 "
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="1000"
+                data-aos-once="true"
                 src="./images/image09.jpg"
                 alt="ann"
               />
@@ -305,9 +330,11 @@ const Detail = () => {
 
         <div className="detail-div" style={{ paddingBottom: "50px" }}>
           <div
-            className="for-divider wow animate__animated animate__fadeInUp"
-            data-wow-duration="1s"
-            data-wow-delay="1s"
+            className="for-divider "
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="1000"
+            data-aos-once="true"
             style={{ paddingBottom: "40px" }}
           >
             <span className="fw-bold text-success">Tech Hiring Services</span>
@@ -316,25 +343,32 @@ const Detail = () => {
           <div className="cod  align-items-center">
             <div className="codi" style={{ width: "90%" }}>
               <div
-                className=" cour wow animate__animated animate__fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="1s"
+                className=" cour "
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="1100"
+                data-aos-once="true"
               >
-                <span className="fw-bold text-success">UI/UX Development</span>
+                <span className="fw-bold text-success">
+                  Tech Hiring Services
+                </span>
               </div>
               <img
-                className=" intro-img img-fluid mb-5 wow animate__animated animate__fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="1s"
+                className=" intro-img img-fluid mb-5 "
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="1000"
+                data-aos-once="true"
                 src="./images/image1.jpg"
                 alt="ann"
               />
             </div>
             <div className="codi" style={{ width: "100%" }}>
               <p
-                className="wow animate__animated animate__fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="1s"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="1200"
+                data-aos-once="true"
               >
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
                 deserunt, adipisci sed expedita eius autem dolorum impedit
@@ -349,10 +383,6 @@ const Detail = () => {
                 autem dolorum impedit nihil, dicta, recusandae harum maxime
                 blanditiis fugit tenetur possimus commodi aliquam nobis in.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consequuntur pariatur sed, illum excepturi dolorem iusto at
-                praesentium repudiandae hic adipisci? Voluptatum, aspernatur
-                quaerat ipsa adipisci officia molestias. Expedita, eius amet!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
               </p>
             </div>
           </div>

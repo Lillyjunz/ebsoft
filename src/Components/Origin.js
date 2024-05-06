@@ -7,7 +7,6 @@ const Origin = () => {
         data-aos-duration="1000"
         data-aos-once="true"
         data-aos-delay="500"
-        style={{ paddingBottom: "100px" }}
       >
         <h1
           className=" text-center front  fw-bold pb-5"

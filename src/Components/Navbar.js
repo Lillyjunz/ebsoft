@@ -25,13 +25,14 @@ const Navbar = () => {
 
           <NavLink to="/contact">
             <button
-              className="btn btn-success me-2 fw-bold "
+              className="btn btn-success fw-bold"
+              type="submit"
               data-aos="fade-down"
               data-aos-duration="1000"
               data-aos-delay="500"
               data-aos-once="true"
             >
-              <h5>Contact</h5>
+              Contact
             </button>
           </NavLink>
         </div>

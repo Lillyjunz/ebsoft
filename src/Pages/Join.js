@@ -1,7 +1,16 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 import Footernew from "../Components/FooterNew";
 import Navbar from "../Components/Navbar";
+import Open from "../Components/OPen-Vacancy";
 
 const Join = () => {
+  useEffect(() => {
+    AOS.init();
+
+    AOS.refresh();
+  }, []);
   return (
     <div className="join-wrap">
       <Navbar></Navbar>
@@ -10,16 +19,18 @@ const Join = () => {
 
         <div className="contenti text-start">
           <h3
-            className="wow animate__animated animate__fadeInDown"
-            data-wow-duration="1s"
-            data-wow-delay="1s"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-delay="500"
+            data-aos-once="true"
           >
             Join Us
           </h3>
           <p
-            className="wow animate__animated animate__fadeInLeft"
-            data-wow-duration="1s"
-            data-wow-delay="1s"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="500"
+            data-aos-once="true"
           >
             Lorem ipsum dolor sit amet i consectetur adipisicing elit.
             Temporibus cupiditate molestias asperiores assumenda hic impedit
@@ -27,9 +38,11 @@ const Join = () => {
           </p>
         </div>
         <img
-          className="img-fluid rounded-circle wow animate__animated animate__fadeInRight"
-          data-wow-duration="1s"
-          data-wow-delay="1s"
+          className="img-fluid rounded-circle "
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+          data-aos-once="true"
           src="/images/image2.jpg"
         />
         {/*Waves Container*/}
@@ -64,15 +77,20 @@ const Join = () => {
         {/*Waves end*/}
       </div>
 
-      <div
-        className="text-center align-items-center justify-content-center wow animate__animated animate__bounceInUp"
-        data-wow-duration="1s"
-        data-wow-delay="1s"
+      <Open></Open>
+
+      {/* <div
+        className="text-center align-items-center justify-content-center"
+        data-aos="bounce-up"
+        data-aos-duration="1000"
+        data-aos-delay="500"
+        data-aos-once="true"
         style={{ margin: "150px auto" }}
       >
         <h2 className="fw-bold">No Vacancies at this moment</h2>
         <img src="../images/lottie.gif" width={350} height={150}></img>
-      </div>
+      </div> */}
+
       <Footernew></Footernew>
     </div>
   );

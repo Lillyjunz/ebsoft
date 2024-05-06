@@ -2,14 +2,14 @@ import { NavLink } from "react-router-dom";
 
 const Tab = () => {
   return (
-    <>
+    <div className="tabbs">
       <div
         className=" tabb container"
         data-aos="fade-up"
         data-aos-duration="1000"
         data-aos-delay="1000"
         data-aos-once="true"
-        style={{ marginTop: "100px", padding: "15px" }}
+        style={{ padding: "15px", paddingTop: "140px" }}
       >
         <ul
           className="nav nav-pills pb-3 ul-tab"
@@ -327,7 +327,7 @@ const Tab = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

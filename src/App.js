@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import About from "./Pages/About";
+import Application from "./Pages/Application-form";
+import Cont from "./Pages/Cont";
 import Contact from "./Pages/Contact";
 import Detail from "./Pages/Detail";
 import Home from "./Pages/Home";
@@ -44,6 +46,8 @@ function App() {
           <Route path="/join" element={<Join />} />
           <Route path="/detail" element={<Detail />} />
           <Route path="*" element={<Notfound />} />
+          <Route path="/cont" element={<Cont />} />
+          <Route path="/application" element={<Application />} />
         </Routes>
       </main>
     </BrowserRouter>

@@ -31,8 +31,8 @@ const Bann = () => {
         <img
           className="img-fluid ban-img "
           data-aos="fade"
-          data-aos-duration="2000"
-          data-aos-delay="1000"
+          data-aos-duration="1000"
+          data-aos-delay="200"
           data-aos-once="true"
           src="./images/ann.gif"
         />
@@ -41,7 +41,7 @@ const Bann = () => {
             className="fw-bold "
             data-aos="fade"
             data-aos-duration="1000"
-            data-aos-delay="1500"
+            data-aos-delay="1300"
             data-aos-once="true"
           >
             WHO
@@ -50,7 +50,7 @@ const Bann = () => {
             className="ms-5 "
             data-aos="fade"
             data-aos-duration="1000"
-            data-aos-delay="1500"
+            data-aos-delay="600"
             data-aos-once="true"
           >
             we are
@@ -61,7 +61,7 @@ const Bann = () => {
             className="fw-bold "
             data-aos="fade"
             data-aos-duration="1000"
-            data-aos-delay="2000"
+            data-aos-delay="1000"
             data-aos-once="true"
           >
             WHAT
@@ -70,7 +70,7 @@ const Bann = () => {
             className="ms-5 "
             data-aos="fade"
             data-aos-duration="1000"
-            data-aos-delay="2000"
+            data-aos-delay="1000"
             data-aos-once="true"
           >
             {" "}
@@ -82,7 +82,7 @@ const Bann = () => {
             className="fw-bold "
             data-aos="fade"
             data-aos-duration="1000"
-            data-aos-delay="2500"
+            data-aos-delay="800"
             data-aos-once="true"
           >
             WE are Hiring
@@ -93,7 +93,7 @@ const Bann = () => {
             className="ms-4 fw-bold "
             data-aos="fade"
             data-aos-duration="1000"
-            data-aos-delay="2500"
+            data-aos-delay="1100"
             data-aos-once="true"
           >
             HOW
@@ -101,7 +101,7 @@ const Bann = () => {
           <li
             data-aos="fade"
             data-aos-duration="1000"
-            data-aos-delay="2500"
+            data-aos-delay="1100"
             data-aos-once="true"
           >
             we think
@@ -114,14 +114,14 @@ const Bann = () => {
             data-aos="fade"
             data-aos-duration="1000"
             data-aos-once="true"
-            data-aos-delay="2800"
+            data-aos-delay="1200"
           >
             TELL US
           </li>
           <li
             data-aos="fade"
             data-aos-duration="1000"
-            data-aos-delay="2800"
+            data-aos-delay="1200"
             data-aos-once="true"
           >
             about the project
