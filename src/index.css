@@ -320,6 +320,22 @@ a {
   background: rgb(3, 164, 3) !important;
 }
 
+.form-check-input:checked {
+  background-color: green !important;
+}
+
+.form-check-input {
+  background-color: #f1f1f1;
+  border: none;
+}
+
+.form-check-input:active {
+  border: none !important;
+}
+
+.app-wrap {
+  overflow: hidden;
+}
 /* .swiper-button-next {
   top: 98% !important;
   border-radius: 50%;
@@ -443,6 +459,10 @@ a {
   display: none;
 }
 
+.app-form {
+  padding: 80px;
+}
+
 footer {
   background-color: black;
   color: white;
@@ -487,6 +507,15 @@ footer {
 .opp {
   padding: 0;
   margin: 0;
+}
+
+.readMoreClassName {
+  color: blue;
+  display: block;
+}
+.readLessClassName {
+  color: blue;
+  display: block;
 }
 
 footer li {
@@ -590,6 +619,12 @@ footer li:hover {
 .open {
   padding: 80px;
 }
+.formm {
+  width: 80%;
+}
+.form-first {
+  width: 40%;
+}
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
@@ -685,6 +720,15 @@ footer li:hover {
 
 /* media query */
 @media screen and (max-width: 768px) {
+  .form-first {
+    width: 100%;
+  }
+  .app-form {
+    padding: 60px 30px;
+  }
+  .formm {
+    width: 100%;
+  }
   .co-serve {
     width: 100%;
   }
@@ -799,7 +843,7 @@ footer li:hover {
   }
 
   .team-text {
-    padding-top: 20px;
+    padding: 20px 30px;
   }
   .crid {
     grid-template-columns: 1fr;

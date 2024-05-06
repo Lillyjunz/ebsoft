@@ -11,7 +11,7 @@ const Application = () => {
     AOS.refresh();
   }, []);
   return (
-    <>
+    <div className="app-wrap">
       <Navbar></Navbar>
       <div className="header aboout">
         {/*Content before waves*/}
@@ -76,19 +76,27 @@ const Application = () => {
         {/*Waves end*/}
       </div>
 
-      <div className="container" style={{ padding: "80px" }}>
+      <div className="container app-form">
         <form action="">
-          <div className="mb-3 " style={{ width: "40%" }}>
+          <div class="input-group mb-3 form-first">
+            <button
+              type="button"
+              id="button-addon1"
+              style={{ background: "f1f1f1", border: "none" }}
+            >
+              <i class="bi bi-paperclip ps-2"></i>
+            </button>
             <input
               type="text"
-              className="form-control  text-black"
-              id="cv"
+              class="form-control"
               placeholder="Attach Resume/CV*"
+              aria-label="Example text with button addon"
+              aria-describedby="button-addon1"
               style={{ background: "#f1f1f1" }}
             />
           </div>
 
-          <div className="mb-3" style={{ width: "80%" }}>
+          <div className="mb-3 formm">
             <input
               type="text"
               className="form-control  text-black"
@@ -98,7 +106,7 @@ const Application = () => {
             />
           </div>
 
-          <div className="mb-3" style={{ width: "80%" }}>
+          <div className="mb-3 formm">
             <input
               type="text"
               className="form-control  text-black"
@@ -108,7 +116,7 @@ const Application = () => {
             />
           </div>
 
-          <div className="mb-3" style={{ width: "80%" }}>
+          <div className="mb-3 formm">
             <input
               type="text"
               className="form-control  text-black"
@@ -118,7 +126,7 @@ const Application = () => {
             />
           </div>
 
-          <div className="mb-3" style={{ width: "80%" }}>
+          <div className="mb-3 formm">
             <input
               type="text"
               className="form-control  text-black"
@@ -128,7 +136,7 @@ const Application = () => {
             />
           </div>
 
-          <div className="mb-3" style={{ width: "80%" }}>
+          <div className="mb-3 formm">
             <input
               type="text"
               className="form-control  text-black"
@@ -138,22 +146,22 @@ const Application = () => {
             />
           </div>
 
-          <div class="form-floating mb-3">
+          <div class="form-floating formm mb-3">
             <textarea
               class="form-control"
               placeholder="Leave a comment here"
               id="floatingTextarea2"
-              style={{ height: "100px", background: "#f1f1f1", width: "80%" }}
+              style={{ height: "100px", background: "#f1f1f1" }}
             ></textarea>
             <label for="floatingTextarea3">What's your notice period?*</label>
           </div>
 
-          <div class="form-floating mb-3">
+          <div class="form-floating formm mb-3">
             <textarea
               class="form-control"
               placeholder="Leave a comment here"
               id="floatingTextarea2"
-              style={{ height: "100px", background: "#f1f1f1", width: "80%" }}
+              style={{ height: "100px", background: "#f1f1f1" }}
             ></textarea>
             <label for="floatingTextarea3">
               What's your salary expectation for this role?*
@@ -161,11 +169,10 @@ const Application = () => {
           </div>
 
           <select
-            class="form-select"
+            className="form-select formm"
             aria-label="Default select example"
             style={{
               background: "#f1f1f1",
-              width: "80%",
               border: "none",
               borderRadius: "0",
             }}
@@ -185,7 +192,6 @@ const Application = () => {
               <div className="form-check">
                 <input
                   className="form-check-input"
-                  style={{ background: "#f1f1f1" }}
                   type="checkbox"
                   id="flexCheckDefault"
                 />
@@ -196,7 +202,6 @@ const Application = () => {
               <div className="form-check">
                 <input
                   className="form-check-input"
-                  style={{ background: "#f1f1f1" }}
                   type="checkbox"
                   id="flexCheckChecked"
                 />
@@ -207,7 +212,6 @@ const Application = () => {
               <div className="form-check">
                 <input
                   className="form-check-input"
-                  style={{ background: "#f1f1f1" }}
                   type="checkbox"
                   id="flexCheckChecked"
                 />
@@ -218,7 +222,6 @@ const Application = () => {
               <div className="form-check">
                 <input
                   className="form-check-input"
-                  style={{ background: "#f1f1f1" }}
                   type="checkbox"
                   id="flexCheckChecked"
                 />
@@ -229,7 +232,6 @@ const Application = () => {
               <div className="form-check">
                 <input
                   className="form-check-input"
-                  style={{ background: "#f1f1f1" }}
                   type="checkbox"
                   id="flexCheckChecked"
                 />
@@ -240,7 +242,6 @@ const Application = () => {
               <div className="form-check">
                 <input
                   className="form-check-input"
-                  style={{ background: "#f1f1f1" }}
                   type="checkbox"
                   id="flexCheckChecked"
                 />
@@ -251,7 +252,6 @@ const Application = () => {
               <div className="form-check">
                 <input
                   className="form-check-input"
-                  style={{ background: "#f1f1f1" }}
                   type="checkbox"
                   id="flexCheckChecked"
                 />
@@ -314,7 +314,7 @@ const Application = () => {
 
         <div style={{ marginTop: "100px" }}>
           <h4 className="fw-bold pb-3">LINKS</h4>
-          <div className="mb-3" style={{ width: "80%" }}>
+          <div className="mb-3 formm">
             <input
               type="text"
               className="form-control  text-black"
@@ -323,7 +323,7 @@ const Application = () => {
               style={{ background: "#f1f1f1" }}
             />
           </div>
-          <div className="mb-3" style={{ width: "80%" }}>
+          <div className="mb-3 formm">
             <input
               type="text"
               className="form-control  text-black"
@@ -332,7 +332,7 @@ const Application = () => {
               style={{ background: "#f1f1f1" }}
             />
           </div>
-          <div className="mb-5" style={{ width: "80%" }}>
+          <div className="mb-5 formm">
             <input
               type="text"
               className="form-control  text-black"
@@ -346,7 +346,6 @@ const Application = () => {
         <div className="form-check mt-5">
           <input
             className="form-check-input"
-            style={{ background: "#f1f1f1" }}
             type="checkbox"
             id="flexCheckChecked"
           />
@@ -361,7 +360,7 @@ const Application = () => {
         </button>
       </div>
       <Footernew></Footernew>
-    </>
+    </div>
   );
 };
 
