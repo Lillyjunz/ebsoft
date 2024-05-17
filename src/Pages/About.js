@@ -29,7 +29,12 @@ const About = () => {
           >
             About Ebsoft
           </h3>
-          <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500">
+          <p
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            data-aos-delay="500"
+            data-aos-once="true"
+          >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
             cupiditate molestias asperiores assumenda hic impedit asperiores
           </p>

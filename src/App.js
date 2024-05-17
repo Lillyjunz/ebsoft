@@ -3,8 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import About from "./Pages/About";
 import Application from "./Pages/Application-form";
-import Cont from "./Pages/Cont";
-import Contact from "./Pages/Contact";
+import Cont from "./Pages/Contact";
 import Detail from "./Pages/Detail";
 import Home from "./Pages/Home";
 import Join from "./Pages/Join";
@@ -41,12 +40,11 @@ function App() {
         <Routes>
           <Route path="/" element={loading ? <Splash /> : <Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/join" element={<Join />} />
           <Route path="/detail" element={<Detail />} />
           <Route path="*" element={<Notfound />} />
-          <Route path="/cont" element={<Cont />} />
+          <Route path="/contact" element={<Cont />} />
           <Route path="/application" element={<Application />} />
         </Routes>
       </main>

@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 const Bann = () => {
   return (
     <div className="header">
@@ -11,122 +13,150 @@ const Bann = () => {
         >
           <span className="text-success">Visualize.</span>
           <span className="text-primary">Design.</span>
-          <span className="text-white">Build.</span>
-          <span style={{ color: "orangeRed" }}>Deliver</span>
+          <span className="buil">
+            <span className="text-white">Build.</span>
+            <span style={{ color: "orangeRed" }}>Deliver</span>
+          </span>
+          <li className="build">
+            <span className="text-white">Build.</span>
+            <span style={{ color: "orangeRed" }}>Deliver</span>
+          </li>
         </h1>
         <p
-          className="text-center justify-self-center p-4 "
+          className="text-center justify-self-center ps-4 pe-4 "
           data-aos="fade-left"
           data-aos-duration="1000"
           data-aos-delay="500"
           data-aos-once="true"
+          style={{ fontSize: "0.8em" }}
         >
           <span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            Lorem ipsum dolor sit amet consectetur adipisicing elit sit amet
+            consectetur consectetur adipisicing elit <br></br>consectetur
+            adipisicing elit .
           </span>
         </p>
       </div>
 
       <div className="text-center  im-div">
         <img
-          className="img-fluid ban-img "
+          className=" ban-img "
+          width={200}
           data-aos="fade"
           data-aos-duration="1000"
           data-aos-delay="200"
           data-aos-once="true"
           src="./images/ann.gif"
         />
-        <div className="div1 text-center">
-          <li
-            className="fw-bold "
-            data-aos="fade"
-            data-aos-duration="1000"
-            data-aos-delay="1300"
-            data-aos-once="true"
-          >
-            WHO
-          </li>
-          <li
-            className="ms-5 "
-            data-aos="fade"
-            data-aos-duration="1000"
-            data-aos-delay="600"
-            data-aos-once="true"
-          >
-            we are
-          </li>
-        </div>
-        <div className="div2">
-          <li
-            className="fw-bold "
-            data-aos="fade"
-            data-aos-duration="1000"
-            data-aos-delay="1000"
-            data-aos-once="true"
-          >
-            WHAT
-          </li>
-          <li
-            className="ms-5 "
-            data-aos="fade"
-            data-aos-duration="1000"
-            data-aos-delay="1000"
-            data-aos-once="true"
-          >
+        <NavLink to="/about">
+          <div className="div1 divs text-center">
+            <li
+              data-aos="fade"
+              data-aos-duration="1000"
+              data-aos-delay="1300"
+              data-aos-once="true"
+              style={{ fontSize: "0.8em", padding: "0", margin: "0" }}
+            >
+              WHO
+            </li>
+            <li
+              className="ms-5"
+              style={{ fontSize: "0.8em", padding: "0", margin: "0" }}
+              data-aos="fade"
+              data-aos-duration="1000"
+              data-aos-delay="600"
+              data-aos-once="true"
+            >
+              we are
+            </li>
+          </div>
+        </NavLink>
+        <NavLink to="/detail">
+          <div className="div2 divs">
+            <li
+              style={{ fontSize: "0.8em", padding: "0", margin: "0" }}
+              data-aos="fade"
+              data-aos-duration="1000"
+              data-aos-delay="1000"
+              data-aos-once="true"
+            >
+              WHAT
+            </li>
+            <li
+              className="ms-5 "
+              style={{ fontSize: "0.8em", padding: "0", margin: "0" }}
+              data-aos="fade"
+              data-aos-duration="1000"
+              data-aos-delay="1000"
+              data-aos-once="true"
+            >
+              {" "}
+              we do
+            </li>
+          </div>
+        </NavLink>
+        <NavLink to="/join">
+          <div className="div3 divs">
+            <span
+              style={{ fontSize: "0.8em", padding: "0", margin: "0" }}
+              data-aos="fade"
+              data-aos-duration="1000"
+              data-aos-delay="800"
+              data-aos-once="true"
+            >
+              WE are Hiring
+            </span>{" "}
+          </div>
+        </NavLink>
+        <a href="#intro">
+          <div className="div4 divs">
+            <li
+              className="ms-4"
+              style={{ fontSize: "0.8em", padding: "0", margin: "0" }}
+              data-aos="fade"
+              data-aos-duration="1000"
+              data-aos-delay="1100"
+              data-aos-once="true"
+            >
+              HOW
+            </li>{" "}
+            <li
+              className="me-2"
+              style={{ fontSize: "0.8em", padding: "0", margin: "0" }}
+              data-aos="fade"
+              data-aos-duration="1000"
+              data-aos-delay="1100"
+              data-aos-once="true"
+            >
+              we think
+            </li>
+          </div>
+        </a>
+        <NavLink to="/contact">
+          <div className="div5 divs">
             {" "}
-            we do
-          </li>
-        </div>
-        <div className="div3">
-          <span
-            className="fw-bold "
-            data-aos="fade"
-            data-aos-duration="1000"
-            data-aos-delay="800"
-            data-aos-once="true"
-          >
-            WE are Hiring
-          </span>{" "}
-        </div>
-        <div className="div4">
-          <li
-            className="ms-4 fw-bold "
-            data-aos="fade"
-            data-aos-duration="1000"
-            data-aos-delay="1100"
-            data-aos-once="true"
-          >
-            HOW
-          </li>{" "}
-          <li
-            data-aos="fade"
-            data-aos-duration="1000"
-            data-aos-delay="1100"
-            data-aos-once="true"
-          >
-            we think
-          </li>
-        </div>
-        <div className="div5">
-          {" "}
-          <li
-            className="ms-4 fw-bold "
-            data-aos="fade"
-            data-aos-duration="1000"
-            data-aos-once="true"
-            data-aos-delay="1200"
-          >
-            TELL US
-          </li>
-          <li
-            data-aos="fade"
-            data-aos-duration="1000"
-            data-aos-delay="1200"
-            data-aos-once="true"
-          >
-            about the project
-          </li>
-        </div>
+            <li
+              className="ms-5 "
+              style={{ fontSize: "0.8em", padding: "0", margin: "0" }}
+              data-aos="fade"
+              data-aos-duration="1000"
+              data-aos-once="true"
+              data-aos-delay="1200"
+            >
+              TELL US
+            </li>
+            <li
+              className="me-4"
+              style={{ fontSize: "0.8em", padding: "0", margin: "0" }}
+              data-aos="fade"
+              data-aos-duration="1000"
+              data-aos-delay="1200"
+              data-aos-once="true"
+            >
+              about the project
+            </li>
+          </div>
+        </NavLink>
       </div>
       {/*Waves Container*/}
       <div>

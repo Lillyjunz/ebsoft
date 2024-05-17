@@ -2,7 +2,7 @@ import SwiperAbout from "./AboutSwiper";
 const Team = () => {
   return (
     <>
-      <div className="container" style={{ margin: "80px auto" }}>
+      <div className="container" id="team" style={{ margin: "80px auto" }}>
         <h1
           className="text-center mt-5 fw-bold "
           data-aos="fade-up"

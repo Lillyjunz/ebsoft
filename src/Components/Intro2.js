@@ -2,6 +2,7 @@ const Intro2 = () => {
   return (
     <div
       className="intro-bg container"
+      id="intro"
       style={{ padding: "40px", paddingTop: "150px" }}
     >
       <div className="process-lg">

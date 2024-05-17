@@ -263,51 +263,47 @@ const Application = () => {
               <p className="mt-5">
                 How many years of relevant experience do you have?
               </p>
+            </div>
 
-              <div className="form-check">
-                <input
-                  className="form-check-input"
-                  style={{ background: "#f1f1f1" }}
-                  type="checkbox"
-                  id="flexCheckDefault"
-                />
-                <label className="form-check-label" htmlFor="flexCheckDefault">
-                  Less than a year
-                </label>
-              </div>
-              <div className="form-check">
-                <input
-                  className="form-check-input"
-                  style={{ background: "#f1f1f1" }}
-                  type="checkbox"
-                  id="flexCheckDefault"
-                />
-                <label className="form-check-label" htmlFor="flexCheckDefault">
-                  1-2 years
-                </label>
-              </div>
-              <div className="form-check">
-                <input
-                  className="form-check-input"
-                  style={{ background: "#f1f1f1" }}
-                  type="checkbox"
-                  id="flexCheckDefault"
-                />
-                <label className="form-check-label" htmlFor="flexCheckDefault">
-                  3-5 years
-                </label>
-              </div>
-              <div className="form-check">
-                <input
-                  className="form-check-input"
-                  style={{ background: "#f1f1f1" }}
-                  type="checkbox"
-                  id="flexCheckDefault"
-                />
-                <label className="form-check-label" htmlFor="flexCheckDefault">
-                  Over 5 years
-                </label>
-              </div>
+            <div className="form-check">
+              <input
+                className="form-check-input"
+                type="checkbox"
+                id="flexCheckDefault"
+              />
+              <label className="form-check-label" htmlFor="flexCheckDefault">
+                Less than a year
+              </label>
+            </div>
+            <div className="form-check">
+              <input
+                className="form-check-input"
+                type="checkbox"
+                id="flexCheckDefault"
+              />
+              <label className="form-check-label" htmlFor="flexCheckDefault">
+                1-2 years
+              </label>
+            </div>
+            <div className="form-check">
+              <input
+                className="form-check-input"
+                type="checkbox"
+                id="flexCheckDefault"
+              />
+              <label className="form-check-label" htmlFor="flexCheckDefault">
+                3-5 years
+              </label>
+            </div>
+            <div className="form-check">
+              <input
+                className="form-check-input"
+                type="checkbox"
+                id="flexCheckDefault"
+              />
+              <label className="form-check-label" htmlFor="flexCheckDefault">
+                Over 5 years
+              </label>
             </div>
           </li>
         </div>

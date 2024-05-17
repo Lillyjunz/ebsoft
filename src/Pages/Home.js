@@ -14,6 +14,7 @@ import Tab from "../Components/Tab-section";
 
 const Home = () => {
   useEffect(() => {
+    window.scrollTo(0, 0);
     AOS.init();
 
     AOS.refresh();

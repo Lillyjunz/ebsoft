@@ -49,7 +49,7 @@ export default function SwiperHome() {
         data-aos-duration="1000"
         data-aos-delay="1500"
         data-aos-once="true"
-        style={{ width: "100%", marginTop: "120px", marginBottom: "100px" }}
+        style={{ width: "100%", marginTop: "80px", marginBottom: "100px" }}
       >
         <SwiperSlide className="align-items-center justify-content-center d-flex">
           <div

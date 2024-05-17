@@ -49,7 +49,7 @@ const Card = () => {
               </p>
 
               <a
-                href="#"
+                href="/detail"
                 className="btn btn-success fw-bold mb-3"
                 data-aos="fade-up"
                 data-aos-duration="1000"
@@ -98,7 +98,7 @@ const Card = () => {
               </p>
 
               <a
-                href="#"
+                href="/detail"
                 className="btn btn-success fw-bold mb-3"
                 data-aos="fade-up"
                 data-aos-duration="1000"

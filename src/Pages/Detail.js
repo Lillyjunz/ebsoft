@@ -31,7 +31,7 @@ const Detail = () => {
           <p
             data-aos="fade-right"
             data-aos-duration="1000"
-            data-aos-delay="1500"
+            data-aos-delay="1400"
             data-aos-once="true"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
@@ -94,7 +94,7 @@ const Detail = () => {
             <span className="fw-bold text-success">UI/UX Development</span>
           </div>
 
-          <div className="cod ">
+          <div className="cod align-items-center justify-content-center">
             <div className="codi" style={{ width: "100%" }}>
               <div
                 className=" cour "
@@ -105,15 +105,115 @@ const Detail = () => {
               >
                 <span className="fw-bold text-success">UI/UX Development</span>
               </div>
-              <img
-                className=" intro-img img-fluid mb-5 "
+
+              <div
+                className="justify-content-center align-items-center"
                 data-aos="fade-up"
                 data-aos-duration="1000"
                 data-aos-delay="800"
                 data-aos-once="true"
-                src="./images/image02.jpg"
-                alt="ann"
-              />
+                style={{ width: "100%" }}
+              >
+                <div
+                  className=" coop d-flex justify-content-between align-items-center  pt-3 pb-2"
+                  style={{
+                    width: "100%",
+                    paddingLeft: "35px",
+                    paddingRight: "35px",
+                  }}
+                >
+                  <div
+                    className="text-center"
+                    style={{ width: "100%", paddingRight: "10px" }}
+                  >
+                    <div
+                      className="mb-3"
+                      style={{
+                        border: "2px dotted black",
+                        padding: "6px",
+                      }}
+                    >
+                      <li
+                        className="text-end fw-bold"
+                        style={{ fontSize: "0.9em" }}
+                      >
+                        Balsamiq
+                      </li>
+                      <li className="text-start">
+                        <img src="./images/balsa.png" width={50} />
+                      </li>
+                    </div>
+
+                    <div
+                      style={{
+                        border: "2px dotted black",
+                        padding: "6px",
+                      }}
+                    >
+                      <li
+                        className="text-end fw-bold"
+                        style={{ fontSize: "0.9em" }}
+                      >
+                        Adobe Photoshop
+                      </li>
+                      <li className="text-start">
+                        <img src="./images/adpho.png" width={30} />
+                      </li>
+                    </div>
+                  </div>
+
+                  <div style={{ width: "100%" }}>
+                    <div
+                      className="mb-3"
+                      style={{
+                        border: "2px dotted black",
+                        padding: "6px",
+                      }}
+                    >
+                      <li
+                        className="text-end fw-bold"
+                        style={{ fontSize: "0.9em" }}
+                      >
+                        Figma
+                      </li>
+                      <li className="text-start">
+                        <img src="./images/figi.png" width={50} />
+                      </li>
+                    </div>
+                    <div
+                      style={{
+                        border: "2px dotted black",
+                        padding: "6px",
+                      }}
+                    >
+                      <li
+                        className="text-end fw-bold"
+                        style={{ fontSize: "0.9em" }}
+                      >
+                        Adobe Illustrator
+                      </li>
+                      <li className="text-start">
+                        <img src="./images/adi.png" width={30} />
+                      </li>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="text-center detai-img align-items-center justify-content-center"
+                  style={{ width: "400px" }}
+                >
+                  <img
+                    className="  mb-5 "
+                    style={{
+                      width: "400px",
+                      height: "190px",
+                      borderRadius: "10px",
+                    }}
+                    src="./images/image1.jpg"
+                    alt="ann"
+                  />
+                </div>
+              </div>
             </div>
             <div
               className="codi "
@@ -152,7 +252,14 @@ const Detail = () => {
           </div>
 
           <div className="cod align-items-center">
-            <div className="codi" style={{ width: "90%" }}>
+            <div
+              className="codi"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="800"
+              data-aos-once="true"
+              style={{ width: "90%" }}
+            >
               <div
                 className=" cour "
                 data-aos="fade-up"
@@ -162,15 +269,107 @@ const Detail = () => {
               >
                 <span className="fw-bold text-success">UI/UX Development</span>
               </div>
-              <img
-                className=" intro-img img-fluid mb-5 "
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-delay="1000"
-                data-aos-once="true"
-                src="./images/image3.jpg"
-                alt="ann"
-              />
+
+              <div
+                className=" coop d-flex justify-content-between align-items-center  pt-3 pb-2"
+                style={{
+                  width: "100%",
+                  paddingLeft: "35px",
+                  paddingRight: "35px",
+                }}
+              >
+                <div
+                  className="text-center"
+                  style={{ width: "100%", paddingRight: "10px" }}
+                >
+                  <div
+                    className="mb-3"
+                    style={{
+                      border: "2px dotted black",
+                      padding: "6px",
+                    }}
+                  >
+                    <li
+                      className="text-end fw-bold"
+                      style={{ fontSize: "0.9em" }}
+                    >
+                      Android
+                    </li>
+                    <li className="text-start">
+                      <img src="./images/android.png" width={30} />
+                    </li>
+                  </div>
+
+                  <div
+                    style={{
+                      border: "2px dotted black",
+                      padding: "6px",
+                    }}
+                  >
+                    <li
+                      className="text-end fw-bold"
+                      style={{ fontSize: "0.9em" }}
+                    >
+                      Flutter
+                    </li>
+                    <li className="text-start">
+                      <img src="./images/flutt.png" width={30} />
+                    </li>
+                  </div>
+                </div>
+
+                <div style={{ width: "100%" }}>
+                  <div
+                    className="mb-3"
+                    style={{
+                      border: "2px dotted black",
+                      padding: "6px",
+                    }}
+                  >
+                    <li
+                      className="text-end fw-bold"
+                      style={{ fontSize: "0.9em" }}
+                    >
+                      Xamarin
+                    </li>
+                    <li className="text-start">
+                      <img src="./images/xama.png" width={30} />
+                    </li>
+                  </div>
+                  <div
+                    style={{
+                      border: "2px dotted black",
+                      padding: "6px",
+                    }}
+                  >
+                    <li
+                      className="text-end fw-bold"
+                      style={{ fontSize: "0.9em" }}
+                    >
+                      React
+                    </li>
+                    <li className="text-start">
+                      <img src="./images/react.svg" width={50} />
+                    </li>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className="text-center detai-img align-items-center justify-content-center"
+                style={{ width: "400px" }}
+              >
+                <img
+                  className="  mb-5 "
+                  style={{
+                    width: "400px",
+                    height: "190px",
+                    borderRadius: "10px",
+                  }}
+                  src="./images/image02.jpg"
+                  alt="ann"
+                />
+              </div>
             </div>
             <div
               className="codi "
@@ -240,7 +439,14 @@ const Detail = () => {
               </p>
             </div>
 
-            <div className="codi" style={{ width: "90%" }}>
+            <div
+              className="codi"
+              style={{ width: "90%" }}
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="1000"
+              data-aos-once="true"
+            >
               <div
                 className=" cour "
                 data-aos="fade-up"
@@ -250,15 +456,106 @@ const Detail = () => {
               >
                 <span className="fw-bold text-success">UI/UX Development</span>
               </div>
-              <img
-                className=" intro-img img-fluid mb-5 "
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-delay="1000"
-                data-aos-once="true"
-                src="./images/image04.jpg"
-                alt="ann"
-              />
+
+              <div
+                className=" coop d-flex justify-content-between align-items-center  pt-3 pb-2"
+                style={{
+                  width: "100%",
+                  paddingLeft: "35px",
+                  paddingRight: "35px",
+                }}
+              >
+                <div
+                  className="text-center"
+                  style={{ width: "100%", paddingRight: "10px" }}
+                >
+                  <div
+                    className="mb-3"
+                    style={{
+                      border: "2px dotted black",
+                      padding: "6px",
+                    }}
+                  >
+                    <li
+                      className="text-end fw-bold"
+                      style={{ fontSize: "0.9em" }}
+                    >
+                      Amazon Services
+                    </li>
+                    <li className="text-start">
+                      <img src="./images/ama.png" width={50} />
+                    </li>
+                  </div>
+
+                  <div
+                    style={{
+                      border: "2px dotted black",
+                      padding: "6px",
+                    }}
+                  >
+                    <li
+                      className="text-end fw-bold"
+                      style={{ fontSize: "0.9em" }}
+                    >
+                      Microsoft Azure
+                    </li>
+                    <li className="text-start">
+                      <img src="./images/azure.png" width={70} />
+                    </li>
+                  </div>
+                </div>
+
+                <div style={{ width: "100%" }}>
+                  <div
+                    className="mb-3"
+                    style={{
+                      border: "2px dotted black",
+                      padding: "6px",
+                    }}
+                  >
+                    <li
+                      className="text-end fw-bold"
+                      style={{ fontSize: "0.9em" }}
+                    >
+                      Digital Ocean
+                    </li>
+                    <li className="text-start">
+                      <img src="./images/ocean.svg" width={60} />
+                    </li>
+                  </div>
+                  <div
+                    style={{
+                      border: "2px dotted black",
+                      padding: "6px",
+                    }}
+                  >
+                    <li
+                      className="text-end fw-bold"
+                      style={{ fontSize: "0.9em" }}
+                    >
+                      Google Cloud
+                    </li>
+                    <li className="text-start">
+                      <img src="./images/cloud.png" width={60} />
+                    </li>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="text-center detai-img align-items-center justify-content-center"
+                style={{ width: "400px" }}
+              >
+                <img
+                  className="  mb-5 "
+                  style={{
+                    width: "400px",
+                    height: "190px",
+                    borderRadius: "10px",
+                  }}
+                  src="./images/image04.jpg"
+                  alt="ann"
+                />
+              </div>
             </div>
           </div>
         </div>

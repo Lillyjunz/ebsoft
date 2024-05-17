@@ -44,7 +44,12 @@ const Footernew = () => {
           <div className="column first ">
             <div className="footr text-center">
               <NavLink to="/">
-                <img src="../images/ebslogo.png" width={140} height={100}></img>
+                <img
+                  className="pb-2"
+                  src="../images/whitelogo.png"
+                  width={130}
+                  height={40}
+                ></img>
               </NavLink>
               <h6
                 className="te"
@@ -68,43 +73,63 @@ const Footernew = () => {
               </small>
             </div>
           </div>
-          <div className="column">
+          <div className="column ">
             <h4 className="fw-bold">Company</h4>
-            <NavLink to="/about">
-              <li style={{ listStyleType: "none" }}>Success stories</li>
-            </NavLink>
-            <NavLink to="/about">
-              <li style={{ listStyleType: "none" }}>About us</li>
-            </NavLink>
-            <NavLink to="/about">
-              <li style={{ listStyleType: "none" }}>Our Team</li>
-            </NavLink>
-            <NavLink to="/join">
-              <li style={{ listStyleType: "none" }}>Join us</li>
-            </NavLink>
-            <NavLink to="/privacy">
-              <li style={{ listStyleType: "none" }}>Privacy policy</li>
-            </NavLink>
+            <a href="/about">
+              <li className="coll" style={{ listStyleType: "none" }}>
+                Success stories
+              </li>
+            </a>
+            <a href="/about">
+              <li className="coll" style={{ listStyleType: "none" }}>
+                About us
+              </li>
+            </a>
+            <a href="/about">
+              <li className="coll" style={{ listStyleType: "none" }}>
+                Our Team
+              </li>
+            </a>
+            <a href="/join">
+              <li className="coll" style={{ listStyleType: "none" }}>
+                Join us
+              </li>
+            </a>
+            <a href="/privacy">
+              <li className="coll" style={{ listStyleType: "none" }}>
+                Privacy policy
+              </li>
+            </a>
           </div>
           <div className="column co-serve">
             <h4 className="fw-bold">Services</h4>
-            <NavLink to="/detail">
-              <li style={{ listStyleType: "none" }}>UI/UX development</li>
-            </NavLink>
-            <NavLink to="/detail">
-              <li style={{ listStyleType: "none" }}>Software development</li>
-            </NavLink>
-            <NavLink to="/detail">
+            <a href="/detail">
+              <li className="coll" style={{ listStyleType: "none" }}>
+                UI/UX development
+              </li>
+            </a>
+            <a href="/detail">
+              <li className="coll" style={{ listStyleType: "none" }}>
+                Software
+              </li>
+            </a>
+            <a href="/detail">
               {" "}
-              <li style={{ listStyleType: "none" }}>Digital transformation</li>
-            </NavLink>
-            <NavLink to="/detail">
-              <li style={{ listStyleType: "none" }}>Cloud infrastructure</li>
-            </NavLink>
-            <NavLink to="/detail">
+              <li className="coll" style={{ listStyleType: "none" }}>
+                Digital transformation
+              </li>
+            </a>
+            <a href="/detail">
+              <li className="coll" style={{ listStyleType: "none" }}>
+                Cloud infrastructure
+              </li>
+            </a>
+            <a href="/detail">
               {" "}
-              <li style={{ listStyleType: "none" }}>Tech hiring services</li>
-            </NavLink>
+              <li className="coll" style={{ listStyleType: "none" }}>
+                Tech hiring services
+              </li>
+            </a>
           </div>
           <div className="column co-cont">
             <h4 className="fw-bold"> Contact</h4>
