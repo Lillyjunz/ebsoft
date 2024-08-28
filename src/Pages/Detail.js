@@ -199,14 +199,14 @@ const Detail = () => {
                   </div>
                 </div>
                 <div
-                  className="text-center detai-img align-items-center justify-content-center"
-                  style={{ width: "400px" }}
+                  className="text-center detai-img d-flex align-items-center justify-content-center"
+                  style={{ width: "100%" }}
                 >
                   <img
                     className="  mb-5 "
                     style={{
-                      width: "400px",
-                      height: "190px",
+                      width: "90%",
+                      height: "200px",
                       borderRadius: "10px",
                     }}
                     src="./images/image1.jpg"
@@ -258,7 +258,7 @@ const Detail = () => {
               data-aos-duration="1000"
               data-aos-delay="800"
               data-aos-once="true"
-              style={{ width: "90%" }}
+              style={{ width: "90%", alignItems:'center', justifyContent:'center' }}
             >
               <div
                 className=" cour "
@@ -357,13 +357,13 @@ const Detail = () => {
 
               <div
                 className="text-center detai-img align-items-center justify-content-center"
-                style={{ width: "400px" }}
+                style={{ width: "100%" }}
               >
                 <img
                   className="  mb-5 "
                   style={{
-                    width: "400px",
-                    height: "190px",
+                    width: "90%",
+                    height: "200px",
                     borderRadius: "10px",
                   }}
                   src="./images/image02.jpg"
@@ -543,13 +543,13 @@ const Detail = () => {
               </div>
               <div
                 className="text-center detai-img align-items-center justify-content-center"
-                style={{ width: "400px" }}
+                style={{ width: "100%" }}
               >
                 <img
                   className="  mb-5 "
                   style={{
-                    width: "400px",
-                    height: "190px",
+                    width: "90%",
+                    height: "200px",
                     borderRadius: "10px",
                   }}
                   src="./images/image04.jpg"

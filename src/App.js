@@ -10,6 +10,7 @@ import Join from "./Pages/Join";
 import Notfound from "./Pages/Notfound";
 import Privacy from "./Pages/Privacy";
 import Splash from "./Pages/Splash";
+import Applicat from "./Pages/appform";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -45,6 +46,7 @@ function App() {
           <Route path="/detail" element={<Detail />} />
           <Route path="*" element={<Notfound />} />
           <Route path="/contact" element={<Cont />} />
+          <Route path="/appform" element={<Applicat />} />
           <Route path="/application" element={<Application />} />
         </Routes>
       </main>

@@ -333,6 +333,10 @@ a {
   border: none !important;
 }
 
+.form-select {
+  background-color: #f1f1f1 !important;
+}
+
 .app-wrap {
   overflow: hidden;
 }
@@ -652,7 +656,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   width: 80%;
 }
 .form-first {
-  width: 40%;
+  width: 50%;
 }
 
 .line {

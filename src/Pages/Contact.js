@@ -37,7 +37,7 @@ const Contact = () => {
     }
 
     try {
-      const response = await axios.post(
+      const response = await axios.get(
         "/contact/all/",
         JSON.stringify({
           firstname,

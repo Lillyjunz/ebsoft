@@ -13,7 +13,7 @@ const Application = () => {
   const [error, setError] = useState(null);
   const [fullname, setFullname] = useState("");
   const [gender, setGender] = useState("");
-  const [pdf_path, setPdf_path] = useState("");
+  const [file, setFile] = useState(null);
   const [email, setEmail] = useState("");
   const [current_location, setCurrent_location] = useState("");
   const [current_company, setCurrent_company] = useState("");
@@ -26,60 +26,69 @@ const Application = () => {
   const [portfolio, setPortfolio] = useState("");
   const [phone_number, setPhone_number] = useState("");
 
+  const handleFileChange = (e) => {
+    setFile(e.target.files[0]);
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
 
     // Validation
     if (
-      fullname === "" ||
-      gender === "" ||
-      pdf_path === "" ||
-      email === "" ||
-      current_location === "" ||
-      current_company === "" ||
-      notice_period === "" ||
-      salary_expectation === "" ||
-      referral_source === "" ||
-      years_of_experience === "" ||
-      linkedin_profile === "" ||
-      github_profile === "" ||
-      portfolio === "" ||
-      phone_number === ""
+      !fullname ||
+      !gender ||
+      !file ||
+      !email ||
+      !current_location ||
+      !current_company ||
+      !notice_period ||
+      !salary_expectation ||
+      !referral_source ||
+      !years_of_experience ||
+      !linkedin_profile ||
+      !github_profile ||
+      !portfolio ||
+      !phone_number
     ) {
+      Swal.fire({
+        icon: "error",
+        title: "Validation Error",
+        text: "Please fill out all required fields.",
+      });
+      setIsLoading(false);
       return;
     }
 
     try {
-      const response = await axios.post(
-        "/contact/apply/",
-        JSON.stringify({
-          fullname,
-          gender,
-          pdf_path,
-          email,
-          current_location,
-          current_company,
-          notice_period,
-          salary_expectation,
-          referral_source,
-          years_of_experience,
-          linkedin_profile,
-          github_profile,
-          portfolio,
-          phone_number,
-        }),
-        {
-          headers: { "Content-Type": "application/json" },
-        }
-      );
+      const formData = new FormData();
+      formData.append("fullname", fullname);
+      formData.append("gender", gender);
+      formData.append("pdf_path", file);
+      formData.append("email", email);
+      formData.append("current_location", current_location);
+      formData.append("current_company", current_company);
+      formData.append("notice_period", notice_period);
+      formData.append("salary_expectation", salary_expectation);
+      formData.append("referral_source", referral_source);
+      formData.append("years_of_experience", years_of_experience);
+      formData.append("linkedin_profile", linkedin_profile);
+      formData.append("github_profile", github_profile);
+      formData.append("portfolio", portfolio);
+      formData.append("phone_number", phone_number);
 
-      setData(response);
+      const response = await axios.post("/contact/apply/", formData, {
+        headers: {
+          "Content-Type": "multipart/form-data",
+        },
+      });
+
+      setData(response.data);
 
       // Clear fields
       setFullname("");
       setGender("");
-      setPdf_path("");
+      setFile(null);
       setEmail("");
       setCurrent_location("");
       setCurrent_company("");
@@ -98,6 +107,7 @@ const Application = () => {
         text: "Your form has been successfully submitted. You can follow up on your email",
       });
     } catch (err) {
+      console.error(err);
       setError(err.message);
       Swal.fire({
         icon: "error",
@@ -111,15 +121,13 @@ const Application = () => {
 
   useEffect(() => {
     AOS.init();
-
     AOS.refresh();
   }, []);
+
   return (
     <div className="app-wrap">
-      <Navbar></Navbar>
+      <Navbar />
       <div className="header aboout">
-        {/*Content before waves*/}
-
         <div className="contenti text-start">
           <h3
             data-aos="fade-down"
@@ -148,7 +156,6 @@ const Application = () => {
           data-aos-once="true"
           src="/images/image2.jpg"
         />
-        {/*Waves Container*/}
         <div>
           <svg
             className="wavs"
@@ -165,7 +172,6 @@ const Application = () => {
               />
             </defs>
             <g className="paralax">
-              {/* <use xlink:href="#gentle-wave" x="48" y="0" fill="#006400" /> */}
               <use xlinkHref="#gentle-wave" x={48} y={3} fill="#006400" />
               <use
                 xlinkHref="#gentle-wave"
@@ -177,7 +183,6 @@ const Application = () => {
             </g>
           </svg>
         </div>
-        {/*Waves end*/}
       </div>
 
       <div className="container app-form">
@@ -196,8 +201,7 @@ const Application = () => {
                 type="file"
                 name="pdf"
                 className="form-control"
-                value={pdf_path}
-                onChange={(e) => setPdf_path(e.target.value)}
+                onChange={handleFileChange}
                 required
                 aria-label="Example text with button addon"
                 aria-describedby="button-addon1"
@@ -208,7 +212,7 @@ const Application = () => {
             <div className="mb-3 formm">
               <input
                 type="text"
-                className="form-control  text-black"
+                className="form-control text-black"
                 id="fullname"
                 placeholder="Full Name*"
                 value={fullname}
@@ -221,7 +225,7 @@ const Application = () => {
             <div className="mb-3 formm">
               <input
                 type="text"
-                className="form-control  text-black"
+                className="form-control text-black"
                 id="email"
                 placeholder="Email*"
                 value={email}
@@ -234,7 +238,7 @@ const Application = () => {
             <div className="mb-3 formm">
               <input
                 type="text"
-                className="form-control  text-black"
+                className="form-control text-black"
                 id="phone"
                 placeholder="Phone number*"
                 value={phone_number}
@@ -247,7 +251,7 @@ const Application = () => {
             <div className="mb-3 formm">
               <input
                 type="text"
-                className="form-control  text-black"
+                className="form-control text-black"
                 id="location"
                 placeholder="Current Location*"
                 value={current_location}
@@ -260,7 +264,7 @@ const Application = () => {
             <div className="mb-3 formm">
               <input
                 type="text"
-                className="form-control  text-black"
+                className="form-control text-black"
                 id="company"
                 placeholder="Current Company*"
                 value={current_company}
@@ -270,71 +274,49 @@ const Application = () => {
               />
             </div>
 
-            <div className="form-floating formm mb-3">
-              <textarea
-                className="form-control"
-                placeholder="Leave a comment here"
+            <div className="mb-3 formm">
+              <input
+                type="text"
+                className="form-control text-black"
+                id="notice-period"
+                placeholder="Notice Period*"
                 value={notice_period}
                 onChange={(e) => setNotice_period(e.target.value)}
                 required
-                id="floatingTextarea2"
-                style={{ height: "100px", background: "#f1f1f1" }}
-              ></textarea>
-              <label htmlFor="floatingTextarea3">
-                What's your notice period?*
-              </label>
+                style={{ background: "#f1f1f1" }}
+              />
             </div>
 
-            <div className="form-floating formm mb-3">
-              <textarea
-                className="form-control"
-                placeholder="Leave a comment here"
+            <div className="mb-3 formm">
+              <input
+                type="text"
+                className="form-control text-black"
+                id="salary"
+                placeholder="Salary Expectation*"
                 value={salary_expectation}
                 onChange={(e) => setSalary_expectation(e.target.value)}
                 required
-                id="floatingTextarea2"
-                style={{ height: "100px", background: "#f1f1f1" }}
-              ></textarea>
-              <label htmlFor="floatingTextarea3">
-                What's your salary expectation for this role?*
-              </label>
+                style={{ background: "#f1f1f1" }}
+              />
             </div>
 
-            <select
-              className="form-select formm"
-              aria-label="Default select example"
-              value={gender}
-              onChange={(e) => setGender(e.target.value)}
-              required
-              style={{
-                border: "none",
-                borderRadius: "0",
-              }}
-            >
-              <option value="default">Gender</option>
-              <option value="1">Male</option>
-              <option value="2">Female</option>
-            </select>
-          </div>
+            <div className="mb-3 formm">
+              <div style={{ marginTop: "100px" }}>
+                <h4 className="fw-bold">Screening Questions</h4>
+                <p className="mb-4">How did you hear about Ebsoft?</p>
 
-          <div style={{ marginTop: "100px" }}>
-            <h4 className="fw-bold">Screening Questions</h4>
-            <p className="mb-4">How did you hear about Ebsoft</p>
-
-            <li>
-              <div>
                 <div className="form-check">
                   <input
                     className="form-check-input"
                     type="radio"
                     id="linkedin"
                     name="referralSource"
-                    value="On Linkedln"
-                    checked={referral_source === "On Linkedln"}
+                    value="On LinkedIn"
+                    checked={referral_source === "On LinkedIn"}
                     onChange={(e) => setReferral_source(e.target.value)}
                   />
                   <label className="form-check-label" htmlFor="linkedin">
-                    On Linkedln
+                    On LinkedIn
                   </label>
                 </div>
                 <div className="form-check">
@@ -376,7 +358,7 @@ const Application = () => {
                     onChange={(e) => setReferral_source(e.target.value)}
                   />
                   <label className="form-check-label" htmlFor="article">
-                    I saw an article about ebsofT in the news/social media
+                    I saw an article about Ebsoft in the news/social media
                   </label>
                 </div>
                 <div className="form-check">
@@ -404,7 +386,7 @@ const Application = () => {
                     onChange={(e) => setReferral_source(e.target.value)}
                   />
                   <label className="form-check-label" htmlFor="event">
-                    At an event (eg. conferences, meetup, hackathon, etc.)
+                    At an event (e.g., conferences, meetups, hackathons, etc.)
                   </label>
                 </div>
                 <div className="form-check">
@@ -425,126 +407,136 @@ const Application = () => {
                 <p className="mt-5">
                   How many years of relevant experience do you have?
                 </p>
-              </div>
-            </li>
 
-            <li>
-              <div className="form-check">
-                <input
-                  className="form-check-input"
-                  type="radio"
-                  id="lessThanYear"
-                  name="experience"
-                  value="Less than a year"
-                  onChange={(e) => setYears_of_experience(e.target.value)}
-                />
-                <label className="form-check-label" htmlFor="lessThanYear">
-                  Less than a year
-                </label>
+                <div className="form-check">
+                  <input
+                    className="form-check-input"
+                    type="radio"
+                    id="lessThanYear"
+                    name="experience"
+                    value="Less than a year"
+                    checked={years_of_experience === "Less than a year"}
+                    onChange={(e) => setYears_of_experience(e.target.value)}
+                  />
+                  <label className="form-check-label" htmlFor="lessThanYear">
+                    Less than a year
+                  </label>
+                </div>
+                <div className="form-check">
+                  <input
+                    className="form-check-input"
+                    type="radio"
+                    id="1To2Years"
+                    name="experience"
+                    value="1-2 years"
+                    checked={years_of_experience === "1-2 years"}
+                    onChange={(e) => setYears_of_experience(e.target.value)}
+                  />
+                  <label className="form-check-label" htmlFor="1To2Years">
+                    1-2 years
+                  </label>
+                </div>
+                <div className="form-check">
+                  <input
+                    className="form-check-input"
+                    type="radio"
+                    id="3To5Years"
+                    name="experience"
+                    value="3-5 years"
+                    checked={years_of_experience === "3-5 years"}
+                    onChange={(e) => setYears_of_experience(e.target.value)}
+                  />
+                  <label className="form-check-label" htmlFor="3To5Years">
+                    3-5 years
+                  </label>
+                </div>
+                <div className="form-check">
+                  <input
+                    className="form-check-input"
+                    type="radio"
+                    id="over5Years"
+                    name="experience"
+                    value="Over 5 years"
+                    checked={years_of_experience === "Over 5 years"}
+                    onChange={(e) => setYears_of_experience(e.target.value)}
+                  />
+                  <label className="form-check-label" htmlFor="over5Years">
+                    Over 5 years
+                  </label>
+                </div>
               </div>
-              {/* Repeat the same pattern for other options */}
-              <div className="form-check">
-                <input
-                  className="form-check-input"
-                  type="radio"
-                  id="1To2Years"
-                  name="experience"
-                  value="1-2 years"
-                  onChange={(e) => setYears_of_experience(e.target.value)}
-                />
-                <label className="form-check-label" htmlFor="1To2Years">
-                  1-2 years
-                </label>
-              </div>
-              <div className="form-check">
-                <input
-                  className="form-check-input"
-                  type="radio"
-                  id="3To5Years"
-                  name="experience"
-                  value="3-5 years"
-                  onChange={(e) => setYears_of_experience(e.target.value)}
-                />
-                <label className="form-check-label" htmlFor="3To5Years">
-                  3-5 years
-                </label>
-              </div>
-              <div className="form-check">
-                <input
-                  className="form-check-input"
-                  type="radio"
-                  id="over5Years"
-                  name="experience"
-                  value="Over 5 years"
-                  onChange={(e) => setYears_of_experience(e.target.value)}
-                />
-                <label className="form-check-label" htmlFor="over5Years">
-                  Over 5 years
-                </label>
-              </div>
-            </li>
-          </div>
+            </div>
 
-          <div style={{ marginTop: "100px" }}>
-            <h4 className="fw-bold pb-3">LINKS</h4>
             <div className="mb-3 formm">
               <input
                 type="text"
-                className="form-control  text-black"
+                className="form-control text-black"
                 id="linkedin"
-                placeholder="Linkedin URL*"
+                placeholder="LinkedIn Profile*"
                 value={linkedin_profile}
                 onChange={(e) => setLinkedin_profile(e.target.value)}
                 required
                 style={{ background: "#f1f1f1" }}
               />
             </div>
+
             <div className="mb-3 formm">
               <input
                 type="text"
-                className="form-control  text-black"
+                className="form-control text-black"
                 id="github"
-                placeholder="Github URL*"
+                placeholder="GitHub Profile*"
                 value={github_profile}
                 onChange={(e) => setGithub_profile(e.target.value)}
                 required
                 style={{ background: "#f1f1f1" }}
               />
             </div>
-            <div className="mb-5 formm">
+
+            <div className="mb-3 formm">
               <input
                 type="text"
-                className="form-control  text-black"
+                className="form-control text-black"
                 id="portfolio"
-                placeholder="Portfolio URL*"
+                placeholder="Portfolio*"
                 value={portfolio}
                 onChange={(e) => setPortfolio(e.target.value)}
                 required
                 style={{ background: "#f1f1f1" }}
               />
             </div>
-          </div>
 
-          <div className="form-check mt-5">
-            <input
-              className="form-check-input"
-              type="checkbox"
-              id="flexCheckChecked"
-            />
-            <label className="form-check-label" htmlFor="flexCheckChecked">
-              Yes, ebsofT can contact me for future job opportunities for up to
-              6 months
-            </label>
-          </div>
+            <div className="mb-3 formm">
+              <select
+                className="form-control text-black"
+                id="gender"
+                value={gender}
+                onChange={(e) => setGender(e.target.value)}
+                required
+                style={{ background: "#f1f1f1" }}
+              >
+                <option value="" disabled>
+                  Select Gender*
+                </option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
 
-          {isLoading ? (
-            <CircularProgress /> // Display a Material-UI circular progress indicator
-          ) : (
-            <button className="btn btn-success mt-5">Submit</button>
-          )}
+            <div className="mb-3 formm">
+              <button
+                type="submit"
+                className="btn btn-primary"
+                disabled={isLoading}
+              >
+                {isLoading ? <CircularProgress size={24} /> : "Submit"}
+              </button>
+            </div>
+          </div>
         </form>
       </div>
-      <Footernew></Footernew>
+      <Footernew />
     </div>
   );
 };
