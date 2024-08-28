@@ -1,16 +1,10 @@
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
+
 import Footernew from "../Components/FooterNew";
 import Navbar from "../Components/Navbar";
 import Open from "../Components/OPen-Vacancy";
 
 const Join = () => {
-  useEffect(() => {
-    AOS.init();
-
-    AOS.refresh();
-  }, []);
+  
   return (
     <div className="join-wrap">
       <Navbar></Navbar>

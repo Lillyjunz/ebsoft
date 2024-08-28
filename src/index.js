@@ -1,4 +1,6 @@
 import "animate.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
@@ -7,6 +9,8 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
+
+Aos.init();
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

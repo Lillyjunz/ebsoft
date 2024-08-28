@@ -1,5 +1,4 @@
 import { CircularProgress } from "@mui/material";
-import "aos/dist/aos.css";
 import { useState } from "react";
 import Swal from "sweetalert2";
 import SwiperHome from "../Components/Caroo";

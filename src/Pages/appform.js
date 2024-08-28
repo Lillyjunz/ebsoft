@@ -1,6 +1,5 @@
 import { CircularProgress } from "@mui/material";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 import { useEffect, useState } from "react";
 import Swal from "sweetalert2";
 import Footernew from "../Components/FooterNew";
@@ -119,10 +118,7 @@ const Application = () => {
     }
   };
 
-  useEffect(() => {
-    AOS.init();
-    AOS.refresh();
-  }, []);
+
 
   return (
     <div className="app-wrap">

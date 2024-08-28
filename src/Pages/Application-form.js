@@ -1,7 +1,6 @@
 import { CircularProgress } from "@mui/material";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect, useState } from "react";
+
+import {  useState } from "react";
 import Swal from "sweetalert2";
 import Footernew from "../Components/FooterNew";
 import Navbar from "../Components/Navbar";
@@ -25,12 +24,12 @@ const Application = () => {
   const [github_profile, setGithub_profile] = useState("");
   const [portfolio, setPortfolio] = useState("");
   const [phone_number, setPhone_number] = useState("");
+  const [contact_me, setContact_me] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);
 
-    // Validation
     if (
       fullname === "" ||
       gender === "" ||
@@ -68,6 +67,7 @@ const Application = () => {
           github_profile,
           portfolio,
           phone_number,
+          contact_me, // add this line
         }),
         {
           headers: { "Content-Type": "application/json" },
@@ -91,6 +91,7 @@ const Application = () => {
       setGithub_profile("");
       setPortfolio("");
       setPhone_number("");
+      setContact_me(false); // reset this as well
 
       Swal.fire({
         icon: "success",
@@ -109,11 +110,7 @@ const Application = () => {
     }
   };
 
-  useEffect(() => {
-    AOS.init();
-
-    AOS.refresh();
-  }, []);
+ 
   return (
     <div className="app-wrap">
       <Navbar></Navbar>
@@ -530,6 +527,8 @@ const Application = () => {
               className="form-check-input"
               type="checkbox"
               id="flexCheckChecked"
+              checked={contact_me}
+              onChange={(e) => setContact_me(e.target.checked)}
             />
             <label className="form-check-label" htmlFor="flexCheckChecked">
               Yes, ebsofT can contact me for future job opportunities for up to
