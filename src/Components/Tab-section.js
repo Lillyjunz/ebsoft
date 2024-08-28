@@ -200,60 +200,6 @@ const Tab = () => {
             tabIndex="0"
           >
             <div
-              className="row p-1 "
-              style={{ marginBottom: "160px", paddingBottom: "200px" }}
-            >
-              <div
-                className="col-lg-6 pb-3 pt-3 "
-                data-aos="fade-right"
-                data-aos-duration="1000"
-                data-aos-delay="1500"
-                data-aos-once="true"
-              >
-                <h4 className="fw-bold pb-3">Partial end to end Development</h4>
-                <p style={{ maxWidth: "90%" }}>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
-                  porro reprehenderit esse quas quis velit consectetur! Mollitia
-                  fugit nostrum deleniti veniam ut eveniet, fuga a, sint placeat
-                  doloremque, reiciendis adipisci. Illo quas tenetur soluta
-                  nesciunt iusto, expedita itaque quaerat tempora numquam illum.
-                  Cum voluptas magnam non quidem praesentium consequuntur nulla
-                  facilis delectus, exercitationem corrupti sit accusamus?
-                  Voluptatem praesentium dignissimos quas!
-                </p>
-              </div>
-
-              <div
-                className="col-lg-6 pt-3 "
-                data-aos="fade-left"
-                data-aos-duration="1000"
-                data-aos-delay="1500"
-                data-aos-once="true"
-              >
-                <h4 className="fw-bold pb-3">
-                  Complete end to end Model Development
-                </h4>
-                <p style={{ maxWidth: "90%" }}>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
-                  porro reprehenderit esse quas quis velit consectetur! Mollitia
-                  fugit nostrum deleniti veniam ut eveniet, fuga a, sint placeat
-                  doloremque, reiciendis adipisci. Illo quas tenetur soluta
-                  nesciunt iusto, expedita itaque quaerat tempora numquam illum.
-                  Cum voluptas magnam non quidem praesentium consequuntur nulla
-                  facilis delectus, exercitationem corrupti sit accusamus?
-                  Voluptatem praesentium dignissimos quas!
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            className="tab-pane fade"
-            id="contact-tab-pane"
-            role="tabpanel"
-            aria-labelledby="contact-tab"
-            tabIndex="0"
-          >
-            <div
               className="row p-1"
               style={{ marginBottom: "100px", paddingBottom: "170px" }}
             >
@@ -321,6 +267,60 @@ const Tab = () => {
                 <p className="pt-3 pb-3" style={{ maxWidth: "90%" }}>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
                   magni magnam illo quia quae perspiciatis ab exercitationem
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            className="tab-pane fade"
+            id="contact-tab-pane"
+            role="tabpanel"
+            aria-labelledby="contact-tab"
+            tabIndex="0"
+          >
+            <div
+              className="row p-1 "
+              style={{ marginBottom: "160px", paddingBottom: "200px" }}
+            >
+              <div
+                className="col-lg-6 pb-3 pt-3 "
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                data-aos-delay="1500"
+                data-aos-once="true"
+              >
+                <h4 className="fw-bold pb-3">Partial end to end Development</h4>
+                <p style={{ maxWidth: "90%" }}>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
+                  porro reprehenderit esse quas quis velit consectetur! Mollitia
+                  fugit nostrum deleniti veniam ut eveniet, fuga a, sint placeat
+                  doloremque, reiciendis adipisci. Illo quas tenetur soluta
+                  nesciunt iusto, expedita itaque quaerat tempora numquam illum.
+                  Cum voluptas magnam non quidem praesentium consequuntur nulla
+                  facilis delectus, exercitationem corrupti sit accusamus?
+                  Voluptatem praesentium dignissimos quas!
+                </p>
+              </div>
+
+              <div
+                className="col-lg-6 pt-3 "
+                data-aos="fade-left"
+                data-aos-duration="1000"
+                data-aos-delay="1500"
+                data-aos-once="true"
+              >
+                <h4 className="fw-bold pb-3">
+                  Complete end to end Model Development
+                </h4>
+                <p style={{ maxWidth: "90%" }}>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
+                  porro reprehenderit esse quas quis velit consectetur! Mollitia
+                  fugit nostrum deleniti veniam ut eveniet, fuga a, sint placeat
+                  doloremque, reiciendis adipisci. Illo quas tenetur soluta
+                  nesciunt iusto, expedita itaque quaerat tempora numquam illum.
+                  Cum voluptas magnam non quidem praesentium consequuntur nulla
+                  facilis delectus, exercitationem corrupti sit accusamus?
+                  Voluptatem praesentium dignissimos quas!
                 </p>
               </div>
             </div>
