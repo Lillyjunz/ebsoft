@@ -70,7 +70,7 @@ const Open = () => {
             </div>
           </li>
 
-          <NavLink to="/application">
+          <NavLink to="/appform">
             <li>
               <button className="btn btn-success text-light">Apply</button>
             </li>
@@ -141,7 +141,7 @@ const Open = () => {
             </div>
           </li>
 
-          <NavLink to="/application">
+          <NavLink to="/appform">
             <li>
               <button className="btn btn-success text-light">Apply</button>
             </li>
@@ -212,7 +212,7 @@ const Open = () => {
             </div>
           </li>
 
-          <NavLink to="/application">
+          <NavLink to="/appform">
             <li>
               <button className="btn btn-success text-light">Apply</button>
             </li>
@@ -283,7 +283,7 @@ const Open = () => {
             </div>
           </li>
 
-          <NavLink to="/application">
+          <NavLink to="/appform">
             <li>
               <button className="btn btn-success text-light">Apply</button>
             </li>
@@ -354,7 +354,7 @@ const Open = () => {
             </div>
           </li>
 
-          <NavLink to="/application">
+          <NavLink to="/appform">
             <li>
               <button className="btn btn-success text-light">Apply</button>
             </li>
@@ -425,7 +425,7 @@ const Open = () => {
             </div>
           </li>
 
-          <NavLink to="/application">
+          <NavLink to="/appform">
             <li>
               <button className="btn btn-success text-light">Apply</button>
             </li>
@@ -496,7 +496,7 @@ const Open = () => {
             </div>
           </li>
 
-          <NavLink to="/application">
+          <NavLink to="/appform">
             <li>
               <button className="btn btn-success text-light">Apply</button>
             </li>
@@ -567,7 +567,7 @@ const Open = () => {
             </div>
           </li>
 
-          <NavLink to="/application">
+          <NavLink to="/appform">
             <li>
               <button className="btn btn-success text-light">Apply</button>
             </li>

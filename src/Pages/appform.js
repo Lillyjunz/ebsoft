@@ -1,6 +1,5 @@
 import { CircularProgress } from "@mui/material";
-
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Swal from "sweetalert2";
 import Footernew from "../Components/FooterNew";
 import Navbar from "../Components/Navbar";
@@ -24,6 +23,7 @@ const Application = () => {
   const [github_profile, setGithub_profile] = useState("");
   const [portfolio, setPortfolio] = useState("");
   const [phone_number, setPhone_number] = useState("");
+  const [contact_me, setContact_me] = useState(false);
 
   const handleFileChange = (e) => {
     setFile(e.target.files[0]);
@@ -48,7 +48,8 @@ const Application = () => {
       !linkedin_profile ||
       !github_profile ||
       !portfolio ||
-      !phone_number
+      !phone_number ||
+      !contact_me
     ) {
       Swal.fire({
         icon: "error",
@@ -75,6 +76,7 @@ const Application = () => {
       formData.append("github_profile", github_profile);
       formData.append("portfolio", portfolio);
       formData.append("phone_number", phone_number);
+      formData.append("phone_number", contact_me);
 
       const response = await axios.post("/contact/apply/", formData, {
         headers: {
@@ -99,6 +101,7 @@ const Application = () => {
       setGithub_profile("");
       setPortfolio("");
       setPhone_number("");
+      setContact_me("");
 
       Swal.fire({
         icon: "success",
@@ -117,8 +120,6 @@ const Application = () => {
       setIsLoading(false);
     }
   };
-
-
 
   return (
     <div className="app-wrap">
@@ -270,30 +271,52 @@ const Application = () => {
               />
             </div>
 
-            <div className="mb-3 formm">
-              <input
-                type="text"
-                className="form-control text-black"
-                id="notice-period"
-                placeholder="Notice Period*"
+            <div className="form-floating formm mb-3">
+              <textarea
+                className="form-control"
+                placeholder="Leave a comment here"
                 value={notice_period}
                 onChange={(e) => setNotice_period(e.target.value)}
                 required
-                style={{ background: "#f1f1f1" }}
-              />
+                id="floatingTextarea2"
+                style={{ height: "100px", background: "#f1f1f1" }}
+              ></textarea>
+              <label htmlFor="floatingTextarea3">
+                What's your notice period?*
+              </label>
             </div>
 
-            <div className="mb-3 formm">
-              <input
-                type="text"
-                className="form-control text-black"
-                id="salary"
-                placeholder="Salary Expectation*"
+            <div className="form-floating formm mb-3">
+              <textarea
+                className="form-control"
+                placeholder="Leave a comment here"
                 value={salary_expectation}
                 onChange={(e) => setSalary_expectation(e.target.value)}
                 required
+                id="floatingTextarea2"
+                style={{ height: "100px", background: "#f1f1f1" }}
+              ></textarea>
+              <label htmlFor="floatingTextarea3">
+                What's your salary expectation for this role?*
+              </label>
+            </div>
+
+            <div className="mb-3 formm">
+              <select
+                className="form-control text-black"
+                id="gender"
+                value={gender}
+                onChange={(e) => setGender(e.target.value)}
+                required
                 style={{ background: "#f1f1f1" }}
-              />
+              >
+                <option value="" disabled>
+                  Select Gender*
+                </option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+              </select>
             </div>
 
             <div className="mb-3 formm">
@@ -502,28 +525,24 @@ const Application = () => {
               />
             </div>
 
-            <div className="mb-3 formm">
-              <select
-                className="form-control text-black"
-                id="gender"
-                value={gender}
-                onChange={(e) => setGender(e.target.value)}
-                required
-                style={{ background: "#f1f1f1" }}
-              >
-                <option value="" disabled>
-                  Select Gender*
-                </option>
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
-                <option value="Other">Other</option>
-              </select>
+            <div className="form-check mt-5">
+              <input
+                className="form-check-input"
+                type="checkbox"
+                id="flexCheckChecked"
+                checked={contact_me}
+                onChange={(e) => setContact_me(e.target.checked)}
+              />
+              <label className="form-check-label" htmlFor="flexCheckChecked">
+                Yes, ebsofT can contact me for future job opportunities for up
+                to 6 months
+              </label>
             </div>
 
-            <div className="mb-3 formm">
+            <div className="mb-3 mt-3 formm">
               <button
                 type="submit"
-                className="btn btn-primary"
+                className="btn btn-success"
                 disabled={isLoading}
               >
                 {isLoading ? <CircularProgress size={24} /> : "Submit"}
