@@ -68,8 +68,8 @@ export default function SwiperHome() {
                 data-aos-delay="500"
                 src="/images/ebimg3.jpg"
                 style={{
-                  width: "160px",
-                  height: "160px",
+                  width: "440px",
+                  height: "180px",
                   borderRadius: "50%",
                   marginRight: "10px",
                 }}
@@ -146,8 +146,8 @@ export default function SwiperHome() {
                 data-aos-delay="500"
                 src="/images/ebimg5.jpg"
                 style={{
-                  width: "160px",
-                  height: "160px",
+                  width: "440px",
+                  height: "180px",
                   borderRadius: "50%",
                   marginRight: "10px",
                 }}
@@ -221,14 +221,10 @@ export default function SwiperHome() {
             <div className="team mb-5" style={{ width: "50" }}>
               <img
                 className="rounded-image"
-                data-aos="fade-up"
-                data-aos-once="true"
-                data-aos-duration="1000"
-                data-aos-delay="500"
-                src="/images/admin.jpg"
+                src="/images/ebene.jpg"
                 style={{
-                  width: "160px",
-                  height: "160px",
+                  width: "440px",
+                  height: "180px",
                   borderRadius: "50%",
                   marginRight: "10px",
                 }}
@@ -309,8 +305,8 @@ export default function SwiperHome() {
                 data-aos-delay="500"
                 src="/images/admin.jpg"
                 style={{
-                  width: "160px",
-                  height: "160px",
+                  width: "440px",
+                  height: "180px",
                   borderRadius: "50%",
                   marginRight: "10px",
                 }}
@@ -367,7 +363,6 @@ export default function SwiperHome() {
           </div>
         </SwiperSlide>
 
-
         <SwiperSlide className="align-items-center justify-content-center ">
           <div
             className="slide-div"
@@ -386,10 +381,10 @@ export default function SwiperHome() {
                 data-aos-once="true"
                 data-aos-duration="1000"
                 data-aos-delay="500"
-                src="/images/admin.jpg"
+                src="/images/ebimg6.jpg"
                 style={{
-                  width: "160px",
-                  height: "160px",
+                  width: "440px",
+                  height: "180px",
                   borderRadius: "50%",
                   marginRight: "10px",
                 }}
@@ -450,8 +445,6 @@ export default function SwiperHome() {
             </div>
           </div>
         </SwiperSlide>
-
-     
       </Swiper>
     </>
   );

@@ -100,10 +100,10 @@ const Intro2 = () => {
 
           <div className="hover-content">
             <h3 className="text-end pt-2 pe-3 fw-bold text-light">1</h3>
-            <div className="align-items-center pt-2 pb-2 ps-3 pe-3">
+            <div className="align-items-center pt-3 pb-2 ps-3 pe-3">
               <h5 className="fw-bold">Non disclosure Agreements</h5>
 
-              <p className="fw-bold text-light px-1">
+              <p className="fw-bold text-light">
                 Before diving into your idea and transforming it into a project,
                 we prioritize safeguarding its confidentiality. Rest assured, we
                 are committed to ensuring that your intellectual property (IP)
@@ -171,16 +171,12 @@ const Intro2 = () => {
                 Visualization and Product Consultation
               </h5>
 
-              <p className="fw-bold text-light px-1">
-                Visualizing your idea and transforming it into a project, along
-                with consultation, is akin to connecting the dots. We begin by
-                establishing clear goals and objectives, gaining insights into
-                your target audience, researching competitors, and crafting a
-                comprehensive development roadmap. However, before proceeding,
-                we adopt an appropriate engagement model, and meticulously
-                outlining the project's scope into delivery milestones and work
-                on user experience, system, and architectural designs both small
-                and large details of it.
+              <p className="fw-bold text-light ">
+                Visualizing your idea and turning it into a project is like
+                connecting the dots. We set goals, understand your audience, research
+                competitors, and build a roadmap. Then, we choose the engagement
+                model, define the scope, and focus on user experience and design
+                details.
               </p>
             </div>
           </div>
@@ -241,7 +237,7 @@ const Intro2 = () => {
             <div className="align-items-center pt-2 pb-2 ps-3 pe-3">
               <h5 className="fw-bold">Build and Development</h5>
 
-              <p className="fw-bold text-light px-1">
+              <p className="fw-bold text-light">
                 Integrating an engagement model from the outset kickstarts our
                 Agile build-test-deploy process cycle, ensuring seamless
                 coordination between design and development (and/or engineering)
@@ -306,10 +302,10 @@ const Intro2 = () => {
 
           <div className="hover-content">
             <h3 className="text-end pt-2 pe-3 fw-bold text-light">4</h3>
-            <div className="align-items-center pt-5 pb-2 ps-3 pe-3">
+            <div className="align-items-center pt-2 pb-2 ps-3 pe-3">
               <h5 className="fw-bold">Delivery, support and Maintenance</h5>
 
-              <p className="fw-bold text-light px-1">
+              <p className="fw-bold text-light">
                 In this phase, we diligently monitor, refine, and update
                 elements to guarantee the seamless and bug-free operation of the
                 software we've developed, tailored to the specifics of our
@@ -376,15 +372,12 @@ const Intro2 = () => {
             <div className="align-items-center pt-2 pb-2 ps-3 pe-3">
               <h5 className="fw-bold">Feedback and strategic Patnership</h5>
 
-              <p className="fw-bold text-light px-1">
-                As we conclude this journey together, we invite you to join us
-                in celebrating our collective success story. Let's take a moment
-                to reflect on the lessons learned, gather feedback, and nurture
-                our ongoing partnership – to becoming a strategic partner. Our
-                commitment to delivering your product idea from inception to
-                completion with excellence and brilliance remains unwavering,
-                and we hope you'll share your experience with EbsofT with
-                others.
+              <p className="fw-bold text-light">
+                As we wrap up, let's celebrate our success and reflect on
+                lessons learned. We value your feedback and look forward to a
+                lasting partnership. Our commitment to delivering your product
+                with excellence remains strong, and we hope you'll share your
+                EbsofT experience.
               </p>
             </div>
           </div>

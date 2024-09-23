@@ -133,8 +133,10 @@ const Footernew = () => {
           </div>
           <div className="column co-cont">
             <h4 className="fw-bold"> Contact</h4>
-            <li style={{ listStyleType: "none" }}>Phone: +3456 67 889</li>
-            <li style={{ listStyleType: "none" }}>Email: okey@gmail.com</li>
+            <li style={{ listStyleType: "none" }}>Phone: +234 813 698 3200</li>
+            <li style={{ listStyleType: "none" }}>
+              Email: chatwithebsoft@gmail.com
+            </li>
           </div>
         </div>
         <div
