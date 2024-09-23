@@ -168,7 +168,7 @@ const About = () => {
               data-aos-duration="1000"
               data-aos-delay="500"
             >
-              Visualize. Design. Build. Deliver.
+              <b>Visualize. Design. Build. Deliver.</b>
               <br></br>At ebsofT, we are with you every step of the way. From
               visualization to delivery, we work as a team to bring your ideas
               to life with excellence and brilliance.

@@ -303,7 +303,7 @@ export default function SwiperHome() {
                 data-aos-once="true"
                 data-aos-duration="1000"
                 data-aos-delay="500"
-                src="/images/admin.jpg"
+                src="/images/ebimg7.jpg"
                 style={{
                   width: "440px",
                   height: "180px",
