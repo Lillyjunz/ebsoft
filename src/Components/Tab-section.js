@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Tab = () => {
   return (
@@ -98,11 +98,11 @@ const Tab = () => {
                     boost employee productivity, and enhance customer-service
                     delivery experiences.
                   </p>
-                  <NavLink to="/detail">
+                  <Link to="/detail#section2">
                     <button className="btn btn-outline-success fw-bold">
                       Read More
                     </button>
-                  </NavLink>
+                  </Link>
                 </div>
 
                 <div
@@ -125,11 +125,11 @@ const Tab = () => {
                     offer broad accessibility across devices and faster
                     development times...
                   </p>
-                  <NavLink to="/detail">
+                  <Link to="/detail#section1">
                     <button className="btn btn-outline-success fw-bold fw-bold">
                       Read More
                     </button>
-                  </NavLink>
+                  </Link>
                 </div>
                 <div
                   className="col-lg-4 pt-5 "
@@ -150,11 +150,11 @@ const Tab = () => {
                     processes, our expert team ensures a seamless transition
                     with minimal disruption.
                   </p>
-                  <NavLink to="/detail">
+                  <Link to="/detail#section3">
                     <button className="btn btn-outline-success fw-bold">
                       Read More
                     </button>
-                  </NavLink>
+                  </Link>
                 </div>
                 <div
                   className="col-lg-4 pt-5 "
@@ -175,11 +175,11 @@ const Tab = () => {
                     cutting-edge technologies that streamline workflows, boost
                     efficiency, and foster innovation.
                   </p>
-                  <NavLink to="/detail">
+                  <Link to="/detail#section4">
                     <button className="btn btn-outline-success fw-bold">
                       Read More
                     </button>
-                  </NavLink>
+                  </Link>
                 </div>
                 <div
                   className="col-lg-4 pt-5 "
@@ -200,11 +200,11 @@ const Tab = () => {
                     experienced engineers at a lower cost including local
                     hiring.
                   </p>
-                  <NavLink to="/detail">
+                  <Link to="/detail#section5">
                     <button className="btn btn-outline-success fw-bold">
                       Read More
                     </button>
-                  </NavLink>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -1,12 +1,21 @@
-
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import Caroo from "../Components/Caroo";
 import Faq from "../Components/Faq";
 import Footernew from "../Components/FooterNew";
 import Navbar from "../Components/Navbar";
 
 const Detail = () => {
-  
+  const { hash } = useLocation();
 
+  useEffect(() => {
+    if (hash) {
+      const element = document.querySelector(hash);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [hash]);
   return (
     <div className="detail-wrap">
       <Navbar></Navbar>
@@ -75,6 +84,7 @@ const Detail = () => {
       <div className="container " style={{ marginTop: "40px" }}>
         <div
           className="detail-div"
+          id="section1"
           style={{ paddingBottom: "70px", paddingTop: "80px" }}
         >
           <div
@@ -239,7 +249,11 @@ const Detail = () => {
           </div>
         </div>
 
-        <div className="detail-div" style={{ paddingBottom: "70px" }}>
+        <div
+          className="detail-div"
+          id="section2"
+          style={{ paddingBottom: "70px" }}
+        >
           <div
             className="for-divider "
             data-aos="fade-up"
@@ -402,7 +416,11 @@ const Detail = () => {
           </div>
         </div>
 
-        <div className="detail-div" style={{ paddingBottom: "70px" }}>
+        <div
+          className="detail-div"
+          id="section3"
+          style={{ paddingBottom: "70px" }}
+        >
           <div
             className="fore-divider "
             data-aos="fade-up"
@@ -571,7 +589,11 @@ const Detail = () => {
           </div>
         </div>
 
-        <div className="detail-div" style={{ paddingBottom: "70px" }}>
+        <div
+          className="detail-div"
+          id="section4"
+          style={{ paddingBottom: "70px" }}
+        >
           <div
             className="fore-divider  "
             data-aos="fade-up"
@@ -644,7 +666,11 @@ const Detail = () => {
           </div>
         </div>
 
-        <div className="detail-div" style={{ paddingBottom: "50px" }}>
+        <div
+          className="detail-div"
+          id="section5"
+          style={{ paddingBottom: "50px" }}
+        >
           <div
             className="for-divider "
             data-aos="fade-up"
