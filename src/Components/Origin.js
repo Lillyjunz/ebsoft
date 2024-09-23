@@ -28,10 +28,10 @@ const Origin = () => {
           >
             <h4 className="fw-bold ">Individuals and start ups</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-              deserunt, adipisci sed expedita eius autem dolorum impedit nihil,
-              dicta, recusandae harum maxime blanditiis fugit tenetur possimus
-              commodi aliquam nobis in commodi aliquam nobis in.
+              We specialize in developing MVPs, proof of concepts, and full
+              products that embrace modern UX/UI trends. Our goal is to help you
+              efficiently test your ideas for product-market fit with minimal
+              investment and time.
             </p>
           </div>
 
@@ -62,7 +62,7 @@ const Origin = () => {
             style={{ width: "90%" }}
           >
             <h3 className="text-center img-txt  fw-bold">
-              Individuals and start up
+              Enterprise and Government
             </h3>
             <img
               className=" img-fluid intro-img"
@@ -79,12 +79,11 @@ const Origin = () => {
             data-aos-once="true"
             style={{ width: "100%" }}
           >
-            <h4 className="fw-bold">Individuals and start ups</h4>
+            <h4 className="fw-bold">Enterprise and Government</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-              deserunt, adipisci sed expedita eius autem dolorum impedit nihil,
-              dicta, recusandae harum maxime blanditiis fugit tenetur possimus
-              commodi aliquam nobis in commodi aliquam nobis in.
+              We provide innovative solutions to leading corporations and public
+              authorities in health, education, and oil & gas, serving large
+              enterprises including Fortune 500 companies among our clientele.
             </p>
           </div>
         </div>

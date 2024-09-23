@@ -22,7 +22,7 @@ const Imagesection = () => {
               data-aos-delay="1300"
               data-aos-once="true"
             >
-              Find out about open vacancies in our company and join our team
+              Explore our open positions and become a part of our dynamic team!
             </p>
             <NavLink to="/join">
               <button

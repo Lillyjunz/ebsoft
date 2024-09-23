@@ -235,13 +235,14 @@ const Contact = () => {
             <img style={{ width: "15px" }} src="../images/star.svg" alt="..." />
             <img style={{ width: "15px" }} src="../images/star.svg" alt="..." />
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-              alias saepe dolor architecto. Veniam maiores ipsa, ut nam dicta
-              cumque labore minus soluta illum laborum animi pariatur deserunt
-              mollitia commodi.
+              "EBSOFT is more than just a service provider—they're a tech ally.
+              They took the time to understand our unique challenges and
+              delivered exceptional solutions. Moving from a single software
+              engineer managing our website to a cost-effective, company-wide
+              collaboration with EBSOFT has been a game-changer."
             </p>
-            <p>Jogn Jackson</p>
-            Head of Department
+            <p>Richard</p>
+            CEO at NIKICHIS Limited
           </div>
         </div>
       </div>

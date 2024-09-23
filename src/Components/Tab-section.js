@@ -89,10 +89,14 @@ const Tab = () => {
                     Software and Mobile<br></br> Development
                   </h3>
                   <p className="pt-3 pb-2" style={{ maxWidth: "90%" }}>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
-                    magni magnam illo quia quae perspiciatis ab exercitationem
-                    reiciendis nemo odio cumque dolorem, voluptatem quisquam
-                    necessitatibus eos culpa repellat at dicta!
+                    At ebsofT, we specialize in crafting native and
+                    enterprise-grade mobile/software applications. Our native
+                    applications are meticulously tailored to specific
+                    platforms, be it iOS or Android, ensuring optimal
+                    performance and user experience. Meanwhile, our enterprise
+                    applications empower organizations to streamline operations,
+                    boost employee productivity, and enhance customer-service
+                    delivery experiences.
                   </p>
                   <NavLink to="/detail">
                     <button className="btn btn-outline-success fw-bold">
@@ -112,10 +116,14 @@ const Tab = () => {
                     UI/UX and Web<br></br> Development
                   </h3>
                   <p className="pt-3 pb-2" style={{ maxWidth: "90%" }}>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
-                    magni magnam illo quia quae perspiciatis ab exercitationem
-                    reiciendis nemo odio cumque dolorem, voluptatem quisquam
-                    necessitatibus eos culpa repellat at dicta!
+                    Many of our clients initially struggle with the decision of
+                    whether to develop a responsive web application or a
+                    dedicated mobile application. At EBSOFT, we believe there’s
+                    no one-size-fits-all answer—it all depends on your business
+                    goals, target audience, and project requirements. Both
+                    options have distinct benefits: responsive web applications
+                    offer broad accessibility across devices and faster
+                    development times...
                   </p>
                   <NavLink to="/detail">
                     <button className="btn btn-outline-success fw-bold fw-bold">
@@ -134,10 +142,13 @@ const Tab = () => {
                     Cloud Infrastructure <br></br> Services
                   </h3>
                   <p className="pt-3 pb-2" style={{ maxWidth: "90%" }}>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
-                    magni magnam illo quia quae perspiciatis ab exercitationem
-                    reiciendis nemo odio cumque dolorem, voluptatem quisquam
-                    necessitatibus eos culpa repellat at dicta!
+                    Our Cloud Infrastructure and DevOps services at ebsofT are
+                    designed to accelerate your business's digital
+                    transformation by optimizing your cloud environments and
+                    streamlining software delivery. Whether you’re migrating to
+                    the cloud, scaling existing infrastructure, or automating
+                    processes, our expert team ensures a seamless transition
+                    with minimal disruption.
                   </p>
                   <NavLink to="/detail">
                     <button className="btn btn-outline-success fw-bold">
@@ -156,10 +167,13 @@ const Tab = () => {
                     Digital Cloud <br></br>Transformation
                   </h3>
                   <p className="pt-3 pb-2" style={{ maxWidth: "90%" }}>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
-                    magni magnam illo quia quae perspiciatis ab exercitationem
-                    reiciendis nemo odio cumque dolorem, voluptatem quisquam
-                    necessitatibus eos culpa repellat at dicta!
+                    At EBSOFT, our Digital Transformation, Innovation, and RPA
+                    services empower enterprises to evolve and lead in a rapidly
+                    changing digital landscape. We don’t just automate
+                    processes—we transform them. Our strategic approach focuses
+                    on redefining how your business operates by integrating
+                    cutting-edge technologies that streamline workflows, boost
+                    efficiency, and foster innovation.
                   </p>
                   <NavLink to="/detail">
                     <button className="btn btn-outline-success fw-bold">
@@ -178,10 +192,13 @@ const Tab = () => {
                     Tech Hiring <br></br> Services
                   </h3>
                   <p className="pt-3 pb-2" style={{ maxWidth: "90%" }}>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
-                    magni magnam illo quia quae perspiciatis ab exercitationem
-                    reiciendis nemo odio cumque dolorem, voluptatem quisquam
-                    necessitatibus eos culpa repellat at dicta!
+                    Discover skilled professionals in software development, web
+                    design, cloud computing, and more through our streamlined
+                    Hiring Service. This model is tailored for organizations
+                    seeking a dedicated team of engineers for specific projects
+                    or tasks. By leveraging this model, you can access
+                    experienced engineers at a lower cost including local
+                    hiring.
                   </p>
                   <NavLink to="/detail">
                     <button className="btn btn-outline-success fw-bold">
@@ -212,8 +229,9 @@ const Tab = () => {
               >
                 <h3 className="fw-bold pb-2">Public Governance</h3>
                 <p className="pt-3 pb-3" style={{ maxWidth: "90%" }}>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
-                  magni magnam illo quia quae perspiciatis ab exercitationem
+                  Advanced software solutions that streamline public
+                  administration, enhance transparency, improve service
+                  delivery, and drive efficiency in government operations.
                 </p>
               </div>
 
@@ -226,8 +244,9 @@ const Tab = () => {
               >
                 <h3 className="fw-bold pb-2">Health Care</h3>
                 <p className="pt-3 pb-3" style={{ maxWidth: "90%" }}>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
-                  magni magnam illo quia quae perspiciatis ab exercitationem
+                  Revolutionary tech solutions powered by wearable devices,
+                  enabling real-time health monitoring, data-driven insights,
+                  and improved patient care.
                 </p>
               </div>
               <div
@@ -239,8 +258,9 @@ const Tab = () => {
               >
                 <h3 className="fw-bold pb-2">Retail and Commerce</h3>
                 <p className="pt-3 pb-3" style={{ maxWidth: "90%" }}>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
-                  magni magnam illo quia quae perspiciatis ab exercitationem
+                  AI-driven digital solutions designed to optimize retail
+                  operations, enhance customer experiences, and deliver quick
+                  ROI through smarter automation and data insights.
                 </p>
               </div>
               <div
@@ -252,8 +272,11 @@ const Tab = () => {
               >
                 <h3 className="fw-bold pb-2">Logistics</h3>
                 <p className="pt-3 pb-3" style={{ maxWidth: "90%" }}>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
-                  magni magnam illo quia quae perspiciatis ab exercitationem
+                  Leverage cutting-edge data analytics and seamless API
+                  integrations with distribution and geolocation systems to
+                  optimize logistics operations. Our solutions enhance real-time
+                  tracking, streamline supply chain processes, and drive greater
+                  efficiency for logistics businesses.
                 </p>
               </div>
               <div
@@ -263,10 +286,11 @@ const Tab = () => {
                 data-aos-delay="1500"
                 data-aos-once="true"
               >
-                <h3 className="fw-bold pb-2">Media</h3>
+                <h3 className="fw-bold pb-2">Travel and Hospitality</h3>
                 <p className="pt-3 pb-3" style={{ maxWidth: "90%" }}>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
-                  magni magnam illo quia quae perspiciatis ab exercitationem
+                  Innovative technology solutions for hotels, travel, tours, and
+                  restaurants, enhancing customer experiences with seamless
+                  automation, personalization, and real-time services.
                 </p>
               </div>
             </div>
@@ -291,14 +315,26 @@ const Tab = () => {
               >
                 <h4 className="fw-bold pb-3">Partial end to end Development</h4>
                 <p style={{ maxWidth: "90%" }}>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
-                  porro reprehenderit esse quas quis velit consectetur! Mollitia
-                  fugit nostrum deleniti veniam ut eveniet, fuga a, sint placeat
-                  doloremque, reiciendis adipisci. Illo quas tenetur soluta
-                  nesciunt iusto, expedita itaque quaerat tempora numquam illum.
-                  Cum voluptas magnam non quidem praesentium consequuntur nulla
-                  facilis delectus, exercitationem corrupti sit accusamus?
-                  Voluptatem praesentium dignissimos quas!
+                  In this engagement model, our development team assumes
+                  responsibility for managing and publishing code commits
+                  directly to the client’s platform, particularly if there is an
+                  existing DevOps or engineering team in place. However,
+                  depending on the terms of the agreement, our DevOps and
+                  engineering team may exclusively build out development code
+                  commits within the client’s platform or environment.
+                  Additionally, in some cases based on the agreement, ebsofT may
+                  be engaged solely for development purposes, with the codes
+                  handed over to the clients upon completion for its hosting and
+                  operations. For example, clients may specifically request the
+                  expertise of an ebsofT Developer for their project. The
+                  primary objective of this engagement model is to operate
+                  entirely within the client's platform or hosting environment,
+                  accommodating the needs of both our development team and/or
+                  the entire development/engineering team. In some instances,
+                  clients may require the comprehensive support of our entire
+                  ebsofT Development/Engineering Ops team. Regardless, all of
+                  our involvement is conducted within the client’s hosting
+                  cloud, on-premises solutions, or platform.
                 </p>
               </div>
 
@@ -313,14 +349,13 @@ const Tab = () => {
                   Complete end to end Model Development
                 </h4>
                 <p style={{ maxWidth: "90%" }}>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et
-                  porro reprehenderit esse quas quis velit consectetur! Mollitia
-                  fugit nostrum deleniti veniam ut eveniet, fuga a, sint placeat
-                  doloremque, reiciendis adipisci. Illo quas tenetur soluta
-                  nesciunt iusto, expedita itaque quaerat tempora numquam illum.
-                  Cum voluptas magnam non quidem praesentium consequuntur nulla
-                  facilis delectus, exercitationem corrupti sit accusamus?
-                  Voluptatem praesentium dignissimos quas!
+                  This engagement model is typically ideal for individual
+                  clients and startups seeking to offload hosting and platform
+                  management responsibilities to the expertise of ebsofT. The
+                  primary objective of this engagement is that the hosting
+                  platform for development and applications is managed by us,
+                  ebsofT, on the agreed-upon cloud provider / solution. However,
+                  the code will be transferred to the clients upon completion.
                 </p>
               </div>
             </div>

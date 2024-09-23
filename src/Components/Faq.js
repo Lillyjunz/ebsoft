@@ -47,16 +47,16 @@ function Faq() {
           data-aos-delay="1600"
           data-aos-once="true"
         >
-          <div className="label fw-bold">
-            {" "}
-            1. How do I know if ene to end development is right for me
-          </div>
+          <div className="label fw-bold"> 1. What makes us unique ?</div>
           <div className="content" style={{ border: "2px solid #f1f1f1" }}>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-              sunt mollitia obcaecati voluptas quaerat provident, ipsam nulla
-              aliquid modi asperiores alias aspernatur beatae, tenetur dicta
-              maxime impedit ipsa? Porro, perspiciatis!
+              What sets us apart in handling your visionary project is our
+              unwavering commitment to excellence and brilliance. Our team
+              delivers application codes to clients with exceptionalism, we
+              operate within the confines of your hosting platform, prioritizing
+              security at every step. Trust in the expertise of our engineering
+              advisory team to provide cost-effective platform and hosting
+              solutions tailored to your needs.
             </p>
           </div>
         </div>
@@ -72,14 +72,16 @@ function Faq() {
         >
           <div className="label fw-bold">
             {" "}
-            2. How do I know if ene to end development is right for me
+            2. What our clients says about us
           </div>
           <div className="content" style={{ border: "2px solid #f1f1f1" }}>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-              sunt mollitia obcaecati voluptas quaerat provident, ipsam nulla
-              aliquid modi asperiores alias aspernatur beatae, tenetur dicta
-              maxime impedit ipsa? Porro, perspiciatis!
+              We are deeply committed to addressing your software development
+              challenges and demystifying the complexities surrounding startup
+              or enterprise application/software lifecycle and platform
+              operations. Our focus is on delivering viable real solutions
+              tailored to your target market, ensuring the success of your
+              project from development to delivery.
             </p>
           </div>
         </div>
@@ -95,14 +97,17 @@ function Faq() {
         >
           <div className="label fw-bold">
             {" "}
-            3. How do I know if ene to end development is right for me
+            3. How does ebsofT ensure skilled team integration and confident KPI
+            delegation?
           </div>
           <div className="content" style={{ border: "2px solid #f1f1f1" }}>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-              sunt mollitia obcaecati voluptas quaerat provident, ipsam nulla
-              aliquid modi asperiores alias aspernatur beatae, tenetur dicta
-              maxime impedit ipsa? Porro, perspiciatis!
+              We invest in our team through year-round certified training
+              programs and personnel development initiatives to cultivate
+              excellence and brilliance with leadership. Picture our highly
+              skilled team seamlessly integrating into your existing projects,
+              fully committed to its success. With us, you can confidently
+              delegate KPIs concerns, knowing they're in capable hands.
             </p>
           </div>
         </div>
@@ -118,14 +123,18 @@ function Faq() {
         >
           <div className="label fw-bold">
             {" "}
-            4. How do I know if ene to end development is right for me
+            4. What approach does ebsofT follow in software development, and how
+            does it ensure confidentiality and timely delivery?
           </div>
           <div className="content" style={{ border: "2px solid #f1f1f1" }}>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-              sunt mollitia obcaecati voluptas quaerat provident, ipsam nulla
-              aliquid modi asperiores alias aspernatur beatae, tenetur dicta
-              maxime impedit ipsa? Porro, perspiciatis!
+              At ebsofT, we adhere to a proven Agile Development Methodology
+              that encompasses the entire product lifecycle across a
+              comprehensive range of software services. Recognizing the
+              uniqueness of every business, we offer flexible, customized, and
+              personalized outsourcing solutions while ensuring the utmost
+              confidentiality of sensitive business data and delivering projects
+              on time and within budget.
             </p>
           </div>
         </div>
@@ -141,20 +150,21 @@ function Faq() {
         >
           <div className="label fw-bold">
             {" "}
-            5. How do I know if ene to end development is right for me
+            5. How does ebsoft ensure data privacy for remote engineers?
           </div>
           <div className="content" style={{ border: "2px solid #f1f1f1" }}>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-              sunt mollitia obcaecati voluptas quaerat provident, ipsam nulla
-              aliquid modi asperiores alias aspernatur beatae, tenetur dicta
-              maxime impedit ipsa? Porro, perspiciatis!
+              At ebsoft, we ensure data privacy for remote engineers through
+              encrypted communication, secure access controls, and regular
+              training. We monitor data access rigorously and comply with
+              industry regulations like GDPR and HIPAA to keep sensitive
+              information secure.
             </p>
           </div>
         </div>
       </div>
 
-      <div className="accordion">
+      {/* <div className="accordion">
         <div
           className="contentBx "
           data-aos="fade-up"
@@ -175,9 +185,9 @@ function Faq() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="accordion">
+      {/* <div className="accordion">
         <div
           className="contentBx "
           data-aos="fade-up"
@@ -198,7 +208,7 @@ function Faq() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

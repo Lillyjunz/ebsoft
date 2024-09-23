@@ -28,8 +28,8 @@ const Detail = () => {
             data-aos-delay="1400"
             data-aos-once="true"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-            cupiditate molestias asperiores assumenda hic impedit asperiores
+            Agile Expertise. Seamless Delivery. Remote Collaboration - with
+            Excellence and Brilliance.
           </p>
         </div>
         <img
@@ -217,18 +217,24 @@ const Detail = () => {
               data-aos-once="true"
               style={{ width: "100%" }}
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-              deserunt, adipisci sed expedita eius autem dolorum impedit nihil,
-              dicta, recusandae harum maxime blanditiis fugit tenetur possimus
-              commodi aliquam nobis in. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Consequuntur tuprende pariatur sed, illum
-              excepturi dolorem iusto at praesentium repudiandae hic adipisci?
-              Voluptatum, aspernatur quaerat ipsa adipisci officia molestias.
-              Expedita, eius amet! Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. nihil, dicta, recusandae harum maxime blanditiis
-              fugit tenetur possimus commodi aliquam nobis in adipisicing elit.
-              Consequuntur pariatur sed, illum excepturi dolorem iusto at
-              praesentium repudiandae hic adipisci? Voluptatum, aspernatur
+              Many of our clients initially struggle with the decision of
+              whether to develop a responsive web application or a dedicated
+              mobile application. At EBSOFT, we believe there’s no
+              one-size-fits-all answer—it all depends on your business goals,
+              target audience, and project requirements. Both options have
+              distinct benefits: responsive web applications offer broad
+              accessibility across devices and faster development times, while
+              mobile applications can deliver a more customized, feature-rich
+              user experience. Our team of expert UI/UX designers and developers
+              works closely with you to analyze your needs and create a solution
+              that provides optimal user engagement, smooth navigation, and
+              stunning visuals. Whether it's a sleek, responsive web app or a
+              powerful mobile platform, we ensure your product stands out with a
+              cohesive design that enhances user interaction and achieves your
+              business objectives. If you’re unsure which direction to take,
+              we’re here to help. Book a free consultation with one of our
+              specialists, and together, we’ll explore the best options for your
+              project to maximize its success.
             </div>
           </div>
         </div>
@@ -252,7 +258,11 @@ const Detail = () => {
               data-aos-duration="1000"
               data-aos-delay="800"
               data-aos-once="true"
-              style={{ width: "90%", alignItems:'center', justifyContent:'center' }}
+              style={{
+                width: "90%",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
             >
               <div
                 className=" cour "
@@ -374,19 +384,19 @@ const Detail = () => {
               style={{ width: "90%" }}
             >
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-                deserunt, adipisci sed expedita eius autem dolorum impedit
-                nihil, dicta, recusandae harum maxime blanditiis fugit tenetur
-                possimus commodi aliquam nobis in. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Consequuntur pariatur sed, illum
-                excepturi dolorem iusto at praesentium repudiandae hic adipisci?
-                Voluptatum, aspernatur quaerat ipsa adipisci officia molestias.
-                Expedita, eius amet! Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Veniam Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Veniam deserunt, adipisci sed expedita eius
-                autem dolorum impedit nihil, dicta, recusandae harum maxime
-                blanditiis fugit tenetur possimus commodi aliquam nobis in.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                At ebsofT, we specialize in crafting native and enterprise-grade
+                mobile/software applications. Our native applications are
+                meticulously tailored to specific platforms, be it iOS or
+                Android, ensuring optimal performance and user experience.
+                Meanwhile, our enterprise applications empower organizations to
+                streamline operations, boost employee productivity, and enhance
+                customer-service delivery experiences. With a focus on security,
+                scalability, and seamless integration, our enterprise apps are
+                built to align perfectly with your organization's needs. Our
+                skilled developers leverage platform-specific languages and
+                tools such as Swift, Kotlin, Objective-C, and Java to create
+                robust, feature-rich applications that deliver an exceptional
+                user experience.
               </p>
             </div>
           </div>
@@ -417,19 +427,26 @@ const Detail = () => {
                 data-aos-delay="1200"
                 data-aos-once="true"
               >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-                deserunt, adipisci sed expedita eius autem dolorum impedit
-                nihil, dicta, recusandae harum maxime blanditiis fugit tenetur
-                possimus commodi aliquam nobis in. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Consequuntur pariatur sed, illum
-                excepturi dolorem iusto at praesentium repudiandae hic adipisci?
-                Voluptatum, aspernatur quaerat ipsa adipisci officia molestias.
-                Expedita, eius amet! Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Veniam Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Veniam deserunt, adipisci sed expedita eius
-                autem dolorum impedit nihil, dicta, recusandae harum maxime
-                blanditiis fugit tenetur possimus commodi aliquam nobis in.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Our Cloud Infrastructure and DevOps services at ebsofT are
+                designed to accelerate your business's digital transformation by
+                optimizing your cloud environments and streamlining software
+                delivery. Whether you’re migrating to the cloud, scaling
+                existing infrastructure, or automating processes, our expert
+                team ensures a seamless transition with minimal disruption. We
+                specialize in building secure, scalable, and cost-effective
+                cloud architectures tailored to your needs on platforms like
+                AWS, Azure, and Google Cloud. By leveraging industry best
+                practices in Infrastructure as Code (IaC) and containerization
+                with Docker and Kubernetes, we help you enhance agility and
+                operational efficiency. Our end-to-end DevOps solutions include
+                continuous integration and continuous delivery (CI/CD) pipelines
+                that automate deployments, reduce downtime, and ensure faster
+                delivery of features and updates. With our Cloud Infrastructure
+                and DevOps services, you’ll achieve a modern, robust
+                infrastructure that supports innovation, scalability, and the
+                reliability your business demands. Looking for expert guidance
+                on optimizing your cloud strategy? Contact us for a free
+                consultation, and let’s make your cloud journey a success.
               </p>
             </div>
 
@@ -579,19 +596,27 @@ const Detail = () => {
                 data-aos-delay="1200"
                 data-aos-once="true"
               >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-                deserunt, adipisci sed expedita eius autem dolorum impedit
-                nihil, dicta, recusandae harum maxime blanditiis fugit tenetur
-                possimus commodi aliquam nobis in. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Consequuntur pariatur sed, illum
-                excepturi dolorem iusto at praesentium repudiandae hic adipisci?
-                Voluptatum, aspernatur quaerat ipsa adipisci officia molestias.
-                Expedita, eius amet! Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Veniam Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Veniam deserunt, adipisci sed expedita eius
-                autem dolorum impedit nihil, dicta, recusandae harum maxime
-                blanditiis fugit tenetur possimus commodi aliquam nobis in.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                At EBSOFT, our Digital Transformation, Innovation, and RPA
+                services empower enterprises to evolve and lead in a rapidly
+                changing digital landscape. We don’t just automate processes—we
+                transform them. Our strategic approach focuses on redefining how
+                your business operates by integrating cutting-edge technologies
+                that streamline workflows, boost efficiency, and foster
+                innovation. We specialize in deploying **Robotic Process
+                Automation (RPA)** solutions that eliminate repetitive tasks,
+                enhance accuracy, and free your teams to focus on high-value
+                work. Coupled with AI and machine learning integration, our RPA
+                services drive intelligent automation that not only optimizes
+                operations but also unlocks new growth opportunities. Whether
+                you’re looking to modernize legacy systems, adopt smart
+                workflows, or innovate with data-driven insights, our team
+                tailors digital transformation strategies that are as unique as
+                your business. By partnering with EBSOFT, you’ll harness the
+                power of automation, cloud technologies, and innovation to stay
+                ahead in your industry. Ready to transform your operations and
+                push the boundaries of what's possible? Contact us for a
+                consultation, and let’s shape the future of your enterprise
+                together.
               </p>
             </div>
             <div className="codi " style={{ width: "90%" }}>
@@ -661,19 +686,16 @@ const Detail = () => {
                 data-aos-delay="1200"
                 data-aos-once="true"
               >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-                deserunt, adipisci sed expedita eius autem dolorum impedit
-                nihil, dicta, recusandae harum maxime blanditiis fugit tenetur
-                possimus commodi aliquam nobis in. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Consequuntur pariatur sed, illum
-                excepturi dolorem iusto at praesentium repudiandae hic adipisci?
-                Voluptatum, aspernatur quaerat ipsa adipisci officia molestias.
-                Expedita, eius amet! Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Veniam Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Veniam deserunt, adipisci sed expedita eius
-                autem dolorum impedit nihil, dicta, recusandae harum maxime
-                blanditiis fugit tenetur possimus commodi aliquam nobis in.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Discover skilled professionals in software development, web
+                design, cloud computing, and more through our streamlined Hiring
+                Service. This model is tailored for organizations seeking a
+                dedicated team of engineers for specific projects or tasks. By
+                leveraging this model, you can access experienced engineers at a
+                lower cost including local hiring. For instance, you can Hire
+                Web Developers from India or Hire DevOps Engineers but from
+                ebsofT to work remotely on your projects. Elevate your team's
+                capabilities with ebsofT Hiring Service. Contact us today to get
+                started!
               </p>
             </div>
           </div>

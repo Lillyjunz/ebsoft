@@ -63,9 +63,9 @@ export default function SwiperCarousel() {
         <SwiperSlide style={{ paddingBottom: "60px" }}>
           <div className="cad">
             <img
-              src="../images/image9.jpg"
+              src="../images/ebimg.jpg"
               alt="..."
-              style={{ width: "100%", height: "350px", borderRadius: "10px" }}
+              style={{ width: "100%", height: "370px", borderRadius: "10px" }}
             />
             <h5 className="fw-bold mt-3"> UI/UX Developer</h5>
           </div>
@@ -73,43 +73,34 @@ export default function SwiperCarousel() {
         <SwiperSlide style={{ paddingBottom: "60px" }}>
           <div className="cad">
             <img
-              src="../images/image6.jpg"
+              src="../images/ebimg4.jpg"
               alt="..."
-              style={{ width: "100%", height: "350px", borderRadius: "10px" }}
+              style={{ width: "100%", height: "370px", borderRadius: "10px" }}
             />
-            <h5 className="fw-bold mt-3"> Snr. Tech Developer</h5>
+            <h5 className="fw-bold mt-3"> DevOPs Engineer</h5>
           </div>
         </SwiperSlide>
         <SwiperSlide style={{ paddingBottom: "60px" }}>
           <div className="cad">
             <img
-              src="../images/image02.jpg"
+              src="../images/ebimg2.jpg"
               alt="..."
-              style={{ width: "100%", height: "350px", borderRadius: "10px" }}
+              style={{ width: "100%", height: "370px", borderRadius: "10px" }}
             />
-            <h5 className="fw-bold mt-3"> Cloud Assistant</h5>
+            <h5 className="fw-bold mt-3"> Snr. Data Engineer / Tech Writer</h5>
           </div>
         </SwiperSlide>
         <SwiperSlide style={{ paddingBottom: "60px" }}>
           <div className="cad">
             <img
-              src="../images/image3.jpg"
+              src="../images/ebuju.jpg"
               alt="..."
-              style={{ width: "100%", height: "350px", borderRadius: "10px" }}
+              style={{ width: "100%", height: "370px", borderRadius: "10px" }}
             />
-            <h5 className="fw-bold mt-3"> Software Developer </h5>
+            <h5 className="fw-bold mt-3"> Web Developer / Dev Lead II </h5>
           </div>
         </SwiperSlide>
-        <SwiperSlide style={{ paddingBottom: "60px" }}>
-          <div className="cad">
-            <img
-              src="../images/image4.jpg"
-              alt="..."
-              style={{ width: "100%", height: "350px", borderRadius: "10px" }}
-            />
-            <h5 className="fw-bold mt-3"> Cloud Service Developer</h5>
-          </div>
-        </SwiperSlide>
+       
       </Swiper>
     </div>
   );

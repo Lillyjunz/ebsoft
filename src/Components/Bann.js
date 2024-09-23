@@ -31,9 +31,9 @@ const Bann = () => {
           style={{ fontSize: "0.8em" }}
         >
           <span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit sit amet
-            consectetur consectetur adipisicing elit <br></br>consectetur
-            adipisicing elit .
+            Embark on a transformative journey with us to shape your software
+            landscape for the future. Guided by excellence and brilliance,{" "}
+            <br></br>we visualize, design, build and deliver with precision.
           </span>
         </p>
       </div>

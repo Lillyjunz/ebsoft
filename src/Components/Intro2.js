@@ -99,13 +99,16 @@ const Intro2 = () => {
           </div>
 
           <div className="hover-content">
-            <h3 className="text-end pt-4 pe-3 fw-bold text-light">1</h3>
-            <div className="align-items-center pt-5 pb-2 ps-3 pe-3">
+            <h3 className="text-end pt-2 pe-3 fw-bold text-light">1</h3>
+            <div className="align-items-center pt-2 pb-2 ps-3 pe-3">
               <h5 className="fw-bold">Non disclosure Agreements</h5>
 
               <p className="fw-bold text-light px-1">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Reiciendis minima tenetur eveniet soluta eum minus, ut autem
+                Before diving into your idea and transforming it into a project,
+                we prioritize safeguarding its confidentiality. Rest assured, we
+                are committed to ensuring that your intellectual property (IP)
+                is fully protected, guaranteeing its security throughout our
+                collaboration.
               </p>
             </div>
           </div>
@@ -156,19 +159,28 @@ const Intro2 = () => {
                 data-aos-delay="2200"
                 data-aos-once="true"
               >
-                Delivery, Support and Maintenance
+                Visualization and product consultation
               </p>
             </div>
           </div>
 
           <div className="hover-content">
-            <h3 className="text-end pt-4 pe-3 fw-bold text-light">2</h3>
-            <div className="align-items-center pt-5 pb-2 ps-3 pe-3">
-              <h5 className="fw-bold">Non disclosure Agreements</h5>
+            <h3 className="text-end pt-2 pe-3 fw-bold text-light">2</h3>
+            <div className="align-items-center pt-1 pb-2 ps-3 pe-3">
+              <h5 className="fw-bold">
+                Visualization and Product Consultation
+              </h5>
 
               <p className="fw-bold text-light px-1">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Reiciendis minima tenetur eveniet soluta eum minus, ut autem
+                Visualizing your idea and transforming it into a project, along
+                with consultation, is akin to connecting the dots. We begin by
+                establishing clear goals and objectives, gaining insights into
+                your target audience, researching competitors, and crafting a
+                comprehensive development roadmap. However, before proceeding,
+                we adopt an appropriate engagement model, and meticulously
+                outlining the project's scope into delivery milestones and work
+                on user experience, system, and architectural designs both small
+                and large details of it.
               </p>
             </div>
           </div>
@@ -219,19 +231,23 @@ const Intro2 = () => {
                 data-aos-delay="2200"
                 data-aos-once="true"
               >
-                Feedback and Partnership Relations
+                Build and Development
               </p>
             </div>
           </div>
 
           <div className="hover-content">
-            <h3 className="text-end pt-4 pe-3 fw-bold text-light">3</h3>
-            <div className="align-items-center pt-5 pb-2 ps-3 pe-3">
-              <h5 className="fw-bold">Non disclosure Agreements</h5>
+            <h3 className="text-end pt-2 pe-3 fw-bold text-light">3</h3>
+            <div className="align-items-center pt-2 pb-2 ps-3 pe-3">
+              <h5 className="fw-bold">Build and Development</h5>
 
               <p className="fw-bold text-light px-1">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Reiciendis minima tenetur eveniet soluta eum minus, ut autem
+                Integrating an engagement model from the outset kickstarts our
+                Agile build-test-deploy process cycle, ensuring seamless
+                coordination between design and development (and/or engineering)
+                stages. We prioritize customer feedback throughout, fostering an
+                iterative approach that guarantees your vision is accurately
+                translated into actionable development steps.
               </p>
             </div>
           </div>
@@ -289,13 +305,17 @@ const Intro2 = () => {
           </div>
 
           <div className="hover-content">
-            <h3 className="text-end pt-4 pe-3 fw-bold text-light">4</h3>
+            <h3 className="text-end pt-2 pe-3 fw-bold text-light">4</h3>
             <div className="align-items-center pt-5 pb-2 ps-3 pe-3">
-              <h5 className="fw-bold">Non disclosure Agreements</h5>
+              <h5 className="fw-bold">Delivery, support and Maintenance</h5>
 
               <p className="fw-bold text-light px-1">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Reiciendis minima tenetur eveniet soluta eum minus, ut autem
+                In this phase, we diligently monitor, refine, and update
+                elements to guarantee the seamless and bug-free operation of the
+                software we've developed, tailored to the specifics of our
+                agreed-upon engagement model. Additionally, we offer continuous
+                hosting, platform, or software support, aligning with the
+                parameters established within our engagement model.
               </p>
             </div>
           </div>
@@ -346,19 +366,25 @@ const Intro2 = () => {
                 data-aos-delay="2200"
                 data-aos-once="true"
               >
-                Feedback and Partnership Relations
+                Feedback and Strategic Partnership
               </p>
             </div>
           </div>
 
           <div className="hover-content">
             <h3 className="text-end pt-4 pe-3 fw-bold text-light">5</h3>
-            <div className="align-items-center pt-5 pb-2 ps-3 pe-3">
-              <h5 className="fw-bold">Non disclosure Agreements</h5>
+            <div className="align-items-center pt-2 pb-2 ps-3 pe-3">
+              <h5 className="fw-bold">Feedback and strategic Patnership</h5>
 
               <p className="fw-bold text-light px-1">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Reiciendis minima tenetur eveniet soluta eum minus, ut autem
+                As we conclude this journey together, we invite you to join us
+                in celebrating our collective success story. Let's take a moment
+                to reflect on the lessons learned, gather feedback, and nurture
+                our ongoing partnership – to becoming a strategic partner. Our
+                commitment to delivering your product idea from inception to
+                completion with excellence and brilliance remains unwavering,
+                and we hope you'll share your experience with EbsofT with
+                others.
               </p>
             </div>
           </div>

@@ -94,16 +94,19 @@ export default function SwiperHome() {
               />
               <h3 className="fw-bold">
                 <i>
-                  "I certify that this company is standard and pulls through "
+                  "EBSOFT is more than just a service provider—they're a tech
+                  ally. "
                 </i>
               </h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Doloremque, sint.
+                They took the time to understand our unique challenges and
+                delivered exceptional solutions. Moving from a single software
+                engineer managing our website to a cost-effective, company-wide
+                collaboration with EBSOFT has been a game-changer
               </p>
               <div className="pt-3">
-                <h4 className="fw-bold">Head of Software</h4>
-                <p>Jogn Jackson</p>
+                <h4 className="fw-bold">CEO at NIKICHIS Limited</h4>
+                <p>Richard</p>
               </div>
             </div>
           </div>
@@ -152,74 +155,24 @@ export default function SwiperHome() {
               />
               <h3 className="fw-bold">
                 <i>
-                  "I certify that this company is standard and pulls through "
+                  "EBSOFT's innovative solutions directly contributed to our
+                  client’s business growth. "
                 </i>
               </h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Doloremque, sint.
+                Worked with EBSOFT team on multiple airline and hotel
+                reservation web app projects. Their hands-on expertise in cloud
+                architecture and automation helped us scale faster than
+                anticipated, especially in API and backend development with
+                Airline GDS, ensured a smooth deployment of our application
+                across multiple environments. Their innovative solutions
+                directly contributed to our client’s business growth.
               </p>
               <div className="pt-3">
-                <h4 className="fw-bold">Head of Software</h4>
-                <p>Jogn Jackson</p>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-
-        <SwiperSlide className="align-items-center justify-content-center d-flex">
-          <div
-            className="slide-div"
-            style={{
-              backgroundColor: "#89E0AE",
-              padding: "40px 50px",
-              width: "70%",
-              textAlign: "center",
-              justifyContent: "center",
-              alignItems: "center",
-              marginBottom: "100px",
-              borderRadius: "10px",
-              boxShadow: "0 0 10px rgba(0, 0, 0, 0.3)",
-            }}
-          >
-            <div style={{ paddingBottom: "10px", paddingTop: "20px" }}>
-              <img
-                style={{ width: "15px" }}
-                src="../images/star.svg"
-                alt="..."
-              />
-              <img
-                style={{ width: "15px" }}
-                src="../images/star.svg"
-                alt="..."
-              />
-              <img
-                style={{ width: "15px" }}
-                src="../images/star.svg"
-                alt="..."
-              />
-              <img
-                style={{ width: "15px" }}
-                src="../images/star2.gif"
-                alt="..."
-              />
-              <img
-                style={{ width: "15px" }}
-                src="../images/star2.gif"
-                alt="..."
-              />
-              <h3 className="fw-bold">
-                <i>
-                  "I certify that this company is standard and pulls through "
-                </i>
-              </h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Doloremque, sint.
-              </p>
-              <div className="pt-3">
-                <h4 className="fw-bold">Head of Software</h4>
-                <p>Jogn Jackson</p>
+                <h4 className="fw-bold">
+                  Founder, Developer Head at ADEXSQUARE Technology
+                </h4>
+                <p>Ezekiel</p>
               </div>
             </div>
           </div>
@@ -268,16 +221,83 @@ export default function SwiperHome() {
               />
               <h3 className="fw-bold">
                 <i>
-                  "I certify that this company is standard and pulls through "
+                  "Working with EBSOFT on our telehealth platform was a pivotal
+                  experience. "
                 </i>
               </h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Doloremque, sint.
+                Their comprehensive cloud and DevOps services streamlined our
+                deployment processes, enabling us to scale rapidly during peak
+                demand. The team’s dedication to optimizing our infrastructure
+                resulted in a 60% decrease in downtime and significantly
+                improved user experience. Their innovative solutions have
+                empowered us to expand our reach and enhance patient care.
               </p>
               <div className="pt-3">
-                <h4 className="fw-bold">Head of Software</h4>
-                <p>Jogn Jackson</p>
+                <h4 className="fw-bold">CTO at HealthWise Solutions</h4>
+                <p>Uche</p>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide className="align-items-center justify-content-center d-flex">
+          <div
+            className="slide-div"
+            style={{
+              backgroundColor: "#89E0AE",
+              padding: "40px 50px",
+              width: "70%",
+              textAlign: "center",
+              justifyContent: "center",
+              alignItems: "center",
+              marginBottom: "100px",
+              borderRadius: "10px",
+              boxShadow: "0 0 10px rgba(0, 0, 0, 0.3)",
+            }}
+          >
+            <div style={{ paddingBottom: "10px", paddingTop: "20px" }}>
+              <img
+                style={{ width: "15px" }}
+                src="../images/star.svg"
+                alt="..."
+              />
+              <img
+                style={{ width: "15px" }}
+                src="../images/star.svg"
+                alt="..."
+              />
+              <img
+                style={{ width: "15px" }}
+                src="../images/star.svg"
+                alt="..."
+              />
+              <img
+                style={{ width: "15px" }}
+                src="../images/star.svg"
+                alt="..."
+              />
+              <img
+                style={{ width: "15px" }}
+                src="../images/star.svg"
+                alt="..."
+              />
+              <h3 className="fw-bold">
+                <i>
+                  "Partnering with the EBSOFT team for our Cloud Digital
+                  Transformation was a game-changer"
+                </i>
+              </h3>
+              <p>
+                Their tailored solutions and expertise in cloud infrastructure
+                significantly improved our performance, leading to a 40%
+                reduction in operational costs and a 30% increase in
+                productivity. We can now focus on creating value for our
+                clients!
+              </p>
+              <div className="pt-3">
+                <h4 className="fw-bold"> CEO at Tech Innovations Inc.</h4>
+                <p>Sarah Thompson</p>
               </div>
             </div>
           </div>

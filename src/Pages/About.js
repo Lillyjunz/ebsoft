@@ -1,12 +1,9 @@
-
 import Footernew from "../Components/FooterNew";
 import Navbar from "../Components/Navbar";
 import SwiperCarousel from "../Components/Swipercarous";
 import Team from "../Components/Team";
 
 const About = () => {
- 
-
   return (
     <div className="abb">
       <Navbar></Navbar>
@@ -29,8 +26,8 @@ const About = () => {
             data-aos-delay="500"
             data-aos-once="true"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-            cupiditate molestias asperiores assumenda hic impedit asperiores
+            Excellence and Brilliance guide our every step – We Visualize it. We
+            Design it. We Build it. We Deliver it.
           </p>
         </div>
         <img
@@ -99,10 +96,16 @@ const About = () => {
               data-aos-duration="1000"
               data-aos-delay="500"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-              deserunt, adipisci sed expedita eius autem dolorum impedit nihil,
-              dicta, recusandae harum maxime blanditiis fugit tenetur possimus
-              commodi aliquam nobis in commodi aliquam nobis in.
+              EbsofT - where expertise meets innovation across UI/UX Web,
+              Software, and Mobile App Development, Cloud Infrastructure with
+              Digital Transformation, Innovation and Operational Services. By
+              partnering with us, access a high-performing team without overhead
+              costs. Our commitment to delivering quality, cost-effective IT
+              solutions empower businesses of all sizes to strengthen their
+              digital presence. With Agile Development Methodology and tailored
+              outsourcing solutions, we ensure confidentiality and timely,
+              budget-friendly project delivery. Experience the difference with
+              EbsofT and elevate your digital endeavors.
             </p>
           </div>
 
@@ -165,10 +168,10 @@ const About = () => {
               data-aos-duration="1000"
               data-aos-delay="500"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-              deserunt, adipisci sed expedita eius autem dolorum impedit nihil,
-              dicta, recusandae harum maxime blanditiis fugit tenetur possimus
-              commodi aliquam nobis in commodi aliquam nobis in.
+              Visualize. Design. Build. Deliver.
+              <br></br>At ebsofT, we are with you every step of the way. From
+              visualization to delivery, we work as a team to bring your ideas
+              to life with excellence and brilliance.
             </p>
           </div>
         </div>
@@ -197,7 +200,7 @@ const About = () => {
                 data-aos-duration="1000"
                 data-aos-delay="500"
               >
-                Happiness
+                Excellence
               </h3>
               <p
                 data-aos="fade-up"
@@ -205,10 +208,17 @@ const About = () => {
                 data-aos-duration="1000"
                 data-aos-delay="500"
               >
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Tenetur ab recusandae sint eius obcaecati atque, necessitatibus
-                nam voluptates aliquid, natus quas quia illo? Provident
-                accusamus laudantium dolores mollitia tempora incidunt!
+                At ebsofT, Excellence is our foundational principle, ingrained
+                in every line of code we write, every system we architect, and
+                every solution we deliver. We pursue excellence relentlessly,
+                leveraging cutting-edge technologies, adhering to industry best
+                practices, and maintaining meticulous attention to detail in all
+                our endeavors. Our commitment to excellence drives us to
+                continuously refine our skills, optimize our processes, and push
+                the boundaries of innovation. It is the cornerstone of our
+                success, ensuring that we deliver robust, scalable, and
+                high-performing solutions that exceed the technical expectations
+                of our clients and partners.
               </p>
             </div>
             <div className=" w-100 mt-5">
@@ -219,7 +229,7 @@ const About = () => {
                 data-aos-duration="1000"
                 data-aos-delay="500"
               >
-                Honesty
+                Brilliance
               </h3>
               <p
                 data-aos="fade-up"
@@ -227,10 +237,16 @@ const About = () => {
                 data-aos-duration="1000"
                 data-aos-delay="500"
               >
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Numquam, impedit atque id architecto ab in? Veniam sunt illum
-                consectetur ut et consequatur, a tempore veritatis, iusto fugit
-                officia harum animi?
+                In our vision statement, we set out to establish brilliance as
+                the hallmark of our technological endeavors. We envision a
+                future where every aspect of our solutions, from software
+                development to operation, reflects unparalleled creativity,
+                ingenuity, and technical prowess. Brilliance guides us as we
+                strive to engineer solutions that not only meet the functional
+                requirements but also dazzle with their elegance, efficiency,
+                and impact. It is our unwavering commitment to excellence,
+                creativity, and technical excellence that sets us apart in the
+                dynamic landscape of IT.
               </p>
             </div>
           </div>

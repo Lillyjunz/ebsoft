@@ -20,7 +20,7 @@ const Home = () => {
       <Origin></Origin>
       <Intro2></Intro2>
       <Tab></Tab>
-      <Card></Card>
+      {/* <Card></Card> */}
       <SwiperHome></SwiperHome>
       <Imagesection></Imagesection>
       <Faq></Faq>
