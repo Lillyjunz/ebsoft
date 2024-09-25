@@ -45,6 +45,7 @@ export default function SwiperHome() {
         }}
         modules={[Navigation, Pagination, Autoplay]}
         className="mySwiper "
+        id="success"
         data-aos="fade-up"
         data-aos-duration="1000"
         data-aos-delay="1500"
@@ -57,68 +58,7 @@ export default function SwiperHome() {
             style={{
               backgroundColor: "#89E0AE",
               padding: "40px 50px",
-              width: "70%",
-              textAlign: "center",
-              justifyContent: "center",
-              alignItems: "center",
-              borderRadius: "10px",
-              marginBottom: "100px",
-              boxShadow: "0 0 10px rgba(0, 0, 0, 0.3)",
-            }}
-          >
-            <div style={{ paddingBottom: "10px", paddingTop: "20px" }}>
-              <img
-                style={{ width: "15px" }}
-                src="../images/star.svg"
-                alt="..."
-              />
-              <img
-                style={{ width: "15px" }}
-                src="../images/star.svg"
-                alt="..."
-              />
-              <img
-                style={{ width: "15px" }}
-                src="../images/star.svg"
-                alt="..."
-              />
-              <img
-                style={{ width: "15px" }}
-                src="../images/star.svg"
-                alt="..."
-              />
-              <img
-                style={{ width: "15px" }}
-                src="../images/star.svg"
-                alt="..."
-              />
-              <h3 className="fw-bold">
-                <i>
-                  "EBSOFT is more than just a service provider—they're a tech
-                  ally. "
-                </i>
-              </h3>
-              <p>
-                They took the time to understand our unique challenges and
-                delivered exceptional solutions. Moving from a single software
-                engineer managing our website to a cost-effective, company-wide
-                collaboration with EBSOFT has been a game-changer
-              </p>
-              <div className="pt-3">
-                <h4 className="fw-bold">CEO at NIKICHIS Limited</h4>
-                <p>Richard</p>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
-
-        <SwiperSlide className="align-items-center justify-content-center d-flex">
-          <div
-            className="slide-div"
-            style={{
-              backgroundColor: "#89E0AE",
-              padding: "40px 50px",
-              width: "70%",
+              width: "80%",
               textAlign: "center",
               justifyContent: "center",
               alignItems: "center",
@@ -184,7 +124,7 @@ export default function SwiperHome() {
             style={{
               backgroundColor: "#89E0AE",
               padding: "40px 50px",
-              width: "70%",
+              width: "80%",
               textAlign: "center",
               justifyContent: "center",
               alignItems: "center",
@@ -247,7 +187,7 @@ export default function SwiperHome() {
             style={{
               backgroundColor: "#89E0AE",
               padding: "40px 50px",
-              width: "70%",
+              width: "80%",
               textAlign: "center",
               justifyContent: "center",
               alignItems: "center",
@@ -298,6 +238,69 @@ export default function SwiperHome() {
               <div className="pt-3">
                 <h4 className="fw-bold"> CEO at Tech Innovations Inc.</h4>
                 <p>Sarah Thompson</p>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide
+          className="align-items-center justify-content-center d-flex"
+          style={{ marginBottom: "10px" }}
+        >
+          <div
+            className="slide-div"
+            style={{
+              backgroundColor: "#89E0AE",
+              padding: "40px 50px",
+              width: "80%",
+              textAlign: "center",
+              justifyContent: "center",
+              alignItems: "center",
+              borderRadius: "10px",
+              marginBottom: "10px",
+              boxShadow: "0 0 10px rgba(0, 0, 0, 0.3)",
+            }}
+          >
+            <div style={{ paddingBottom: "10px", paddingTop: "20px" }}>
+              <img
+                style={{ width: "15px" }}
+                src="../images/star.svg"
+                alt="..."
+              />
+              <img
+                style={{ width: "15px" }}
+                src="../images/star.svg"
+                alt="..."
+              />
+              <img
+                style={{ width: "15px" }}
+                src="../images/star.svg"
+                alt="..."
+              />
+              <img
+                style={{ width: "15px" }}
+                src="../images/star.svg"
+                alt="..."
+              />
+              <img
+                style={{ width: "15px" }}
+                src="../images/star.svg"
+                alt="..."
+              />
+              <h3 className="fw-bold">
+                <i>
+                  "EBSOFT is more than just a service provider—they're a tech
+                  ally. "
+                </i>
+              </h3>
+              <p>
+                They took the time to understand our unique challenges and
+                delivered exceptional solutions. Moving from a single software
+                engineer managing our website to a cost-effective, company-wide
+                collaboration with EBSOFT has been a game-changer
+              </p>
+              <div className="pt-3">
+                <h4 className="fw-bold">CEO at NIKICHIS Limited</h4>
+                <p>Richard</p>
               </div>
             </div>
           </div>

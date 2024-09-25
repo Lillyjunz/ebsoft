@@ -9,9 +9,20 @@ import Intro2 from "../Components/Intro2";
 import Navbar from "../Components/Navbar";
 import Origin from "../Components/Origin";
 import Tab from "../Components/Tab-section";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 const Home = () => {
- 
+  const { hash } = useLocation();
+
+  useEffect(() => {
+    if (hash) {
+      const element = document.querySelector(hash);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [hash]);
 
   return (
     <div className="home">

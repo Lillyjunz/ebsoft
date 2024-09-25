@@ -1,5 +1,18 @@
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import SwiperAbout from "./AboutSwiper";
+
 const Team = () => {
+  const { hash } = useLocation();
+
+  useEffect(() => {
+    if (hash) {
+      const element = document.querySelector(hash);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [hash]);
   return (
     <>
       <div className="container" id="team" style={{ margin: "80px auto" }}>

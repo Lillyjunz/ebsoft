@@ -234,7 +234,7 @@ const Intro2 = () => {
 
           <div className="hover-content">
             <h3 className="text-end pt-2 pe-3 fw-bold text-light">3</h3>
-            <div className="align-items-center pt-2 pb-2 ps-3 pe-3">
+            <div className="align-items-center pt-1 pb-2 ps-3 pe-3">
               <h5 className="fw-bold">Build and Development</h5>
 
               <p className="fw-bold text-light">
@@ -302,7 +302,7 @@ const Intro2 = () => {
 
           <div className="hover-content">
             <h3 className="text-end pt-2 pe-3 fw-bold text-light">4</h3>
-            <div className="align-items-center pt-2 pb-2 ps-3 pe-3">
+            <div className="align-items-center pt-1 pb-2 ps-3 pe-3">
               <h5 className="fw-bold">Delivery, support and Maintenance</h5>
 
               <p className="fw-bold text-light">
@@ -369,7 +369,7 @@ const Intro2 = () => {
 
           <div className="hover-content">
             <h3 className="text-end pt-4 pe-3 fw-bold text-light">5</h3>
-            <div className="align-items-center pt-2 pb-2 ps-3 pe-3">
+            <div className="align-items-center pt-1 pb-2 ps-3 pe-3">
               <h5 className="fw-bold">Feedback and strategic Patnership</h5>
 
               <p className="fw-bold text-light">

@@ -75,7 +75,7 @@ const Footernew = () => {
           </div>
           <div className="column ">
             <h4 className="fw-bold">Company</h4>
-            <a href="/about">
+            <a href="/detail#success">
               <li className="coll" style={{ listStyleType: "none" }}>
                 Success stories
               </li>
@@ -85,7 +85,7 @@ const Footernew = () => {
                 About us
               </li>
             </a>
-            <a href="/about">
+            <a href="/about#team">
               <li className="coll" style={{ listStyleType: "none" }}>
                 Our Team
               </li>
@@ -103,28 +103,28 @@ const Footernew = () => {
           </div>
           <div className="column co-serve">
             <h4 className="fw-bold">Services</h4>
-            <a href="/detail">
+            <a href="/detail#section1">
               <li className="coll" style={{ listStyleType: "none" }}>
                 UI/UX development
               </li>
             </a>
-            <a href="/detail">
+            <a href="/detail#section2">
               <li className="coll" style={{ listStyleType: "none" }}>
                 Software
               </li>
             </a>
-            <a href="/detail">
+            <a href="/detail#section4">
               {" "}
               <li className="coll" style={{ listStyleType: "none" }}>
                 Digital transformation
               </li>
             </a>
-            <a href="/detail">
+            <a href="/detail#section3">
               <li className="coll" style={{ listStyleType: "none" }}>
                 Cloud infrastructure
               </li>
             </a>
-            <a href="/detail">
+            <a href="/detail#section5">
               {" "}
               <li className="coll" style={{ listStyleType: "none" }}>
                 Tech hiring services
