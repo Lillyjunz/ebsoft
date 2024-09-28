@@ -17,7 +17,7 @@ export default function SwiperCarousel() {
         slidesPerView={1}
         spaceBetween={10}
         autoplay={{
-          delay: 3000,
+          delay: 6000,
           disableOnInteraction: false,
         }}
         pagination={{
@@ -65,7 +65,7 @@ export default function SwiperCarousel() {
             <img
               src="../images/ebimg.jpg"
               alt="..."
-              style={{ width: "100%", height: "400px", borderRadius: "10px" }}
+              style={{ width: "100%", height: "530px", borderRadius: "10px" }}
             />
             <h5 className="fw-bold mt-3"> UI/UX Developer</h5>
           </div>
@@ -75,7 +75,7 @@ export default function SwiperCarousel() {
             <img
               src="../images/ebimg4.jpg"
               alt="..."
-              style={{ width: "100%", height: "400px", borderRadius: "10px" }}
+              style={{ width: "100%", height: "530px", borderRadius: "10px" }}
             />
             <h5 className="fw-bold mt-3"> DevOPs Engineer</h5>
           </div>
@@ -85,7 +85,7 @@ export default function SwiperCarousel() {
             <img
               src="../images/ebimg2.jpg"
               alt="..."
-              style={{ width: "100%", height: "400px", borderRadius: "10px" }}
+              style={{ width: "100%", height: "530px", borderRadius: "10px" }}
             />
             <h5 className="fw-bold mt-3"> Snr. Data Engineer / Tech Writer</h5>
           </div>
@@ -95,7 +95,7 @@ export default function SwiperCarousel() {
             <img
               src="../images/ebuju.jpg"
               alt="..."
-              style={{ width: "100%", height: "400px", borderRadius: "10px" }}
+              style={{ width: "100%", height: "530px", borderRadius: "10px" }}
             />
             <h5 className="fw-bold mt-3"> Web Developer / Dev Lead II </h5>
           </div>

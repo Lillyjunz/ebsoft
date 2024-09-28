@@ -1,3 +1,7 @@
+/* Add this to your main CSS file */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
 * {
   margin: 0;
   padding: 0;
@@ -39,16 +43,17 @@ body {
   background-repeat: no-repeat;
   border-top-left-radius: 10%;
 }
+.imagesect {
+  padding: 60px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
 
 .banner {
   width: 100%;
   color: #fff;
-  background: #000;
-  background-size: cover;
-  background-blend-mode: screen;
-  position: relative;
-  padding-top: 20px;
-  padding-bottom: 40px;
+  margin-top: 8%;
 }
 
 .abb {
@@ -340,6 +345,7 @@ a {
 .app-wrap {
   overflow: hidden;
 }
+
 /* .swiper-button-next {
   top: 98% !important;
   border-radius: 50%;
@@ -383,7 +389,7 @@ a {
 .banner h1,
 .orig h1 {
   font-family: "roboto slab", serif;
-  font-size: 3.3rem;
+  font-size: 3.8rem;
 }
 .navbar h1 {
   font-family: "roboto slab", serif;
@@ -397,12 +403,12 @@ a {
 }
 .hire {
   font-family: "roboto slab", serif;
-  font-size: 2.5rem;
+  font-size: 2.8rem;
 }
 
 .contenti h3 {
   font-family: "roboto slab", serif;
-  font-size: 3.3rem;
+  font-size: 4.5rem;
   margin-bottom: 20px;
 }
 /* text size end */
@@ -418,8 +424,7 @@ a {
 }
 
 .im-div {
-  margin: 0 auto;
-  margin-bottom: 30px;
+  margin-top: 8%;
 }
 /* .cod {
   display: grid;
@@ -429,6 +434,13 @@ a {
   align-items: center;
   justify-content: center;
 } */
+
+#team h1 {
+  font-size: 3.6rem;
+}
+.value h1 {
+  font-size: 3.6rem;
+}
 
 .team {
   display: flex;
@@ -454,12 +466,7 @@ a {
 .home {
   overflow: hidden;
 }
-/* .footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  background: #000;
-  color: #fff;
-} */
+
 .img-txt {
   display: none;
 }
@@ -468,31 +475,37 @@ a {
   padding: 80px;
 }
 
-footer {
+/* footer {
   background-color: black;
   color: white;
   padding: 40px 0;
   position: relative;
   width: 100%;
+  height: 85vh;
 }
-
+.social{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
 .co-cont {
   margin-right: 35px;
 }
 .containerr {
   padding-top: 90px;
   padding-bottom: 60px;
-  max-width: 100%;
+  width: 70%;
   margin: 10px 40px;
   padding: auto 40px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
 .column {
-  width: 25% 20% 20% 20%; /* Adjust width as needed */
+  width: 20% 20% 20% 20%; 
   padding: 0 0;
   min-width: 0;
 }
@@ -500,6 +513,131 @@ footer {
 .footer-paragraph {
   text-align: center;
   border-top: 1px solid gray;
+} */
+
+.footer {
+  width: 100vw;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #000; /* or your desired background color */
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 80%;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  flex: 1;
+  padding: 0 15px;
+}
+
+.footer-column li {
+  color: gray;
+  font-size: larger;
+}
+.footer-column li:hover {
+  color: green;
+  letter-spacing: 0.2px;
+}
+
+.footer-column h4 {
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.first-column {
+  font-size: larger;
+}
+.footer-column ul li {
+  margin-bottom: 5px;
+}
+
+.footer-divider {
+  height: 2px;
+  background: gray;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.footer-bottom {
+  margin-top: 30px;
+  width: 80%;
+}
+
+.footer-bottom-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.footer-bottom-content p {
+  margin: 0;
+}
+
+.social i {
+  font-size: 40px;
+  margin: 0 10px;
+  color: #006400;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .first-column {
+    flex-basis: 100%; /* First column spans full width */
+    text-align: center;
+    margin-top: 40px; /* Add space on top of the first column */
+    margin-bottom: 20px; /* Add space under the first column */
+  }
+
+  .footer-column {
+    flex-basis: 50%; /* Remaining columns span 50% */
+  }
+
+  .footer-column:last-child {
+    margin-top: 20px; /* Add space on top of the last column */
+  }
+
+  .footer-bottom-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-column li {
+    font-size: large;
+  }
+
+  .social i {
+    font-size: 24px;
+    color: #006400;
+    margin: 0;
+  }
+  .footer-bottom {
+    margin-top: 10px;
+  }
+  .footer {
+    height: 100vh;
+  }
 }
 
 .contact-wrap {
@@ -523,14 +661,6 @@ footer {
   display: block;
 }
 
-footer li {
-  color: gray;
-}
-footer .coll:hover {
-  color: green;
-  letter-spacing: 0.2px;
-}
-
 .process {
   display: none;
 }
@@ -539,7 +669,7 @@ footer .coll:hover {
   width: 60%;
   align-items: center;
   padding-top: 250px;
-  padding-left: 70px;
+  padding-left: 130px;
   box-sizing: border-box;
   padding-bottom: 50px;
   justify-self: start;
@@ -551,14 +681,17 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   border: none !important;
   box-shadow: none !important;
 }
-
+.aboout {
+  background-color: #000;
+  height: 70vh;
+}
 .aboout img {
   position: absolute;
-  width: 320px;
-  height: 300px;
+  width: 370px;
+  height: 350px;
   z-index: 1000;
-  right: 60px;
-  bottom: 20px;
+  right: 100px;
+  bottom: 60px;
   border: 4px solid green;
 }
 
@@ -588,8 +721,8 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 
 .div1 {
   position: absolute;
-  left: 34%;
-  top: 37%;
+  left: 35%;
+  top: 45%;
 }
 .divs:hover {
   color: green;
@@ -598,34 +731,100 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 .div2 {
   position: absolute;
   left: 34%;
-  top: 56%;
+  top: 65%;
 }
 
 .div3 {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 .div4 {
   position: absolute;
   right: 36%;
-  top: 37%;
+  top: 45%;
 }
 
 .div5 {
   position: absolute;
   right: 33%;
-  top: 56%;
+  top: 65%;
 }
 .banner li {
   list-style-type: none;
 }
 
-/* new banner wrap */
-.header {
+/* footer waves */
+/* footer waves animation */
+.waves {
   position: relative;
+  width: 100%;
+  height: 15vh;
+  margin-bottom: -7px;
+  /*Fix for safari gap*/
+  min-height: 100px;
+  max-height: 150px;
+}
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(85px, 0, 0);
+  }
+}
+
+/* /* Shrinking for mobile */
+@media (max-width: 768px) {
+  .waves {
+    height: 40px;
+    min-height: 40px;
+  }
+}
+/* end of footer animation */
+
+
+/* new banner wrap */
+/* .header {
+  position: relative;
+}  */
+.banny {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  color: white;
   text-align: center;
   background: black;
   color: white;
+  justify-content: center;
+
+  display: flex;
 }
+
 .cardi-text {
   margin: 20px 30px;
 }
@@ -635,7 +834,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 }
 .card {
   flex: 1;
-  min-width: 0; /* Ensure flex items can shrink on small screens */
+  min-width: 0;
   width: 50%;
   margin: auto 30px;
 }
@@ -665,8 +864,22 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  background-color: green; /* Change to desired color */
+  background-color: green;
   color: #fff !important;
+}
+
+.team img {
+  width: 610px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.wave-container {
+  /* position: absolute;
+  bottom: 0; */
+  width: 100%;
+  height: auto;
 }
 
 .waves {
@@ -674,7 +887,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   width: 100%;
   height: 15vh;
   margin-bottom: -7px;
-  /*Fix for safari gap*/
+
   min-height: 100px;
   max-height: 150px;
 }
@@ -684,10 +897,11 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   width: 100%;
   height: 15vh;
   margin-bottom: -7px;
-  /*Fix for safari gap*/
+
   min-height: 100px;
   max-height: 150px;
 }
+*/
 
 /* Animation */
 
@@ -741,6 +955,16 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 
 /* media query */
 @media screen and (max-width: 768px) {
+  .aboout {
+    height: 50vh;
+  }
+  .team img {
+    width: 250px;
+    height: 240px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+
   .detai-img {
     display: none;
   }
@@ -790,7 +1014,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     width: 200px;
     height: 200px;
     right: 10px;
-    bottom: 0px;
+    bottom: 290px;
   }
 
   .ba .content h3 {
@@ -877,6 +1101,12 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     align-items: center;
     justify-content: center;
     padding: auto 30px;
+  }
+  #team h1 {
+    font-size: 2.5rem;
+  }
+  .value h1 {
+    font-size: 2.5rem;
   }
 
   .team-text {
@@ -1041,7 +1271,6 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   /* 782 group */
   .containerr {
     padding-top: 90px;
-    padding-bottom: 60px;
     padding: 0 20px;
     max-width: 100%;
     margin: 0 20px;
@@ -1071,13 +1300,14 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     padding: 0 40px;
     align-items: center;
   }
-  .im-sect {
+  .imagesect {
     flex-direction: column;
+    padding: 20px;
   }
 
   .coo {
     width: 100%;
-    margin-left: 45%;
+    padding: 3%;
   }
 
   .co {
@@ -1095,6 +1325,14 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     padding: 20px;
     padding-top: 70px;
     padding-bottom: 60px;
+  }
+
+  .social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
   }
 }
 

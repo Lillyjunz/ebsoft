@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Tab = () => {
   return (
@@ -9,13 +9,13 @@ const Tab = () => {
         data-aos-duration="1000"
         data-aos-delay="1000"
         data-aos-once="true"
-        style={{ padding: "15px", paddingTop: "140px" }}
+        style={{ padding: "15px", paddingTop: "140px", paddingBottom:'60px' }}
       >
         <ul
           className="nav nav-pills pb-3 ul-tab"
           id="myTab"
           role="tablist"
-          style={{ borderBottom: "2px solid gray" }}
+          style={{ borderBottom: "2px solid gray", justifyContent: "center" }}
         >
           <li className="nav-item pe-4" role="presentation">
             <button
@@ -67,6 +67,7 @@ const Tab = () => {
             boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
             borderRadius: "15px",
             marginTop: "30px",
+            marginBottom:'60px'
           }}
         >
           <div
@@ -304,8 +305,34 @@ const Tab = () => {
           >
             <div
               className="row p-1 "
-              style={{ marginBottom: "160px", paddingBottom: "200px" }}
+              style={{ marginBottom: "160px" }}
             >
+              <div className="col-12 pt-4 px-3 pb-4">
+                <p>
+                  <h4>
+                    <b>Summary:</b>
+                  </h4>
+                  We meticulously manage Code commits, Continuous
+                  Integration/Continuous Deployment (CI/CD), and platform
+                  processes, adapting seamlessly to either the company's or the
+                  client's environment. Our seasoned advisory team assists
+                  clients in selecting the most cost-effective platform or cloud
+                  solution provider for hosting applications crafted by our
+                  development experts. This collaborative approach empowers
+                  clients to maintain control over their development
+                  environment, optimizing costs and ensuring strict security
+                  compliance. Throughout product/project timelines, our adept
+                  team excels in development and engineering, operating
+                  independently or in tandem with client teams within their
+                  environment. Furthermore, for clients seeking engagement with
+                  ebsofT managing the development hosting platform, we offer the
+                  option for our team to work autonomously within our
+                  environment and platform. However, rest assured that our team
+                  remains fully integrated, committing and submitting codes
+                  directly to the client's environment to ensure seamless
+                  collaboration and execution.
+                </p>
+              </div>
               <div
                 className="col-lg-6 pb-3 pt-3 "
                 data-aos="fade-right"

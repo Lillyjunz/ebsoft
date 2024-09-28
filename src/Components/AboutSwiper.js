@@ -18,7 +18,7 @@ export default function SwiperHome() {
         slidesPerView={1}
         spaceBetween={10}
         autoplay={{
-          delay: 3000,
+          delay: 8000,
           disableOnInteraction: false,
         }}
         pagination={{
@@ -61,19 +61,15 @@ export default function SwiperHome() {
           >
             <div className="team mb-5" style={{ width: "50" }}>
               <img
-                className="rounded-image"
+                className="rounded-image "
                 data-aos="fade-up"
                 data-aos-once="true"
                 data-aos-duration="1000"
                 data-aos-delay="500"
                 src="/images/ebimg3.jpg"
-                style={{
-                  width: "440px",
-                  height: "180px",
-                  borderRadius: "50%",
-                  marginRight: "10px",
-                }}
+                //
               />
+
               <div className="team-text" style={{ width: "50" }}>
                 <h5
                   className="text-black text-start"
@@ -145,12 +141,6 @@ export default function SwiperHome() {
                 data-aos-duration="1000"
                 data-aos-delay="500"
                 src="/images/ebimg5.jpg"
-                style={{
-                  width: "440px",
-                  height: "180px",
-                  borderRadius: "50%",
-                  marginRight: "10px",
-                }}
               />
               <div className="team-text" style={{ width: "50" }}>
                 <h5
@@ -219,16 +209,7 @@ export default function SwiperHome() {
             }}
           >
             <div className="team mb-5" style={{ width: "50" }}>
-              <img
-                className="rounded-image"
-                src="/images/ebene.jpg"
-                style={{
-                  width: "440px",
-                  height: "180px",
-                  borderRadius: "50%",
-                  marginRight: "10px",
-                }}
-              />
+              <img className="rounded-image" src="/images/ebene.jpg" />
               <div className="team-text" style={{ width: "50" }}>
                 <h5
                   className="text-black text-start"
@@ -304,12 +285,6 @@ export default function SwiperHome() {
                 data-aos-duration="1000"
                 data-aos-delay="500"
                 src="/images/ebimg7.jpg"
-                style={{
-                  width: "440px",
-                  height: "180px",
-                  borderRadius: "50%",
-                  marginRight: "10px",
-                }}
               />
               <div className="team-text" style={{ width: "50" }}>
                 <h5
@@ -382,12 +357,6 @@ export default function SwiperHome() {
                 data-aos-duration="1000"
                 data-aos-delay="500"
                 src="/images/ebimg6.jpg"
-                style={{
-                  width: "440px",
-                  height: "180px",
-                  borderRadius: "50%",
-                  marginRight: "10px",
-                }}
               />
               <div className="team-text" style={{ width: "50" }}>
                 <h5

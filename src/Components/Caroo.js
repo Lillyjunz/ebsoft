@@ -9,11 +9,12 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import CarouselComponent from "./CarouselComp";
 
 export default function SwiperHome() {
   return (
     <>
-      <Swiper
+      {/* <Swiper
         slidesPerView={1}
         spaceBetween={10}
         autoplay={{
@@ -56,18 +57,14 @@ export default function SwiperHome() {
           <div
             className="slide-div"
             style={{
-              backgroundColor: "#89E0AE",
-              padding: "40px 50px",
-              width: "80%",
-              textAlign: "center",
-              justifyContent: "center",
-              alignItems: "center",
-              marginBottom: "100px",
-              borderRadius: "10px",
+              backgroundColor: "#ECF4EF",
+              width: "75%",
               boxShadow: "0 0 10px rgba(0, 0, 0, 0.3)",
+              borderRadius: "10px",
+              padding: "40px 50px",
             }}
           >
-            <div style={{ paddingBottom: "10px", paddingTop: "20px" }}>
+            <div style={{ paddingTop: "20px" }}>
               <img
                 style={{ width: "15px" }}
                 src="../images/star.svg"
@@ -122,18 +119,14 @@ export default function SwiperHome() {
           <div
             className="slide-div"
             style={{
-              backgroundColor: "#89E0AE",
-              padding: "40px 50px",
-              width: "80%",
-              textAlign: "center",
-              justifyContent: "center",
-              alignItems: "center",
-              marginBottom: "100px",
-              borderRadius: "10px",
+              backgroundColor: "#ECF4EF",
+              width: "75%",
               boxShadow: "0 0 10px rgba(0, 0, 0, 0.3)",
+              borderRadius: "10px",
+              padding: "40px 50px",
             }}
           >
-            <div style={{ paddingBottom: "10px", paddingTop: "20px" }}>
+            <div style={{ paddingTop: "20px" }}>
               <img
                 style={{ width: "15px" }}
                 src="../images/star.svg"
@@ -185,18 +178,14 @@ export default function SwiperHome() {
           <div
             className="slide-div"
             style={{
-              backgroundColor: "#89E0AE",
-              padding: "40px 50px",
-              width: "80%",
-              textAlign: "center",
-              justifyContent: "center",
-              alignItems: "center",
-              marginBottom: "100px",
-              borderRadius: "10px",
+              backgroundColor: "#ECF4EF",
+              width: "75%",
               boxShadow: "0 0 10px rgba(0, 0, 0, 0.3)",
+              borderRadius: "10px",
+              padding: "40px 50px",
             }}
           >
-            <div style={{ paddingBottom: "10px", paddingTop: "20px" }}>
+            <div style={{ paddingTop: "20px" }}>
               <img
                 style={{ width: "15px" }}
                 src="../images/star.svg"
@@ -249,18 +238,14 @@ export default function SwiperHome() {
           <div
             className="slide-div"
             style={{
-              backgroundColor: "#89E0AE",
-              padding: "40px 50px",
-              width: "80%",
-              textAlign: "center",
-              justifyContent: "center",
-              alignItems: "center",
-              borderRadius: "10px",
-              marginBottom: "10px",
+              backgroundColor: "#ECF4EF",
+              width: "75%",
               boxShadow: "0 0 10px rgba(0, 0, 0, 0.3)",
+              borderRadius: "10px",
+              padding: "55px 50px",
             }}
           >
-            <div style={{ paddingBottom: "10px", paddingTop: "20px" }}>
+            <div style={{ paddingTop: "20px" }}>
               <img
                 style={{ width: "15px" }}
                 src="../images/star.svg"
@@ -305,7 +290,13 @@ export default function SwiperHome() {
             </div>
           </div>
         </SwiperSlide>
-      </Swiper>
+      </Swiper> */}
+
+    <CarouselComponent></CarouselComponent>
     </>
   );
 }
+
+
+
+

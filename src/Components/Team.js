@@ -22,6 +22,7 @@ const Team = () => {
           data-aos-once="true"
           data-aos-duration="1000"
           data-aos-delay="500"
+        
         >
           Our Team
         </h1>

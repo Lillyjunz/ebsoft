@@ -9,21 +9,19 @@ const About = () => {
       <Navbar></Navbar>
 
       <div className="header aboout">
-        {/*Content before waves*/}
-
         <div className="contenti text-start">
           <h3
             data-aos="fade-down"
             data-aos-duration="1000"
-            data-aos-delay="500"
+            data-aos-delay="1500"
             data-aos-once="true"
           >
             About Ebsoft
           </h3>
           <p
-            data-aos="fade-left"
+            data-aos="fade-right"
             data-aos-duration="1000"
-            data-aos-delay="500"
+            data-aos-delay="1400"
             data-aos-once="true"
           >
             Excellence and Brilliance guide our every step – We Visualize it. We
@@ -34,40 +32,38 @@ const About = () => {
           className="img-fluid rounded-circle "
           data-aos="fade-left"
           data-aos-duration="1000"
-          data-aos-delay="500"
+          data-aos-delay="1500"
           data-aos-once="true"
           src="/images/image04.jpg"
         />
-        {/*Waves Container*/}
-        <div>
-          <svg
-            className="wavs"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlnsXlink="http://www.w3.org/1999/xlink"
-            viewBox="0 24 150 28"
-            preserveAspectRatio="none"
-            shapeRendering="auto"
-          >
-            <defs>
-              <path
-                id="gentle-wave"
-                d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
-              />
-            </defs>
-            <g className="paralax">
-              {/* <use xlink:href="#gentle-wave" x="48" y="0" fill="#006400" /> */}
-              <use xlinkHref="#gentle-wave" x={48} y={3} fill="#006400" />
-              <use
-                xlinkHref="#gentle-wave"
-                x={48}
-                y={5}
-                fill="rgba(255,255,255,0.3)"
-              />
-              <use xlinkHref="#gentle-wave" x={48} y={7} fill="#fff" />
-            </g>
-          </svg>
-        </div>
-        {/*Waves end*/}
+      </div>
+      <div className="wave-container">
+        <svg
+          className="wavs"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+          viewBox="0 24 150 28"
+          preserveAspectRatio="none"
+          shapeRendering="auto"
+          style={{ transform: "rotate(180deg)" }} // Rotate the wave
+        >
+          <defs>
+            <path
+              id="gentle-wave"
+              d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+            />
+          </defs>
+          <g className="paralax">
+            <use xlinkHref="#gentle-wave" x={48} y={3} fill="#006400" />
+            <use
+              xlinkHref="#gentle-wave"
+              x={48}
+              y={5}
+              fill="rgba(255,255,255,0.3)"
+            />
+            <use xlinkHref="#gentle-wave" x={48} y={7} fill="#000" />
+          </g>
+        </svg>
       </div>
 
       <div className="front" style={{ paddingBottom: "80px" }}>
@@ -179,7 +175,7 @@ const About = () => {
 
       <div className="reg mt-4">
         <div
-          className="row py-5 px-4 "
+          className="row py-5 px-4 value"
           style={{ backgroundColor: "rgba(0, 0, 0, .3)" }}
         >
           <h1
