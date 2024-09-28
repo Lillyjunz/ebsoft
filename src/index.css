@@ -45,7 +45,7 @@ body {
 .banner {
   width: 100%;
   color: #fff;
-  margin-top: 8%;
+  margin-top: 6%;
 }
 
 .abb {
@@ -381,7 +381,7 @@ a {
 .banner h1,
 .orig h1 {
   font-family: "roboto slab", serif;
-  font-size: 3.8rem;
+  font-size: 3.5rem;
 }
 .navbar h1 {
   font-family: "roboto slab", serif;

@@ -44,7 +44,7 @@ const Bann = () => {
           <div className="text-center  im-div">
             <div>
               <img
-                className=" ban-img img-fluid" style={{width:'280px'}}
+                className=" ban-img img-fluid" style={{width:'250px'}}
                 data-aos="fade"
                 data-aos-duration="1000"
                 data-aos-delay="200"
