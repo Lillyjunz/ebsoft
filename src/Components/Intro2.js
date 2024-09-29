@@ -303,7 +303,7 @@ const Intro2 = () => {
           <div className="hover-content">
             <h3 className="text-end pt-2 pe-3 fw-bold text-light">4</h3>
             <div className="align-items-center pt-1 pb-2 ps-3 pe-3">
-              <h5 className="fw-bold">Delivery, support and Maintenance</h5>
+              <h5 className="fw-bold">Delivery, support and Maintenance </h5>
 
               <p className="fw-bold text-light">
                 In this phase, we diligently monitor, refine, and update

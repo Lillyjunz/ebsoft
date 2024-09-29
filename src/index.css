@@ -630,12 +630,12 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 }
 .aboout {
   background-color: #000;
-  height: 70vh;
+  height: 75vh;
 }
 .aboout img {
   position: absolute;
-  width: 370px;
-  height: 350px;
+  width: 520px;
+  height: 450px;
   z-index: 1000;
   right: 100px;
   bottom: 60px;

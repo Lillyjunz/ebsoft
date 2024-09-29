@@ -50,7 +50,7 @@ const CarouselComponent = () => {
               />
             ))}
           </div>
-          <h3 className="fw-bold text-success">
+          <h3 className="fw-bold">
             <i>
               "EBSOFT is more than just a service provider—they're a tech ally."
             </i>
@@ -104,7 +104,7 @@ const CarouselComponent = () => {
               />
             ))}
           </div>
-          <h3 className="fw-bold text-success">
+          <h3 className="fw-bold">
             <i>
               {" "}
               "EBSOFT's innovative solutions directly contributed to our
@@ -166,7 +166,7 @@ const CarouselComponent = () => {
               />
             ))}
           </div>
-          <h3 className="fw-bold text-success">
+          <h3 className="fw-bold">
             <i>
               "Working with EBSOFT on our telehealth platform was a pivotal
               experience. "
@@ -223,7 +223,7 @@ const CarouselComponent = () => {
               />
             ))}
           </div>
-          <h3 className="fw-bold text-success">
+          <h3 className="fw-bold ">
             <i>
               {" "}
               "Partnering with the EBSOFT team for our Cloud Digital

@@ -260,16 +260,20 @@ const Footernew = () => {
               <h4 className="fw-bold">Services</h4>
               <ul>
                 <li>
-                  <a href="/detail#section1">UI/UX development</a>
+                  <a href="/detail#section1">UI/UX & Web development</a>
                 </li>
                 <li>
-                  <a href="/detail#section2">Software</a>
+                  <a href="/detail#section2">Software and Mobile Development</a>
                 </li>
                 <li>
-                  <a href="/detail#section4">Digital transformation</a>
+                  <a href="/detail#section4">
+                    Cloud Infrastructure
+                  </a>
                 </li>
                 <li>
-                  <a href="/detail#section3">Cloud infrastructure</a>
+                  <a href="/detail#section3">
+                    Digital Cloud Transformation
+                  </a>
                 </li>
                 <li>
                   <a href="/detail#section5">Tech hiring services</a>

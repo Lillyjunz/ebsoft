@@ -40,7 +40,7 @@ const Join = () => {
           src="/images/image2.jpg"
         />
       </div>
-      <div className="wave-container">
+      {/* <div className="wave-container">
         <svg
           className="wavs"
           xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +48,7 @@ const Join = () => {
           viewBox="0 24 150 28"
           preserveAspectRatio="none"
           shapeRendering="auto"
-          style={{ transform: "rotate(180deg)" }} // Rotate the wave
+          style={{ transform: "rotate(180deg)" }} 
         >
           <defs>
             <path
@@ -67,11 +67,37 @@ const Join = () => {
             <use xlinkHref="#gentle-wave" x={48} y={7} fill="#000" />
           </g>
         </svg>
+      </div> */}
+      <div className="wave-container">
+        <svg
+          className="wavs"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+          viewBox="0 24 150 28"
+          preserveAspectRatio="none"
+          shapeRendering="auto"
+        >
+          <defs>
+            <path
+              id="straight-wave"
+              d="M0 24h150v4H0z" // Straight line
+            />
+          </defs>
+          <g className="paraax">
+            <use xlinkHref="#straight-wave" x={0} y={0} fill="green" />
+            <use
+              xlinkHref="#straight-wave"
+              x={0}
+              y={2}
+              fill="rgba(255,255,255,0.3)"
+            />
+          </g>
+        </svg>
       </div>
 
-      <Open></Open>
+      {/* <Open></Open> */}
 
-      {/* <div
+      <div
         className="text-center align-items-center justify-content-center"
         data-aos="bounce-up"
         data-aos-duration="1000"
@@ -79,9 +105,9 @@ const Join = () => {
         data-aos-once="true"
         style={{ margin: "150px auto" }}
       >
-        <h2 className="fw-bold">No Vacancies at this moment</h2>
+        <h2 className="fw-bold">No Vacancy. Check in later through our social media platforms..</h2>
         <img src="../images/lottie.gif" width={350} height={150}></img>
-      </div> */}
+      </div>
 
       <Footernew></Footernew>
     </div>
