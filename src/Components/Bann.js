@@ -30,7 +30,7 @@ const Bann = () => {
               data-aos-duration="1000"
               data-aos-delay="500"
               data-aos-once="true"
-              style={{ fontSize: "0.9em" }}
+              
             >
               <span>
                 Embark on a transformative journey with us to shape your
@@ -42,9 +42,9 @@ const Bann = () => {
           </div>
 
           <div className="text-center  im-div">
-            <div>
+            <div className="baan">
               <img
-                className=" ban-img img-fluid" style={{width:'250px'}}
+                className=" ban-img " 
                 data-aos="fade"
                 data-aos-duration="1000"
                 data-aos-delay="200"

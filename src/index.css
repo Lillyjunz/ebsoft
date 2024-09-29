@@ -10,10 +10,8 @@
 
 body {
   padding: auto 40px;
+   font-family: "Inter", sans-serif;
 }
-
-
-
 
 .mb-5 {
   margin-bottom: 0 !important;
@@ -380,26 +378,21 @@ a {
 /* text-sizes */
 .banner h1,
 .orig h1 {
-  font-family: "roboto slab", serif;
   font-size: 3.5rem;
 }
 .navbar h1 {
-  font-family: "roboto slab", serif;
   font-size: 230%;
 }
 .cardi-text,
 .faq,
 .introspan {
-  font-family: "roboto slab", serif;
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 .hire {
-  font-family: "roboto slab", serif;
   font-size: 2.8rem;
 }
 
 .contenti h3 {
-  font-family: "roboto slab", serif;
   font-size: 4.5rem;
   margin-bottom: 20px;
 }
@@ -418,7 +411,6 @@ a {
 .im-div {
   margin-top: 8%;
 }
-
 
 #team h1 {
   font-size: 3.6rem;
@@ -443,7 +435,7 @@ a {
 }
 .codi {
   flex: 1;
-  min-width: 0; 
+  min-width: 0;
   width: 50%;
   margin: auto 30px;
 }
@@ -460,8 +452,6 @@ a {
   padding: 80px;
 }
 
-
-
 .footer {
   width: 100vw;
   height: 85vh;
@@ -470,7 +460,7 @@ a {
   justify-content: center;
   align-items: center;
   color: #fff;
-  background-color: #000; 
+  background-color: #000;
 }
 
 .footer-container {
@@ -543,7 +533,7 @@ a {
 }
 
 /* Mobile Styles */
-@media (max-width: 768px) {
+@media  (min-width: 100px) and (max-width: 768px) {
   .footer-container {
     flex-direction: row;
     flex-wrap: wrap;
@@ -551,18 +541,18 @@ a {
   }
 
   .first-column {
-    flex-basis: 100%; 
+    flex-basis: 100%;
     text-align: center;
     margin-top: 40px;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
   }
 
   .footer-column {
-    flex-basis: 50%; 
+    flex-basis: 50%;
   }
 
   .footer-column:last-child {
-    margin-top: 20px; 
+    margin-top: 20px;
   }
 
   .footer-bottom-content {
@@ -698,18 +688,95 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 .banner li {
   list-style-type: none;
 }
-
-
-/* footer waves animation */
-.waves {
-  position: relative;
-  width: 100%;
-  height: 15vh;
-  margin-bottom: -7px;
-  /*Fix for safari gap*/
-  min-height: 100px;
-  max-height: 150px;
+.banner p {
+  font-size: 1rem;
 }
+
+/* responive extra large */
+@media (min-width: 1024px) {
+  .ban-img {
+    position: relative;
+  }
+  .baan img {
+    width: 350px;
+  }
+
+  .div1 {
+    position: absolute;
+    left: 38%;
+    top: 46%;
+  }
+  .divs:hover {
+    color: green;
+  }
+
+  .div2 {
+    position: absolute;
+    left: 37%;
+    top: 64%;
+  }
+
+  .div3 {
+    margin-top: 40px;
+  }
+  .div4 {
+    position: absolute;
+    right: 38%;
+    top: 46%;
+  }
+
+  .div5 {
+    position: absolute;
+    right: 35%;
+    top: 64%;
+  }
+  .banner li {
+    list-style-type: none;
+  }
+  .banner h1 {
+    font-size: 4.38rem;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  .banner p {
+    font-size: 1.4em;
+    font-family: "Inter", sans-serif;
+  }
+  .banner {
+    width: 100%;
+    color: #fff;
+    margin-top: 10%;
+  }
+  .im-div {
+    font-family: "Inter", sans-serif;
+    font-size: 1.6rem;
+  }
+  .aboout {
+  background-color: #000;
+  height:50vh;
+}
+.aboout img {
+  position: absolute;
+  width: 520px;
+  height: 450px;
+  z-index: 1000;
+  right: 100px;
+  bottom: 300px;
+  border: 4px solid green;
+}
+.contenti h3{
+  font-weight: 600;
+}
+.contenti p{
+  font-size: 1.5rem;
+}
+.introspan{
+  font-size: 4rem;
+}
+
+}
+
+
 
 .parallax > use {
   animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
@@ -745,15 +812,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   }
 }
 
-/* Shrinking for mobile */
-@media (max-width: 768px) {
-  .waves {
-    height: 40px;
-    min-height: 40px;
-  }
-}
 /* end of footer animation */
-
 
 .banny {
   width: 100vw;
@@ -830,7 +889,6 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   width: 100%;
   height: 15vh;
   margin-bottom: -7px;
-
   min-height: 100px;
   max-height: 150px;
 }
@@ -840,11 +898,9 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   width: 100%;
   height: 15vh;
   margin-bottom: -7px;
-
   min-height: 100px;
   max-height: 150px;
 }
-
 
 /* Animation */
 
@@ -977,6 +1033,10 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     max-width: 70%;
   }
 
+  .baan img {
+    width: 220px;
+  }
+
   .ourm {
     display: none;
   }
@@ -1014,28 +1074,31 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   .banner p {
     margin: 0 50px;
   }
+  .banner{
+    margin-top: 12%;
+  }
   .div1 {
     left: 9%;
-    top: 41%;
+    top: 53%;
   }
   .div2 {
-    left: 8%;
-    top: 63%;
+    left: 6%;
+    top: 65%;
   }
   .div3 {
     margin-top: 10px;
   }
   .div4 {
     right: 15%;
-    top: 41%;
+    top: 53%;
   }
   .div5 {
-    right: 5%;
-    top: 63%;
+    right: 2%;
+    top: 65%;
   }
 
   .im-div {
-    margin-top: 0;
+    margin-top: 35px;
     margin-bottom: 40px;
   }
 
@@ -1087,7 +1150,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   /* font size */
 
   .orig h1 {
-    font-family: "roboto slab", serif;
+    font-family: "Inter", sans-serif;
     font-size: 1.7rem;
   }
   .banner {
@@ -1101,28 +1164,23 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     display: block;
   }
   .banner h1 {
-    font-family: "roboto slab", serif;
     font-size: 1.9rem;
     font-weight: bold;
     padding: auto 20px;
   }
   .navbar h1 {
-    font-family: "roboto slab", serif;
     font-size: 200%;
   }
   .cardi-text,
   .faq,
   .introspan {
-    font-family: "roboto slab", serif;
     font-size: 2rem;
   }
   .hire {
-    font-family: "roboto slab", serif;
     font-size: 2rem;
   }
 
   .contenti h3 {
-    font-family: "roboto slab", serif;
     font-size: 2.3rem;
   }
   /* font size end */
@@ -1196,16 +1254,16 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     margin: 10px 15px;
   }
   .card-sect .card {
-    flex-basis: 100%; 
-    display: block; 
+    flex-basis: 100%;
+    display: block;
     justify-content: center;
     align-items: center;
     margin: 10px 15px;
   }
 
   .cod .codi {
-    flex-basis: 100%; 
-    display: block; 
+    flex-basis: 100%;
+    display: block;
     justify-content: center;
     align-items: center;
     margin: 10px 15px;
@@ -1223,7 +1281,6 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 
   .column {
     width: 50%;
-
   }
   .co-serve {
     width: 50%;
@@ -1238,10 +1295,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   .co-cont {
     padding-top: 20px;
   }
-  .footr {
-    padding: 0 40px;
-    align-items: center;
-  }
+  
   .imagesect {
     flex-direction: column;
     padding: 20px;
@@ -1288,7 +1342,6 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   }
 
   .banner h1 {
-    font-family: "roboto slab", serif;
     font-size: 2.3rem;
     font-weight: bold;
     padding: auto 20px;
