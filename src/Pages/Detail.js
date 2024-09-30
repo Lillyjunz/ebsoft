@@ -286,7 +286,7 @@ const Detail = () => {
                 data-aos-delay="1000"
                 data-aos-once="true"
               >
-                <span className="fw-bold text-success">UI/UX Development</span>
+                <span className="fw-bold text-success pe-2">Software & Mobile Development</span>
               </div>
 
               <div
@@ -484,7 +484,7 @@ const Detail = () => {
                 data-aos-delay="1000"
                 data-aos-once="true"
               >
-                <span className="fw-bold text-success">UI/UX Development</span>
+                <span className="fw-bold text-success">Cloud Infrastructure Services</span>
               </div>
 
               <div

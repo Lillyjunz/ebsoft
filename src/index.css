@@ -669,7 +669,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 }
 
 /* responive extra large */
-@media (min-width: 1499px) {
+/* @media (min-width: 1499px) {
   .ban-img {
     position: relative;
   }
@@ -749,7 +749,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   .introspan {
     font-size: 4rem;
   }
-}
+} */
 
 .parallax > use {
   animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
@@ -1023,7 +1023,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   .contenti {
     width: 80%;
     padding-left: 15px;
-    padding-top: 12%;
+    padding-top: 50%;
   }
   .detail-div {
     margin: auto 20px;
@@ -1115,27 +1115,27 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   width: 170px;
 }
   .div1 {
-    left: 25%;
-    top: 62%;
+    left: 13%;
+    top: 46%;
   }
   .div2 {
-    left: 23%;
-    top: 80%;
+    left: 15%;
+    top: 60%;
   }
   .div3 {
     margin-top: 10px;
   }
   .div4 {
-    right: 27%;
-    top: 62%;
+    right: 15%;
+    top: 46%;
   }
   .div5 {
-    right: 17%;
-    top: 80%;
+    right: 10%;
+    top: 60%;
   }
 
   .im-div {
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: 40px;
   }
 
@@ -1345,7 +1345,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 }
 
 /* responsive second batch */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+/* @media screen and (min-width: 769px) and (max-width: 1024px) {
   .detai-img {
     display: none;
   }
@@ -1421,8 +1421,8 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   }
 
   .cod .codi {
-    flex-basis: 100%; /* Each flex item takes full width */
-    display: block; /* Change display to block */
+    flex-basis: 100%; 
+    display: block; 
     justify-content: center;
     align-items: center;
     margin: 10px 15px;
@@ -1441,7 +1441,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   .first-cridi {
     order: 2;
   }
-}
+} */
 
 /* Responsive first row homepage */
 
@@ -1464,9 +1464,3 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 }
 
 
-/* banners */
-@media screen and (min-width: 1340px) {
-  .front {
-    margin-top: 100px;
-  }
-}
