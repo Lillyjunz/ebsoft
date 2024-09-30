@@ -40,8 +40,6 @@ body {
   align-items: center;
 }
 
-
-
 .abb {
   overflow: hidden;
 }
@@ -382,7 +380,7 @@ a {
 }
 
 /* text-sizes */
-.banner h1{
+.banner h1 {
   font-size: 3.2rem;
   font-weight: 600;
 }
@@ -421,8 +419,6 @@ a {
   justify-content: center;
   margin: auto auto;
 }
-
-
 
 #team h1 {
   font-size: 3.6rem;
@@ -544,7 +540,6 @@ a {
   color: #006400;
 }
 
-
 .contact-wrap {
   overflow: hidden;
 }
@@ -628,7 +623,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   color: #fff;
   padding: 4%;
 }
-.baan img{
+.baan img {
   width: 200px;
 }
 
@@ -1106,14 +1101,20 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   .banner p {
     margin: 0 50px;
     font-size: 0.8rem;
+    width: 100%;
   }
- .banner {
+  .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding-top: 7%;
+    width: 100%;
   }
 
-.baan img{
-  width: 170px;
-}
+  .baan img {
+    width: 200px;
+  }
   .div1 {
     left: 13%;
     top: 46%;
@@ -1140,7 +1141,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   }
 
   /* about banner */
-   .contenti h3 {
+  .contenti h3 {
     font-size: 2.1rem;
   }
   .contenti p {
@@ -1198,14 +1199,14 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     font-family: "Inter", sans-serif;
     font-size: 1.7rem;
   }
- 
+
   .buil {
     display: none;
   }
   .build {
     display: block;
   }
-  
+
   .navbar h1 {
     font-size: 200%;
   }
@@ -1218,7 +1219,6 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     font-size: 2rem;
   }
 
- 
   /* font size end */
   .cod {
     grid-template-columns: 1fr;
@@ -1462,5 +1462,3 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     margin-top: 90px;
   }
 }
-
-

@@ -25,7 +25,7 @@ const Bann = () => {
               </li>
             </h1>
             <p
-              className="text-center justify-self-center ps-4 pe-4 "
+              className="text-center justify-self-center "
               data-aos="fade-left"
               data-aos-duration="1000"
               data-aos-delay="500"
