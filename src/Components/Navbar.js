@@ -25,7 +25,7 @@ const Navbar = () => {
 
           <NavLink to="/contact">
             <button
-              className="btn btn-success fw-bold pe-3 ps-3" style={{letterSpacing:'0.1em'}}
+              className="btn btn-success fw-bold pe-3 ps-3" style={{letterSpacing:'0.01em'}}
               type="submit"
               data-aos="fade-down"
               data-aos-duration="1000"

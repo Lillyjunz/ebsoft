@@ -663,6 +663,74 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   font-size: 0.9rem;
 }
 
+@media (max-width: 480px) {
+  /* banner responsive */
+
+  .nav-img {
+    width: 22% !important;
+  }
+  .banner h1 {
+    font-size: 2.3rem;
+    font-weight: bold;
+    padding: auto 20px;
+  }
+  .banner p {
+    margin: 0 50px;
+    font-size: 0.8rem;
+    width: 100%;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7%;
+    width: 100%;
+  }
+
+  .baan img {
+    width: 200px;
+  }
+  .div1 {
+    left: 13%;
+    top: 46%;
+  }
+  .div2 {
+    left: 15%;
+    top: 60%;
+  }
+  .div3 {
+    margin-top: 10px;
+  }
+  .div4 {
+    right: 15%;
+    top: 46%;
+  }
+  .div5 {
+    right: 10%;
+    top: 60%;
+  }
+
+  .im-div {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  /* about banner */
+
+  .contenti {
+    width: 60%;
+    padding-top: 100px;
+    padding-left: 60px;
+  }
+  .contenti h3 {
+    font-size: 2.1rem;
+  }
+  .contenti p {
+    font-size: 0.8rem;
+  }
+}
+
 /* responive extra large */
 /* @media (min-width: 1499px) {
   .ban-img {
@@ -1085,69 +1153,12 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   }
 
   .nav-img {
-    width: 14% !important;
+    width: 14%;
   }
 
   .p-4 {
-    padding: 0 !important;
+    padding: 0;
   }
-
-  /* banner responsive */
-  .banner h1 {
-    font-size: 2.3rem;
-    font-weight: bold;
-    padding: auto 20px;
-  }
-  .banner p {
-    margin: 0 50px;
-    font-size: 0.8rem;
-    width: 100%;
-  }
-  .banner {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 7%;
-    width: 100%;
-  }
-
-  .baan img {
-    width: 200px;
-  }
-  .div1 {
-    left: 13%;
-    top: 46%;
-  }
-  .div2 {
-    left: 15%;
-    top: 60%;
-  }
-  .div3 {
-    margin-top: 10px;
-  }
-  .div4 {
-    right: 15%;
-    top: 46%;
-  }
-  .div5 {
-    right: 10%;
-    top: 60%;
-  }
-
-  .im-div {
-    margin-top: 30px;
-    margin-bottom: 40px;
-  }
-
-  /* about banner */
-  .contenti h3 {
-    font-size: 2.1rem;
-  }
-  .contenti p {
-    font-size: 0.8rem;
-  }
-
   .team {
     display: block;
     align-items: center;
