@@ -70,16 +70,16 @@ const About = () => {
             className="first-crid"
             data-aos="fade-up"
             data-aos-once="true"
-            data-aos-duration="1000"
-            data-aos-delay="500"
+            data-aos-duration="500"
+            data-aos-delay="100"
             style={{ width: "100%" }}
           >
             <h1
               className="fw-bold text-success ourm "
               data-aos="fade-up"
               data-aos-once="true"
-              data-aos-duration="1000"
-              data-aos-delay="500"
+              data-aos-duration="500"
+              data-aos-delay="300"
             >
               Our Mission
             </h1>
@@ -87,8 +87,8 @@ const About = () => {
             <p
               data-aos="fade-up"
               data-aos-once="true"
-              data-aos-duration="1000"
-              data-aos-delay="500"
+              data-aos-duration="500"
+              data-aos-delay="300"
             >
               EbsofT - where expertise meets innovation across UI/UX Web,
               Software, and Mobile App Development, Cloud Infrastructure with
@@ -108,8 +108,8 @@ const About = () => {
               className="for-divider our "
               data-aos="fade-up"
               data-aos-once="true"
-              data-aos-duration="1000"
-              data-aos-delay="500"
+              data-aos-duration="500"
+              data-aos-delay="300"
             >
               <span className="fw-bold text-success">Our Mission</span>
             </div>

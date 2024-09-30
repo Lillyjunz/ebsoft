@@ -82,7 +82,7 @@ const Detail = () => {
         </svg>
       </div>
 
-      <div className="container " style={{ marginTop: "40px" }}>
+      <div className="container ">
         <div
           className="detail-div"
           id="section1"

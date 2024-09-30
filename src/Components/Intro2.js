@@ -1,11 +1,11 @@
 const Intro2 = () => {
   return (
     <div
-      className="intro-bg container"
+      className="intro-bg "
       id="intro"
       style={{ padding: "40px", paddingTop: "150px" }}
     >
-      <div className="process-lg">
+      <div className="process-lg px-5">
         <div
           className="or-divider "
           data-aos="fade-left"
@@ -47,9 +47,9 @@ const Intro2 = () => {
         </h6>
       </div>
 
-      <div className=" row justify-content-center align-items-center pt-2">
+      <div className="cycle pt-2">
         <div
-          className="col-lg-4 er-container me-2 "
+          className=" er-container me-2 "
           data-aos="fade-right"
           data-aos-duration="1000"
           data-aos-delay="1500"
@@ -100,7 +100,7 @@ const Intro2 = () => {
 
           <div className="hover-content">
             <h3 className="text-end pt-2 pe-3 fw-bold text-light">1</h3>
-            <div className="align-items-center pt-3 pb-2 ps-3 pe-3">
+            <div className="align-items-center pt-4 pb-2 ps-3 pe-3 hoo">
               <h5 className="fw-bold">Non disclosure Agreements</h5>
 
               <p className="fw-bold text-light">
@@ -115,7 +115,7 @@ const Intro2 = () => {
         </div>
 
         <div
-          className="col-lg-4 er-container me-2 "
+          className=" er-container me-2 "
           data-aos="fade-up"
           data-aos-duration="1000"
           data-aos-delay="1600"
@@ -166,24 +166,28 @@ const Intro2 = () => {
 
           <div className="hover-content">
             <h3 className="text-end pt-2 pe-3 fw-bold text-light">2</h3>
-            <div className="align-items-center pt-1 pb-2 ps-3 pe-3">
+            <div className="align-items-center pb-2 ps-3 pe-3 hoo">
               <h5 className="fw-bold">
                 Visualization and Product Consultation
               </h5>
 
               <p className="fw-bold text-light ">
-                Visualizing your idea and turning it into a project is like
-                connecting the dots. We set goals, understand your audience, research
-                competitors, and build a roadmap. Then, we choose the engagement
-                model, define the scope, and focus on user experience and design
-                details.
+                Visualizing your idea and transforming it into a project, along
+                with consultation, is akin to connecting the dots. We begin by
+                establishing clear goals and objectives, gaining insights into
+                your target audience, researching competitors, and crafting a
+                comprehensive development roadmap. However, before proceeding,
+                we adopt an appropriate engagement model, and meticulously
+                outlining the project's scope into delivery milestones and work
+                on user experience, system, and architectural designs both small
+                and large details of it.
               </p>
             </div>
           </div>
         </div>
 
         <div
-          className="col-lg-4 er-container "
+          className=" er-container "
           data-aos="fade-left"
           data-aos-duration="1000"
           data-aos-delay="1600"
@@ -233,8 +237,8 @@ const Intro2 = () => {
           </div>
 
           <div className="hover-content">
-            <h3 className="text-end pt-2 pe-3 fw-bold text-light">3</h3>
-            <div className="align-items-center pt-1 pb-2 ps-3 pe-3">
+            <h3 className="text-end pt-3 pe-3 fw-bold text-light">3</h3>
+            <div className="align-items-center pt-1 pb-2 ps-3 pe-3 hoo">
               <h5 className="fw-bold">Build and Development</h5>
 
               <p className="fw-bold text-light">
@@ -249,9 +253,9 @@ const Intro2 = () => {
           </div>
         </div>
       </div>
-      <div className=" row justify-content-center pt-2">
+      <div className="cycle pt-2">
         <div
-          className="col-lg-4 er-container me-2 "
+          className=" er-container me-2 "
           data-aos="fade-up"
           data-aos-duration="1000"
           data-aos-delay="1800"
@@ -302,7 +306,7 @@ const Intro2 = () => {
 
           <div className="hover-content">
             <h3 className="text-end pt-2 pe-3 fw-bold text-light">4</h3>
-            <div className="align-items-center pt-1 pb-2 ps-3 pe-3">
+            <div className="align-items-center pt-4 pb-2 ps-3 pe-3 hoo">
               <h5 className="fw-bold">Delivery, support and Maintenance </h5>
 
               <p className="fw-bold text-light">
@@ -318,7 +322,7 @@ const Intro2 = () => {
         </div>
 
         <div
-          className="col-lg-4 er-container "
+          className=" er-container "
           data-aos="fade-up"
           data-aos-duration="1000"
           data-aos-delay="1500"
@@ -369,15 +373,18 @@ const Intro2 = () => {
 
           <div className="hover-content">
             <h3 className="text-end pt-4 pe-3 fw-bold text-light">5</h3>
-            <div className="align-items-center pt-1 pb-2 ps-3 pe-3">
+            <div className="align-items-center pt-2 pb-2 ps-3 pe-3 hoo">
               <h5 className="fw-bold">Feedback and strategic Patnership</h5>
 
               <p className="fw-bold text-light">
-                As we wrap up, let's celebrate our success and reflect on
-                lessons learned. We value your feedback and look forward to a
-                lasting partnership. Our commitment to delivering your product
-                with excellence remains strong, and we hope you'll share your
-                EbsofT experience.
+                As we conclude this journey together, we invite you to join us
+                in celebrating our collective success story. Let's take a moment
+                to reflect on the lessons learned, gather feedback, and nurture
+                our ongoing partnership – to becoming a strategic partner. Our
+                commitment to delivering your product idea from inception to
+                completion with excellence and brilliance remains unwavering,
+                and we hope you'll share your experience with EbsofT with
+                others.
               </p>
             </div>
           </div>

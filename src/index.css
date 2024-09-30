@@ -10,7 +10,7 @@
 
 body {
   padding: auto 40px;
-   font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .mb-5 {
@@ -40,11 +40,7 @@ body {
   align-items: center;
 }
 
-.banner {
-  width: 100%;
-  color: #fff;
-  margin-top: 6%;
-}
+
 
 .abb {
   overflow: hidden;
@@ -168,14 +164,24 @@ li {
   opacity: 1;
 }
 
+.cycle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .er-container {
   background-position: center;
   background-size: cover;
   position: relative;
   width: 30%;
-  height: 320px;
+  height: 350px;
   border: 1px solid #ccc;
   border-radius: 10px;
+}
+.hoo p {
+  font-size: 0.75rem;
 }
 
 .er-container:hover .default-content {
@@ -376,7 +382,10 @@ a {
 }
 
 /* text-sizes */
-.banner h1,
+.banner h1{
+  font-size: 3.2rem;
+  font-weight: 600;
+}
 .orig h1 {
   font-size: 3.5rem;
 }
@@ -393,8 +402,13 @@ a {
 }
 
 .contenti h3 {
-  font-size: 4.5rem;
+  font-size: 3rem;
   margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.contenti p {
+  font-size: 0.9rem;
 }
 /* text size end */
 
@@ -405,12 +419,10 @@ a {
   width: 80%;
   align-items: center;
   justify-content: center;
-  margin: 25px auto;
+  margin: auto auto;
 }
 
-.im-div {
-  margin-top: 8%;
-}
+
 
 #team h1 {
   font-size: 3.6rem;
@@ -453,14 +465,16 @@ a {
 }
 
 .footer {
-  width: 100vw;
-  height: 85vh;
+  width: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #fff;
   background-color: #000;
+  box-sizing: border-box;
+  padding-top: 20px;
 }
 
 .footer-container {
@@ -504,14 +518,12 @@ a {
 }
 
 .footer-divider {
-  height: 2px;
+  height: 1px;
   background: gray;
   width: 100%;
-  margin: 10px 0;
 }
 
 .footer-bottom {
-  margin-top: 30px;
   width: 80%;
 }
 
@@ -532,50 +544,6 @@ a {
   color: #006400;
 }
 
-/* Mobile Styles */
-@media  (min-width: 100px) and (max-width: 768px) {
-  .footer-container {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .first-column {
-    flex-basis: 100%;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 20px;
-  }
-
-  .footer-column {
-    flex-basis: 50%;
-  }
-
-  .footer-column:last-child {
-    margin-top: 20px;
-  }
-
-  .footer-bottom-content {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  .footer-column li {
-    font-size: large;
-  }
-
-  .social i {
-    font-size: 24px;
-    color: #006400;
-    margin: 0;
-  }
-  .footer-bottom {
-    margin-top: 10px;
-  }
-  .footer {
-    height: 100vh;
-  }
-}
 
 .contact-wrap {
   overflow: hidden;
@@ -605,8 +573,8 @@ a {
 .contenti {
   width: 60%;
   align-items: center;
-  padding-top: 250px;
-  padding-left: 130px;
+  padding-top: 100px;
+  padding-left: 60px;
   box-sizing: border-box;
   padding-bottom: 50px;
   justify-self: start;
@@ -620,15 +588,15 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 }
 .aboout {
   background-color: #000;
-  height: 75vh;
+  height: 50vh;
 }
 .aboout img {
   position: absolute;
-  width: 520px;
-  height: 450px;
+  width: 280px;
+  height: 280px;
   z-index: 1000;
   right: 100px;
-  bottom: 60px;
+  bottom: 100px;
   border: 4px solid green;
 }
 
@@ -655,11 +623,19 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 .ban-img {
   position: relative;
 }
+.banner {
+  width: 100%;
+  color: #fff;
+  padding: 4%;
+}
+.baan img{
+  width: 200px;
+}
 
 .div1 {
   position: absolute;
   left: 35%;
-  top: 45%;
+  top: 58%;
 }
 .divs:hover {
   color: green;
@@ -668,32 +644,32 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 .div2 {
   position: absolute;
   left: 34%;
-  top: 65%;
+  top: 81%;
 }
 
 .div3 {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 .div4 {
   position: absolute;
   right: 36%;
-  top: 45%;
+  top: 58%;
 }
 
 .div5 {
   position: absolute;
-  right: 33%;
-  top: 65%;
+  right: 32%;
+  top: 81%;
 }
 .banner li {
   list-style-type: none;
 }
 .banner p {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 /* responive extra large */
-@media (min-width: 1024px) {
+@media (min-width: 1499px) {
   .ban-img {
     position: relative;
   }
@@ -704,7 +680,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   .div1 {
     position: absolute;
     left: 38%;
-    top: 46%;
+    top: 49%;
   }
   .divs:hover {
     color: green;
@@ -752,31 +728,28 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     font-size: 1.6rem;
   }
   .aboout {
-  background-color: #000;
-  height:50vh;
+    background-color: #000;
+    height: 50vh;
+  }
+  .aboout img {
+    position: absolute;
+    width: 520px;
+    height: 450px;
+    z-index: 1000;
+    right: 100px;
+    bottom: 300px;
+    border: 4px solid green;
+  }
+  .contenti h3 {
+    font-weight: 600;
+  }
+  .contenti p {
+    font-size: 1.5rem;
+  }
+  .introspan {
+    font-size: 4rem;
+  }
 }
-.aboout img {
-  position: absolute;
-  width: 520px;
-  height: 450px;
-  z-index: 1000;
-  right: 100px;
-  bottom: 300px;
-  border: 4px solid green;
-}
-.contenti h3{
-  font-weight: 600;
-}
-.contenti p{
-  font-size: 1.5rem;
-}
-.introspan{
-  font-size: 4rem;
-}
-
-}
-
-
 
 .parallax > use {
   animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
@@ -954,6 +927,61 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 
 /* media query */
 @media screen and (max-width: 768px) {
+  /* footer */
+  .footer-bottom {
+    width: 100%;
+  }
+  .footer {
+    box-sizing: border-box;
+    height: 100%;
+  }
+  .footer-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .first-column {
+    flex-basis: 100%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .footer-column {
+    flex-basis: 50%;
+  }
+
+  .footer-column:last-child {
+    margin-top: 20px;
+  }
+
+  .footer-bottom-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-column li {
+    font-size: large;
+  }
+
+  .social i {
+    font-size: 24px;
+    color: #006400;
+    margin: 0;
+  }
+  .footer-bottom {
+    margin-top: 10px;
+  }
+  /* footer end */
+
+  .cycle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .aboout {
     height: 50vh;
   }
@@ -994,9 +1022,8 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   }
   .contenti {
     width: 80%;
-    padding-top: 100px;
-    padding-left: 10px;
-    margin-bottom: 100px;
+    padding-left: 15px;
+    padding-top: 12%;
   }
   .detail-div {
     margin: auto 20px;
@@ -1013,7 +1040,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     width: 200px;
     height: 200px;
     right: 10px;
-    bottom: 290px;
+    bottom: 120px;
   }
 
   .ba .content h3 {
@@ -1063,7 +1090,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   }
 
   .nav-img {
-    width: 27% !important;
+    width: 14% !important;
   }
 
   .p-4 {
@@ -1071,35 +1098,53 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   }
 
   /* banner responsive */
+  .banner h1 {
+    font-size: 2.3rem;
+    font-weight: bold;
+    padding: auto 20px;
+  }
   .banner p {
     margin: 0 50px;
+    font-size: 0.8rem;
   }
-  .banner{
-    margin-top: 12%;
+ .banner {
+    padding-top: 7%;
   }
+
+.baan img{
+  width: 170px;
+}
   .div1 {
-    left: 9%;
-    top: 53%;
+    left: 25%;
+    top: 62%;
   }
   .div2 {
-    left: 6%;
-    top: 65%;
+    left: 23%;
+    top: 80%;
   }
   .div3 {
     margin-top: 10px;
   }
   .div4 {
-    right: 15%;
-    top: 53%;
+    right: 27%;
+    top: 62%;
   }
   .div5 {
-    right: 2%;
-    top: 65%;
+    right: 17%;
+    top: 80%;
   }
 
   .im-div {
-    margin-top: 35px;
+    margin-top: 10px;
     margin-bottom: 40px;
+  }
+
+  /* about banner */
+   .contenti h3 {
+    font-size: 2.1rem;
+  }
+  .contenti p {
+    font-size: 0.8rem;
   }
 
   .team {
@@ -1153,21 +1198,14 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     font-family: "Inter", sans-serif;
     font-size: 1.7rem;
   }
-  .banner {
-    padding-top: 20px;
-  }
-
+ 
   .buil {
     display: none;
   }
   .build {
     display: block;
   }
-  .banner h1 {
-    font-size: 1.9rem;
-    font-weight: bold;
-    padding: auto 20px;
-  }
+  
   .navbar h1 {
     font-size: 200%;
   }
@@ -1180,9 +1218,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     font-size: 2rem;
   }
 
-  .contenti h3 {
-    font-size: 2.3rem;
-  }
+ 
   /* font size end */
   .cod {
     grid-template-columns: 1fr;
@@ -1270,32 +1306,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   }
 
   /* 782 group */
-  .containerr {
-    padding-top: 90px;
-    padding: 0 20px;
-    max-width: 100%;
-    margin: 0 20px;
-    justify-content: space-between;
-    align-items: center;
-  }
 
-  .column {
-    width: 50%;
-  }
-  .co-serve {
-    width: 50%;
-  }
-
-  .first {
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 20px;
-  }
-  .co-cont {
-    padding-top: 20px;
-  }
-  
   .imagesect {
     flex-direction: column;
     padding: 20px;
@@ -1325,15 +1336,16 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 
   .social {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+  }
+  .so {
+    padding-right: 10px;
   }
 }
 
 /* responsive second batch */
-@media screen and (min-width: 769px) and (max-width: 900px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   .detai-img {
     display: none;
   }
@@ -1368,10 +1380,26 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   }
 
   .aboout img {
-    width: 220px;
-    height: 220px;
+    width: 270px;
+    height: 270px;
     right: 10px;
-    bottom: 0px;
+    bottom: 350px;
+  }
+  .aboout {
+    height: 50vh;
+  }
+  .contenti {
+    width: 60%;
+    padding-top: 280px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+  }
+  .contenti h3 {
+    font-weight: 600;
+    font-size: 3.5rem;
+  }
+  .contenti p {
+    font-size: 2rem;
   }
 
   .detail-div {
@@ -1432,5 +1460,13 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 @media screen and (max-width: 850px) {
   .front {
     margin-top: 90px;
+  }
+}
+
+
+/* banners */
+@media screen and (min-width: 1340px) {
+  .front {
+    margin-top: 100px;
   }
 }

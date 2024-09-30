@@ -30,12 +30,11 @@ const Bann = () => {
               data-aos-duration="1000"
               data-aos-delay="500"
               data-aos-once="true"
-              
             >
               <span>
                 Embark on a transformative journey with us to shape your
                 software landscape for the future. Guided by excellence and
-                brilliance, <br></br>we visualize, design, build and deliver
+                brilliance,<br></br> we visualize, design, build and deliver
                 with precision.
               </span>
             </p>
@@ -44,7 +43,7 @@ const Bann = () => {
           <div className="text-center  im-div">
             <div className="baan">
               <img
-                className=" ban-img " 
+                className=" ban-img "
                 data-aos="fade"
                 data-aos-duration="1000"
                 data-aos-delay="200"
