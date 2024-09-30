@@ -104,7 +104,7 @@ const Bann = () => {
                   style={{ fontSize: "0.8em", padding: "0", margin: "0" }}
                   data-aos="fade"
                   data-aos-duration="1000"
-                  data-aos-delay="800"
+                  data-aos-delay="1000"
                   data-aos-once="true"
                 >
                   WE are Hiring
@@ -118,7 +118,7 @@ const Bann = () => {
                   style={{ fontSize: "0.8em", padding: "0", margin: "0" }}
                   data-aos="fade"
                   data-aos-duration="1000"
-                  data-aos-delay="1100"
+                  data-aos-delay="1000"
                   data-aos-once="true"
                 >
                   HOW
@@ -128,7 +128,7 @@ const Bann = () => {
                   style={{ fontSize: "0.8em", padding: "0", margin: "0" }}
                   data-aos="fade"
                   data-aos-duration="1000"
-                  data-aos-delay="1100"
+                  data-aos-delay="1000"
                   data-aos-once="true"
                 >
                   we think
@@ -144,7 +144,7 @@ const Bann = () => {
                   data-aos="fade"
                   data-aos-duration="1000"
                   data-aos-once="true"
-                  data-aos-delay="1200"
+                  data-aos-delay="1000"
                 >
                   TELL US
                 </li>
@@ -153,7 +153,7 @@ const Bann = () => {
                   style={{ fontSize: "0.8em", padding: "0", margin: "0" }}
                   data-aos="fade"
                   data-aos-duration="1000"
-                  data-aos-delay="1200"
+                  data-aos-delay="1000"
                   data-aos-once="true"
                 >
                   about the project

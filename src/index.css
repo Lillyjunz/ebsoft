@@ -663,157 +663,6 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   font-size: 0.9rem;
 }
 
-@media (max-width: 480px) {
-  /* banner responsive */
-
-  .nav-img {
-    width: 22% !important;
-  }
-  .banner h1 {
-    font-size: 2.3rem;
-    font-weight: bold;
-    padding: auto 20px;
-  }
-  .banner p {
-    margin: 0 50px;
-    font-size: 0.8rem;
-    width: 100%;
-  }
-  .banner {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 7%;
-    width: 100%;
-  }
-
-  .baan img {
-    width: 200px;
-  }
-  .div1 {
-    left: 13%;
-    top: 46%;
-  }
-  .div2 {
-    left: 15%;
-    top: 60%;
-  }
-  .div3 {
-    margin-top: 10px;
-  }
-  .div4 {
-    right: 15%;
-    top: 46%;
-  }
-  .div5 {
-    right: 10%;
-    top: 60%;
-  }
-
-  .im-div {
-    margin-top: 30px;
-    margin-bottom: 40px;
-  }
-
-  /* about banner */
-
-  .contenti {
-    width: 60%;
-    padding-top: 100px;
-    padding-left: 60px;
-  }
-  .contenti h3 {
-    font-size: 2.1rem;
-  }
-  .contenti p {
-    font-size: 0.8rem;
-  }
-}
-
-/* responive extra large */
-/* @media (min-width: 1499px) {
-  .ban-img {
-    position: relative;
-  }
-  .baan img {
-    width: 350px;
-  }
-
-  .div1 {
-    position: absolute;
-    left: 38%;
-    top: 49%;
-  }
-  .divs:hover {
-    color: green;
-  }
-
-  .div2 {
-    position: absolute;
-    left: 37%;
-    top: 64%;
-  }
-
-  .div3 {
-    margin-top: 40px;
-  }
-  .div4 {
-    position: absolute;
-    right: 38%;
-    top: 46%;
-  }
-
-  .div5 {
-    position: absolute;
-    right: 35%;
-    top: 64%;
-  }
-  .banner li {
-    list-style-type: none;
-  }
-  .banner h1 {
-    font-size: 4.38rem;
-    font-weight: 600;
-    font-family: "Inter", sans-serif;
-  }
-  .banner p {
-    font-size: 1.4em;
-    font-family: "Inter", sans-serif;
-  }
-  .banner {
-    width: 100%;
-    color: #fff;
-    margin-top: 10%;
-  }
-  .im-div {
-    font-family: "Inter", sans-serif;
-    font-size: 1.6rem;
-  }
-  .aboout {
-    background-color: #000;
-    height: 50vh;
-  }
-  .aboout img {
-    position: absolute;
-    width: 520px;
-    height: 450px;
-    z-index: 1000;
-    right: 100px;
-    bottom: 300px;
-    border: 4px solid green;
-  }
-  .contenti h3 {
-    font-weight: 600;
-  }
-  .contenti p {
-    font-size: 1.5rem;
-  }
-  .introspan {
-    font-size: 4rem;
-  }
-} */
-
 .parallax > use {
   animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
 }
@@ -859,7 +708,6 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   background: black;
   color: white;
   justify-content: center;
-
   display: flex;
 }
 
@@ -990,6 +838,76 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 
 /* media query */
 @media screen and (max-width: 768px) {
+ .nav-img {
+    width: 18% !important;
+  }
+  .banner h1 {
+    font-size: 2.3rem;
+    font-weight: bold;
+    padding: auto 20px;
+  }
+  .banner p {
+    margin: 0 50px;
+    font-size: 0.8rem;
+    width: 100%;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7%;
+    width: 100%;
+  }
+
+  .baan img {
+    width: 200px;
+  }
+  .div1 {
+    left: 13%;
+    top: 46%;
+  }
+  .div2 {
+    left: 15%;
+    top: 60%;
+  }
+  .div3 {
+    margin-top: 10px;
+  }
+  .div4 {
+    right: 15%;
+    top: 46%;
+  }
+  .div5 {
+    right: 10%;
+    top: 60%;
+  }
+
+  .im-div {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  /* about banner */
+  .aboout img {
+    width: 220px;
+    height: 220px;
+    right: 10px;
+    bottom: 220px;
+  }
+  .contenti {
+    width: 50%;
+    padding-top: 180px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+  }
+  .contenti h3 {
+    font-size: 1.6rem;
+  }
+  .contenti p {
+    font-size: 0.8rem;
+  }
+
   /* footer */
   .footer-bottom {
     width: 100%;
@@ -1083,11 +1001,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     width: 100%;
     /* padding-top: 30px; */
   }
-  .contenti {
-    width: 80%;
-    padding-left: 15px;
-    padding-top: 50%;
-  }
+
   .detail-div {
     margin: auto 20px;
     align-items: center;
@@ -1098,33 +1012,6 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   }
   .fore-divider {
     display: none;
-  }
-  .aboout img {
-    width: 200px;
-    height: 200px;
-    right: 10px;
-    bottom: 120px;
-  }
-
-  .ba .content h3 {
-    width: 100%;
-  }
-  .ba {
-    padding-top: 140px;
-    padding-left: 10px;
-  }
-  .ba img {
-    width: 150px;
-    height: 150px;
-    right: 10px;
-    bottom: 50px;
-  }
-  .ba .content {
-    max-width: 70%;
-  }
-
-  .baan img {
-    width: 220px;
   }
 
   .ourm {
@@ -1150,10 +1037,6 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     right: 1em;
     padding: 0 0.5em;
     font-size: 20px;
-  }
-
-  .nav-img {
-    width: 14%;
   }
 
   .p-4 {
@@ -1316,8 +1199,6 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     margin: 10px 15px;
   }
 
-  /* 782 group */
-
   .imagesect {
     flex-direction: column;
     padding: 20px;
@@ -1356,12 +1237,12 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 }
 
 /* responsive second batch */
-/* @media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .detai-img {
     display: none;
   }
   .banner {
-    padding-top: 20px;
+    padding-top: 10%;
   }
 
   .banner h1 {
@@ -1369,40 +1250,43 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     font-weight: bold;
     padding: auto 20px;
   }
+  .baan img{
+    width: 38% ;
+  }
 
   .div1 {
-    left: 27%;
-    top: 32%;
+    left: 22%;
+    top: 49%;
   }
   .div2 {
     left: 27%;
-    top: 55%;
+    top: 68%;
   }
   .div3 {
     margin-top: 20px;
   }
   .div4 {
-    right: 29%;
-    top: 32%;
+    right: 23%;
+    top: 49%;
   }
   .div5 {
-    right: 26%;
-    top: 55%;
+    right: 25%;
+    top: 68%;
   }
 
   .aboout img {
     width: 270px;
     height: 270px;
     right: 10px;
-    bottom: 350px;
+    bottom: 200px;
   }
   .aboout {
     height: 50vh;
   }
   .contenti {
     width: 60%;
-    padding-top: 280px;
-    padding-left: 50px;
+    padding-top: 170px;
+    padding-left: 30px;
     padding-bottom: 50px;
   }
   .contenti h3 {
@@ -1410,7 +1294,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     font-size: 3.5rem;
   }
   .contenti p {
-    font-size: 2rem;
+    font-size: 1.1rem;
   }
 
   .detail-div {
@@ -1452,7 +1336,95 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   .first-cridi {
     order: 2;
   }
-} */
+  .nav-img{
+    width: 20%;
+  }
+}
+
+/* responive extra large */
+@media screen and (min-width: 1024px) {
+  
+  .baan img {
+    width: 30%;
+  }
+
+  .div1 {
+    position: absolute;
+    left: 26%;
+    top: 59%;
+  }
+  .divs:hover {
+    color: green;
+  }
+
+  .div2 {
+    position: absolute;
+    left: 27%;
+    top: 78%;
+  }
+
+  .div3 {
+    margin-top: 10px;
+  }
+  .div4 {
+    position: absolute;
+    right: 26%;
+    top: 59%;
+  }
+
+  .div5 {
+    position: absolute;
+    right: 24%;
+    top: 78%;
+  }
+  .banner li {
+    list-style-type: none;
+  }
+  .banner h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  .banner p {
+    font-size: 1.4em;
+    font-family: "Inter", sans-serif;
+  }
+  .banner {
+    width: 100%;
+    color: #fff;
+    margin-top: 2%;
+  }
+  .im-div {
+    font-family: "Inter", sans-serif;
+    font-size: 1.6rem;
+    margin-top: 10px;
+  }
+  .aboout {
+    background-color: #000;
+    height: 50vh;
+  }
+  .aboout img {
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    z-index: 1000;
+    right: 50px;
+    bottom: 190px;
+    border: 4px solid green;
+  }
+  .contenti h3 {
+    font-weight: 600;
+  }
+  .contenti p {
+    font-size: 1.5rem;
+  }
+  .introspan {
+    font-size: 4rem;
+  }
+  .nav-img{
+    width: 20%;
+  }
+}
 
 /* Responsive first row homepage */
 
