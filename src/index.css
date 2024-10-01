@@ -941,7 +941,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     width: 200px;
     height: 200px;
     right: 7px;
-    bottom: 300px;
+    bottom: 200px;
   }
   .contenti {
     width: 50%;
