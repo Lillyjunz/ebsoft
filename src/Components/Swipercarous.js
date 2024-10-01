@@ -1,5 +1,4 @@
 import React from "react";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -15,7 +14,7 @@ export default function SwiperCarousel() {
     <div className="align-items-center justify-content-center mb-5">
       <Swiper
         slidesPerView={1}
-        spaceBetween={10}
+        spaceBetween={0}
         autoplay={{
           delay: 6000,
           disableOnInteraction: false,
@@ -28,18 +27,18 @@ export default function SwiperCarousel() {
         breakpoints={{
           480: {
             slidesPerView: 1,
-            spaceBetween: 40,
+            spaceBetween: 20,
           },
           640: {
             slidesPerView: 1,
-            spaceBetween: 40,
+            spaceBetween: 20,
           },
           768: {
             slidesPerView: 2,
             spaceBetween: 20,
           },
           946: {
-            slidesPerView: 3,
+            slidesPerView: 2,
             spaceBetween: 10,
           },
           1024: {
@@ -62,45 +61,28 @@ export default function SwiperCarousel() {
       >
         <SwiperSlide style={{ paddingBottom: "60px" }}>
           <div className="cad">
-            <img
-              src="../images/ebimg.jpg"
-              alt="..."
-              style={{ width: "100%", height: "530px", borderRadius: "10px" }}
-            />
-            <h5 className="fw-bold mt-3"> UI/UX Developer</h5>
+            <img className=" slide-image" src="../images/ebimg.jpg" alt="..." />
+            <h5 className="teamcar mt-3"> UI/UX Developer</h5>
           </div>
         </SwiperSlide>
         <SwiperSlide style={{ paddingBottom: "60px" }}>
           <div className="cad">
-            <img
-              src="../images/ebimg4.jpg"
-              alt="..."
-              style={{ width: "100%", height: "530px", borderRadius: "10px" }}
-            />
-            <h5 className="fw-bold mt-3"> DevOPs Engineer</h5>
+            <img className="slide-image" src="../images/ebimg4.jpg" alt="..." />
+            <h5 className="teamcar mt-3"> DevOPs Engineer</h5>
           </div>
         </SwiperSlide>
         <SwiperSlide style={{ paddingBottom: "60px" }}>
           <div className="cad">
-            <img
-              src="../images/ebimg2.jpg"
-              alt="..."
-              style={{ width: "100%", height: "530px", borderRadius: "10px" }}
-            />
-            <h5 className="fw-bold mt-3"> Snr. Data Engineer / Tech Writer</h5>
+            <img className="slide-image" src="../images/ebimg2.jpg" alt="..." />
+            <h5 className="teamcar mt-3">Snr. Data Engineer / Tech Writer</h5>
           </div>
         </SwiperSlide>
         <SwiperSlide style={{ paddingBottom: "60px" }}>
           <div className="cad">
-            <img
-              src="../images/ebuju.jpg"
-              alt="..."
-              style={{ width: "100%", height: "530px", borderRadius: "10px" }}
-            />
-            <h5 className="fw-bold mt-3"> Web Developer / Dev Lead II </h5>
+            <img className="slide-image" src="../images/ebuju.jpg" alt="..." />
+            <h5 className="teamcar mt-3"> Web Developer / Dev Lead II </h5>
           </div>
         </SwiperSlide>
-       
       </Swiper>
     </div>
   );

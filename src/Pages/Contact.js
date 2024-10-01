@@ -84,16 +84,14 @@ const Contact = () => {
     <div className="contact-wrap">
       <Navbar></Navbar>
 
-      <div
-        className="d-flex contact-div justify-content-between "
-        style={{ paddingBottom: "70px" }}
-      >
+      <div className=" contact-div  " style={{ paddingBottom: "70px" }}>
         <div
+          className="formmob"
           style={{
-            width: "800px",
+            width: "100%",
+            height: "100%",
             marginRight: "20px",
             marginLeft: "20px",
-            marginTop: "20px",
           }}
         >
           <h3>Contact Us</h3>
@@ -213,7 +211,7 @@ const Contact = () => {
                 <div className="text-primary">I'm not a robot</div>
 
                 {isLoading ? (
-                  <CircularProgress /> // Display a Material-UI circular progress indicator
+                  <CircularProgress />
                 ) : (
                   <button className="btn btn-success p-2 ps-3 pe-3">
                     Submit
@@ -226,9 +224,9 @@ const Contact = () => {
 
         <div
           className="afterform"
-          style={{ backgroundColor: "#89E0AE", width: "800px" }}
+          style={{ backgroundColor: "#89E0AE", width: "100%" }}
         >
-          <div style={{ margin: "30% 10%" }}>
+          <div style={{ margin: "24% 10%" }}>
             <img style={{ width: "15px" }} src="../images/star.svg" alt="..." />
             <img style={{ width: "15px" }} src="../images/star.svg" alt="..." />
             <img style={{ width: "15px" }} src="../images/star.svg" alt="..." />
