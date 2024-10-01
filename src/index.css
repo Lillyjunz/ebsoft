@@ -938,7 +938,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     width: 200px;
     height: 200px;
     right: 7px;
-    bottom: 220px;
+    bottom: 190px;
   }
   .contenti {
     width: 50%;
@@ -1051,7 +1051,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   }
 
   .detail-div {
-    margin: auto 20px;
+    margin: auto 10px;
     align-items: center;
     justify-content: center;
   }
@@ -1217,7 +1217,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     display: block;
   }
   .front {
-    margin-top: 60px;
+    margin-top: 20px;
   }
 
   .swiper-horizontal > .swiper-pagination-bullets,
