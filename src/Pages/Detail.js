@@ -48,7 +48,7 @@ const Detail = () => {
           src="/images/image8.jpg"
         />
       </div>
-  
+
       <div className="wave-container">
         <svg
           className="wavs"
@@ -65,19 +65,13 @@ const Detail = () => {
             />
           </defs>
           <g className="paraax">
-            <use
-              xlinkHref="#straight-wave"
-              x={0}
-              y={0}
-              fill="green"
-            />
+            <use xlinkHref="#straight-wave" x={0} y={0} fill="green" />
             <use
               xlinkHref="#straight-wave"
               x={0}
               y={2}
               fill="rgba(255,255,255,0.3)"
             />
-           
           </g>
         </svg>
       </div>
@@ -286,7 +280,9 @@ const Detail = () => {
                 data-aos-delay="1000"
                 data-aos-once="true"
               >
-                <span className="fw-bold text-success pe-2">Software & Mobile Development</span>
+                <span className="fw-bold text-success pe-2">
+                  Software & Mobile Development
+                </span>
               </div>
 
               <div
@@ -484,7 +480,9 @@ const Detail = () => {
                 data-aos-delay="1000"
                 data-aos-once="true"
               >
-                <span className="fw-bold text-success">Cloud Infrastructure Services</span>
+                <span className="fw-bold text-success">
+                  Cloud Infrastructure Services
+                </span>
               </div>
 
               <div
@@ -728,7 +726,9 @@ const Detail = () => {
           </div>
         </div>
       </div>
-      <Caroo></Caroo>
+      <div id="success">
+        <Caroo></Caroo>
+      </div>
       <Faq></Faq>
       <Footernew></Footernew>
     </div>

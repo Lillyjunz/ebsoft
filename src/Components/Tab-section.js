@@ -9,7 +9,7 @@ const Tab = () => {
         data-aos-duration="1000"
         data-aos-delay="1000"
         data-aos-once="true"
-        style={{ padding: "15px", paddingTop: "140px", paddingBottom:'60px' }}
+        style={{ padding: "15px", paddingTop: "140px", paddingBottom: "60px" }}
       >
         <ul
           className="nav nav-pills pb-3 ul-tab"
@@ -67,7 +67,7 @@ const Tab = () => {
             boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
             borderRadius: "15px",
             marginTop: "30px",
-            marginBottom:'60px'
+            marginBottom: "60px",
           }}
         >
           <div
@@ -303,26 +303,22 @@ const Tab = () => {
             aria-labelledby="contact-tab"
             tabIndex="0"
           >
-            <div
-              className="row p-1 "
-              style={{ marginBottom: "160px" }}
-            >
+            <div className="row p-1 " style={{ marginBottom: "160px" }}>
               <div className="col-12 pt-5 px-4 pb-2 d-flex align-items-center justify-content-center">
-                <p className="text-center" style={{width:'98%'}}>
-                  
+                <p className="text-center" style={{ width: "98%" }}>
                   We meticulously manage Code commits, Continuous
                   Integration/Continuous Deployment (CI/CD), and platform
                   processes, adapting seamlessly to either the company's or the
                   client's environment. Our seasoned advisory team assists
                   clients in selecting the most cost-effective platform or cloud
                   solution provider for hosting applications crafted by our
-                  development experts. This collaborative approach empowers
+                  development experts. <br></br>This collaborative approach empowers
                   clients to maintain control over their development
                   environment, optimizing costs and ensuring strict security
                   compliance. Throughout product/project timelines, our adept
                   team excels in development and engineering, operating
                   independently or in tandem with client teams within their
-                  environment. Furthermore, for clients seeking engagement with
+                  environment.<br></br> Furthermore, for clients seeking engagement with
                   ebsofT managing the development hosting platform, we offer the
                   option for our team to work autonomously within our
                   environment and platform. However, rest assured that our team

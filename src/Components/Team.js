@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import SwiperAbout from "./AboutSwiper";
+import SwiperHome from "./AboutSwiper";
 
 const Team = () => {
   const { hash } = useLocation();
@@ -26,7 +27,8 @@ const Team = () => {
         >
           Our Team
         </h1>
-        <SwiperAbout></SwiperAbout>
+        {/* <SwiperAbout></SwiperAbout> */}
+        <SwiperHome></SwiperHome>
       </div>
     </>
   );

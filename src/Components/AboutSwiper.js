@@ -286,6 +286,7 @@ export default function SwiperHome() {
                 data-aos-delay="500"
                 src="/images/ebimg7.jpg"
               />
+
               <div className="team-text" style={{ width: "50" }}>
                 <h5
                   className="text-black text-start"

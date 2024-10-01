@@ -13,7 +13,7 @@ const CarouselComponent = () => {
   };
 
   return (
-    <Slider {...settings} className="container">
+    <Slider {...settings} className="container mt-5">
       {/* Slide 1 */}
       <div>
         <div
