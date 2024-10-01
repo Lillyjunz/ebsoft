@@ -866,6 +866,9 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 
 /* media query */
 @media screen and (max-width: 768px) {
+  .fronti{
+    margin-top: 80px;
+  }
   .enga {
     padding-top: 15px;
   }
@@ -938,7 +941,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     width: 200px;
     height: 200px;
     right: 7px;
-    bottom: 190px;
+    bottom: 200px;
   }
   .contenti {
     width: 50%;
@@ -1286,6 +1289,9 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 
 /* responsive second batch */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+  .fronti{
+    margin-top: 10px;
+  }
   .detai-img {
     display: none;
   }
@@ -1482,6 +1488,9 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   }
   .hoo p {
     font-size: 0.85rem;
+  }
+  .fronti{
+    margin-top: 20px;
   }
 }
 

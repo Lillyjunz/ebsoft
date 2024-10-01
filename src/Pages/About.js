@@ -64,7 +64,7 @@ const About = () => {
         </svg>
       </div>
 
-      <div className="front" style={{ paddingBottom: "80px" }}>
+      <div className="fronti" style={{ paddingBottom: "80px" }}>
         <div className="crid">
           <div
             className="first-crid"
