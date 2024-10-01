@@ -304,8 +304,8 @@ const Tab = () => {
             tabIndex="0"
           >
             <div className="row p-1 " style={{ marginBottom: "160px" }}>
-              <div className="col-12 pt-5 px-4 pb-2 d-flex align-items-center justify-content-center">
-                <p className="text-center" style={{ width: "98%" }}>
+              <div className="col-12 enga px-4 pb-2 d-flex align-items-center justify-content-center">
+                <p className="text-center">
                   We meticulously manage Code commits, Continuous
                   Integration/Continuous Deployment (CI/CD), and platform
                   processes, adapting seamlessly to either the company's or the

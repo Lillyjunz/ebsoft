@@ -108,7 +108,7 @@ li {
   width: 100%;
   height: 100%;
   border-radius: 10px;
-  background-color: rgba(0, 128, 0, 0.813);
+  background-color: rgba(2, 104, 2, 0.813);
   color: #fff;
   justify-content: center;
   align-items: center;
@@ -759,7 +759,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  background-color: green;
+  background-color: #157548;
   color: #fff !important;
 }
 
@@ -776,7 +776,6 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   object-fit: cover;
   display: block;
   margin: 0 auto;
-  border-radius: 10px;
   border-left: 8px solid white;
 }
 
@@ -786,8 +785,6 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 }
 
 .wave-container {
-  /* position: absolute;
-  bottom: 0; */
   width: 100%;
   height: auto;
 }
@@ -808,6 +805,13 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   margin-bottom: -7px;
   min-height: 100px;
   max-height: 150px;
+}
+
+.enga {
+  padding-top: 20px;
+}
+.enga p {
+  width: 98%;
 }
 
 /* Animation */
@@ -860,10 +864,19 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   }
 }
 
-
-
 /* media query */
 @media screen and (max-width: 768px) {
+  .enga {
+    padding-top: 15px;
+  }
+  .enga p {
+    width: 100%;
+  }
+
+  .slide-image {
+    border-left: none;
+    border-radius: 0;
+  }
   .contact-div {
     display: flex;
     flex-direction: column;
@@ -871,7 +884,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     align-items: center;
   }
   .nav-img {
-    width: 18% !important;
+    width: 20% !important;
   }
   .banner h1 {
     font-size: 2.3rem;
@@ -931,7 +944,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     width: 50%;
     padding-top: 180px;
     padding-bottom: 40px;
-    padding-left: 30px;
+    padding-left: 15px;
   }
   .contenti h3 {
     font-size: 1.6rem;

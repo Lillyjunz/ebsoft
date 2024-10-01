@@ -26,9 +26,7 @@ const Join = () => {
             data-aos-delay="500"
             data-aos-once="true"
           >
-            Lorem ipsum dolor sit amet i consectetur adipisicing elit.
-            Temporibus cupiditate molestias asperiores assumenda hic impedit
-            asperiores
+           Explore our open positions and become part of our dynamic team!
           </p>
         </div>
         <img

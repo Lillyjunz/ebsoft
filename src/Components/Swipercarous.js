@@ -57,6 +57,7 @@ export default function SwiperCarousel() {
           justifyContent: "center",
           alignItems: "center",
           width: "80%",
+          borderRadius:'10px'
         }}
       >
         <SwiperSlide style={{ paddingBottom: "60px" }}>
