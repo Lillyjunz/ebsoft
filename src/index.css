@@ -866,7 +866,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 
 /* media query */
 @media screen and (max-width: 768px) {
-  .fronti{
+  .fronti {
     margin-top: 80px;
   }
   .enga {
@@ -941,7 +941,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     width: 200px;
     height: 200px;
     right: 7px;
-    bottom: 200px;
+    bottom: 300px;
   }
   .contenti {
     width: 50%;
@@ -1289,7 +1289,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 
 /* responsive second batch */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .fronti{
+  .fronti {
     margin-top: 10px;
   }
   .detai-img {
@@ -1489,7 +1489,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   .hoo p {
     font-size: 0.85rem;
   }
-  .fronti{
+  .fronti {
     margin-top: 20px;
   }
 }

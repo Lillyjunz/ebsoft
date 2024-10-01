@@ -22,7 +22,7 @@ export default function SwiperHome() {
           disableOnInteraction: false,
         }}
         pagination={{
-          clickable: false,
+          clickable: true,
         }}
         loop={true}
         navigation={true}
