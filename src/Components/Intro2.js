@@ -100,10 +100,10 @@ const Intro2 = () => {
 
           <div className="hover-content">
             <h3 className="text-end pt-2 pe-3 fw-bold text-light">1</h3>
-            <div className="align-items-center pt-4 pb-2 ps-3 pe-3 hoo">
+            <div className="align-items-center pt-4 pb-2 ps-3 pe-3 ">
               <h5 className="fw-bold">Non disclosure Agreements</h5>
 
-              <p className="fw-bold text-light">
+              <p className="fw-bold text-light hoo">
                 Before diving into your idea and transforming it into a project,
                 we prioritize safeguarding its confidentiality. Rest assured, we
                 are committed to ensuring that your intellectual property (IP)
@@ -166,12 +166,12 @@ const Intro2 = () => {
 
           <div className="hover-content">
             <h3 className="text-end pt-2 pe-3 fw-bold text-light">2</h3>
-            <div className="align-items-center pb-2 ps-3 pe-3 hoo">
+            <div className="align-items-center pb-2 ps-3 pe-3 ">
               <h5 className="fw-bold">
                 Visualization and Product Consultation
               </h5>
 
-              <p className="fw-bold text-light ">
+              <p className="fw-bold text-light hoo">
                 Visualizing your idea and transforming it into a project, along
                 with consultation, is akin to connecting the dots. We begin by
                 establishing clear goals and objectives, gaining insights into
@@ -238,10 +238,10 @@ const Intro2 = () => {
 
           <div className="hover-content">
             <h3 className="text-end pt-3 pe-3 fw-bold text-light">3</h3>
-            <div className="align-items-center pt-1 pb-2 ps-3 pe-3 hoo">
+            <div className="align-items-center pt-1 pb-2 ps-3 pe-3 ">
               <h5 className="fw-bold">Build and Development</h5>
 
-              <p className="fw-bold text-light">
+              <p className="fw-bold text-light hoo">
                 Integrating an engagement model from the outset kickstarts our
                 Agile build-test-deploy process cycle, ensuring seamless
                 coordination between design and development (and/or engineering)
@@ -306,10 +306,10 @@ const Intro2 = () => {
 
           <div className="hover-content">
             <h3 className="text-end pt-2 pe-3 fw-bold text-light">4</h3>
-            <div className="align-items-center pt-4 pb-2 ps-3 pe-3 hoo">
+            <div className="align-items-center pt-4 pb-2 ps-3 pe-3 ">
               <h5 className="fw-bold">Delivery, support and Maintenance </h5>
 
-              <p className="fw-bold text-light">
+              <p className="fw-bold text-light hoo">
                 In this phase, we diligently monitor, refine, and update
                 elements to guarantee the seamless and bug-free operation of the
                 software we've developed, tailored to the specifics of our
@@ -373,10 +373,10 @@ const Intro2 = () => {
 
           <div className="hover-content">
             <h3 className="text-end pt-4 pe-3 fw-bold text-light">5</h3>
-            <div className="align-items-center pt-2 pb-2 ps-3 pe-3 hoo">
+            <div className="align-items-center pt-2 pb-2 ps-3 pe-3 ">
               <h5 className="fw-bold">Feedback and strategic Patnership</h5>
 
-              <p className="fw-bold text-light">
+              <p className="fw-bold text-light hoo">
                 As we conclude this journey together, we invite you to join us
                 in celebrating our collective success story. Let's take a moment
                 to reflect on the lessons learned, gather feedback, and nurture

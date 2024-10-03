@@ -101,10 +101,21 @@ const Footernew = () => {
           <div className="footer-column">
             <h4 className="fw-bold">Contact</h4>
             <ul>
-              <li>Phone: +234 813 698 3200</li>
-              <li style={{ paddingLeft: "70px" }}>+234 703 593 8322</li>
-              <li style={{ paddingLeft: "70px" }}>+234 810 465 6502</li>
-              <li>Email: chatwithebsoft@gmail.com</li>
+              <li>
+                <i class="bi bi-telephone text-success"></i>&nbsp;&nbsp;+234 813
+                698 3200
+              </li>
+              <li>
+                <i class="bi bi-telephone text-success"></i>&nbsp;&nbsp;+234 703
+                593 8322
+              </li>
+              <li>
+                <i class="bi bi-telephone text-success"></i>&nbsp;&nbsp;+234 810
+                465 6502
+              </li>
+              <li>
+                <i class="bi bi-envelope text-success"></i>&nbsp;Email: chatwithebsoft@gmail.com
+              </li>
             </ul>
           </div>
         </div>

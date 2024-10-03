@@ -498,7 +498,7 @@ a {
 
 .footer-column li {
   color: gray;
-  font-size: larger;
+  font-size: large;
 }
 .footer-column li:hover {
   color: green;
@@ -864,11 +864,11 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   }
 }
 .navbar {
-  padding-left: 13%;
-  padding-right: 11%;
+  padding-left: 11%;
+  padding-right: 10%;
 }
 
-/* media query */
+/* media query phone */
 @media screen and (max-width: 768px) {
   .navbar {
     padding-left: 13%;
@@ -1300,8 +1300,14 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   }
 }
 
-/* responsive second batch */
+/* responsive second batch tablet */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+  .cycle div {
+    flex: 1;
+  }
+  .cycle .er-container{
+    flex: 1;
+  }
   .fronti {
     margin-top: 10px;
   }
@@ -1339,6 +1345,9 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   .div5 {
     right: 22%;
     top: 64%;
+  }
+  .hoo{
+    font-size: 0.65rem;
   }
 
   .aboout img {
@@ -1406,10 +1415,96 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   .nav-img {
     width: 9%;
   }
+
+  /* footer */
+  .footer-bottom {
+    width: 100%;
+  }
+  .footer {
+    box-sizing: border-box;
+    height: 100%;
+  }
+  .footer-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .first-column {
+    flex-basis: 100%;
+
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .footer-column {
+    flex-basis: 50%;
+  }
+
+  .footer-column:last-child {
+    margin-top: 20px;
+  }
+
+  .footer-bottom-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-column li {
+    font-size: large;
+  }
+
+  .social i {
+    font-size: 24px;
+    color: #006400;
+    margin: 0;
+  }
+  .footer-bottom {
+    margin-top: 10px;
+  }
+  /* footer end */
 }
 
-/* responsive small laptops */
+/* responsive small laptops 100% */
 @media screen and (min-width: 1024px) {
+  .footer-column li {
+    color: gray;
+    font-size: 1rem;
+  }
+  .aboout img {
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    z-index: 1000;
+    right: 13px;
+    bottom: 140px;
+    border: 4px solid green;
+  }
+  .contenti h3 {
+    font-weight: 550;
+  }
+  .contenti p {
+    font-size: 1rem;
+  }
+
+  .contenti {
+    width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+    justify-content: center;
+    color: #fff;
+  }
+  .hoo {
+    font-size: 0.75rem;
+  }
+  .fronti {
+    margin-top: 20px;
+  }
+
   .banner {
     padding-top: 2%;
   }
@@ -1417,19 +1512,19 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     width: 12%;
   }
   .baan img {
-    width: 26%;
+    width: 25%;
   }
 
   .div1 {
     position: absolute;
-    left: 36%;
-    top: 56%;
+    left: 37%;
+    top: 52%;
   }
 
   .div2 {
     position: absolute;
     left: 34%;
-    top: 76%;
+    top: 73%;
   }
 
   .div3 {
@@ -1437,18 +1532,19 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   }
   .div4 {
     position: absolute;
-    right: 36%;
-    top: 56%;
+    right: 37%;
+    top: 52%;
   }
 
   .div5 {
     position: absolute;
     right: 30%;
-    top: 76%;
+    top: 73%;
   }
 }
-/* responive extra large */
-@media screen and (min-width: 1500px) {
+
+/* responsive 80%*/
+@media screen and (min-width: 1400px) {
   .baan img {
     width: 20%;
   }
@@ -1488,7 +1584,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     font-family: "Inter", sans-serif;
   }
   .banner p {
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-family: "Inter", sans-serif;
   }
   .banner {
@@ -1498,7 +1594,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   }
   .im-div {
     font-family: "Inter", sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     margin-top: 0;
   }
   .aboout {
@@ -1507,15 +1603,112 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   }
   .aboout img {
     position: absolute;
-    width: 300px;
-    height: 300px;
+    width: 270px;
+    height: 270px;
+    z-index: 1000;
+    right: 30px;
+    bottom: 200px;
+    border: 4px solid green;
+  }
+  .contenti h3 {
+    font-weight: 600;
+  }
+  .contenti p {
+    font-size: 1.2rem;
+  }
+  .introspan {
+    font-size: 4rem;
+  }
+  .nav-img {
+    width: 12%;
+  }
+  .contenti {
+    width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+    justify-content: center;
+    color: #fff;
+  }
+  .hoo  {
+    font-size: 0.85rem;
+  }
+  .fronti {
+    margin-top: 20px;
+  }
+}
+
+/* responive extra large 75%*/
+@media screen and (min-width: 1500px) {
+  .baan img {
+    width: 20%;
+  }
+
+  .div1 {
+    position: absolute;
+    left: 37%;
+    top: 51%;
+  }
+
+  .div2 {
+    position: absolute;
+    left: 35%;
+    top: 70%;
+  }
+
+  .div3 {
+    margin-top: 0px;
+  }
+  .div4 {
+    position: absolute;
+    right: 37%;
+    top: 51%;
+  }
+
+  .div5 {
+    position: absolute;
+    right: 32%;
+    top: 70%;
+  }
+  .banner li {
+    list-style-type: none;
+  }
+  .banner h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  .banner p {
+    font-size: 1.2em;
+    font-family: "Inter", sans-serif;
+  }
+  .banner {
+    width: 100%;
+    color: #fff;
+    margin-top: 1%;
+  }
+  .im-div {
+    font-family: "Inter", sans-serif;
+    font-size: 1.4rem;
+    margin-top: 0;
+  }
+  .aboout {
+    background-color: #000;
+    height: 50vh;
+  }
+  .aboout img {
+    position: absolute;
+    width: 265px;
+    height: 265px;
     z-index: 1000;
     right: 30px;
     bottom: 240px;
     border: 4px solid green;
   }
   .contenti h3 {
-    font-weight: 600;
+    font-weight: 550;
   }
   .contenti p {
     font-size: 1.2rem;
@@ -1529,7 +1722,103 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   .contenti {
     width: 80%;
     align-items: center;
-    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+    justify-content: center;
+    color: #fff;
+  }
+  .hoo {
+    font-size: 0.85rem;
+  }
+  .fronti {
+    margin-top: 20px;
+  }
+}
+
+/* responsive xxxlargest 67%*/
+@media screen and (min-width: 1630px) {
+  .banner {
+    padding-top: 3%;
+  }
+  .baan img {
+    width: 95%;
+  }
+  .nav-img {
+    width: 9%;
+  }
+
+  .div1 {
+    position: absolute;
+    left: 37%;
+    top: 49%;
+  }
+
+  .div2 {
+    position: absolute;
+    left: 35%;
+    top: 72%;
+  }
+
+  .div3 {
+    margin-top: 0px;
+  }
+  .div4 {
+    position: absolute;
+    right: 37%;
+    top: 49%;
+  }
+
+  .div5 {
+    position: absolute;
+    right: 30%;
+    top: 72%;
+  }
+  .banner li {
+    list-style-type: none;
+  }
+  .banner h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  .banner p {
+    font-size: 1.4em;
+    font-family: "Inter", sans-serif;
+  }
+
+  .im-div {
+    font-family: "Inter", sans-serif;
+    font-size: 1.6rem;
+    margin-top: 0;
+  }
+  .aboout {
+    background-color: #000;
+    height: 50vh;
+  }
+  .aboout img {
+    position: absolute;
+    width: 295px;
+    height: 295px;
+    z-index: 1000;
+    right: 40px;
+    bottom: 280px;
+    border: 4px solid green;
+  }
+  .contenti h3 {
+    font-weight: 550;
+  }
+  .contenti p {
+    font-size: 1.2rem;
+  }
+  .introspan {
+    font-size: 4rem;
+  }
+
+  .contenti {
+    width: 80%;
+    align-items: center;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -1545,13 +1834,10 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   }
 }
 
-/* responsive xxxlargest */
-@media screen and (min-width: 1600px) {
-  .banner {
-    padding-top: 3%;
-  }
+/* responsive 50% */
+@media screen and (min-width: 1700px) {
   .baan img {
-    width: 25%;
+    width: 26%;
   }
   .nav-img {
     width: 9%;
@@ -1559,14 +1845,14 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 
   .div1 {
     position: absolute;
-    left: 37%;
-    top: 42%;
+    left: 39%;
+    top: 39%;
   }
 
   .div2 {
     position: absolute;
-    left: 37%;
-    top: 62%;
+    left: 38%;
+    top: 56%;
   }
 
   .div3 {
@@ -1574,14 +1860,176 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   }
   .div4 {
     position: absolute;
-    right: 37%;
-    top: 42%;
+    right: 39%;
+    top: 39%;
   }
 
   .div5 {
     position: absolute;
-    right: 34%;
-    top: 62%;
+    right: 35%;
+    top: 56%;
+  }
+  .banner {
+    padding-top: 6%;
+  }
+
+  .banner li {
+    list-style-type: none;
+  }
+  .banner h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  .banner p {
+    font-size: 1.2em;
+    font-family: "Inter", sans-serif;
+  }
+
+  .im-div {
+    font-family: "Inter", sans-serif;
+    font-size: 1.6rem;
+    margin-top: 3%;
+  }
+  .aboout {
+    background-color: #000;
+    height: 50vh;
+  }
+  .aboout img {
+    position: absolute;
+    width: 395px;
+    height: 395px;
+    z-index: 1000;
+    right: 50px;
+    bottom: 350px;
+    border: 4px solid green;
+  }
+  .contenti h3 {
+    font-weight: 550;
+  }
+  .contenti p {
+    font-size: 1.2rem;
+  }
+  .introspan {
+    font-size: 4rem;
+  }
+
+  .contenti {
+    width: 80%;
+    align-items: center;
+    display: flex;
+    padding-top: 170px;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+    justify-content: center;
+    color: #fff;
+  }
+  .hoo {
+    font-size: 0.9rem;
+  }
+  .fronti {
+    margin-top: 20px;
+  }
+}
+
+/* responsive 30%*/
+
+@media screen and (min-width: 2400px) {
+  .baan img {
+    width: 27%;
+  }
+  .nav-img {
+    width: 9%;
+  }
+
+  .div1 {
+    position: absolute;
+    left: 40%;
+    top: 36%;
+  }
+
+  .div2 {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+  }
+
+  .div3 {
+    margin-top: 0px;
+  }
+  .div4 {
+    position: absolute;
+    right: 40%;
+    top: 36%;
+  }
+
+  .div5 {
+    position: absolute;
+    right: 38%;
+    top: 50%;
+  }
+  .banner {
+    padding-top: 10%;
+  }
+
+  .banner li {
+    list-style-type: none;
+  }
+  .banner h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  .banner p {
+    font-size: 1.4em;
+    font-family: "Inter", sans-serif;
+  }
+
+  .im-div {
+    font-family: "Inter", sans-serif;
+    font-size: 1.6rem;
+    margin-top: 7%;
+  }
+  .aboout {
+    background-color: #000;
+    height: 50vh;
+  }
+  .aboout img {
+    position: absolute;
+    width: 530px;
+    height: 530px;
+    z-index: 1000;
+    right: 140px;
+    bottom: 600px;
+    border: 4px solid green;
+  }
+  .contenti h3 {
+    font-weight: 550;
+  }
+  .contenti p {
+    font-size: 1.2rem;
+  }
+  .introspan {
+    font-size: 4rem;
+  }
+
+  .contenti {
+    width: 80%;
+    align-items: center;
+    padding-top: 270px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+    justify-content: center;
+    color: #fff;
+  }
+  .hoo {
+    font-size: 1.1rem;
+  }
+  .fronti {
+    margin-top: 20px;
   }
 }
 /* Responsive first row homepage */

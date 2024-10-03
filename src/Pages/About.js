@@ -16,7 +16,7 @@ const About = () => {
             data-aos-delay="1500"
             data-aos-once="true"
           >
-            About Ebsoft
+            About EBSOFT
           </h3>
           <p
             data-aos="fade-right"
