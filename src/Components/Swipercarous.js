@@ -42,6 +42,10 @@ export default function SwiperCarousel() {
             spaceBetween: 10,
           },
           1024: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          1100: {
             slidesPerView: 3,
             spaceBetween: 10,
           },
@@ -57,7 +61,7 @@ export default function SwiperCarousel() {
           justifyContent: "center",
           alignItems: "center",
           width: "80%",
-          borderRadius:'10px'
+          borderRadius: "10px",
         }}
       >
         <SwiperSlide style={{ paddingBottom: "60px" }}>
