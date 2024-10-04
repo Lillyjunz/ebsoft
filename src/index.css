@@ -599,6 +599,17 @@ a {
   color: #fff;
 }
 
+/* not working */
+.center-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  flex-direction: column;
+  text-align: center;
+}
+/* end */
+
 div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   background-color: #a5dc86 !important;
   border: none !important;

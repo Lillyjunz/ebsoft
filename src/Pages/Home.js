@@ -1,14 +1,6 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import Bann from "../Components/Bann";
-import SwiperHome from "../Components/Caroo";
-import Faq from "../Components/Faq";
-import Imagesection from "../Components/Image-section";
-import Intro2 from "../Components/Intro2";
-import Navbar from "../Components/Navbar";
-import Origin from "../Components/Origin";
-import Tab from "../Components/Tab-section";
-import Footernew from "../Components/FooterNew";
+import Notworking from "./Notworking";
 
 const Home = () => {
   const { hash } = useLocation();
@@ -24,7 +16,9 @@ const Home = () => {
 
   return (
     <div className="home">
-      <Navbar />
+      <Notworking></Notworking>
+
+      {/* <Navbar />
       <Bann />
       <Origin></Origin>
       <Intro2></Intro2>
@@ -32,7 +26,7 @@ const Home = () => {
       <SwiperHome></SwiperHome>
       <Imagesection></Imagesection>
       <Faq></Faq>
-      <Footernew></Footernew>
+      <Footernew></Footernew> */}
     </div>
   );
 };

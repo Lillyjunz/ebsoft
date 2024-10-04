@@ -1,15 +1,9 @@
 import { useEffect, useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import About from "./Pages/About";
-import Cont from "./Pages/Contact";
-import Detail from "./Pages/Detail";
 import Home from "./Pages/Home";
-import Join from "./Pages/Join";
-import Notfound from "./Pages/Notfound";
-import Privacy from "./Pages/Privacy";
+import Notworking from "./Pages/Notworking";
 import Splash from "./Pages/Splash";
-import Applicat from "./Pages/appform";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -39,13 +33,14 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={loading ? <Splash /> : <Home />} />
-          <Route path="/about" element={<About />} />
+          {/* <Route path="/about" element={<About />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/join" element={<Join />} />
           <Route path="/detail" element={<Detail />} />
           <Route path="*" element={<Notfound />} />
           <Route path="/contact" element={<Cont />} />
-          <Route path="/appform" element={<Applicat />} />
+          <Route path="/appform" element={<Applicat />} /> */}
+          <Route path="/working" element={<Notworking />} />
         </Routes>
       </main>
     </BrowserRouter>

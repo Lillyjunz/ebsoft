@@ -66,12 +66,11 @@ const Join = () => {
       {/* <Open></Open> */}
 
       <div
-        className="text-center align-items-center justify-content-center"
+        className="center-screen"
         data-aos="bounce-up"
         data-aos-duration="1000"
         data-aos-delay="500"
         data-aos-once="true"
-        style={{ margin: "150px auto" }}
       >
         <h2 className="fw-bold">
           No Vacancy. Check in later through our social media platforms..
