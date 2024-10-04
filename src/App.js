@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import About from "./Pages/About";
-import Application from "./Pages/Application-form";
 import Cont from "./Pages/Contact";
 import Detail from "./Pages/Detail";
 import Home from "./Pages/Home";
@@ -47,7 +46,6 @@ function App() {
           <Route path="*" element={<Notfound />} />
           <Route path="/contact" element={<Cont />} />
           <Route path="/appform" element={<Applicat />} />
-          <Route path="/application" element={<Application />} />
         </Routes>
       </main>
     </BrowserRouter>

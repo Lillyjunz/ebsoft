@@ -1,10 +1,7 @@
-
 import Footernew from "../Components/FooterNew";
 import Navbar from "../Components/Navbar";
-import Open from "../Components/OPen-Vacancy";
 
 const Join = () => {
-  
   return (
     <div className="join-wrap">
       <Navbar></Navbar>
@@ -26,7 +23,7 @@ const Join = () => {
             data-aos-delay="500"
             data-aos-once="true"
           >
-           Explore our open positions and become part of our dynamic team!
+            Explore our open positions and become part of our dynamic team!
           </p>
         </div>
         <img
@@ -38,34 +35,7 @@ const Join = () => {
           src="/images/image2.jpg"
         />
       </div>
-      {/* <div className="wave-container">
-        <svg
-          className="wavs"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlnsXlink="http://www.w3.org/1999/xlink"
-          viewBox="0 24 150 28"
-          preserveAspectRatio="none"
-          shapeRendering="auto"
-          style={{ transform: "rotate(180deg)" }} 
-        >
-          <defs>
-            <path
-              id="gentle-wave"
-              d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
-            />
-          </defs>
-          <g className="paralax">
-            <use xlinkHref="#gentle-wave" x={48} y={3} fill="#006400" />
-            <use
-              xlinkHref="#gentle-wave"
-              x={48}
-              y={5}
-              fill="rgba(255,255,255,0.3)"
-            />
-            <use xlinkHref="#gentle-wave" x={48} y={7} fill="#000" />
-          </g>
-        </svg>
-      </div> */}
+
       <div className="wave-container">
         <svg
           className="wavs"
@@ -103,7 +73,9 @@ const Join = () => {
         data-aos-once="true"
         style={{ margin: "150px auto" }}
       >
-        <h2 className="fw-bold">No Vacancy. Check in later through our social media platforms..</h2>
+        <h2 className="fw-bold">
+          No Vacancy. Check in later through our social media platforms..
+        </h2>
         <img src="../images/lottie.gif" width={350} height={150}></img>
       </div>
 
