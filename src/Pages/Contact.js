@@ -1,10 +1,10 @@
 import { CircularProgress } from "@mui/material";
 import { useState } from "react";
 import Swal from "sweetalert2";
+import axios from "../api/Axios";
 import SwiperHome from "../Components/Caroo";
 import Footernew from "../Components/FooterNew";
 import Navbar from "../Components/Navbar";
-import axios from "../api/Axios";
 
 const Contact = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -84,7 +84,10 @@ const Contact = () => {
     <div className="contact-wrap">
       <Navbar></Navbar>
 
-      <div className=" contact-div  " style={{ paddingBottom: "70px" }}>
+      <div
+        className=" contact-div  container"
+        style={{ paddingBottom: "40px" }}
+      >
         <div
           className="formmob"
           style={{
@@ -94,7 +97,7 @@ const Contact = () => {
             marginLeft: "20px",
           }}
         >
-          <h3>Contact Us</h3>
+          <h3 className="text-success">Contact Us</h3>
           <li className="pb-3" style={{ listStyleType: "none" }}>
             Ebsoft would like to know how we may help
           </li>
@@ -112,7 +115,9 @@ const Contact = () => {
                       value={firstname}
                       onChange={(e) => setFirstname(e.target.value)}
                       required
-                      style={{ background: "#f1f1f1" }}
+                      style={{
+                        border: "3px solid green",
+                      }}
                     />
                   </div>
                 </div>
@@ -126,7 +131,6 @@ const Contact = () => {
                       value={lastname}
                       onChange={(e) => setLastname(e.target.value)}
                       required
-                      style={{ background: "#f1f1f1" }}
                     />
                   </div>
                 </div>
@@ -141,7 +145,6 @@ const Contact = () => {
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                       required
-                      style={{ background: "#f1f1f1" }}
                     />
                   </div>
                 </div>
@@ -156,7 +159,6 @@ const Contact = () => {
                       value={phone}
                       onChange={(e) => setPhone(e.target.value)}
                       required
-                      style={{ background: "#f1f1f1" }}
                     />
                   </div>
                 </div>
@@ -171,7 +173,6 @@ const Contact = () => {
                       value={subject}
                       onChange={(e) => setSubject(e.target.value)}
                       required
-                      style={{ background: "#f1f1f1" }}
                     />
                   </div>
                 </div>
@@ -185,7 +186,6 @@ const Contact = () => {
                   onChange={(e) => setMessage(e.target.value)}
                   required
                   rows="3"
-                  style={{ background: "#f1f1f1" }}
                 ></textarea>
               </div>
               <div className="mb-5">
@@ -226,21 +226,23 @@ const Contact = () => {
           className="afterform"
           style={{ backgroundColor: "#89E0AE", width: "100%" }}
         >
-          <div style={{ margin: "24% 10%" }}>
+          <div className="formpara">
             <img style={{ width: "15px" }} src="../images/star.svg" alt="..." />
             <img style={{ width: "15px" }} src="../images/star.svg" alt="..." />
             <img style={{ width: "15px" }} src="../images/star.svg" alt="..." />
             <img style={{ width: "15px" }} src="../images/star.svg" alt="..." />
             <img style={{ width: "15px" }} src="../images/star.svg" alt="..." />
-            <p>
+            <p className="fw-bold pb-4">
               "EBSOFT is more than just a service provider—they're a tech ally.
               They took the time to understand our unique challenges and
               delivered exceptional solutions. Moving from a single software
               engineer managing our website to a cost-effective, company-wide
               collaboration with EBSOFT has been a game-changer."
             </p>
-            <p>Richard</p>
-            CEO at NIKICHIS Limited
+            <p>
+              <span className="fw-bold">Richard</span> <br></br>
+              <span>CEO at NIKICHIS Limited</span>
+            </p>
           </div>
         </div>
       </div>

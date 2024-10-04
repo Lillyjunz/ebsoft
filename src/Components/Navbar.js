@@ -4,7 +4,7 @@ const Navbar = () => {
     <>
       <nav className="navbar sticky-top">
         <div
-          className="container-fluid align-items-center"
+          className="container align-items-center"
           style={{ padding: "13px" }}
         >
           <div

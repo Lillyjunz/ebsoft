@@ -191,8 +191,10 @@ li {
 }
 
 .form-control {
-  border-radius: 0px !important;
-  border: none !important;
+  border-radius: 10px !important;
+  border: 1px solid green !important;
+  background-color: white !important;
+  color: #868686 !important;
 }
 .reg {
   background-image: url(../public/images/image13.jpg);
@@ -333,11 +335,17 @@ a {
 }
 
 .form-select {
-  background-color: #f1f1f1 !important;
+  background-color: white !important;
+  border: 1px solid green !important;
+  border-radius: 10px !important;
 }
 
 .app-wrap {
   overflow: hidden;
+}
+
+.formpara {
+  margin: 24% 10%;
 }
 
 /* .swiper-button-next {
@@ -870,11 +878,6 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 
 /* media query phone */
 @media screen and (max-width: 768px) {
-  .navbar {
-    padding-left: 13%;
-    padding-right: 11%;
-  }
-
   .fronti {
     margin-top: 80px;
   }
@@ -1305,7 +1308,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   .cycle div {
     flex: 1;
   }
-  .cycle .er-container{
+  .cycle .er-container {
     flex: 1;
   }
   .fronti {
@@ -1324,7 +1327,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     padding: auto 20px;
   }
   .baan img {
-    width: 38%;
+    width: 35%;
   }
 
   .div1 {
@@ -1346,7 +1349,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     right: 22%;
     top: 64%;
   }
-  .hoo{
+  .hoo {
     font-size: 0.65rem;
   }
 
@@ -1383,6 +1386,9 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   }
   .fore-divider {
     display: none;
+  }
+  .im-div {
+    font-size: 1.1rem;
   }
 
   .cod {
@@ -1467,7 +1473,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 }
 
 /* responsive small laptops 100% */
- @media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .footer-column li {
     color: gray;
     font-size: 1rem;
@@ -1515,7 +1521,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     width: 26%;
   }
 
-   .banner h1 {
+  .banner h1 {
     font-size: 4rem;
     font-weight: 600;
     font-family: "Inter", sans-serif;
@@ -1561,11 +1567,10 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     right: 25%;
     top: 66%;
   }
-} 
-
+}
 
 /* responsiv */
- @media screen and (min-width: 1100px) {
+@media screen and (min-width: 1100px) {
   .footer-column li {
     color: gray;
     font-size: 1rem;
@@ -1613,13 +1618,13 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     width: 23%;
   }
 
-   .banner h1 {
+  .banner h1 {
     font-size: 3rem;
     font-weight: 600;
     font-family: "Inter", sans-serif;
   }
   .banner p {
-    font-size: 1em;
+    font-size: 0.85em;
     font-family: "Inter", sans-serif;
   }
   .banner {
@@ -1629,7 +1634,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   }
   .im-div {
     font-family: "Inter", sans-serif;
-    font-size: 1rem;
+    font-size: 0.95rem;
     margin-top: 0;
   }
 
@@ -1656,27 +1661,27 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 
   .div5 {
     position: absolute;
-    right: 33%;
+    right: 32%;
     top: 71%;
   }
-} 
+}
 
 /* responsive 80%*/
 @media screen and (min-width: 1400px) {
   .baan img {
-    width: 20%;
+    width: 24%;
   }
 
   .div1 {
     position: absolute;
     left: 37%;
-    top: 54%;
+    top: 48%;
   }
 
   .div2 {
     position: absolute;
     left: 35%;
-    top: 74%;
+    top: 67%;
   }
 
   .div3 {
@@ -1685,13 +1690,13 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   .div4 {
     position: absolute;
     right: 37%;
-    top: 54%;
+    top: 48%;
   }
 
   .div5 {
     position: absolute;
-    right: 29%;
-    top: 74%;
+    right: 31%;
+    top: 67%;
   }
   .banner li {
     list-style-type: none;
@@ -1702,7 +1707,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     font-family: "Inter", sans-serif;
   }
   .banner p {
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-family: "Inter", sans-serif;
   }
   .banner {
@@ -1712,7 +1717,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   }
   .im-div {
     font-family: "Inter", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-top: 0;
   }
   .aboout {
@@ -1750,7 +1755,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     justify-content: center;
     color: #fff;
   }
-  .hoo  {
+  .hoo {
     font-size: 0.85rem;
   }
   .fronti {
@@ -1856,7 +1861,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 }
 
 /* responsive xxxlargest 67%*/
-@media screen and (min-width: 1630px) {
+/* @media screen and (min-width: 1630px) {
   .banner {
     padding-top: 3%;
   }
@@ -1950,10 +1955,13 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
   .fronti {
     margin-top: 20px;
   }
-}
+} */
 
 /* responsive 50% */
 @media screen and (min-width: 1700px) {
+  .formpara {
+    margin: 49% 10%;
+  }
   .baan img {
     width: 26%;
   }
@@ -2018,7 +2026,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     width: 395px;
     height: 395px;
     z-index: 1000;
-    right: 50px;
+    right: 120px;
     bottom: 350px;
     border: 4px solid green;
   }
@@ -2150,6 +2158,104 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
     margin-top: 20px;
   }
 }
+
+/* responsive 2560 */
+@media screen and (min-width: 2560px) {
+  .baan img {
+    width: 27%;
+  }
+  .nav-img {
+    width: 9%;
+  }
+
+  .div1 {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+  }
+
+  .div2 {
+    position: absolute;
+    left: 40%;
+    top: 73%;
+  }
+
+  .div3 {
+    margin-top: 0px;
+  }
+  .div4 {
+    position: absolute;
+    right: 40%;
+    top: 50%;
+  }
+
+  .div5 {
+    position: absolute;
+    right: 38%;
+    top: 73%;
+  }
+  .banner {
+    padding-top: 2%;
+  }
+
+  .banner li {
+    list-style-type: none;
+  }
+  .banner h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+  }
+  .banner p {
+    font-size: 1.4em;
+    font-family: "Inter", sans-serif;
+  }
+
+  .im-div {
+    font-family: "Inter", sans-serif;
+    font-size: 1.6rem;
+    margin-top: 1%;
+  }
+  .aboout {
+    background-color: #000;
+    height: 50vh;
+  }
+  .aboout img {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    z-index: 1000;
+    right: 140px;
+    bottom: 250px;
+    border: 4px solid green;
+  }
+  .contenti h3 {
+    font-weight: 550;
+  }
+  .contenti p {
+    font-size: 1.2rem;
+  }
+  .introspan {
+    font-size: 4rem;
+  }
+
+  .contenti {
+    width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    color: #fff;
+  }
+  .hoo {
+    font-size: 1.1rem;
+  }
+  .fronti {
+    margin-top: 20px;
+  }
+}
+
 /* Responsive first row homepage */
 
 @media screen and (min-width: 1340px) {
