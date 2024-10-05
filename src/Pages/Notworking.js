@@ -43,10 +43,10 @@ const Notworking = () => {
 
       <div className="center-screen">
         <h4 className="fw-bold text-center mb-5">
-          "This website is under optimisation and maintenance... so fuck off"
+          "This website is under optimisation and maintenance... "
         </h4>
         <span>
-          <b>Signed:</b> ebsoFT team.
+          <b>Signed:</b> ebsofT team.
         </span>
       </div>
 
