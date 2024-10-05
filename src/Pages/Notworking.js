@@ -50,6 +50,20 @@ const Notworking = () => {
         </span>
       </div>
 
+      {/* bubbles */}
+      <ul className="colorlib-bubbles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+
       {/* footer */}
       <div className="fooot">
         <svg
